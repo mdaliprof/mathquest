@@ -13,6 +13,15 @@ Open http://localhost:8080. Double-clicking `index.html` also works for a quick 
 Push this folder to GitHub, connect the repo to Netlify. No build command. Publish directory: `.`
 `netlify.toml` already sets the right headers.
 
+## Installing on a phone (also shown inside the app: 📲 Install)
+The site must be on https (Netlify is). Open the link, then:
+- **Android (Chrome):** tap the 📲 Install button in the app, or the ⋮ menu > Install app / Add to Home screen > Install. Samsung Internet: ☰ menu > Add page to > Home screen.
+- **iPhone / iPad:** open the link in **Safari**, tap Share (square with an up arrow) > **Add to Home Screen** > Add. iOS has no install pop-up, so the app's 📲 Install button opens these steps. Installing also stops Safari from clearing saved progress when the app is unused for a while.
+- **Computer (Chrome or Edge):** click the install icon at the right end of the address bar.
+
+The 📤 Share button opens the phone's share sheet (WhatsApp, Messages and so on). On a computer it copies the link. It shares only the link, never progress.
+Android's back button returns to the home map instead of closing the app.
+
 ## The course
 18 weeks, 5 days a week, day 5 is a boss day. One day is about 15 minutes:
 warm-up (3) > learn (steps) > practice (5) > review (2) > reward.

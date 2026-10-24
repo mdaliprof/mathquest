@@ -3,13 +3,22 @@
 (function () {
   'use strict';
 
+  // Older Android WebViews (before 2020) lack replaceChildren
+  if (!Element.prototype.replaceChildren) {
+    Element.prototype.replaceChildren = function () {
+      while (this.firstChild) this.removeChild(this.firstChild);
+      for (var i = 0; i < arguments.length; i++) this.appendChild(arguments[i]);
+    };
+  }
+
   var STAGES = [['warmup', '⚡', 'Warm-up'], ['learn', '💡', 'Learn'], ['practice', '✏️', 'Practice'],
                 ['review', '🧠', 'Review'], ['reward', '🎁', 'Reward']];
   var SHELL = ['index.html', 'offline.html', 'manifest.webmanifest', 'css/styles.css', 'js/app.js',
                'js/storage.js', 'js/audio.js', 'icons/icon-192.png', 'icons/icon-512.png',
                'icons/maskable-512.png', 'icons/icon.svg'];
 
-  var S = { index: null, weeks: {}, stale: {}, facts: [], day: null, deferred: null, keys: null };
+  var S = { index: null, weeks: {}, stale: {}, facts: [], day: null, deferred: null, keys: null,
+            view: 'home', pushed: 0, installed: false };
   var app = document.getElementById('app');
 
   function $(sel) { return document.querySelector(sel); }
@@ -134,6 +143,158 @@
     return box;
   }
 
+
+  // ---------------------------------------------------------------- phone helpers: install, share, back button
+  function isIOS() {
+    var ua = navigator.userAgent || '';
+    return /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  }
+  function isAndroid() { return /Android/i.test(navigator.userAgent || ''); }
+  function isStandalone() {
+    try { if (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) return true; } catch (e) {}
+    return navigator.standalone === true;
+  }
+
+  var toastTimer = null;
+  function toast(msg) {
+    var el = $('#toast');
+    if (!el) return;
+    el.textContent = msg;
+    el.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { el.hidden = true; }, 3500);
+  }
+
+  // Only the link to the app is ever shared. Never a name or any progress.
+  function appUrl() {
+    if (location.protocol === 'file:') return '';
+    return location.origin + location.pathname.replace(/index\.html$/, '');
+  }
+  function copyLink(url) {
+    function fallback() { try { window.prompt('Copy this link', url); } catch (e) {} }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function () { toast('🔗 Link copied ✅'); }, fallback);
+    } else { fallback(); }
+  }
+  function shareApp() {
+    var url = appUrl();
+    if (!url) { toast('Put the app online first, then share its link.'); return; }
+    var data = { title: 'Math Quest', text: 'Math Quest: a fun 15-minute-a-day math course for kids. Works offline.', url: url };
+    if (navigator.share) {
+      navigator.share(data).catch(function (e) { if (!e || e.name !== 'AbortError') copyLink(url); });
+    } else {
+      copyLink(url);
+    }
+  }
+  function shareButton(cls) {
+    return h('button', { class: (cls || 'btn small soft') + ' js-share', type: 'button', 'aria-label': 'Share the app', onclick: shareApp }, '📤 Share');
+  }
+
+  function installNow() {
+    var ev = S.deferred;
+    if (!ev) { showInstall(); return; }
+    S.deferred = null;
+    try {
+      ev.prompt();
+      if (ev.userChoice && ev.userChoice.then) {
+        ev.userChoice.then(function (c) { if (c && c.outcome === 'accepted') toast('📲 Installing…'); });
+      }
+    } catch (e) { showInstall(); }
+  }
+  function installButton(cls) {
+    if (isStandalone() || S.installed) return null;
+    return h('button', { class: (cls || 'btn small') + ' js-install', type: 'button', 'aria-label': 'Install the app', onclick: installNow }, '📲 Install');
+  }
+  function bindInstall() {
+    window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); S.deferred = e; });
+    window.addEventListener('appinstalled', function () {
+      S.installed = true;
+      S.deferred = null;
+      Array.prototype.forEach.call(document.querySelectorAll('.js-install'), function (b) { b.hidden = true; });
+      toast('✅ Installed! Open Math Quest from your home screen.');
+    });
+  }
+
+  // Android's back button should go to the home map, not close the app.
+  function pushScreen() {
+    if (S.view === 'home' && !S.pushed) {
+      try { history.pushState({ mq: 1 }, ''); S.pushed = 1; } catch (e) {}
+    }
+    S.view = 'sub';
+  }
+  function goHome() {
+    var had = S.pushed;
+    S.pushed = 0;
+    showHome();
+    if (had) { try { history.back(); } catch (e) {} }
+  }
+  window.addEventListener('popstate', function () {
+    if (S.pushed) { S.pushed = 0; if (S.view !== 'home') showHome(); }
+  });
+
+  function shareIcon() {
+    var NS = 'http://www.w3.org/2000/svg';
+    var s = document.createElementNS(NS, 'svg');
+    s.setAttribute('viewBox', '0 0 24 24');
+    s.setAttribute('width', '26');
+    s.setAttribute('height', '26');
+    s.setAttribute('class', 'shareicon');
+    s.setAttribute('role', 'img');
+    s.setAttribute('aria-label', 'Share button');
+    var path = document.createElementNS(NS, 'path');
+    path.setAttribute('d', 'M12 15V3M8 7l4-4 4 4M7 10H6a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7a2 2 0 0 0-2-2h-1');
+    path.setAttribute('fill', 'none');
+    path.setAttribute('stroke', 'currentColor');
+    path.setAttribute('stroke-width', '2');
+    path.setAttribute('stroke-linecap', 'round');
+    path.setAttribute('stroke-linejoin', 'round');
+    s.appendChild(path);
+    return s;
+  }
+
+  function showInstall() {
+    pushScreen();
+    updateTop('home');
+    var ios = isIOS();
+    var here = h('span', { class: 'tag' }, 'This device');
+
+    var iosPanel = h('div', { class: 'panel' },
+      h('h2', null, '🍎 iPhone and iPad ', ios ? here : null),
+      h('ol', { class: 'steps' },
+        h('li', null, h('span', null, 'Open this page in ', h('b', null, 'Safari'), '.')),
+        h('li', null, h('span', null, 'Tap the Share button ', shareIcon(), ' (bottom of the screen on iPhone, top on iPad).')),
+        h('li', null, h('span', null, 'Scroll down and tap ', h('b', null, '➕ Add to Home Screen'), '.')),
+        h('li', null, h('span', null, 'Tap ', h('b', null, 'Add'), '. The Math Quest icon appears on your home screen.'))),
+      h('p', null, 'Open it from that icon. It runs full screen and works with no internet. Installing also stops Safari from erasing saved progress when the app is not used for a while.'));
+
+    var androidPanel = h('div', { class: 'panel' },
+      h('h2', null, '🤖 Android ', !ios && isAndroid() ? here : null),
+      h('ol', { class: 'steps' },
+        h('li', null, h('span', null, 'Open this page in ', h('b', null, 'Chrome'), '.')),
+        h('li', null, h('span', null, 'Tap the ', h('b', null, '⋮'), ' menu (top right).')),
+        h('li', null, h('span', null, 'Tap ', h('b', null, 'Install app'), ' or ', h('b', null, 'Add to Home screen'), '.')),
+        h('li', null, h('span', null, 'Tap ', h('b', null, 'Install'), '. The icon appears with your other apps.'))),
+      h('p', null, 'Samsung Internet: tap the ☰ menu, then Add page to, then Home screen.'));
+
+    var pcPanel = h('div', { class: 'panel' },
+      h('h2', null, '💻 Computer'),
+      h('p', null, 'In Chrome or Edge, click the install icon at the right end of the address bar.'));
+
+    var top = [];
+    if (isStandalone() || S.installed) {
+      top.push(h('div', { class: 'panel center' }, h('div', { class: 'ft', style: 'font-size:2rem' }, '✅ Installed')));
+    } else if (S.deferred) {
+      top.push(h('button', { class: 'btn go wide js-install', type: 'button', onclick: installNow }, '📲 Install now'));
+    }
+
+    render(h('section', { class: 'parent' },
+      h('button', { class: 'btn soft wide', type: 'button', 'aria-label': 'Back to home', onclick: goHome }, '🏠'),
+      h('h2', null, '📲 Install Math Quest'),
+      top,
+      ios ? [iosPanel, androidPanel, pcPanel] : [androidPanel, iosPanel, pcPanel],
+      h('div', { class: 'actions' }, shareButton('btn small'))));
+  }
+
   // ---------------------------------------------------------------- top bar
   function updateTop(mode, stageIdx) {
     var p = Store.profile();
@@ -199,6 +360,7 @@
   }
 
   function showHome() {
+    S.view = 'home';
     S.day = null;
     Voice.stop();
     var p = Store.profile();
@@ -223,6 +385,7 @@
     }
 
     var wrap = h('div', { class: 'stack' }, hero);
+    wrap.appendChild(h('div', { class: 'actions' }, installButton(), shareButton()));
     if (p.badges.length) {
       wrap.appendChild(h('div', { class: 'trophies', role: 'list', 'aria-label': 'Trophies' },
         p.badges.map(function (b) {
@@ -273,6 +436,7 @@
 
   // ---------------------------------------------------------------- one day
   function startDay(w, d) {
+    pushScreen();
     Voice.stop();
     if (S.stale[w]) delete S.weeks[w]; // new questions are applied when a day starts, never mid-question
     loadWeek(w).then(function (data) {
@@ -431,14 +595,12 @@
       box.appendChild(h('div', { class: 'teaser', 'aria-label': 'Next: week ' + nextO.w + ', day ' + nextO.d }, '➡️ ', weekMeta(nextO.w).icon, ' ' + nextO.w + '·' + nextO.d));
     }
     var row = h('div', { class: 'controls' },
-      h('button', { class: 'btn soft', type: 'button', 'aria-label': 'Home', onclick: showHome }, '🏠'),
+      h('button', { class: 'btn soft', type: 'button', 'aria-label': 'Home', onclick: goHome }, '🏠'),
       nextO ? h('button', { class: 'btn go', type: 'button', 'aria-label': 'Next day', onclick: function () { startDay(nextO.w, nextO.d); } }, '▶') : null);
     box.appendChild(row);
-    if (res.firstEver && S.deferred) {
-      box.appendChild(h('button', {
-        class: 'btn small soft', type: 'button', 'aria-label': 'Add to home screen',
-        onclick: function () { try { S.deferred.prompt(); } catch (e) {} S.deferred = null; }
-      }, '📲'));
+    if (res.firstEver) {
+      var ib = installButton('btn small soft');
+      if (ib) box.appendChild(ib);
     }
     render(box);
     rain();
@@ -462,7 +624,7 @@
       h('div', { class: 'pip' }, '🦊'),
       h('div', { class: 'bubble' }, '📶 ⬇️'),
       h('p', { style: 'font-weight:600;max-width:28ch' }, "This level isn't saved yet. Connect to the internet once to download it."),
-      h('button', { class: 'btn', type: 'button', 'aria-label': 'Home', onclick: showHome }, '🏠')));
+      h('button', { class: 'btn', type: 'button', 'aria-label': 'Home', onclick: goHome }, '🏠')));
   }
 
   // ---------------------------------------------------------------- number pad (used by questions and the parent gate)
@@ -653,6 +815,7 @@
 
   // ---------------------------------------------------------------- parent corner
   function showGate() {
+    pushScreen();
     updateTop('home');
     var a = 6 + Math.floor(Math.random() * 4), b = 6 + Math.floor(Math.random() * 4);
     var msg = h('p', { 'aria-live': 'polite' }, 'Parents: solve to open.');
@@ -662,7 +825,7 @@
     });
     render(h('section', { class: 'parent' },
       h('div', { class: 'panel center' }, msg, h('div', { class: 'qtext' }, a + ' × ' + b + ' = ?'), pc.el),
-      h('button', { class: 'btn soft', type: 'button', 'aria-label': 'Home', onclick: showHome }, '🏠')));
+      h('button', { class: 'btn soft', type: 'button', 'aria-label': 'Home', onclick: goHome }, '🏠')));
     S.keys = pc.onKey;
   }
 
@@ -677,6 +840,7 @@
   }
 
   function showParent(note) {
+    pushScreen();
     var p = Store.profile();
     updateTop('home');
     var done = Store.doneCount();
@@ -724,14 +888,9 @@
       rd.readAsText(f);
     });
 
-    var installBtn = S.deferred ? h('button', {
-      class: 'btn small soft', type: 'button',
-      onclick: function () { try { S.deferred.prompt(); } catch (e) {} S.deferred = null; installBtn.hidden = true; }
-    }, '📲 Add to home screen') : null;
-
     var ci = Store.contentInfo();
     render(h('section', { class: 'parent' },
-      h('button', { class: 'btn soft wide', type: 'button', 'aria-label': 'Back to home', onclick: showHome }, '🏠'),
+      h('button', { class: 'btn soft wide', type: 'button', 'aria-label': 'Back to home', onclick: goHome }, '🏠'),
       msg,
       h('h2', null, 'Progress'),
       h('div', { class: 'panel' },
@@ -756,10 +915,13 @@
           h('button', { class: 'btn small soft', type: 'button', onclick: function () { fileIn.click(); } }, '📂 Load backup'),
           fileIn),
         persisted),
-      h('h2', null, 'Install'),
+      h('h2', null, 'Install and share'),
       h('div', { class: 'panel' },
-        h('p', null, 'Add Math Quest to the home screen to open it full screen, even with no internet. On iPhone or iPad: tap Share, then Add to Home Screen.'),
-        installBtn),
+        h('p', null, 'Install Math Quest to open it full screen, even with no internet. Sharing sends only the link to the app, never any progress.'),
+        h('div', { class: 'row' },
+          installButton(),
+          h('button', { class: 'btn small soft', type: 'button', onclick: showInstall }, '📖 How to install'),
+          shareButton())),
       h('h2', null, 'Start over'),
       h('div', { class: 'panel' },
         h('button', {
@@ -830,12 +992,11 @@
     window.addEventListener('load', function () {
       navigator.serviceWorker.register('sw.js').catch(function () {});
     });
-    window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); S.deferred = e; });
   }
 
   // ---------------------------------------------------------------- start
   function bindTop() {
-    $('#btn-home').addEventListener('click', function () { showHome(); });
+    $('#btn-home').addEventListener('click', function () { goHome(); });
     $('#btn-parent').addEventListener('click', function () { Voice.stop(); showGate(); });
     $('#btn-sound').addEventListener('click', function () {
       var on = !Store.settings().sound;
@@ -864,6 +1025,7 @@
     bindTop();
     Sfx.setEnabled(Store.settings().sound);
     registerSW();
+    bindInstall();
     fetchJSON('content/index.json').then(function (idx) {
       S.index = idx;
       return fetchJSON('content/facts.json').catch(function () { return [{ icon: '⭐', text: '5 points' }]; });
