@@ -1,0 +1,1422 @@
+{
+ "week": 2,
+ "phase": "words",
+ "icon": "🌴",
+ "title": "Numbers 11 to 20",
+ "days": [
+  {
+   "day": 1,
+   "key": "W02D1",
+   "boss": false,
+   "learn": [
+    {
+     "big": "11",
+     "word": "eleven",
+     "say": "eleven",
+     "pic": {
+      "icon": "⭐",
+      "count": 11
+     }
+    },
+    {
+     "big": "12",
+     "word": "twelve",
+     "say": "twelve",
+     "pic": {
+      "icon": "⭐",
+      "count": 12
+     }
+    },
+    {
+     "big": "13",
+     "word": "thirteen",
+     "say": "thirteen",
+     "pic": {
+      "icon": "⭐",
+      "count": 13
+     }
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L1-words-w01d5-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "8 = eight",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "1 2 3 4 5 6 7 8",
+     "explanation": "8 = eight",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 3,
+     "say": "eight",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 8
+     }
+    },
+    {
+     "id": "L1-words-w01d5-01",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "ten",
+     "choices": [
+      "20",
+      "10",
+      "0",
+      "11"
+     ],
+     "answer": "10",
+     "hint": "1 2 3 4 5 6 7 8 9 10",
+     "explanation": "ten = 10",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 3,
+     "say": "ten",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 10
+     }
+    },
+    {
+     "id": "L1-words-w01d5-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "pad",
+     "question": "three",
+     "answer": "3",
+     "hint": "1 2 3",
+     "explanation": "three = 3",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 3,
+     "say": "three",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 3
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L1-words-w02d1-01",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "13",
+     "choices": [
+      "eleven",
+      "thirteen",
+      "twelve",
+      "thirty"
+     ],
+     "answer": "thirteen",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13",
+     "explanation": "13 = thirteen",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "thirteen",
+     "hintPic": {
+      "icon": "⭐",
+      "count": 13
+     }
+    },
+    {
+     "id": "L1-words-w02d1-02",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "twelve",
+     "choices": [
+      "2",
+      "13",
+      "12",
+      "21"
+     ],
+     "answer": "12",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12",
+     "explanation": "twelve = 12",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 1,
+     "say": "twelve",
+     "hintPic": {
+      "icon": "⭐",
+      "count": 12
+     }
+    },
+    {
+     "id": "L1-words-w02d1-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "11 = eleven",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11",
+     "explanation": "11 = eleven",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "eleven",
+     "hintPic": {
+      "icon": "⭐",
+      "count": 11
+     }
+    },
+    {
+     "id": "L1-words-w02d1-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "11",
+     "choices": [
+      "ten",
+      "eleven",
+      "thirteen",
+      "nine"
+     ],
+     "answer": "eleven",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11",
+     "explanation": "11 = eleven",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "eleven",
+     "hintPic": {
+      "icon": "⭐",
+      "count": 11
+     }
+    },
+    {
+     "id": "L1-words-w02d1-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "11=eleven;12=twelve;13=thirteen",
+     "hint": "Tap 🔊",
+     "explanation": "11 = eleven, 12 = twelve, 13 = thirteen",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "11",
+       "eleven"
+      ],
+      [
+       "12",
+       "twelve"
+      ],
+      [
+       "13",
+       "thirteen"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L1-words-w01d1-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "0 = zero",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "0",
+     "explanation": "0 = zero",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "zero"
+    },
+    {
+     "id": "L1-words-w01d4-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "5=five;8=eight;9=nine",
+     "hint": "Tap 🔊",
+     "explanation": "5 = five, 8 = eight, 9 = nine",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "5",
+       "five"
+      ],
+      [
+       "8",
+       "eight"
+      ],
+      [
+       "9",
+       "nine"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "key": "W02D2",
+   "boss": false,
+   "learn": [
+    {
+     "big": "14",
+     "word": "fourteen",
+     "say": "fourteen",
+     "pic": {
+      "icon": "🍬",
+      "count": 14
+     }
+    },
+    {
+     "big": "15",
+     "word": "fifteen",
+     "say": "fifteen",
+     "pic": {
+      "icon": "🍬",
+      "count": 15
+     }
+    },
+    {
+     "big": "16",
+     "word": "sixteen",
+     "say": "sixteen",
+     "pic": {
+      "icon": "🍬",
+      "count": 16
+     }
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L1-words-w02d1-01",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "13",
+     "choices": [
+      "eleven",
+      "thirteen",
+      "twelve",
+      "thirty"
+     ],
+     "answer": "thirteen",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13",
+     "explanation": "13 = thirteen",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "thirteen",
+     "hintPic": {
+      "icon": "⭐",
+      "count": 13
+     }
+    },
+    {
+     "id": "L1-words-w02d1-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "11 = eleven",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11",
+     "explanation": "11 = eleven",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "eleven",
+     "hintPic": {
+      "icon": "⭐",
+      "count": 11
+     }
+    },
+    {
+     "id": "L1-words-w02d1-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "11",
+     "choices": [
+      "ten",
+      "eleven",
+      "thirteen",
+      "nine"
+     ],
+     "answer": "eleven",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11",
+     "explanation": "11 = eleven",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "eleven",
+     "hintPic": {
+      "icon": "⭐",
+      "count": 11
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L1-words-w02d2-01",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "16",
+     "choices": [
+      "sixteen",
+      "sixty",
+      "fifteen",
+      "eighteen"
+     ],
+     "answer": "sixteen",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16",
+     "explanation": "16 = sixteen",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "sixteen",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 16
+     }
+    },
+    {
+     "id": "L1-words-w02d2-02",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "fifteen",
+     "choices": [
+      "51",
+      "14",
+      "16",
+      "15"
+     ],
+     "answer": "15",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15",
+     "explanation": "fifteen = 15",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 1,
+     "say": "fifteen",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 15
+     }
+    },
+    {
+     "id": "L1-words-w02d2-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "14 = fourteen",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14",
+     "explanation": "14 = fourteen",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "fourteen",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 14
+     }
+    },
+    {
+     "id": "L1-words-w02d2-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "pad",
+     "question": "sixteen",
+     "answer": "16",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16",
+     "explanation": "sixteen = 16",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 1,
+     "say": "sixteen",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 16
+     }
+    },
+    {
+     "id": "L1-words-w02d2-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "14=fourteen;15=fifteen;16=sixteen",
+     "hint": "Tap 🔊",
+     "explanation": "14 = fourteen, 15 = fifteen, 16 = sixteen",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "14",
+       "fourteen"
+      ],
+      [
+       "15",
+       "fifteen"
+      ],
+      [
+       "16",
+       "sixteen"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L1-words-w01d4-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "5=five;8=eight;9=nine",
+     "hint": "Tap 🔊",
+     "explanation": "5 = five, 8 = eight, 9 = nine",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "5",
+       "five"
+      ],
+      [
+       "8",
+       "eight"
+      ],
+      [
+       "9",
+       "nine"
+      ]
+     ]
+    },
+    {
+     "id": "L1-words-w01d1-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "0 = zero",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "0",
+     "explanation": "0 = zero",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "zero"
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "key": "W02D3",
+   "boss": false,
+   "learn": [
+    {
+     "big": "17",
+     "word": "seventeen",
+     "say": "seventeen",
+     "pic": {
+      "icon": "🧸",
+      "count": 17
+     }
+    },
+    {
+     "big": "18",
+     "word": "eighteen",
+     "say": "eighteen",
+     "pic": {
+      "icon": "🧸",
+      "count": 18
+     }
+    },
+    {
+     "big": "19",
+     "word": "nineteen",
+     "say": "nineteen",
+     "pic": {
+      "icon": "🧸",
+      "count": 19
+     }
+    },
+    {
+     "big": "20",
+     "word": "twenty",
+     "say": "twenty",
+     "pic": {
+      "icon": "🧸",
+      "count": 20
+     }
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L1-words-w02d2-01",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "16",
+     "choices": [
+      "sixteen",
+      "sixty",
+      "fifteen",
+      "eighteen"
+     ],
+     "answer": "sixteen",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16",
+     "explanation": "16 = sixteen",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "sixteen",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 16
+     }
+    },
+    {
+     "id": "L1-words-w02d2-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "14 = fourteen",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14",
+     "explanation": "14 = fourteen",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "fourteen",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 14
+     }
+    },
+    {
+     "id": "L1-words-w02d2-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "pad",
+     "question": "sixteen",
+     "answer": "16",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16",
+     "explanation": "sixteen = 16",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 1,
+     "say": "sixteen",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 16
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L1-words-w02d3-01",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "nineteen",
+     "choices": [
+      "29",
+      "91",
+      "90",
+      "19"
+     ],
+     "answer": "19",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19",
+     "explanation": "nineteen = 19",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 2,
+     "say": "nineteen",
+     "hintPic": {
+      "icon": "🧸",
+      "count": 19
+     }
+    },
+    {
+     "id": "L1-words-w02d3-02",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "18",
+     "choices": [
+      "eighteen",
+      "twenty",
+      "eighty",
+      "nineteen"
+     ],
+     "answer": "eighteen",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18",
+     "explanation": "18 = eighteen",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 2,
+     "say": "eighteen",
+     "hintPic": {
+      "icon": "🧸",
+      "count": 18
+     }
+    },
+    {
+     "id": "L1-words-w02d3-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "pad",
+     "question": "twenty",
+     "answer": "20",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20",
+     "explanation": "twenty = 20",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 2,
+     "say": "twenty",
+     "hintPic": {
+      "icon": "🧸",
+      "count": 20
+     }
+    },
+    {
+     "id": "L1-words-w02d3-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "17 = seventeen",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17",
+     "explanation": "17 = seventeen",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 2,
+     "say": "seventeen",
+     "hintPic": {
+      "icon": "🧸",
+      "count": 17
+     }
+    },
+    {
+     "id": "L1-words-w02d3-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "17=seventeen;18=eighteen;19=nineteen",
+     "hint": "Tap 🔊",
+     "explanation": "17 = seventeen, 18 = eighteen, 19 = nineteen",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "17",
+       "seventeen"
+      ],
+      [
+       "18",
+       "eighteen"
+      ],
+      [
+       "19",
+       "nineteen"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L1-words-w01d1-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "two",
+     "choices": [
+      "4",
+      "0",
+      "2",
+      "1"
+     ],
+     "answer": "2",
+     "hint": "1 2",
+     "explanation": "two = 2",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 1,
+     "say": "two",
+     "hintPic": {
+      "icon": "🍪",
+      "count": 2
+     }
+    },
+    {
+     "id": "L1-words-w01d2-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "4=four;5=five;6=six",
+     "hint": "Tap 🔊",
+     "explanation": "4 = four, 5 = five, 6 = six",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "4",
+       "four"
+      ],
+      [
+       "5",
+       "five"
+      ],
+      [
+       "6",
+       "six"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "key": "W02D4",
+   "boss": false,
+   "learn": [
+    {
+     "big": "11",
+     "word": "eleven",
+     "say": "eleven",
+     "pic": {
+      "icon": "🏏",
+      "count": 11
+     }
+    },
+    {
+     "big": "15",
+     "word": "fifteen",
+     "say": "fifteen",
+     "pic": {
+      "icon": "🏏",
+      "count": 15
+     }
+    },
+    {
+     "big": "19",
+     "word": "nineteen",
+     "say": "nineteen",
+     "pic": {
+      "icon": "🏏",
+      "count": 19
+     }
+    },
+    {
+     "big": "20",
+     "word": "twenty",
+     "say": "twenty",
+     "pic": {
+      "icon": "🏏",
+      "count": 20
+     }
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L1-words-w02d3-02",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "18",
+     "choices": [
+      "eighteen",
+      "twenty",
+      "eighty",
+      "nineteen"
+     ],
+     "answer": "eighteen",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18",
+     "explanation": "18 = eighteen",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 2,
+     "say": "eighteen",
+     "hintPic": {
+      "icon": "🧸",
+      "count": 18
+     }
+    },
+    {
+     "id": "L1-words-w02d3-01",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "nineteen",
+     "choices": [
+      "29",
+      "91",
+      "90",
+      "19"
+     ],
+     "answer": "19",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19",
+     "explanation": "nineteen = 19",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 2,
+     "say": "nineteen",
+     "hintPic": {
+      "icon": "🧸",
+      "count": 19
+     }
+    },
+    {
+     "id": "L1-words-w02d3-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "pad",
+     "question": "twenty",
+     "answer": "20",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20",
+     "explanation": "twenty = 20",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 2,
+     "say": "twenty",
+     "hintPic": {
+      "icon": "🧸",
+      "count": 20
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L1-words-w02d4-01",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "18",
+     "choices": [
+      "eighteen",
+      "nineteen",
+      "sixteen",
+      "seventeen"
+     ],
+     "answer": "eighteen",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18",
+     "explanation": "18 = eighteen",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 2,
+     "say": "eighteen",
+     "hintPic": {
+      "icon": "🏏",
+      "count": 18
+     }
+    },
+    {
+     "id": "L1-words-w02d4-02",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "seventeen",
+     "choices": [
+      "27",
+      "70",
+      "18",
+      "17"
+     ],
+     "answer": "17",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17",
+     "explanation": "seventeen = 17",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 2,
+     "say": "seventeen",
+     "hintPic": {
+      "icon": "🏏",
+      "count": 17
+     }
+    },
+    {
+     "id": "L1-words-w02d4-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "pad",
+     "question": "fifteen",
+     "answer": "15",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15",
+     "explanation": "fifteen = 15",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 2,
+     "say": "fifteen",
+     "hintPic": {
+      "icon": "🏏",
+      "count": 15
+     }
+    },
+    {
+     "id": "L1-words-w02d4-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "20 = twenty",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20",
+     "explanation": "20 = twenty",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 2,
+     "say": "twenty",
+     "hintPic": {
+      "icon": "🏏",
+      "count": 20
+     }
+    },
+    {
+     "id": "L1-words-w02d4-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "13=thirteen;16=sixteen;19=nineteen",
+     "hint": "Tap 🔊",
+     "explanation": "13 = thirteen, 16 = sixteen, 19 = nineteen",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "13",
+       "thirteen"
+      ],
+      [
+       "16",
+       "sixteen"
+      ],
+      [
+       "19",
+       "nineteen"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L1-words-w01d3-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "pad",
+     "question": "nine",
+     "answer": "9",
+     "hint": "1 2 3 4 5 6 7 8 9",
+     "explanation": "nine = 9",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 2,
+     "say": "nine",
+     "hintPic": {
+      "icon": "🪁",
+      "count": 9
+     }
+    },
+    {
+     "id": "L1-words-w01d1-02",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "1",
+     "choices": [
+      "one",
+      "two",
+      "zero",
+      "four"
+     ],
+     "answer": "one",
+     "hint": "1",
+     "explanation": "1 = one",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "one",
+     "hintPic": {
+      "icon": "🍪",
+      "count": 1
+     }
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "key": "W02D5",
+   "boss": true,
+   "learn": [
+    {
+     "big": "4",
+     "word": "four",
+     "say": "four",
+     "pic": {
+      "icon": "🍎",
+      "count": 4
+     }
+    },
+    {
+     "big": "10",
+     "word": "ten",
+     "say": "ten",
+     "pic": {
+      "icon": "🍎",
+      "count": 10
+     }
+    },
+    {
+     "big": "12",
+     "word": "twelve",
+     "say": "twelve",
+     "pic": {
+      "icon": "🍎",
+      "count": 12
+     }
+    },
+    {
+     "big": "16",
+     "word": "sixteen",
+     "say": "sixteen",
+     "pic": {
+      "icon": "🍎",
+      "count": 16
+     }
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L1-words-w02d4-02",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "seventeen",
+     "choices": [
+      "27",
+      "70",
+      "18",
+      "17"
+     ],
+     "answer": "17",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17",
+     "explanation": "seventeen = 17",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 2,
+     "say": "seventeen",
+     "hintPic": {
+      "icon": "🏏",
+      "count": 17
+     }
+    },
+    {
+     "id": "L1-words-w02d4-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "20 = twenty",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20",
+     "explanation": "20 = twenty",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 2,
+     "say": "twenty",
+     "hintPic": {
+      "icon": "🏏",
+      "count": 20
+     }
+    },
+    {
+     "id": "L1-words-w02d4-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "pad",
+     "question": "fifteen",
+     "answer": "15",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15",
+     "explanation": "fifteen = 15",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 2,
+     "say": "fifteen",
+     "hintPic": {
+      "icon": "🏏",
+      "count": 15
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L1-words-w02d5-01",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "zero",
+     "choices": [
+      "0",
+      "1",
+      "2",
+      "10"
+     ],
+     "answer": "0",
+     "hint": "0",
+     "explanation": "zero = 0",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 3,
+     "say": "zero"
+    },
+    {
+     "id": "L1-words-w02d5-02",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "7",
+     "choices": [
+      "seven",
+      "eight",
+      "five",
+      "nine"
+     ],
+     "answer": "seven",
+     "hint": "1 2 3 4 5 6 7",
+     "explanation": "7 = seven",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 3,
+     "say": "seven",
+     "hintPic": {
+      "icon": "🍎",
+      "count": 7
+     }
+    },
+    {
+     "id": "L1-words-w02d5-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "pad",
+     "question": "eleven",
+     "answer": "11",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11",
+     "explanation": "eleven = 11",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 3,
+     "say": "eleven",
+     "hintPic": {
+      "icon": "🍎",
+      "count": 11
+     }
+    },
+    {
+     "id": "L1-words-w02d5-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "1 = three",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "1",
+     "explanation": "1 = one",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 3,
+     "say": "three",
+     "hintPic": {
+      "icon": "🍎",
+      "count": 1
+     }
+    },
+    {
+     "id": "L1-words-w02d5-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "13=thirteen;16=sixteen;19=nineteen",
+     "hint": "Tap 🔊",
+     "explanation": "13 = thirteen, 16 = sixteen, 19 = nineteen",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "13",
+       "thirteen"
+      ],
+      [
+       "16",
+       "sixteen"
+      ],
+      [
+       "19",
+       "nineteen"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L1-words-w02d1-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "11 = eleven",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "1 2 3 4 5 6 7 8 9 10 11",
+     "explanation": "11 = eleven",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "eleven",
+     "hintPic": {
+      "icon": "⭐",
+      "count": 11
+     }
+    },
+    {
+     "id": "L1-words-w01d4-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "5=five;8=eight;9=nine",
+     "hint": "Tap 🔊",
+     "explanation": "5 = five, 8 = eight, 9 = nine",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "5",
+       "five"
+      ],
+      [
+       "8",
+       "eight"
+      ],
+      [
+       "9",
+       "nine"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

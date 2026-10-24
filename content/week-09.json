@@ -1,0 +1,1493 @@
+{
+ "week": 9,
+ "phase": "tables",
+ "icon": "🌋",
+ "title": "Tables 3, 4",
+ "days": [
+  {
+   "day": 1,
+   "key": "W09D1",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🍪",
+      "groups": [
+       3,
+       3,
+       3
+      ]
+     },
+     "big": "3 × 3 = ?",
+     "say": "3 times 3"
+    },
+    {
+     "pic": {
+      "icon": "🍪",
+      "groups": [
+       3,
+       3,
+       3
+      ]
+     },
+     "big": "3 × 3 = 9",
+     "say": "3 times 3 is 9"
+    },
+    {
+     "lines": [
+      "3 × 1 = 3",
+      "3 × 2 = 6",
+      "3 × 3 = 9",
+      "3 × 4 = 12",
+      "3 × 5 = 15"
+     ]
+    },
+    {
+     "lines": [
+      "3 × 6 = 18",
+      "3 × 7 = 21",
+      "3 × 8 = 24",
+      "3 × 9 = 27",
+      "3 × 10 = 30"
+     ]
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L4-mult-w08d5-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "2 × ? = 12",
+     "choices": [
+      "6",
+      "8",
+      "10",
+      "7"
+     ],
+     "answer": "6",
+     "hint": "2, 4, 6, 8, 10, 12",
+     "explanation": "2 × 6 = 12",
+     "skills": [
+      "tables-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L4-mult-w08d5-04",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "2 × 9 = 18",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "2, 4, 6, 8, 10, 12, 14, 16, 18",
+     "explanation": "2 × 9 = 18",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 3,
+     "hintPic": {
+      "icon": "🎈",
+      "groups": [
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w08d5-01",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "2 × 4 = ?",
+     "choices": [
+      "6",
+      "18",
+      "8",
+      "4"
+     ],
+     "answer": "8",
+     "hint": "2, 4, 6, 8",
+     "explanation": "2 × 4 = 8",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 3,
+     "hintPic": {
+      "icon": "🎈",
+      "groups": [
+       2,
+       2,
+       2,
+       2
+      ]
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L4-mult-w09d1-01",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "3 × 1 = ?",
+     "choices": [
+      "3",
+      "6",
+      "13",
+      "2"
+     ],
+     "answer": "3",
+     "hint": "3",
+     "explanation": "3 × 1 = 3",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🍪",
+      "groups": [
+       3
+      ]
+     },
+     "hintPic": {
+      "icon": "🍪",
+      "groups": [
+       3
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d1-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "3, 6, 9, ?",
+     "choices": [
+      "13",
+      "14",
+      "12",
+      "11"
+     ],
+     "answer": "12",
+     "hint": "+3",
+     "explanation": "3, 6, 9, 12",
+     "skills": [
+      "skip-counting"
+     ],
+     "difficulty": 1
+    },
+    {
+     "id": "L4-mult-w09d1-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "3 × 6 = 15",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "3, 6, 9, 12, 15, 18",
+     "explanation": "3 × 6 = 18",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "groups": [
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d1-04",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "pad",
+     "question": "3 × 3 = ?",
+     "answer": "9",
+     "hint": "3, 6, 9",
+     "explanation": "3 × 3 = 9",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "groups": [
+       3,
+       3,
+       3
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d1-05",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "match",
+     "question": "",
+     "answer": "3 × 2=6;3 × 5=15;3 × 10=30",
+     "hint": "Skip count",
+     "explanation": "3 × 2 = 6, 3 × 5 = 15, 3 × 10 = 30",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "3 × 2",
+       "6"
+      ],
+      [
+       "3 × 5",
+       "15"
+      ],
+      [
+       "3 × 10",
+       "30"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L2-add-w04d4-02",
+     "level": 2,
+     "topic": "addition",
+     "type": "true-false",
+     "question": "7 + 3 = 9",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "7 8 9 10",
+     "explanation": "7 + 3 = 10",
+     "skills": [
+      "addition"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🍬",
+      "groups": [
+       7,
+       3
+      ],
+      "op": "+"
+     }
+    },
+    {
+     "id": "L3-sub-w07d1-01",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "17 − 6 = ?",
+     "choices": [
+      "12",
+      "13",
+      "9",
+      "11"
+     ],
+     "answer": "11",
+     "hint": "17 16 15 14 13 12 11",
+     "explanation": "17 − 6 = 11",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🪁",
+      "count": 17,
+      "cross": 6
+     },
+     "hintPic": {
+      "icon": "🪁",
+      "count": 17,
+      "cross": 6
+     }
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "key": "W09D2",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🎈",
+      "groups": [
+       4,
+       4,
+       4
+      ]
+     },
+     "big": "4 × 3 = ?",
+     "say": "4 times 3"
+    },
+    {
+     "pic": {
+      "icon": "🎈",
+      "groups": [
+       4,
+       4,
+       4
+      ]
+     },
+     "big": "4 × 3 = 12",
+     "say": "4 times 3 is 12"
+    },
+    {
+     "lines": [
+      "4 × 1 = 4",
+      "4 × 2 = 8",
+      "4 × 3 = 12",
+      "4 × 4 = 16",
+      "4 × 5 = 20"
+     ]
+    },
+    {
+     "lines": [
+      "4 × 6 = 24",
+      "4 × 7 = 28",
+      "4 × 8 = 32",
+      "4 × 9 = 36",
+      "4 × 10 = 40"
+     ]
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L4-mult-w09d1-04",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "pad",
+     "question": "3 × 3 = ?",
+     "answer": "9",
+     "hint": "3, 6, 9",
+     "explanation": "3 × 3 = 9",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "groups": [
+       3,
+       3,
+       3
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d1-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "3 × 6 = 15",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "3, 6, 9, 12, 15, 18",
+     "explanation": "3 × 6 = 18",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "groups": [
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d1-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "3, 6, 9, ?",
+     "choices": [
+      "13",
+      "14",
+      "12",
+      "11"
+     ],
+     "answer": "12",
+     "hint": "+3",
+     "explanation": "3, 6, 9, 12",
+     "skills": [
+      "skip-counting"
+     ],
+     "difficulty": 1
+    }
+   ],
+   "practice": [
+    {
+     "id": "L4-mult-w09d2-01",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "4 × 8 = ?",
+     "choices": [
+      "24",
+      "40",
+      "12",
+      "32"
+     ],
+     "answer": "32",
+     "hint": "4, 8, 12, 16, 20, 24, 28, 32",
+     "explanation": "4 × 8 = 32",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1
+    },
+    {
+     "id": "L4-mult-w09d2-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "4 × 4 = 16",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "4, 8, 12, 16",
+     "explanation": "4 × 4 = 16",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🎈",
+      "groups": [
+       4,
+       4,
+       4,
+       4
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d2-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "pad",
+     "question": "4 × 2 = ?",
+     "answer": "8",
+     "hint": "4, 8",
+     "explanation": "4 × 2 = 8",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🎈",
+      "groups": [
+       4,
+       4
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d2-04",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "4, 8, 12, 16, ?",
+     "choices": [
+      "16",
+      "21",
+      "20",
+      "24"
+     ],
+     "answer": "20",
+     "hint": "+4",
+     "explanation": "4, 8, 12, 16, 20",
+     "skills": [
+      "skip-counting"
+     ],
+     "difficulty": 1
+    },
+    {
+     "id": "L4-mult-w09d2-05",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "match",
+     "question": "",
+     "answer": "4 × 1=4;4 × 6=24;4 × 7=28",
+     "hint": "Skip count",
+     "explanation": "4 × 1 = 4, 4 × 6 = 24, 4 × 7 = 28",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "4 × 1",
+       "4"
+      ],
+      [
+       "4 × 6",
+       "24"
+      ],
+      [
+       "4 × 7",
+       "28"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L4-mult-w08d4-04",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "10 × 2 = 20",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "10, 20",
+     "explanation": "10 × 2 = 20",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🍪",
+      "groups": [
+       10,
+       10
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w08d3-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "? × 3 = 30",
+     "choices": [
+      "27",
+      "12",
+      "3",
+      "10"
+     ],
+     "answer": "10",
+     "hint": "3, 6, 9, 12, 15, 18, 21, 24, 27, 30",
+     "explanation": "10 × 3 = 30",
+     "skills": [
+      "tables-missing"
+     ],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "key": "W09D3",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🪁",
+      "groups": [
+       3,
+       3,
+       3
+      ]
+     },
+     "big": "3 × 3 = ?",
+     "say": "3 times 3"
+    },
+    {
+     "pic": {
+      "icon": "🪁",
+      "groups": [
+       3,
+       3,
+       3
+      ]
+     },
+     "big": "3 × 3 = 9",
+     "say": "3 times 3 is 9"
+    },
+    {
+     "pic": {
+      "icon": "🪁",
+      "groups": [
+       4,
+       4,
+       4
+      ]
+     },
+     "big": "4 × 3 = ?",
+     "say": "4 times 3"
+    },
+    {
+     "pic": {
+      "icon": "🪁",
+      "groups": [
+       4,
+       4,
+       4
+      ]
+     },
+     "big": "4 × 3 = 12",
+     "say": "4 times 3 is 12"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L4-mult-w09d2-01",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "4 × 8 = ?",
+     "choices": [
+      "24",
+      "40",
+      "12",
+      "32"
+     ],
+     "answer": "32",
+     "hint": "4, 8, 12, 16, 20, 24, 28, 32",
+     "explanation": "4 × 8 = 32",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1
+    },
+    {
+     "id": "L4-mult-w09d2-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "4 × 4 = 16",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "4, 8, 12, 16",
+     "explanation": "4 × 4 = 16",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🎈",
+      "groups": [
+       4,
+       4,
+       4,
+       4
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d2-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "pad",
+     "question": "4 × 2 = ?",
+     "answer": "8",
+     "hint": "4, 8",
+     "explanation": "4 × 2 = 8",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🎈",
+      "groups": [
+       4,
+       4
+      ]
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L4-mult-w09d3-01",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "3 × 9 = ?",
+     "choices": [
+      "18",
+      "27",
+      "24",
+      "12"
+     ],
+     "answer": "27",
+     "hint": "3, 6, 9, 12, 15, 18, 21, 24, 27",
+     "explanation": "3 × 9 = 27",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2
+    },
+    {
+     "id": "L4-mult-w09d3-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "? × 5 = 15",
+     "choices": [
+      "4",
+      "2",
+      "3",
+      "10"
+     ],
+     "answer": "3",
+     "hint": "5, 10, 15",
+     "explanation": "3 × 5 = 15",
+     "skills": [
+      "tables-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L4-mult-w09d3-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "4 × 4 = 20",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "4, 8, 12, 16",
+     "explanation": "4 × 4 = 16",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "groups": [
+       4,
+       4,
+       4,
+       4
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d3-04",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "pad",
+     "question": "4 × 7 = ?",
+     "answer": "28",
+     "hint": "4, 8, 12, 16, 20, 24, 28",
+     "explanation": "4 × 7 = 28",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2
+    },
+    {
+     "id": "L4-mult-w09d3-05",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "match",
+     "question": "",
+     "answer": "4 × 2=8;3 × 3=9;5 × 4=20",
+     "hint": "Skip count",
+     "explanation": "4 × 2 = 8, 3 × 3 = 9, 5 × 4 = 20",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "4 × 2",
+       "8"
+      ],
+      [
+       "3 × 3",
+       "9"
+      ],
+      [
+       "5 × 4",
+       "20"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L4-mult-w08d2-04",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "5, 10, 15, 20, ?",
+     "choices": [
+      "20",
+      "25",
+      "30",
+      "27"
+     ],
+     "answer": "25",
+     "hint": "+5",
+     "explanation": "5, 10, 15, 20, 25",
+     "skills": [
+      "skip-counting"
+     ],
+     "difficulty": 1
+    },
+    {
+     "id": "L2-add-w04d1-03",
+     "level": 2,
+     "topic": "addition",
+     "type": "pad",
+     "question": "1 + 2 = ?",
+     "answer": "3",
+     "hint": "1 2 3",
+     "explanation": "1 + 2 = 3",
+     "skills": [
+      "addition"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🎈",
+      "groups": [
+       1,
+       2
+      ],
+      "op": "+"
+     }
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "key": "W09D4",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "⭐",
+      "groups": [
+       3,
+       3,
+       3
+      ]
+     },
+     "big": "3 × 3 = ?",
+     "say": "3 times 3"
+    },
+    {
+     "pic": {
+      "icon": "⭐",
+      "groups": [
+       3,
+       3,
+       3
+      ]
+     },
+     "big": "3 × 3 = 9",
+     "say": "3 times 3 is 9"
+    },
+    {
+     "pic": {
+      "icon": "⭐",
+      "groups": [
+       4,
+       4,
+       4
+      ]
+     },
+     "big": "4 × 3 = ?",
+     "say": "4 times 3"
+    },
+    {
+     "pic": {
+      "icon": "⭐",
+      "groups": [
+       4,
+       4,
+       4
+      ]
+     },
+     "big": "4 × 3 = 12",
+     "say": "4 times 3 is 12"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L4-mult-w09d3-04",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "pad",
+     "question": "4 × 7 = ?",
+     "answer": "28",
+     "hint": "4, 8, 12, 16, 20, 24, 28",
+     "explanation": "4 × 7 = 28",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2
+    },
+    {
+     "id": "L4-mult-w09d3-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "? × 5 = 15",
+     "choices": [
+      "4",
+      "2",
+      "3",
+      "10"
+     ],
+     "answer": "3",
+     "hint": "5, 10, 15",
+     "explanation": "3 × 5 = 15",
+     "skills": [
+      "tables-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L4-mult-w09d3-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "4 × 4 = 20",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "4, 8, 12, 16",
+     "explanation": "4 × 4 = 16",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "groups": [
+       4,
+       4,
+       4,
+       4
+      ]
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L4-mult-w09d4-01",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "9 × 4 = ?",
+     "choices": [
+      "40",
+      "45",
+      "32",
+      "36"
+     ],
+     "answer": "36",
+     "hint": "4, 8, 12, 16, 20, 24, 28, 32, 36",
+     "explanation": "4 × 9 = 36",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2
+    },
+    {
+     "id": "L4-mult-w09d4-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "pad",
+     "question": "3 × 10 = ?",
+     "answer": "30",
+     "hint": "3, 6, 9, 12, 15, 18, 21, 24, 27, 30",
+     "explanation": "3 × 10 = 30",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2
+    },
+    {
+     "id": "L4-mult-w09d4-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "4 × ? = 4",
+     "choices": [
+      "4",
+      "5",
+      "2",
+      "1"
+     ],
+     "answer": "1",
+     "hint": "4",
+     "explanation": "4 × 1 = 4",
+     "skills": [
+      "tables-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L4-mult-w09d4-04",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "4 × 3 = 12",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "3, 6, 9, 12",
+     "explanation": "3 × 4 = 12",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "⭐",
+      "groups": [
+       3,
+       3,
+       3,
+       3
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d4-05",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "match",
+     "question": "",
+     "answer": "6 × 3=18;4 × 8=32;10 × 4=40",
+     "hint": "Skip count",
+     "explanation": "6 × 3 = 18, 4 × 8 = 32, 10 × 4 = 40",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "6 × 3",
+       "18"
+      ],
+      [
+       "4 × 8",
+       "32"
+      ],
+      [
+       "10 × 4",
+       "40"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L4-mult-w09d1-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "3 × 6 = 15",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "3, 6, 9, 12, 15, 18",
+     "explanation": "3 × 6 = 18",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "groups": [
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w08d1-01",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "2 × 7 = ?",
+     "choices": [
+      "14",
+      "21",
+      "12",
+      "16"
+     ],
+     "answer": "14",
+     "hint": "2, 4, 6, 8, 10, 12, 14",
+     "explanation": "2 × 7 = 14",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🧸",
+      "groups": [
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2
+      ]
+     },
+     "hintPic": {
+      "icon": "🧸",
+      "groups": [
+       2,
+       2,
+       2,
+       2,
+       2,
+       2,
+       2
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "key": "W09D5",
+   "boss": true,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🍬",
+      "groups": [
+       3,
+       3,
+       3
+      ]
+     },
+     "big": "3 × 3 = ?",
+     "say": "3 times 3"
+    },
+    {
+     "pic": {
+      "icon": "🍬",
+      "groups": [
+       3,
+       3,
+       3
+      ]
+     },
+     "big": "3 × 3 = 9",
+     "say": "3 times 3 is 9"
+    },
+    {
+     "pic": {
+      "icon": "🍬",
+      "groups": [
+       4,
+       4,
+       4
+      ]
+     },
+     "big": "4 × 3 = ?",
+     "say": "4 times 3"
+    },
+    {
+     "pic": {
+      "icon": "🍬",
+      "groups": [
+       4,
+       4,
+       4
+      ]
+     },
+     "big": "4 × 3 = 12",
+     "say": "4 times 3 is 12"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L4-mult-w09d4-04",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "4 × 3 = 12",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "3, 6, 9, 12",
+     "explanation": "3 × 4 = 12",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "⭐",
+      "groups": [
+       3,
+       3,
+       3,
+       3
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d4-01",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "9 × 4 = ?",
+     "choices": [
+      "40",
+      "45",
+      "32",
+      "36"
+     ],
+     "answer": "36",
+     "hint": "4, 8, 12, 16, 20, 24, 28, 32, 36",
+     "explanation": "4 × 9 = 36",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2
+    },
+    {
+     "id": "L4-mult-w09d4-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "4 × ? = 4",
+     "choices": [
+      "4",
+      "5",
+      "2",
+      "1"
+     ],
+     "answer": "1",
+     "hint": "4",
+     "explanation": "4 × 1 = 4",
+     "skills": [
+      "tables-missing"
+     ],
+     "difficulty": 3
+    }
+   ],
+   "practice": [
+    {
+     "id": "L4-mult-w09d5-01",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "7 × 3 = ?",
+     "choices": [
+      "21",
+      "10",
+      "14",
+      "24"
+     ],
+     "answer": "21",
+     "hint": "3, 6, 9, 12, 15, 18, 21",
+     "explanation": "3 × 7 = 21",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L4-mult-w09d5-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "4 × ? = 16",
+     "choices": [
+      "4",
+      "12",
+      "8",
+      "6"
+     ],
+     "answer": "4",
+     "hint": "4, 8, 12, 16",
+     "explanation": "4 × 4 = 16",
+     "skills": [
+      "tables-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L4-mult-w09d5-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "pad",
+     "question": "4 × 2 = ?",
+     "answer": "8",
+     "hint": "4, 8",
+     "explanation": "4 × 2 = 8",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 3,
+     "hintPic": {
+      "icon": "🍬",
+      "groups": [
+       4,
+       4
+      ]
+     }
+    },
+    {
+     "id": "L4-mult-w09d5-04",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "3 × 9 = 30",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "3, 6, 9, 12, 15, 18, 21, 24, 27",
+     "explanation": "3 × 9 = 27",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L4-mult-w09d5-05",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "match",
+     "question": "",
+     "answer": "4 × 5=20;3 × 10=30;9 × 4=36",
+     "hint": "Skip count",
+     "explanation": "4 × 5 = 20, 3 × 10 = 30, 9 × 4 = 36",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "4 × 5",
+       "20"
+      ],
+      [
+       "3 × 10",
+       "30"
+      ],
+      [
+       "9 × 4",
+       "36"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L1-words-w03d1-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "20=twenty;30=thirty;40=forty",
+     "hint": "Tap 🔊",
+     "explanation": "20 = twenty, 30 = thirty, 40 = forty",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "20",
+       "twenty"
+      ],
+      [
+       "30",
+       "thirty"
+      ],
+      [
+       "40",
+       "forty"
+      ]
+     ]
+    },
+    {
+     "id": "L1-words-w01d1-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "0=zero;1=one;3=three",
+     "hint": "Tap 🔊",
+     "explanation": "0 = zero, 1 = one, 3 = three",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "0",
+       "zero"
+      ],
+      [
+       "1",
+       "one"
+      ],
+      [
+       "3",
+       "three"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1438 @@
+{
+ "week": 17,
+ "phase": "div",
+ "icon": "🍰",
+ "title": "Sharing equally",
+ "days": [
+  {
+   "day": 1,
+   "key": "W17D1",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🍪",
+      "count": 10,
+      "friends": 2
+     },
+     "big": "10 ÷ 2 = ?",
+     "say": "10 shared by 2"
+    },
+    {
+     "pic": {
+      "icon": "🍪",
+      "friends": 2,
+      "each": 5
+     },
+     "big": "10 ÷ 2 = 5",
+     "say": "10 shared by 2 is 5 each"
+    },
+    {
+     "pic": {
+      "icon": "🍪",
+      "count": 18,
+      "friends": 2
+     },
+     "big": "18 ÷ 2 = ?",
+     "say": "18 shared by 2"
+    },
+    {
+     "pic": {
+      "icon": "🍪",
+      "friends": 2,
+      "each": 9
+     },
+     "big": "18 ÷ 2 = 9",
+     "say": "18 shared by 2 is 9 each"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L4-mult-w16d5-01",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "9 × 3 = ?",
+     "choices": [
+      "24",
+      "18",
+      "27",
+      "12"
+     ],
+     "answer": "27",
+     "hint": "9, 18, 27",
+     "explanation": "9 × 3 = 27",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L4-mult-w16d5-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "? × 8 = 64",
+     "choices": [
+      "7",
+      "56",
+      "9",
+      "8"
+     ],
+     "answer": "8",
+     "hint": "8, 16, 24, 32, 40, 48, 56, 64",
+     "explanation": "8 × 8 = 64",
+     "skills": [
+      "tables-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L4-mult-w16d5-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "pad",
+     "question": "3 × 19 = ?",
+     "answer": "57",
+     "hint": "19, 38, 57",
+     "explanation": "19 × 3 = 57",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 3
+    }
+   ],
+   "practice": [
+    {
+     "id": "L5-div-w17d1-01",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "18 ÷ 2 = ?",
+     "choices": [
+      "9",
+      "2",
+      "16",
+      "8"
+     ],
+     "answer": "9",
+     "hint": "2, 4, 6, 8, 10, 12, 14, 16, 18",
+     "explanation": "18 ÷ 2 = 9",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🍪",
+      "count": 18,
+      "friends": 2
+     },
+     "hintPic": {
+      "icon": "🍪",
+      "friends": 2,
+      "each": 9
+     }
+    },
+    {
+     "id": "L5-div-w17d1-02",
+     "level": 5,
+     "topic": "division",
+     "type": "true-false",
+     "question": "6 ÷ 2 = 2",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "2, 4, 6",
+     "explanation": "6 ÷ 2 = 3",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "friends": 2,
+      "each": 3
+     }
+    },
+    {
+     "id": "L5-div-w17d1-03",
+     "level": 5,
+     "topic": "division",
+     "type": "pad",
+     "question": "8 ÷ 2 = ?",
+     "answer": "4",
+     "hint": "2, 4, 6, 8",
+     "explanation": "8 ÷ 2 = 4",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "friends": 2,
+      "each": 4
+     }
+    },
+    {
+     "id": "L5-div-w17d1-04",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "10 ÷ 2 = ?",
+     "choices": [
+      "5",
+      "6",
+      "8",
+      "2"
+     ],
+     "answer": "5",
+     "hint": "2, 4, 6, 8, 10",
+     "explanation": "10 ÷ 2 = 5",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "friends": 2,
+      "each": 5
+     }
+    },
+    {
+     "id": "L5-div-w17d1-05",
+     "level": 5,
+     "topic": "division",
+     "type": "match",
+     "question": "",
+     "answer": "2 ÷ 2=1;4 ÷ 2=2;20 ÷ 2=10",
+     "hint": "Share equally",
+     "explanation": "2 ÷ 2 = 1, 4 ÷ 2 = 2, 20 ÷ 2 = 10",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "2 ÷ 2",
+       "1"
+      ],
+      [
+       "4 ÷ 2",
+       "2"
+      ],
+      [
+       "20 ÷ 2",
+       "10"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L4-mult-w12d5-05",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "match",
+     "question": "",
+     "answer": "11 × 5=55;12 × 9=108;11 × 10=110",
+     "hint": "Skip count",
+     "explanation": "11 × 5 = 55, 12 × 9 = 108, 11 × 10 = 110",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "11 × 5",
+       "55"
+      ],
+      [
+       "12 × 9",
+       "108"
+      ],
+      [
+       "11 × 10",
+       "110"
+      ]
+     ]
+    },
+    {
+     "id": "L4-mult-w13d3-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "multiple-choice",
+     "question": "15 × ? = 135",
+     "choices": [
+      "15",
+      "11",
+      "10",
+      "9"
+     ],
+     "answer": "9",
+     "hint": "15, 30, 45, 60, 75, 90, 105, 120, 135",
+     "explanation": "15 × 9 = 135",
+     "skills": [
+      "tables-missing"
+     ],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "key": "W17D2",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🎈",
+      "count": 16,
+      "friends": 2
+     },
+     "big": "16 ÷ 2 = ?",
+     "say": "16 shared by 2"
+    },
+    {
+     "pic": {
+      "icon": "🎈",
+      "friends": 2,
+      "each": 8
+     },
+     "big": "16 ÷ 2 = 8",
+     "say": "16 shared by 2 is 8 each"
+    },
+    {
+     "pic": {
+      "icon": "🎈",
+      "count": 12,
+      "friends": 2
+     },
+     "big": "12 ÷ 2 = ?",
+     "say": "12 shared by 2"
+    },
+    {
+     "pic": {
+      "icon": "🎈",
+      "friends": 2,
+      "each": 6
+     },
+     "big": "12 ÷ 2 = 6",
+     "say": "12 shared by 2 is 6 each"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L5-div-w17d1-01",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "18 ÷ 2 = ?",
+     "choices": [
+      "9",
+      "2",
+      "16",
+      "8"
+     ],
+     "answer": "9",
+     "hint": "2, 4, 6, 8, 10, 12, 14, 16, 18",
+     "explanation": "18 ÷ 2 = 9",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🍪",
+      "count": 18,
+      "friends": 2
+     },
+     "hintPic": {
+      "icon": "🍪",
+      "friends": 2,
+      "each": 9
+     }
+    },
+    {
+     "id": "L5-div-w17d1-04",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "10 ÷ 2 = ?",
+     "choices": [
+      "5",
+      "6",
+      "8",
+      "2"
+     ],
+     "answer": "5",
+     "hint": "2, 4, 6, 8, 10",
+     "explanation": "10 ÷ 2 = 5",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "friends": 2,
+      "each": 5
+     }
+    },
+    {
+     "id": "L5-div-w17d1-02",
+     "level": 5,
+     "topic": "division",
+     "type": "true-false",
+     "question": "6 ÷ 2 = 2",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "2, 4, 6",
+     "explanation": "6 ÷ 2 = 3",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "friends": 2,
+      "each": 3
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L5-div-w17d2-01",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "2 ÷ 2 = ?",
+     "choices": [
+      "2",
+      "3",
+      "1",
+      "4"
+     ],
+     "answer": "1",
+     "hint": "2",
+     "explanation": "2 ÷ 2 = 1",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🎈",
+      "count": 2,
+      "friends": 2
+     },
+     "hintPic": {
+      "icon": "🎈",
+      "friends": 2,
+      "each": 1
+     }
+    },
+    {
+     "id": "L5-div-w17d2-02",
+     "level": 5,
+     "topic": "division",
+     "type": "true-false",
+     "question": "12 ÷ 2 = 6",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "2, 4, 6, 8, 10, 12",
+     "explanation": "12 ÷ 2 = 6",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🎈",
+      "friends": 2,
+      "each": 6
+     }
+    },
+    {
+     "id": "L5-div-w17d2-03",
+     "level": 5,
+     "topic": "division",
+     "type": "pad",
+     "question": "18 ÷ 3 = ?",
+     "answer": "6",
+     "hint": "3, 6, 9, 12, 15, 18",
+     "explanation": "18 ÷ 3 = 6",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🎈",
+      "friends": 3,
+      "each": 6
+     }
+    },
+    {
+     "id": "L5-div-w17d2-04",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "10 ÷ 2 = ?",
+     "choices": [
+      "8",
+      "5",
+      "7",
+      "2"
+     ],
+     "answer": "5",
+     "hint": "2, 4, 6, 8, 10",
+     "explanation": "10 ÷ 2 = 5",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🎈",
+      "friends": 2,
+      "each": 5
+     }
+    },
+    {
+     "id": "L5-div-w17d2-05",
+     "level": 5,
+     "topic": "division",
+     "type": "match",
+     "question": "",
+     "answer": "6 ÷ 3=2;6 ÷ 2=3;8 ÷ 2=4",
+     "hint": "Share equally",
+     "explanation": "6 ÷ 3 = 2, 6 ÷ 2 = 3, 8 ÷ 2 = 4",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "6 ÷ 3",
+       "2"
+      ],
+      [
+       "6 ÷ 2",
+       "3"
+      ],
+      [
+       "8 ÷ 2",
+       "4"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L4-mult-w12d4-02",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "pad",
+     "question": "12 × 4 = ?",
+     "answer": "48",
+     "hint": "12, 24, 36, 48",
+     "explanation": "12 × 4 = 48",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2
+    },
+    {
+     "id": "L1-words-w02d5-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "1 = three",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "1",
+     "explanation": "1 = one",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 3,
+     "say": "three",
+     "hintPic": {
+      "icon": "🍎",
+      "count": 1
+     }
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "key": "W17D3",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🪁",
+      "count": 20,
+      "friends": 5
+     },
+     "big": "20 ÷ 5 = ?",
+     "say": "20 shared by 5"
+    },
+    {
+     "pic": {
+      "icon": "🪁",
+      "friends": 5,
+      "each": 4
+     },
+     "big": "20 ÷ 5 = 4",
+     "say": "20 shared by 5 is 4 each"
+    },
+    {
+     "pic": {
+      "icon": "🪁",
+      "count": 16,
+      "friends": 4
+     },
+     "big": "16 ÷ 4 = ?",
+     "say": "16 shared by 4"
+    },
+    {
+     "pic": {
+      "icon": "🪁",
+      "friends": 4,
+      "each": 4
+     },
+     "big": "16 ÷ 4 = 4",
+     "say": "16 shared by 4 is 4 each"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L5-div-w17d2-04",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "10 ÷ 2 = ?",
+     "choices": [
+      "8",
+      "5",
+      "7",
+      "2"
+     ],
+     "answer": "5",
+     "hint": "2, 4, 6, 8, 10",
+     "explanation": "10 ÷ 2 = 5",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🎈",
+      "friends": 2,
+      "each": 5
+     }
+    },
+    {
+     "id": "L5-div-w17d2-03",
+     "level": 5,
+     "topic": "division",
+     "type": "pad",
+     "question": "18 ÷ 3 = ?",
+     "answer": "6",
+     "hint": "3, 6, 9, 12, 15, 18",
+     "explanation": "18 ÷ 3 = 6",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🎈",
+      "friends": 3,
+      "each": 6
+     }
+    },
+    {
+     "id": "L5-div-w17d2-01",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "2 ÷ 2 = ?",
+     "choices": [
+      "2",
+      "3",
+      "1",
+      "4"
+     ],
+     "answer": "1",
+     "hint": "2",
+     "explanation": "2 ÷ 2 = 1",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🎈",
+      "count": 2,
+      "friends": 2
+     },
+     "hintPic": {
+      "icon": "🎈",
+      "friends": 2,
+      "each": 1
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L5-div-w17d3-01",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "15 ÷ 5 = ?",
+     "choices": [
+      "4",
+      "2",
+      "5",
+      "3"
+     ],
+     "answer": "3",
+     "hint": "5, 10, 15",
+     "explanation": "15 ÷ 5 = 3",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "pic": {
+      "icon": "🪁",
+      "count": 15,
+      "friends": 5
+     },
+     "hintPic": {
+      "icon": "🪁",
+      "friends": 5,
+      "each": 3
+     }
+    },
+    {
+     "id": "L5-div-w17d3-02",
+     "level": 5,
+     "topic": "division",
+     "type": "true-false",
+     "question": "12 ÷ 4 = 8",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "4, 8, 12",
+     "explanation": "12 ÷ 4 = 3",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "friends": 4,
+      "each": 3
+     }
+    },
+    {
+     "id": "L5-div-w17d3-03",
+     "level": 5,
+     "topic": "division",
+     "type": "pad",
+     "question": "16 ÷ 4 = ?",
+     "answer": "4",
+     "hint": "4, 8, 12, 16",
+     "explanation": "16 ÷ 4 = 4",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "friends": 4,
+      "each": 4
+     }
+    },
+    {
+     "id": "L5-div-w17d3-04",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "10 ÷ 5 = ?",
+     "choices": [
+      "2",
+      "1",
+      "4",
+      "3"
+     ],
+     "answer": "2",
+     "hint": "5, 10",
+     "explanation": "10 ÷ 5 = 2",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "friends": 5,
+      "each": 2
+     }
+    },
+    {
+     "id": "L5-div-w17d3-05",
+     "level": 5,
+     "topic": "division",
+     "type": "match",
+     "question": "",
+     "answer": "8 ÷ 4=2;20 ÷ 5=4;20 ÷ 4=5",
+     "hint": "Share equally",
+     "explanation": "8 ÷ 4 = 2, 20 ÷ 5 = 4, 20 ÷ 4 = 5",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "8 ÷ 4",
+       "2"
+      ],
+      [
+       "20 ÷ 5",
+       "4"
+      ],
+      [
+       "20 ÷ 4",
+       "5"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L4-mult-w14d3-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "18 × 5 = 90",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "18, 36, 54, 72, 90",
+     "explanation": "18 × 5 = 90",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2
+    },
+    {
+     "id": "L1-words-w03d2-01",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "50",
+     "choices": [
+      "fifty",
+      "forty",
+      "thirty",
+      "fifteen"
+     ],
+     "answer": "fifty",
+     "hint": "10 20 30 40 50",
+     "explanation": "50 = fifty",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 1,
+     "say": "fifty",
+     "hintPic": {
+      "icon": "🔟",
+      "count": 5
+     }
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "key": "W17D4",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "⭐",
+      "count": 15,
+      "friends": 5
+     },
+     "big": "15 ÷ 5 = ?",
+     "say": "15 shared by 5"
+    },
+    {
+     "pic": {
+      "icon": "⭐",
+      "friends": 5,
+      "each": 3
+     },
+     "big": "15 ÷ 5 = 3",
+     "say": "15 shared by 5 is 3 each"
+    },
+    {
+     "pic": {
+      "icon": "⭐",
+      "count": 3,
+      "friends": 3
+     },
+     "big": "3 ÷ 3 = ?",
+     "say": "3 shared by 3"
+    },
+    {
+     "pic": {
+      "icon": "⭐",
+      "friends": 3,
+      "each": 1
+     },
+     "big": "3 ÷ 3 = 1",
+     "say": "3 shared by 3 is 1 each"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L5-div-w17d3-04",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "10 ÷ 5 = ?",
+     "choices": [
+      "2",
+      "1",
+      "4",
+      "3"
+     ],
+     "answer": "2",
+     "hint": "5, 10",
+     "explanation": "10 ÷ 5 = 2",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "friends": 5,
+      "each": 2
+     }
+    },
+    {
+     "id": "L5-div-w17d3-02",
+     "level": 5,
+     "topic": "division",
+     "type": "true-false",
+     "question": "12 ÷ 4 = 8",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "4, 8, 12",
+     "explanation": "12 ÷ 4 = 3",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "friends": 4,
+      "each": 3
+     }
+    },
+    {
+     "id": "L5-div-w17d3-01",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "15 ÷ 5 = ?",
+     "choices": [
+      "4",
+      "2",
+      "5",
+      "3"
+     ],
+     "answer": "3",
+     "hint": "5, 10, 15",
+     "explanation": "15 ÷ 5 = 3",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "pic": {
+      "icon": "🪁",
+      "count": 15,
+      "friends": 5
+     },
+     "hintPic": {
+      "icon": "🪁",
+      "friends": 5,
+      "each": 3
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L5-div-w17d4-01",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "6 ÷ 2 = ?",
+     "choices": [
+      "2",
+      "3",
+      "1",
+      "4"
+     ],
+     "answer": "3",
+     "hint": "2, 4, 6",
+     "explanation": "6 ÷ 2 = 3",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "pic": {
+      "icon": "⭐",
+      "count": 6,
+      "friends": 2
+     },
+     "hintPic": {
+      "icon": "⭐",
+      "friends": 2,
+      "each": 3
+     }
+    },
+    {
+     "id": "L5-div-w17d4-02",
+     "level": 5,
+     "topic": "division",
+     "type": "pad",
+     "question": "12 ÷ 4 = ?",
+     "answer": "3",
+     "hint": "4, 8, 12",
+     "explanation": "12 ÷ 4 = 3",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "⭐",
+      "friends": 4,
+      "each": 3
+     }
+    },
+    {
+     "id": "L5-div-w17d4-03",
+     "level": 5,
+     "topic": "division",
+     "type": "true-false",
+     "question": "14 ÷ 2 = 6",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "2, 4, 6, 8, 10, 12, 14",
+     "explanation": "14 ÷ 2 = 7",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "⭐",
+      "friends": 2,
+      "each": 7
+     }
+    },
+    {
+     "id": "L5-div-w17d4-04",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "4 ÷ ? = 2",
+     "choices": [
+      "1",
+      "3",
+      "2",
+      "4"
+     ],
+     "answer": "2",
+     "hint": "2, 4",
+     "explanation": "4 ÷ 2 = 2",
+     "skills": [
+      "division-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L5-div-w17d4-05",
+     "level": 5,
+     "topic": "division",
+     "type": "match",
+     "question": "",
+     "answer": "10 ÷ 5=2;16 ÷ 4=4;20 ÷ 4=5",
+     "hint": "Share equally",
+     "explanation": "10 ÷ 5 = 2, 16 ÷ 4 = 4, 20 ÷ 4 = 5",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "10 ÷ 5",
+       "2"
+      ],
+      [
+       "16 ÷ 4",
+       "4"
+      ],
+      [
+       "20 ÷ 4",
+       "5"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L4-mult-w09d1-05",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "match",
+     "question": "",
+     "answer": "3 × 2=6;3 × 5=15;3 × 10=30",
+     "hint": "Skip count",
+     "explanation": "3 × 2 = 6, 3 × 5 = 15, 3 × 10 = 30",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "3 × 2",
+       "6"
+      ],
+      [
+       "3 × 5",
+       "15"
+      ],
+      [
+       "3 × 10",
+       "30"
+      ]
+     ]
+    },
+    {
+     "id": "L2-add-w04d5-04",
+     "level": 2,
+     "topic": "addition",
+     "type": "multiple-choice",
+     "question": "1 + ? = 10",
+     "choices": [
+      "10",
+      "9",
+      "11",
+      "1"
+     ],
+     "answer": "9",
+     "hint": "1 2 3 4 5 6 7 8 9 10",
+     "explanation": "1 + 9 = 10",
+     "skills": [
+      "addition-missing"
+     ],
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "key": "W17D5",
+   "boss": true,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🍬",
+      "count": 15,
+      "friends": 3
+     },
+     "big": "15 ÷ 3 = ?",
+     "say": "15 shared by 3"
+    },
+    {
+     "pic": {
+      "icon": "🍬",
+      "friends": 3,
+      "each": 5
+     },
+     "big": "15 ÷ 3 = 5",
+     "say": "15 shared by 3 is 5 each"
+    },
+    {
+     "pic": {
+      "icon": "🍬",
+      "count": 18,
+      "friends": 2
+     },
+     "big": "18 ÷ 2 = ?",
+     "say": "18 shared by 2"
+    },
+    {
+     "pic": {
+      "icon": "🍬",
+      "friends": 2,
+      "each": 9
+     },
+     "big": "18 ÷ 2 = 9",
+     "say": "18 shared by 2 is 9 each"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L5-div-w17d4-01",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "6 ÷ 2 = ?",
+     "choices": [
+      "2",
+      "3",
+      "1",
+      "4"
+     ],
+     "answer": "3",
+     "hint": "2, 4, 6",
+     "explanation": "6 ÷ 2 = 3",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "pic": {
+      "icon": "⭐",
+      "count": 6,
+      "friends": 2
+     },
+     "hintPic": {
+      "icon": "⭐",
+      "friends": 2,
+      "each": 3
+     }
+    },
+    {
+     "id": "L5-div-w17d4-02",
+     "level": 5,
+     "topic": "division",
+     "type": "pad",
+     "question": "12 ÷ 4 = ?",
+     "answer": "3",
+     "hint": "4, 8, 12",
+     "explanation": "12 ÷ 4 = 3",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "⭐",
+      "friends": 4,
+      "each": 3
+     }
+    },
+    {
+     "id": "L5-div-w17d4-04",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "4 ÷ ? = 2",
+     "choices": [
+      "1",
+      "3",
+      "2",
+      "4"
+     ],
+     "answer": "2",
+     "hint": "2, 4",
+     "explanation": "4 ÷ 2 = 2",
+     "skills": [
+      "division-missing"
+     ],
+     "difficulty": 3
+    }
+   ],
+   "practice": [
+    {
+     "id": "L5-div-w17d5-01",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "20 ÷ 2 = ?",
+     "choices": [
+      "11",
+      "10",
+      "18",
+      "9"
+     ],
+     "answer": "10",
+     "hint": "2, 4, 6, 8, 10, 12, 14, 16, 18, 20",
+     "explanation": "20 ÷ 2 = 10",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 3,
+     "pic": {
+      "icon": "🍬",
+      "count": 20,
+      "friends": 2
+     },
+     "hintPic": {
+      "icon": "🍬",
+      "friends": 2,
+      "each": 10
+     }
+    },
+    {
+     "id": "L5-div-w17d5-02",
+     "level": 5,
+     "topic": "division",
+     "type": "pad",
+     "question": "12 ÷ 2 = ?",
+     "answer": "6",
+     "hint": "2, 4, 6, 8, 10, 12",
+     "explanation": "12 ÷ 2 = 6",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 3,
+     "hintPic": {
+      "icon": "🍬",
+      "friends": 2,
+      "each": 6
+     }
+    },
+    {
+     "id": "L5-div-w17d5-03",
+     "level": 5,
+     "topic": "division",
+     "type": "multiple-choice",
+     "question": "10 ÷ ? = 5",
+     "choices": [
+      "1",
+      "2",
+      "4",
+      "5"
+     ],
+     "answer": "2",
+     "hint": "2, 4, 6, 8, 10",
+     "explanation": "10 ÷ 2 = 5",
+     "skills": [
+      "division-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L5-div-w17d5-04",
+     "level": 5,
+     "topic": "division",
+     "type": "true-false",
+     "question": "20 ÷ 4 = 16",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "4, 8, 12, 16, 20",
+     "explanation": "20 ÷ 4 = 5",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 3,
+     "hintPic": {
+      "icon": "🍬",
+      "friends": 4,
+      "each": 5
+     }
+    },
+    {
+     "id": "L5-div-w17d5-05",
+     "level": 5,
+     "topic": "division",
+     "type": "match",
+     "question": "",
+     "answer": "4 ÷ 2=2;12 ÷ 4=3;18 ÷ 3=6",
+     "hint": "Share equally",
+     "explanation": "4 ÷ 2 = 2, 12 ÷ 4 = 3, 18 ÷ 3 = 6",
+     "skills": [
+      "division"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "4 ÷ 2",
+       "2"
+      ],
+      [
+       "12 ÷ 4",
+       "3"
+      ],
+      [
+       "18 ÷ 3",
+       "6"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L4-mult-w15d1-03",
+     "level": 4,
+     "topic": "multiplication",
+     "type": "true-false",
+     "question": "19 × 9 = 28",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "19, 38, 57, 76, 95, 114, 133, 152, 171",
+     "explanation": "19 × 9 = 171",
+     "skills": [
+      "tables"
+     ],
+     "difficulty": 1
+    },
+    {
+     "id": "L1-words-w01d5-04",
+     "level": 1,
+     "topic": "number-words",
+     "type": "true-false",
+     "question": "8 = eight",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "1 2 3 4 5 6 7 8",
+     "explanation": "8 = eight",
+     "skills": [
+      "number-to-word"
+     ],
+     "difficulty": 3,
+     "say": "eight",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 8
+     }
+    }
+   ]
+  }
+ ]
+}

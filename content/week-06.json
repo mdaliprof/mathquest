@@ -1,0 +1,1472 @@
+{
+ "week": 6,
+ "phase": "sub",
+ "icon": "🌙",
+ "title": "Subtract within 10",
+ "days": [
+  {
+   "day": 1,
+   "key": "W06D1",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🍎",
+      "count": 4,
+      "cross": 1
+     },
+     "big": "4 − 1 = ?",
+     "say": "4 minus 1"
+    },
+    {
+     "pic": {
+      "icon": "🍎",
+      "count": 4,
+      "cross": 1
+     },
+     "big": "4 − 1 = 3",
+     "say": "4 minus 1 is 3"
+    },
+    {
+     "pic": {
+      "icon": "🍎",
+      "count": 5,
+      "cross": 3
+     },
+     "big": "5 − 3 = ?",
+     "say": "5 minus 3"
+    },
+    {
+     "pic": {
+      "icon": "🍎",
+      "count": 5,
+      "cross": 3
+     },
+     "big": "5 − 3 = 2",
+     "say": "5 minus 3 is 2"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L2-add-w05d5-01",
+     "level": 2,
+     "topic": "addition",
+     "type": "multiple-choice",
+     "question": "16 + 4 = ?",
+     "choices": [
+      "20",
+      "19",
+      "16",
+      "18"
+     ],
+     "answer": "20",
+     "hint": "16 17 18 19 20",
+     "explanation": "16 + 4 = 20",
+     "skills": [
+      "addition"
+     ],
+     "difficulty": 3,
+     "hintPic": {
+      "icon": "🍪",
+      "groups": [
+       16,
+       4
+      ],
+      "op": "+"
+     }
+    },
+    {
+     "id": "L2-add-w05d5-02",
+     "level": 2,
+     "topic": "addition",
+     "type": "true-false",
+     "question": "8 + 5 = 8",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "8 9 10 11 12 13",
+     "explanation": "8 + 5 = 13",
+     "skills": [
+      "addition"
+     ],
+     "difficulty": 3,
+     "hintPic": {
+      "icon": "🍪",
+      "groups": [
+       8,
+       5
+      ],
+      "op": "+"
+     }
+    },
+    {
+     "id": "L2-add-w05d5-04",
+     "level": 2,
+     "topic": "addition",
+     "type": "multiple-choice",
+     "question": "13 + ? = 15",
+     "choices": [
+      "2",
+      "1",
+      "13",
+      "3"
+     ],
+     "answer": "2",
+     "hint": "13 14 15",
+     "explanation": "13 + 2 = 15",
+     "skills": [
+      "addition-missing"
+     ],
+     "difficulty": 3
+    }
+   ],
+   "practice": [
+    {
+     "id": "L3-sub-w06d1-01",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "5 − 4 = ?",
+     "choices": [
+      "0",
+      "3",
+      "9",
+      "1"
+     ],
+     "answer": "1",
+     "hint": "5 4 3 2 1",
+     "explanation": "5 − 4 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🍎",
+      "count": 5,
+      "cross": 4
+     },
+     "hintPic": {
+      "icon": "🍎",
+      "count": 5,
+      "cross": 4
+     }
+    },
+    {
+     "id": "L3-sub-w06d1-02",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "2 − 1 = ?",
+     "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     "answer": "1",
+     "hint": "2 1",
+     "explanation": "2 − 1 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍎",
+      "count": 2,
+      "cross": 1
+     }
+    },
+    {
+     "id": "L3-sub-w06d1-03",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "pad",
+     "question": "4 − 3 = ?",
+     "answer": "1",
+     "hint": "4 3 2 1",
+     "explanation": "4 − 3 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍎",
+      "count": 4,
+      "cross": 3
+     }
+    },
+    {
+     "id": "L3-sub-w06d1-04",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "true-false",
+     "question": "4 − 2 = 3",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "4 3 2",
+     "explanation": "4 − 2 = 2",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍎",
+      "count": 4,
+      "cross": 2
+     }
+    },
+    {
+     "id": "L3-sub-w06d1-05",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "match",
+     "question": "",
+     "answer": "3 − 2=1;4 − 1=3;5 − 1=4",
+     "hint": "Take away",
+     "explanation": "3 − 2 = 1, 4 − 1 = 3, 5 − 1 = 4",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "3 − 2",
+       "1"
+      ],
+      [
+       "4 − 1",
+       "3"
+      ],
+      [
+       "5 − 1",
+       "4"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L1-words-w01d5-03",
+     "level": 1,
+     "topic": "number-words",
+     "type": "pad",
+     "question": "three",
+     "answer": "3",
+     "hint": "1 2 3",
+     "explanation": "three = 3",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 3,
+     "say": "three",
+     "hintPic": {
+      "icon": "🍬",
+      "count": 3
+     }
+    },
+    {
+     "id": "L1-words-w03d3-01",
+     "level": 1,
+     "topic": "number-words",
+     "type": "multiple-choice",
+     "question": "seventy",
+     "choices": [
+      "69",
+      "80",
+      "71",
+      "70"
+     ],
+     "answer": "70",
+     "hint": "10 20 30 40 50 60 70",
+     "explanation": "seventy = 70",
+     "skills": [
+      "word-to-number"
+     ],
+     "difficulty": 2,
+     "say": "seventy",
+     "hintPic": {
+      "icon": "🔟",
+      "count": 7
+     }
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "key": "W06D2",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🍪",
+      "count": 7,
+      "cross": 5
+     },
+     "big": "7 − 5 = ?",
+     "say": "7 minus 5"
+    },
+    {
+     "pic": {
+      "icon": "🍪",
+      "count": 7,
+      "cross": 5
+     },
+     "big": "7 − 5 = 2",
+     "say": "7 minus 5 is 2"
+    },
+    {
+     "pic": {
+      "icon": "🍪",
+      "count": 7,
+      "cross": 3
+     },
+     "big": "7 − 3 = ?",
+     "say": "7 minus 3"
+    },
+    {
+     "pic": {
+      "icon": "🍪",
+      "count": 7,
+      "cross": 3
+     },
+     "big": "7 − 3 = 4",
+     "say": "7 minus 3 is 4"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L3-sub-w06d1-04",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "true-false",
+     "question": "4 − 2 = 3",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "4 3 2",
+     "explanation": "4 − 2 = 2",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍎",
+      "count": 4,
+      "cross": 2
+     }
+    },
+    {
+     "id": "L3-sub-w06d1-02",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "2 − 1 = ?",
+     "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     "answer": "1",
+     "hint": "2 1",
+     "explanation": "2 − 1 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍎",
+      "count": 2,
+      "cross": 1
+     }
+    },
+    {
+     "id": "L3-sub-w06d1-01",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "5 − 4 = ?",
+     "choices": [
+      "0",
+      "3",
+      "9",
+      "1"
+     ],
+     "answer": "1",
+     "hint": "5 4 3 2 1",
+     "explanation": "5 − 4 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🍎",
+      "count": 5,
+      "cross": 4
+     },
+     "hintPic": {
+      "icon": "🍎",
+      "count": 5,
+      "cross": 4
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L3-sub-w06d2-01",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "5 − 1 = ?",
+     "choices": [
+      "5",
+      "4",
+      "3",
+      "2"
+     ],
+     "answer": "4",
+     "hint": "5 4",
+     "explanation": "5 − 1 = 4",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🍪",
+      "count": 5,
+      "cross": 1
+     },
+     "hintPic": {
+      "icon": "🍪",
+      "count": 5,
+      "cross": 1
+     }
+    },
+    {
+     "id": "L3-sub-w06d2-02",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "true-false",
+     "question": "5 − 4 = 1",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "5 4 3 2 1",
+     "explanation": "5 − 4 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "count": 5,
+      "cross": 4
+     }
+    },
+    {
+     "id": "L3-sub-w06d2-03",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "2 − 1 = ?",
+     "choices": [
+      "1",
+      "0",
+      "3",
+      "2"
+     ],
+     "answer": "1",
+     "hint": "2 1",
+     "explanation": "2 − 1 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "count": 2,
+      "cross": 1
+     }
+    },
+    {
+     "id": "L3-sub-w06d2-04",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "pad",
+     "question": "3 − 2 = ?",
+     "answer": "1",
+     "hint": "3 2 1",
+     "explanation": "3 − 2 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "count": 3,
+      "cross": 2
+     }
+    },
+    {
+     "id": "L3-sub-w06d2-05",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "match",
+     "question": "",
+     "answer": "7 − 6=1;4 − 2=2;6 − 3=3",
+     "hint": "Take away",
+     "explanation": "7 − 6 = 1, 4 − 2 = 2, 6 − 3 = 3",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "7 − 6",
+       "1"
+      ],
+      [
+       "4 − 2",
+       "2"
+      ],
+      [
+       "6 − 3",
+       "3"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L2-add-w05d4-03",
+     "level": 2,
+     "topic": "addition",
+     "type": "true-false",
+     "question": "6 + 8 = 14",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "6 7 8 9 10 11 12 13 14",
+     "explanation": "6 + 8 = 14",
+     "skills": [
+      "addition"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🍎",
+      "groups": [
+       6,
+       8
+      ],
+      "op": "+"
+     }
+    },
+    {
+     "id": "L2-add-w05d5-05",
+     "level": 2,
+     "topic": "addition",
+     "type": "match",
+     "question": "",
+     "answer": "3 + 11=14;10 + 6=16;5 + 13=18",
+     "hint": "Add each one",
+     "explanation": "3 + 11 = 14, 10 + 6 = 16, 5 + 13 = 18",
+     "skills": [
+      "addition"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "3 + 11",
+       "14"
+      ],
+      [
+       "10 + 6",
+       "16"
+      ],
+      [
+       "5 + 13",
+       "18"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "key": "W06D3",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🎈",
+      "count": 9,
+      "cross": 1
+     },
+     "big": "9 − 1 = ?",
+     "say": "9 minus 1"
+    },
+    {
+     "pic": {
+      "icon": "🎈",
+      "count": 9,
+      "cross": 1
+     },
+     "big": "9 − 1 = 8",
+     "say": "9 minus 1 is 8"
+    },
+    {
+     "pic": {
+      "icon": "🎈",
+      "count": 4,
+      "cross": 3
+     },
+     "big": "4 − 3 = ?",
+     "say": "4 minus 3"
+    },
+    {
+     "pic": {
+      "icon": "🎈",
+      "count": 4,
+      "cross": 3
+     },
+     "big": "4 − 3 = 1",
+     "say": "4 minus 3 is 1"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L3-sub-w06d2-02",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "true-false",
+     "question": "5 − 4 = 1",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "5 4 3 2 1",
+     "explanation": "5 − 4 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "count": 5,
+      "cross": 4
+     }
+    },
+    {
+     "id": "L3-sub-w06d2-04",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "pad",
+     "question": "3 − 2 = ?",
+     "answer": "1",
+     "hint": "3 2 1",
+     "explanation": "3 − 2 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "hintPic": {
+      "icon": "🍪",
+      "count": 3,
+      "cross": 2
+     }
+    },
+    {
+     "id": "L3-sub-w06d2-01",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "5 − 1 = ?",
+     "choices": [
+      "5",
+      "4",
+      "3",
+      "2"
+     ],
+     "answer": "4",
+     "hint": "5 4",
+     "explanation": "5 − 1 = 4",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🍪",
+      "count": 5,
+      "cross": 1
+     },
+     "hintPic": {
+      "icon": "🍪",
+      "count": 5,
+      "cross": 1
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L3-sub-w06d3-01",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "5 − 2 = ?",
+     "choices": [
+      "2",
+      "4",
+      "3",
+      "1"
+     ],
+     "answer": "3",
+     "hint": "5 4 3",
+     "explanation": "5 − 2 = 3",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🎈",
+      "count": 5,
+      "cross": 2
+     }
+    },
+    {
+     "id": "L3-sub-w06d3-02",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "pad",
+     "question": "7 − 2 = ?",
+     "answer": "5",
+     "hint": "7 6 5",
+     "explanation": "7 − 2 = 5",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🎈",
+      "count": 7,
+      "cross": 2
+     }
+    },
+    {
+     "id": "L3-sub-w06d3-03",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "6 − ? = 3",
+     "choices": [
+      "3",
+      "4",
+      "6",
+      "5"
+     ],
+     "answer": "3",
+     "hint": "6 5 4 3",
+     "explanation": "6 − 3 = 3",
+     "skills": [
+      "subtraction-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L3-sub-w06d3-04",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "true-false",
+     "question": "8 − 1 = 7",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "8 7",
+     "explanation": "8 − 1 = 7",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🎈",
+      "count": 8,
+      "cross": 1
+     }
+    },
+    {
+     "id": "L3-sub-w06d3-05",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "match",
+     "question": "",
+     "answer": "8 − 6=2;4 − 1=3;7 − 1=6",
+     "hint": "Take away",
+     "explanation": "8 − 6 = 2, 4 − 1 = 3, 7 − 1 = 6",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "8 − 6",
+       "2"
+      ],
+      [
+       "4 − 1",
+       "3"
+      ],
+      [
+       "7 − 1",
+       "6"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L2-add-w05d2-05",
+     "level": 2,
+     "topic": "addition",
+     "type": "match",
+     "question": "",
+     "answer": "6 + 6=12;6 + 7=13;9 + 9=18",
+     "hint": "Add each one",
+     "explanation": "6 + 6 = 12, 6 + 7 = 13, 9 + 9 = 18",
+     "skills": [
+      "addition"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "6 + 6",
+       "12"
+      ],
+      [
+       "6 + 7",
+       "13"
+      ],
+      [
+       "9 + 9",
+       "18"
+      ]
+     ]
+    },
+    {
+     "id": "L1-words-w01d4-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "5=five;8=eight;9=nine",
+     "hint": "Tap 🔊",
+     "explanation": "5 = five, 8 = eight, 9 = nine",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "5",
+       "five"
+      ],
+      [
+       "8",
+       "eight"
+      ],
+      [
+       "9",
+       "nine"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "key": "W06D4",
+   "boss": false,
+   "learn": [
+    {
+     "pic": {
+      "icon": "🪁",
+      "count": 4,
+      "cross": 3
+     },
+     "big": "4 − 3 = ?",
+     "say": "4 minus 3"
+    },
+    {
+     "pic": {
+      "icon": "🪁",
+      "count": 4,
+      "cross": 3
+     },
+     "big": "4 − 3 = 1",
+     "say": "4 minus 3 is 1"
+    },
+    {
+     "pic": {
+      "icon": "🪁",
+      "count": 9,
+      "cross": 2
+     },
+     "big": "9 − 2 = ?",
+     "say": "9 minus 2"
+    },
+    {
+     "pic": {
+      "icon": "🪁",
+      "count": 9,
+      "cross": 2
+     },
+     "big": "9 − 2 = 7",
+     "say": "9 minus 2 is 7"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L3-sub-w06d3-03",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "6 − ? = 3",
+     "choices": [
+      "3",
+      "4",
+      "6",
+      "5"
+     ],
+     "answer": "3",
+     "hint": "6 5 4 3",
+     "explanation": "6 − 3 = 3",
+     "skills": [
+      "subtraction-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L3-sub-w06d3-02",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "pad",
+     "question": "7 − 2 = ?",
+     "answer": "5",
+     "hint": "7 6 5",
+     "explanation": "7 − 2 = 5",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🎈",
+      "count": 7,
+      "cross": 2
+     }
+    },
+    {
+     "id": "L3-sub-w06d3-04",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "true-false",
+     "question": "8 − 1 = 7",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "8 7",
+     "explanation": "8 − 1 = 7",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🎈",
+      "count": 8,
+      "cross": 1
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L3-sub-w06d4-01",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "6 − 5 = ?",
+     "choices": [
+      "2",
+      "5",
+      "1",
+      "0"
+     ],
+     "answer": "1",
+     "hint": "6 5 4 3 2 1",
+     "explanation": "6 − 5 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "count": 6,
+      "cross": 5
+     }
+    },
+    {
+     "id": "L3-sub-w06d4-02",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "true-false",
+     "question": "9 − 2 = 8",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "hint": "9 8 7",
+     "explanation": "9 − 2 = 7",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "count": 9,
+      "cross": 2
+     }
+    },
+    {
+     "id": "L3-sub-w06d4-03",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "10 − ? = 3",
+     "choices": [
+      "10",
+      "9",
+      "7",
+      "3"
+     ],
+     "answer": "7",
+     "hint": "10 9 8 7 6 5 4 3",
+     "explanation": "10 − 7 = 3",
+     "skills": [
+      "subtraction-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L3-sub-w06d4-04",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "pad",
+     "question": "8 − 1 = ?",
+     "answer": "7",
+     "hint": "8 7",
+     "explanation": "8 − 1 = 7",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "count": 8,
+      "cross": 1
+     }
+    },
+    {
+     "id": "L3-sub-w06d4-05",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "match",
+     "question": "",
+     "answer": "8 − 7=1;10 − 4=6;9 − 1=8",
+     "hint": "Take away",
+     "explanation": "8 − 7 = 1, 10 − 4 = 6, 9 − 1 = 8",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "8 − 7",
+       "1"
+      ],
+      [
+       "10 − 4",
+       "6"
+      ],
+      [
+       "9 − 1",
+       "8"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L1-words-w01d2-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "4=four;5=five;6=six",
+     "hint": "Tap 🔊",
+     "explanation": "4 = four, 5 = five, 6 = six",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 2,
+     "pairs": [
+      [
+       "4",
+       "four"
+      ],
+      [
+       "5",
+       "five"
+      ],
+      [
+       "6",
+       "six"
+      ]
+     ]
+    },
+    {
+     "id": "L1-words-w02d4-05",
+     "level": 1,
+     "topic": "number-words",
+     "type": "match",
+     "question": "",
+     "answer": "13=thirteen;16=sixteen;19=nineteen",
+     "hint": "Tap 🔊",
+     "explanation": "13 = thirteen, 16 = sixteen, 19 = nineteen",
+     "skills": [
+      "number-word-match"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "13",
+       "thirteen"
+      ],
+      [
+       "16",
+       "sixteen"
+      ],
+      [
+       "19",
+       "nineteen"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "key": "W06D5",
+   "boss": true,
+   "learn": [
+    {
+     "pic": {
+      "icon": "⭐",
+      "count": 8,
+      "cross": 6
+     },
+     "big": "8 − 6 = ?",
+     "say": "8 minus 6"
+    },
+    {
+     "pic": {
+      "icon": "⭐",
+      "count": 8,
+      "cross": 6
+     },
+     "big": "8 − 6 = 2",
+     "say": "8 minus 6 is 2"
+    },
+    {
+     "pic": {
+      "icon": "⭐",
+      "count": 10,
+      "cross": 5
+     },
+     "big": "10 − 5 = ?",
+     "say": "10 minus 5"
+    },
+    {
+     "pic": {
+      "icon": "⭐",
+      "count": 10,
+      "cross": 5
+     },
+     "big": "10 − 5 = 5",
+     "say": "10 minus 5 is 5"
+    }
+   ],
+   "warmup": [
+    {
+     "id": "L3-sub-w06d4-04",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "pad",
+     "question": "8 − 1 = ?",
+     "answer": "7",
+     "hint": "8 7",
+     "explanation": "8 − 1 = 7",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "count": 8,
+      "cross": 1
+     }
+    },
+    {
+     "id": "L3-sub-w06d4-03",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "10 − ? = 3",
+     "choices": [
+      "10",
+      "9",
+      "7",
+      "3"
+     ],
+     "answer": "7",
+     "hint": "10 9 8 7 6 5 4 3",
+     "explanation": "10 − 7 = 3",
+     "skills": [
+      "subtraction-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L3-sub-w06d4-01",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "6 − 5 = ?",
+     "choices": [
+      "2",
+      "5",
+      "1",
+      "0"
+     ],
+     "answer": "1",
+     "hint": "6 5 4 3 2 1",
+     "explanation": "6 − 5 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 2,
+     "hintPic": {
+      "icon": "🪁",
+      "count": 6,
+      "cross": 5
+     }
+    }
+   ],
+   "practice": [
+    {
+     "id": "L3-sub-w06d5-01",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "6 − 5 = ?",
+     "choices": [
+      "11",
+      "0",
+      "1",
+      "5"
+     ],
+     "answer": "1",
+     "hint": "6 5 4 3 2 1",
+     "explanation": "6 − 5 = 1",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 3,
+     "hintPic": {
+      "icon": "⭐",
+      "count": 6,
+      "cross": 5
+     }
+    },
+    {
+     "id": "L3-sub-w06d5-02",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "pad",
+     "question": "8 − 4 = ?",
+     "answer": "4",
+     "hint": "8 7 6 5 4",
+     "explanation": "8 − 4 = 4",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 3,
+     "hintPic": {
+      "icon": "⭐",
+      "count": 8,
+      "cross": 4
+     }
+    },
+    {
+     "id": "L3-sub-w06d5-03",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "multiple-choice",
+     "question": "10 − ? = 9",
+     "choices": [
+      "1",
+      "0",
+      "2",
+      "9"
+     ],
+     "answer": "1",
+     "hint": "10 9",
+     "explanation": "10 − 1 = 9",
+     "skills": [
+      "subtraction-missing"
+     ],
+     "difficulty": 3
+    },
+    {
+     "id": "L3-sub-w06d5-04",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "true-false",
+     "question": "7 − 5 = 2",
+     "choices": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "hint": "7 6 5 4 3 2",
+     "explanation": "7 − 5 = 2",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 3,
+     "hintPic": {
+      "icon": "⭐",
+      "count": 7,
+      "cross": 5
+     }
+    },
+    {
+     "id": "L3-sub-w06d5-05",
+     "level": 3,
+     "topic": "subtraction",
+     "type": "match",
+     "question": "",
+     "answer": "9 − 7=2;7 − 2=5;10 − 3=7",
+     "hint": "Take away",
+     "explanation": "9 − 7 = 2, 7 − 2 = 5, 10 − 3 = 7",
+     "skills": [
+      "subtraction"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "9 − 7",
+       "2"
+      ],
+      [
+       "7 − 2",
+       "5"
+      ],
+      [
+       "10 − 3",
+       "7"
+      ]
+     ]
+    }
+   ],
+   "review": [
+    {
+     "id": "L2-add-w04d4-05",
+     "level": 2,
+     "topic": "addition",
+     "type": "match",
+     "question": "",
+     "answer": "3 + 1=4;1 + 4=5;5 + 1=6",
+     "hint": "Add each one",
+     "explanation": "3 + 1 = 4, 1 + 4 = 5, 5 + 1 = 6",
+     "skills": [
+      "addition"
+     ],
+     "difficulty": 3,
+     "pairs": [
+      [
+       "3 + 1",
+       "4"
+      ],
+      [
+       "1 + 4",
+       "5"
+      ],
+      [
+       "5 + 1",
+       "6"
+      ]
+     ]
+    },
+    {
+     "id": "L2-add-w05d1-01",
+     "level": 2,
+     "topic": "addition",
+     "type": "multiple-choice",
+     "question": "15 + 3 = ?",
+     "choices": [
+      "19",
+      "18",
+      "3",
+      "17"
+     ],
+     "answer": "18",
+     "hint": "15 16 17 18",
+     "explanation": "15 + 3 = 18",
+     "skills": [
+      "addition"
+     ],
+     "difficulty": 1,
+     "pic": {
+      "icon": "🍬",
+      "groups": [
+       15,
+       3
+      ],
+      "op": "+"
+     },
+     "hintPic": {
+      "icon": "🍬",
+      "groups": [
+       15,
+       3
+      ],
+      "op": "+"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "app": "mathquest",
+ "contentVersion": 1,
+ "weeks": [
+  {
+   "week": 1,
+   "file": "week-01.json",
+   "v": 1,
+   "phase": "words",
+   "phaseIcon": "🔤",
+   "icon": "🏖️",
+   "title": "Numbers 0 to 10",
+   "days": 5
+  },
+  {
+   "week": 2,
+   "file": "week-02.json",
+   "v": 1,
+   "phase": "words",
+   "phaseIcon": "🔤",
+   "icon": "🌴",
+   "title": "Numbers 11 to 20",
+   "days": 5
+  },
+  {
+   "week": 3,
+   "file": "week-03.json",
+   "v": 1,
+   "phase": "words",
+   "phaseIcon": "🔤",
+   "icon": "🏞️",
+   "title": "Tens up to 100",
+   "days": 5
+  },
+  {
+   "week": 4,
+   "file": "week-04.json",
+   "v": 1,
+   "phase": "add",
+   "phaseIcon": "➕",
+   "icon": "🚂",
+   "title": "Add within 10",
+   "days": 5
+  },
+  {
+   "week": 5,
+   "file": "week-05.json",
+   "v": 1,
+   "phase": "add",
+   "phaseIcon": "➕",
+   "icon": "🚀",
+   "title": "Add within 20",
+   "days": 5
+  },
+  {
+   "week": 6,
+   "file": "week-06.json",
+   "v": 1,
+   "phase": "sub",
+   "phaseIcon": "➖",
+   "icon": "🌙",
+   "title": "Subtract within 10",
+   "days": 5
+  },
+  {
+   "week": 7,
+   "file": "week-07.json",
+   "v": 1,
+   "phase": "sub",
+   "phaseIcon": "➖",
+   "icon": "🪐",
+   "title": "Subtract within 20",
+   "days": 5
+  },
+  {
+   "week": 8,
+   "file": "week-08.json",
+   "v": 1,
+   "phase": "tables",
+   "phaseIcon": "✖️",
+   "icon": "🏰",
+   "title": "Tables 2, 5, 10",
+   "days": 5
+  },
+  {
+   "week": 9,
+   "file": "week-09.json",
+   "v": 1,
+   "phase": "tables",
+   "phaseIcon": "✖️",
+   "icon": "🌋",
+   "title": "Tables 3, 4",
+   "days": 5
+  },
+  {
+   "week": 10,
+   "file": "week-10.json",
+   "v": 1,
+   "phase": "tables",
+   "phaseIcon": "✖️",
+   "icon": "🏜️",
+   "title": "Tables 6, 7",
+   "days": 5
+  },
+  {
+   "week": 11,
+   "file": "week-11.json",
+   "v": 1,
+   "phase": "tables",
+   "phaseIcon": "✖️",
+   "icon": "⛵",
+   "title": "Tables 8, 9",
+   "days": 5
+  },
+  {
+   "week": 12,
+   "file": "week-12.json",
+   "v": 1,
+   "phase": "tables",
+   "phaseIcon": "✖️",
+   "icon": "🗻",
+   "title": "Tables 11, 12",
+   "days": 5
+  },
+  {
+   "week": 13,
+   "file": "week-13.json",
+   "v": 1,
+   "phase": "tables",
+   "phaseIcon": "✖️",
+   "icon": "🌆",
+   "title": "Tables 13, 14, 15",
+   "days": 5
+  },
+  {
+   "week": 14,
+   "file": "week-14.json",
+   "v": 1,
+   "phase": "tables",
+   "phaseIcon": "✖️",
+   "icon": "🎪",
+   "title": "Tables 16, 17, 18",
+   "days": 5
+  },
+  {
+   "week": 15,
+   "file": "week-15.json",
+   "v": 1,
+   "phase": "tables",
+   "phaseIcon": "✖️",
+   "icon": "🏝️",
+   "title": "Tables 19, 20",
+   "days": 5
+  },
+  {
+   "week": 16,
+   "file": "week-16.json",
+   "v": 1,
+   "phase": "tables",
+   "phaseIcon": "✖️",
+   "icon": "🐉",
+   "title": "Mixed tables (boss week)",
+   "days": 5
+  },
+  {
+   "week": 17,
+   "file": "week-17.json",
+   "v": 1,
+   "phase": "div",
+   "phaseIcon": "➗",
+   "icon": "🍰",
+   "title": "Sharing equally",
+   "days": 5
+  },
+  {
+   "week": 18,
+   "file": "week-18.json",
+   "v": 1,
+   "phase": "div",
+   "phaseIcon": "➗",
+   "icon": "🏆",
+   "title": "Division with tables",
+   "days": 5
+  }
+ ],
+ "phases": [
+  {
+   "id": "words",
+   "icon": "🔤",
+   "title": "Number words"
+  },
+  {
+   "id": "add",
+   "icon": "➕",
+   "title": "Addition"
+  },
+  {
+   "id": "sub",
+   "icon": "➖",
+   "title": "Subtraction"
+  },
+  {
+   "id": "tables",
+   "icon": "✖️",
+   "title": "Tables"
+  },
+  {
+   "id": "div",
+   "icon": "➗",
+   "title": "Division"
+  }
+ ]
+}
