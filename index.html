@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Math Quest</title>
+<meta name="description" content="Math Quest: a fun 15-minutes-a-day math course for kids. Works offline.">
+<meta name="theme-color" content="#14123a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Math Quest">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+
+<header id="topbar" class="topbar" hidden>
+  <button id="btn-home" class="icon-btn" type="button" aria-label="Home">🏠</button>
+  <nav id="stages" class="stages" aria-label="Steps"></nav>
+  <div class="stats">
+    <span id="stat-stars" class="chip" role="status" aria-label="Stars">⭐ 0</span>
+    <span id="stat-streak" class="chip" role="status" aria-label="Streak">🔥 0</span>
+    <button id="btn-sound" class="icon-btn" type="button" aria-label="Sound on" aria-pressed="true">🔊</button>
+    <button id="btn-parent" class="icon-btn" type="button" aria-label="For parents">👪</button>
+  </div>
+</header>
+
+<main id="app" tabindex="-1">
+  <noscript><p class="center">Math Quest needs JavaScript. 🦊</p></noscript>
+</main>
+
+<footer class="statusbar">
+  <span id="offline" class="chip" hidden></span>
+  <span id="update" class="chip" hidden></span>
+</footer>
+
+<script src="js/storage.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
