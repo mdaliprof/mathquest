@@ -317,8 +317,8 @@
     }
     var on = Store.settings().sound;
     var sb = $('#btn-sound');
-    sb.textContent = on ? '🔊' : '🔇';
-    sb.setAttribute('aria-label', on ? 'Sound on' : 'Sound off');
+    sb.textContent = on ? '🎵' : '🔇';
+    sb.setAttribute('aria-label', on ? 'Sound effects on' : 'Sound effects off');
     sb.setAttribute('aria-pressed', on ? 'true' : 'false');
   }
 
@@ -691,30 +691,59 @@
       .replace(/\+/g, ' plus ').replace(/=/g, ' equals ')
       .replace(/\?(?!\s*$)/g, ' what ')
       .replace(/\bA:/g, 'A,').replace(/\bB:/g, 'B,')
+      .replace(/\bkm\b/gi, ' kilometres ').replace(/\bm\b(?=\s*$|[\s.,?])/g, function (m, off, s) { return /\d\s*$/.test(s.slice(0, off)) ? ' metres' : m; })
+      .replace(/\bRs\.?\s*(\d+)/gi, '$1 rupees').replace(/(\d+)\s*p\b/g, '$1 paise')
+      .replace(/(\d+)\s*am\b/gi, '$1 A M').replace(/(\d+)\s*pm\b/gi, '$1 P M')
+      .replace(/(\d{1,2}):(\d{2})/g, function (m, hh, mm) { return mm === '00' ? hh + " o'clock" : hh + ' ' + (mm[0] === '0' ? 'oh ' + mm[1] : mm); })
+      .replace(/(\d+)\s*%/g, '$1 percent')
       .replace(/\s+/g, ' ').trim();
+    // a lone letter is said by its name, so "a" is not mumbled as "uh"
+    var LN = { a: 'ay', b: 'bee', c: 'see', d: 'dee', e: 'ee', f: 'eff', g: 'jee', h: 'aitch', i: 'eye', j: 'jay', k: 'kay', l: 'el', m: 'em', n: 'en', o: 'oh', p: 'pee', q: 'cue', r: 'ar', s: 'ess', t: 'tee', u: 'you', v: 'vee', w: 'double you', x: 'ex', y: 'why', z: 'zed' };
+    if (/^[A-Za-z]$/.test(t)) t = LN[t.toLowerCase()];
     return { text: t, hadPic: hadPic };
   }
-  function speakText(q) {
-    var parts = [];
+  // Pieces to read, in order. refs (optional) holds the on-screen buttons so each one can be lit up
+  // while it is spoken, and so the choices are read in the order the child sees them.
+  function speakSegs(q, refs) {
+    refs = refs || {};
+    var segs = [];
     var main = q.type === 'match' ? { text: 'Match each one with its partner.', hadPic: false } : speakable(q.say || q.question);
     if (q.type === 'tap-count') main = { text: 'Tap ' + q.target + ' pictures.', hadPic: false };
     if (q.type === 'order') main = { text: 'Tap the numbers from smallest to biggest.', hadPic: false };
-    if (main.text) { if (main.hadPic && !q.say) parts.push('Look at the pictures.'); parts.push(main.text); }
-    else if (main.hadPic) parts.push('Look at the pictures.');
-    else if (q.pic) parts.push('Look at the picture.');
+    var lead = [];
+    if (main.text) { if (main.hadPic && !q.say) lead.push('Look at the pictures.'); lead.push(main.text); }
+    else if (main.hadPic) lead.push('Look at the pictures.');
+    else if (q.pic) lead.push('Look at the picture.');
+    if (lead.length) segs.push({ text: lead.join(' '), el: refs.qtext });
     if (q.type === 'multiple-choice' && q.choices) {
-      var cs = q.choices.map(function (c) { return speakable(c); });
-      var words = cs.filter(function (c) { return c.text; }).map(function (c) { return c.text; });
-      if (words.length) parts.push('The choices are. ' + words.join('. ') + '.');
-      else parts.push('Look at the pictures and pick one.');
+      var list = refs.choices || q.choices.map(function (c) { return { v: c }; });
+      var any = false;
+      var cs = list.map(function (c) { var t = speakable(c.v).text; if (t) any = true; return { text: t, el: c.el }; });
+      if (any) {
+        segs.push({ text: 'The choices are.' });
+        cs.forEach(function (c) { if (c.text) segs.push(c); });
+      } else segs.push({ text: 'Look at the pictures and pick one.' });
     } else if (q.type === 'true-false') {
-      parts.push('Is it true or false?');
+      segs.push({ text: 'Is it true?', el: refs.tf && refs.tf['True'] });
+      segs.push({ text: 'Or false?', el: refs.tf && refs.tf['False'] });
     } else if (q.type === 'order' && q.items) {
-      parts.push('The numbers are. ' + q.items.join('. ') + '.');
+      segs.push({ text: 'The numbers are.' });
+      (refs.items || q.items.map(function (v) { return { v: v }; })).forEach(function (it) { segs.push({ text: String(it.v), el: it.el }); });
     } else if (q.type === 'match' && q.pairs) {
-      parts.push('Left side. ' + q.pairs.map(function (p) { return speakable(p[0]).text; }).join('. ') + '. Right side. ' + q.pairs.map(function (p) { return speakable(p[1]).text; }).join('. ') + '.');
+      var L = refs.lefts || q.pairs.map(function (p) { return { v: p[0] }; });
+      var R = refs.rights || q.pairs.map(function (p) { return { v: p[1] }; });
+      segs.push({ text: 'Left side.' });
+      L.forEach(function (x) { segs.push({ text: speakable(x.v).text, el: x.el }); });
+      segs.push({ text: 'Right side.' });
+      R.forEach(function (x) { segs.push({ text: speakable(x.v).text, el: x.el }); });
     }
-    return parts.map(function (p) { return /[.?!]$/.test(p.trim()) ? p.trim() : p.trim() + '.'; }).join(' ');
+    return segs.map(function (s) {
+      var t = String(s.text || '').trim();
+      return { text: t && !/[.?!]$/.test(t) ? t + '.' : t, el: s.el };
+    });
+  }
+  function speakText(q) {
+    return speakSegs(q).map(function (s) { return s.text; }).filter(Boolean).join(' ');
   }
 
   // ---------------------------------------------------------------- one question
@@ -725,14 +754,16 @@
     var el = h('div', { class: 'q' });
     var stem = h('div', { class: 'stem' });
     if (q.pic) stem.appendChild(picEl(q.pic, true));
+    var qtextEl = null;
     if (q.type === 'match') stem.appendChild(h('div', { class: 'qtext', 'aria-label': 'Match the pairs' }, '🔗'));
-    else if (q.question) stem.appendChild(h('div', { class: 'qtext' + (q.question.length > 40 ? ' xlong' : q.question.length > 16 ? ' long' : '') }, q.question));
+    else if (q.question) { qtextEl = h('div', { class: 'qtext' + (q.question.length > 40 ? ' xlong' : q.question.length > 16 ? ' long' : '') }, q.question); stem.appendChild(qtextEl); }
+    var speakRefs = { qtext: qtextEl };
     if (Voice.supported()) {
       stem.appendChild(h('button', {
         class: 'speak', type: 'button', 'aria-label': 'Read the question and the answers aloud',
         onclick: function () {
           if (Voice.speaking()) { Voice.stop(); return; }   // tap again to stop
-          Voice.say(speakText(q), true);
+          Voice.sequence(speakSegs(q, speakRefs), true);
         }
       }, '🔊'));
     }
@@ -789,6 +820,8 @@
         btns.push(b);
         grid.appendChild(b);
       });
+      if (isTF) { speakRefs.tf = {}; order.forEach(function (c, k) { speakRefs.tf[c] = btns[k]; }); }
+      else speakRefs.choices = order.map(function (c, k) { return { v: c, el: btns[k] }; });
       lockInput = function (showRight) {
         btns.forEach(function (x) {
           if (showRight && x.getAttribute('data-v') === q.answer) x.classList.add('right');
@@ -869,6 +902,7 @@
         });
         obtns.push(ob); ogrid.appendChild(ob);
       });
+      speakRefs.items = obtns.map(function (b) { return { v: b.getAttribute('data-v'), el: b }; });
       lockInput = function () { obtns.forEach(function (x) { x.disabled = true; }); };
       interactive = h('div', { class: 'orderwrap' }, line, ogrid);
     } else if (q.type === 'match') {
@@ -916,6 +950,8 @@
           bad();
         }
       };
+      speakRefs.lefts = lefts.map(function (l) { return { v: l, el: lb[l] }; });
+      speakRefs.rights = rights.map(function (r) { return { v: r, el: rb[r] }; });
       lockInput = function () {};
       interactive = h('div', { class: 'match' }, colL, colR);
     }

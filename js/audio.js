@@ -52,6 +52,49 @@
     }
   };
 
+  // Pick the clearest voice the device has. Indian English first, then other English; natural-sounding
+  // and on-device voices (they work offline) are preferred. Falls back to the phone's default.
+  var chosen = null, chosenDone = false;
+  function pickVoice() {
+    if (chosenDone) return chosen;
+    var list = [];
+    try { list = root.speechSynthesis.getVoices() || []; } catch (e) {}
+    if (!list.length) return null;   // not loaded yet: try again next time
+    var best = null, bestScore = -1;
+    list.forEach(function (v) {
+      var l = String(v.lang || '').replace('_', '-').toLowerCase();
+      if (l.indexOf('en') !== 0) return;
+      var s = l === 'en-in' ? 60 : l === 'en-gb' ? 40 : l === 'en-au' ? 32 : l === 'en-us' ? 30 : 10;
+      if (/natural|neural|enhanced|premium/i.test(v.name)) s += 25;
+      if (/google|siri|samantha|veena|rishi|heera|neerja|kalpana|lekha|daniel|serena/i.test(v.name)) s += 12;
+      if (/compact|espeak|robot/i.test(v.name)) s -= 30;
+      if (v.localService) s += 40;   // on-device voices keep working with no internet
+      if (s > bestScore) { bestScore = s; best = v; }
+    });
+    chosen = best; chosenDone = !!best;
+    return chosen;
+  }
+  function utter(text) {
+    var u = new root.SpeechSynthesisUtterance(String(text));
+    var v = pickVoice();
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-IN'; }
+    u.rate = 0.82;    // slow and clear for little ears
+    u.pitch = 1.0;    // natural pitch is easier to understand than a raised one
+    u.volume = 1;
+    return u;
+  }
+  try {
+    if (root.speechSynthesis && root.speechSynthesis.addEventListener) {
+      root.speechSynthesis.addEventListener('voiceschanged', function () { chosenDone = false; pickVoice(); });
+    }
+  } catch (e) {}
+
+  var token = 0, seqActive = false, marked = null, keep = null;
+  function clearMark() {
+    if (marked && marked.classList) marked.classList.remove('reading');
+    marked = null;
+  }
+
   var Voice = {
     supported: function () { return !!(root.speechSynthesis && root.SpeechSynthesisUtterance); },
     // force = true when the child taps a speaker button on purpose
@@ -60,15 +103,41 @@
       if (!force && !enabled) return;
       try {
         root.speechSynthesis.cancel();
-        var u = new root.SpeechSynthesisUtterance(String(text));
-        u.lang = 'en-IN';
-        u.rate = 0.8;
-        u.pitch = 1.1;
-        root.speechSynthesis.speak(u);
+        root.speechSynthesis.speak(utter(text));
       } catch (e) {}
     },
-    stop: function () { try { if (Voice.supported()) root.speechSynthesis.cancel(); } catch (e) {} },
-    speaking: function () { try { return !!(Voice.supported() && root.speechSynthesis.speaking); } catch (e) { return false; } }
+    // Reads a list of {text, el} one by one and lights up each el while it is spoken.
+    sequence: function (segs, force) {
+      if (!Voice.supported()) return;
+      if (!force && !enabled) return;
+      Voice.stop();
+      var my = ++token;
+      seqActive = true;
+      var step = function (i) {
+        if (my !== token) return;
+        clearMark();
+        if (i >= segs.length) { seqActive = false; return; }
+        var s = segs[i];
+        if (!s || !s.text) { step(i + 1); return; }
+        if (s.el && s.el.classList) { s.el.classList.add('reading'); marked = s.el; }
+        try {
+          var u = utter(s.text);
+          u.onend = function () { step(i + 1); };
+          u.onerror = function () { step(i + 1); };
+          keep = u;   // keep a reference so the phone does not drop it
+          root.speechSynthesis.speak(u);
+        } catch (e) { seqActive = false; clearMark(); }
+      };
+      step(0);
+    },
+    stop: function () {
+      token++; seqActive = false; clearMark();
+      try { if (Voice.supported()) root.speechSynthesis.cancel(); } catch (e) {}
+    },
+    speaking: function () {
+      if (seqActive) return true;
+      try { return !!(Voice.supported() && root.speechSynthesis.speaking); } catch (e) { return false; }
+    }
   };
 
   root.Sfx = Sfx;

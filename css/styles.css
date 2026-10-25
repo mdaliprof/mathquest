@@ -389,3 +389,20 @@ a.chip { text-decoration: none; color: inherit; display: inline-flex; align-item
 .choice.longc { font-size: clamp(1.1rem, 4.8vw, 1.5rem); font-weight: 800; line-height: 1.2; }
 .choices.one { grid-template-columns: 1fr; }
 .choices.one .choice { min-height: 60px; }
+
+/* Read-aloud: the piece being spoken lights up */
+.reading {
+  outline: 6px solid #ffe14d !important;
+  outline-offset: 3px;
+  background: #ffe14d !important;
+  color: #2b2200 !important;
+  transform: scale(1.06);
+  box-shadow: 0 0 0 10px rgba(255, 225, 77, 0.35) !important;
+  border-radius: 16px;
+  transition: transform 0.15s;
+}
+.qtext.reading { padding: 4px 12px; }
+@media (prefers-reduced-motion: reduce) { .reading { transform: none; transition: none; } }
+
+/* keep the screen clean while a question is showing */
+body:has(.q) .statusbar { display: none; }
