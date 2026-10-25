@@ -35,7 +35,7 @@ warm-up (3) > learn (steps) > practice (5) > review (2) > reward.
 | 17-18 | Division: sharing, then with tables |
 
 ## Photo avatar (optional, new)
-Off by default. In the Parent corner (👪, solve the sum) a parent can turn on **Photo avatars**, then 🤳 Take a selfie (opens the phone's camera app) or 🖼️ Choose a photo. The picture is cropped to a small square (160px), saved only on the device, never uploaded, and left out of backups unless the box is ticked. Kids can tap their picture on the home screen to pick a frame and a sticker. Turning the switch off, 🗑️ Remove my photo and Erase progress all delete the photo. See RISK_REVIEW.md (v6) and privacy.html.
+Off by default. In the Parent corner (👪, solve the sum) a parent can turn on **Photo avatars**, then 🤳 Take a selfie (opens the phone's camera app) or 🖼️ Choose a photo. The picture is cropped to a small square (160px), saved only on the device, never uploaded, and left out of backups unless the box is ticked. Kids can tap their picture on the home screen to pick a frame and a sticker, drag the sticker to move it, and make it bigger or smaller (arrow and size buttons do the same for taps and keyboards; 🔄 puts it back). Turning the switch off, 🗑️ Remove my photo and Erase progress all delete the photo. See RISK_REVIEW.md (v6) and privacy.html.
 
 ## Subjects and mock tests (new)
 📚 button on the home screen: Maths Puzzles, English, Science, Computer Thinking, General Knowledge, Social Science. 8-question rounds that adjust to how the child is doing, a 🎯 Weak spots round, and a 📝 20-question Mock test (timed 20 minutes or relaxed, one try per question).
@@ -64,7 +64,7 @@ python3 tools/check_content.py      # re-checks all arithmetic and number words
 - More "Did you know?" facts: add lines to `content/facts.json` (icon + a few words).
 
 ## After any app change
-Raise `VERSION` in `sw.js` (now `mathquest-v13`) so phones replace the old saved files.
+Raise `VERSION` in `sw.js` (now `mathquest-v14`) so phones replace the old saved files.
 
 ## Test before each release
 - Open once online. The badge at the bottom turns green: "Ready offline".

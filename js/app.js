@@ -343,8 +343,46 @@
     var photo = Store.photo();
     if (photo) box.appendChild(h('img', { src: photo, alt: '', width: '96', height: '96' }));
     else box.appendChild(h('span', { class: 'me-emoji' }, p.avatar));
-    if (p.sticker) box.appendChild(h('span', { class: 'me-sticker' }, p.sticker));
+    if (p.sticker) {
+      var st = h('span', { class: 'me-sticker' }, p.sticker);
+      st.style.left = p.sx + '%';
+      st.style.top = p.sy + '%';
+      st.style.setProperty('--ss', STICKER_SIZES[p.ss - 1] || 0.4);
+      box.appendChild(st);
+    }
     return box;
+  }
+  var STICKER_SIZES = [0.22, 0.3, 0.4, 0.52, 0.66];   // sticker size as a share of the picture width
+
+  // Drag the sticker with a finger or mouse. The buttons below the picture do the same for taps and keyboards.
+  function bindDrag(av, st) {
+    var drag = false;
+    function at(e) {
+      var r = av.getBoundingClientRect();
+      if (!r.width) return null;
+      return {
+        x: Math.round(Math.min(100, Math.max(0, (e.clientX - r.left) / r.width * 100))),
+        y: Math.round(Math.min(100, Math.max(0, (e.clientY - r.top) / r.height * 100)))
+      };
+    }
+    st.addEventListener('pointerdown', function (e) {
+      drag = true;
+      try { st.setPointerCapture(e.pointerId); } catch (x) {}
+      e.preventDefault();
+    });
+    st.addEventListener('pointermove', function (e) {
+      if (!drag) return;
+      var q = at(e);
+      if (q) { st.style.left = q.x + '%'; st.style.top = q.y + '%'; }
+    });
+    function end(e) {
+      if (!drag) return;
+      drag = false;
+      var q = at(e);
+      if (q) Store.setStickerPlace(q.x, q.y, null);
+    }
+    st.addEventListener('pointerup', end);
+    st.addEventListener('pointercancel', end);
   }
 
   // Crop to a square, shrink to 160px and re-save as a small JPEG. Re-drawing on a canvas
@@ -380,9 +418,25 @@
   function lookPicker(box) {
     var frames = h('div', { class: 'looks', role: 'group', 'aria-label': 'Frame' });
     var stickers = h('div', { class: 'looks', role: 'group', 'aria-label': 'Sticker' });
+    // Move and size buttons (shown only when a sticker is chosen)
+    function nudge(dx, dy) { var p = Store.profile(); Store.setStickerPlace(p.sx + dx, p.sy + dy, null); draw(); }
+    function grow(d) { var p = Store.profile(); Store.setStickerPlace(null, null, p.ss + d); draw(); }
+    function pad(label, text, fn) { return h('button', { class: 'look-btn', type: 'button', 'aria-label': label, onclick: function () { Sfx.tap(); fn(); } }, text); }
+    var place = h('div', { class: 'looks', role: 'group', 'aria-label': 'Move and resize the sticker' },
+      pad('Move sticker left', '⬅️', function () { nudge(-6, 0); }),
+      pad('Move sticker up', '⬆️', function () { nudge(0, -6); }),
+      pad('Move sticker down', '⬇️', function () { nudge(0, 6); }),
+      pad('Move sticker right', '➡️', function () { nudge(6, 0); }),
+      pad('Smaller sticker', '➖', function () { grow(-1); }),
+      pad('Bigger sticker', '➕', function () { grow(1); }),
+      pad('Put the sticker back', '🔄', function () { Store.resetStickerPlace(); draw(); }));
     function draw() {
       var p = Store.profile();
-      box.replaceChildren(avatarEl(p, 'big'));
+      var av = avatarEl(p, 'big');
+      box.replaceChildren(av);
+      var stEl = av.querySelector('.me-sticker');
+      if (stEl) bindDrag(av, stEl);
+      place.hidden = !p.sticker;
       Array.prototype.forEach.call(frames.children, function (b) {
         var on = b.getAttribute('data-v') === p.frame;
         b.classList.toggle('on', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); b.textContent = on ? '✓' : '';
@@ -405,7 +459,7 @@
       }, s || '🚫'));
     });
     draw();
-    return { frames: frames, stickers: stickers };
+    return { frames: frames, stickers: stickers, place: place };
   }
 
   // Kids can dress up their picture. No photo can be added or removed here (that is in the Parent corner).
@@ -419,7 +473,8 @@
       h('button', { class: 'btn soft wide', type: 'button', 'aria-label': 'Back to home', onclick: goHome }, '🏠'),
       h('div', { class: 'panel center' }, box, h('p', null, p.nickname)),
       h('h2', null, '🖼️ Frame'), pick.frames,
-      h('h2', null, '✨ Sticker'), pick.stickers));
+      h('h2', null, '✨ Sticker'), pick.stickers,
+      h('p', { class: 'hint' }, '👆 Drag the sticker, or use the buttons.'), pick.place));
   }
 
   // ---------------------------------------------------------------- first screen: pick a friend

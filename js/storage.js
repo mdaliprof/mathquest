@@ -46,6 +46,10 @@
     return { v: 1, active: null, profiles: {}, settings: { sound: true, photo: false }, content: { version: 0, files: {} } };
   }
 
+  // Sticker place (percent across and down the picture) and size step (1 small to 5 big).
+  var ST_DEFAULT = { x: 86, y: 10, s: 3 };
+  function bound(v, lo, hi, d) { var n = parseInt(v, 10); return isNaN(n) ? d : Math.min(hi, Math.max(lo, n)); }
+
   function frameOk(f) { return FRAMES.some(function (x) { return x[0] === f; }); }
   function validPhoto(s) { return typeof s === 'string' && s.length <= PHOTO_MAX && PHOTO_RE.test(s); }
 
@@ -62,6 +66,9 @@
       avatar: String(p.avatar || '🦁').slice(0, 8),
       frame: frameOk(p.frame) ? p.frame : 'gold',
       sticker: STICKERS.indexOf(p.sticker) >= 0 ? p.sticker : '',
+      sx: bound(p.sx, 0, 100, ST_DEFAULT.x),
+      sy: bound(p.sy, 0, 100, ST_DEFAULT.y),
+      ss: bound(p.ss, 1, 5, ST_DEFAULT.s),
       stars: 0,
       streak: { current: 0, best: 0, lastPlayed: null },
       badges: [],
@@ -248,6 +255,22 @@
       if (!p) return;
       if (frameOk(frame)) p.frame = frame;
       if (STICKERS.indexOf(sticker) >= 0) p.sticker = sticker;
+      touch();
+    },
+
+    // Move or resize the sticker. Pass null to leave a value as it is.
+    setStickerPlace: function (x, y, size) {
+      var p = profile();
+      if (!p) return;
+      if (x != null) p.sx = bound(x, 0, 100, p.sx);
+      if (y != null) p.sy = bound(y, 0, 100, p.sy);
+      if (size != null) p.ss = bound(size, 1, 5, p.ss);
+      touch();
+    },
+    resetStickerPlace: function () {
+      var p = profile();
+      if (!p) return;
+      p.sx = ST_DEFAULT.x; p.sy = ST_DEFAULT.y; p.ss = ST_DEFAULT.s;
       touch();
     },
 
