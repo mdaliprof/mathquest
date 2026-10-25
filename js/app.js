@@ -674,7 +674,7 @@
     var stem = h('div', { class: 'stem' });
     if (q.pic) stem.appendChild(picEl(q.pic, true));
     if (q.type === 'match') stem.appendChild(h('div', { class: 'qtext', 'aria-label': 'Match the pairs' }, '🔗'));
-    else if (q.question) stem.appendChild(h('div', { class: 'qtext' }, q.question));
+    else if (q.question) stem.appendChild(h('div', { class: 'qtext' + (q.question.length > 40 ? ' xlong' : q.question.length > 16 ? ' long' : '') }, q.question));
     if (q.say) {
       stem.appendChild(h('button', {
         class: 'speak', type: 'button', 'aria-label': 'Listen',
@@ -724,10 +724,10 @@
       var isTF = q.type === 'true-false';
       var order = isTF ? q.choices.slice() : shuffle(q.choices.slice());
       var btns = [];
-      var grid = h('div', { class: 'choices' });
+      var grid = h('div', { class: 'choices' + (!isTF && q.choices.some(function (x) { return x.length > 16; }) ? ' one' : '') });
       order.forEach(function (c) {
         var b = h('button', {
-          class: 'choice' + (isTF ? ' tf' : ''), type: 'button', 'data-v': c,
+          class: 'choice' + (isTF ? ' tf' : '') + (!isTF && c.length > 11 ? ' longc' : ''), type: 'button', 'data-v': c,
           'aria-label': isTF ? c : c,
           onclick: function () { choose(b, c); }
         }, isTF ? (c === 'True' ? '✅' : '❌') : c);

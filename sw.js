@@ -5,7 +5,7 @@
    - lesson files: stale-while-revalidate (show saved now, refresh in the background)
    - anything else / failed page load: offline.html
    Bump VERSION on every release. Old caches are deleted when the new one activates. */
-const VERSION = 'mathquest-v6';
+const VERSION = 'mathquest-v7';
 
 const SHELL = [
   'index.html',
