@@ -1,0 +1,9991 @@
+{
+ "id": "c1",
+ "title": "Class 1",
+ "icon": "1️⃣",
+ "version": 3,
+ "subjects": [
+  {
+   "id": "maths",
+   "title": "Maths",
+   "icon": "🧮",
+   "count": 203
+  },
+  {
+   "id": "english",
+   "title": "English",
+   "icon": "🔤",
+   "count": 41
+  },
+  {
+   "id": "evs",
+   "title": "Our World",
+   "icon": "🌳",
+   "count": 45
+  },
+  {
+   "id": "gk",
+   "title": "General Knowledge",
+   "icon": "🌍",
+   "count": 16
+  },
+  {
+   "id": "computer",
+   "title": "Computer",
+   "icon": "💻",
+   "count": 10
+  },
+  {
+   "id": "olympiad",
+   "title": "Olympiad Challenge",
+   "icon": "🏆",
+   "count": 84
+  }
+ ],
+ "skills": [
+  {
+   "id": "sort-compare",
+   "subject": "maths",
+   "title": "Sort and compare",
+   "icon": "🧺",
+   "requires": [],
+   "source": "NCERT ch1 Finding the Furry Cat!"
+  },
+  {
+   "id": "shapes",
+   "subject": "maths",
+   "title": "Shapes",
+   "icon": "🔷",
+   "requires": [],
+   "source": "NCERT ch2 What is Long?"
+  },
+  {
+   "id": "numbers-1-9",
+   "subject": "maths",
+   "title": "Numbers 1 to 9",
+   "icon": "🔢",
+   "requires": [
+    "sort-compare"
+   ],
+   "source": "NCERT ch3 Mango Treat"
+  },
+  {
+   "id": "numbers-10-20",
+   "subject": "maths",
+   "title": "Numbers 10 to 20",
+   "icon": "🔟",
+   "requires": [
+    "numbers-1-9"
+   ],
+   "source": "NCERT ch4 Making 10"
+  },
+  {
+   "id": "add-sub-10",
+   "subject": "maths",
+   "title": "Add and take away to 10",
+   "icon": "➕",
+   "requires": [
+    "numbers-1-9"
+   ],
+   "source": "NCERT ch5 How Many?"
+  },
+  {
+   "id": "add-sub-20",
+   "subject": "maths",
+   "title": "Add and take away to 20",
+   "icon": "🥕",
+   "requires": [
+    "add-sub-10",
+    "numbers-10-20"
+   ],
+   "source": "NCERT ch6 Vegetable Farm"
+  },
+  {
+   "id": "numbers-21-99",
+   "subject": "maths",
+   "title": "Numbers 21 to 99",
+   "icon": "👨‍👩‍👧",
+   "requires": [
+    "numbers-10-20"
+   ],
+   "source": "NCERT ch7 Lina's Family"
+  },
+  {
+   "id": "add-sub-99",
+   "subject": "maths",
+   "title": "Add and take away to 99",
+   "icon": "🎯",
+   "requires": [
+    "add-sub-20",
+    "numbers-21-99"
+   ],
+   "source": "NCERT ch8 Fun with Numbers"
+  },
+  {
+   "id": "patterns",
+   "subject": "maths",
+   "title": "Patterns",
+   "icon": "🎨",
+   "requires": [
+    "sort-compare"
+   ],
+   "source": "NCERT ch9 Utsav"
+  },
+  {
+   "id": "time",
+   "subject": "maths",
+   "title": "Time",
+   "icon": "⏰",
+   "requires": [
+    "numbers-1-9"
+   ],
+   "source": "NCERT ch10 How do I Spend my Day?"
+  },
+  {
+   "id": "measure",
+   "subject": "maths",
+   "title": "Measuring",
+   "icon": "📏",
+   "requires": [
+    "numbers-1-9"
+   ],
+   "source": "NCERT ch11 How Many Times?"
+  },
+  {
+   "id": "money",
+   "subject": "maths",
+   "title": "Money",
+   "icon": "🪙",
+   "requires": [
+    "add-sub-20"
+   ],
+   "source": "NCERT ch12 How Much Can We Spend?"
+  },
+  {
+   "id": "data",
+   "subject": "maths",
+   "title": "Picture graphs",
+   "icon": "📊",
+   "requires": [
+    "numbers-1-9"
+   ],
+   "source": "NCERT ch13 So Many Toys"
+  },
+  {
+   "id": "tables",
+   "subject": "maths",
+   "title": "Tables 2 to 5",
+   "icon": "✖️",
+   "requires": [
+    "add-sub-20"
+   ],
+   "source": "ICSE school lists (extra, not NCERT Class 1)"
+  },
+  {
+   "id": "phonics",
+   "subject": "english",
+   "title": "Letters and sounds",
+   "icon": "🔤",
+   "requires": [],
+   "source": "Common Class 1 theme"
+  },
+  {
+   "id": "greetings",
+   "subject": "english",
+   "title": "Greetings and manners",
+   "icon": "👋",
+   "requires": [],
+   "source": "Mridang Unit 1 theme"
+  },
+  {
+   "id": "opposites",
+   "subject": "english",
+   "title": "Opposites",
+   "icon": "↔️",
+   "requires": [
+    "phonics"
+   ],
+   "source": "Common Class 1 theme"
+  },
+  {
+   "id": "plurals",
+   "subject": "english",
+   "title": "One and many",
+   "icon": "👥",
+   "requires": [
+    "phonics"
+   ],
+   "source": "ICSE school lists"
+  },
+  {
+   "id": "articles",
+   "subject": "english",
+   "title": "a and an",
+   "icon": "🅰️",
+   "requires": [
+    "phonics"
+   ],
+   "source": "ICSE school lists"
+  },
+  {
+   "id": "punctuation",
+   "subject": "english",
+   "title": "Capital letters and full stops",
+   "icon": "✏️",
+   "requires": [
+    "plurals"
+   ],
+   "source": "ICSE school lists"
+  },
+  {
+   "id": "tense",
+   "subject": "english",
+   "title": "Now and before",
+   "icon": "⏪",
+   "requires": [
+    "plurals"
+   ],
+   "source": "ICSE school lists"
+  },
+  {
+   "id": "body",
+   "subject": "evs",
+   "title": "My body",
+   "icon": "🧍",
+   "requires": [],
+   "source": "EVS: my body"
+  },
+  {
+   "id": "family",
+   "subject": "evs",
+   "title": "My family",
+   "icon": "👪",
+   "requires": [],
+   "source": "Mridang Unit 1 theme"
+  },
+  {
+   "id": "food",
+   "subject": "evs",
+   "title": "Food we eat",
+   "icon": "🍚",
+   "requires": [
+    "body"
+   ],
+   "source": "Mridang Unit 3 theme"
+  },
+  {
+   "id": "animals",
+   "subject": "evs",
+   "title": "Animals and farm",
+   "icon": "🐄",
+   "requires": [],
+   "source": "Mridang Unit 2 theme"
+  },
+  {
+   "id": "plants",
+   "subject": "evs",
+   "title": "Plants",
+   "icon": "🌱",
+   "requires": [],
+   "source": "EVS: plants"
+  },
+  {
+   "id": "air-water",
+   "subject": "evs",
+   "title": "Air and water",
+   "icon": "💧",
+   "requires": [
+    "plants"
+   ],
+   "source": "EVS: air and water"
+  },
+  {
+   "id": "seasons",
+   "subject": "evs",
+   "title": "Seasons and weather",
+   "icon": "🌦️",
+   "requires": [],
+   "source": "Mridang Unit 4 theme"
+  },
+  {
+   "id": "safety",
+   "subject": "evs",
+   "title": "Staying safe",
+   "icon": "🚦",
+   "requires": [],
+   "source": "EVS: safety"
+  },
+  {
+   "id": "india",
+   "subject": "gk",
+   "title": "Our India",
+   "icon": "🇮🇳",
+   "requires": [],
+   "source": "Common GK"
+  },
+  {
+   "id": "colours",
+   "subject": "gk",
+   "title": "Colours",
+   "icon": "🌈",
+   "requires": [],
+   "source": "Mridang Unit 4 theme"
+  },
+  {
+   "id": "calendar",
+   "subject": "gk",
+   "title": "Days and months",
+   "icon": "📅",
+   "requires": [],
+   "source": "Common GK"
+  },
+  {
+   "id": "devices",
+   "subject": "computer",
+   "title": "Computer parts",
+   "icon": "🖥️",
+   "requires": [],
+   "source": "ICSE school lists"
+  },
+  {
+   "id": "paint",
+   "subject": "computer",
+   "title": "Drawing on a computer",
+   "icon": "🖌️",
+   "requires": [
+    "devices"
+   ],
+   "source": "ICSE school lists"
+  },
+  {
+   "id": "cyber-safety",
+   "subject": "computer",
+   "title": "Staying safe online",
+   "icon": "🛡️",
+   "requires": [
+    "devices"
+   ],
+   "source": "Common"
+  },
+  {
+   "id": "oly-patterns",
+   "subject": "olympiad",
+   "title": "Pattern detective",
+   "icon": "🔍",
+   "requires": [
+    "patterns"
+   ],
+   "source": "Olympiad-style practice (original questions)"
+  },
+  {
+   "id": "oly-missing",
+   "subject": "olympiad",
+   "title": "Missing numbers",
+   "icon": "❓",
+   "requires": [
+    "add-sub-10"
+   ],
+   "source": "Olympiad-style practice (original questions)"
+  },
+  {
+   "id": "oly-number-sense",
+   "subject": "olympiad",
+   "title": "Number riddles",
+   "icon": "🧩",
+   "requires": [
+    "numbers-21-99"
+   ],
+   "source": "Olympiad-style practice (original questions)"
+  },
+  {
+   "id": "oly-word",
+   "subject": "olympiad",
+   "title": "Story sums",
+   "icon": "📖",
+   "requires": [
+    "add-sub-20"
+   ],
+   "source": "Olympiad-style practice (original questions)"
+  },
+  {
+   "id": "oly-logic",
+   "subject": "olympiad",
+   "title": "Think and decide",
+   "icon": "🧠",
+   "requires": [
+    "sort-compare"
+   ],
+   "source": "Olympiad-style practice (original questions)"
+  },
+  {
+   "id": "oly-shape-count",
+   "subject": "olympiad",
+   "title": "Count the sides",
+   "icon": "🔺",
+   "requires": [
+    "shapes"
+   ],
+   "source": "Olympiad-style practice (original questions)"
+  },
+  {
+   "id": "oly-analogy",
+   "subject": "olympiad",
+   "title": "Word pairs",
+   "icon": "🔗",
+   "requires": [
+    "opposites"
+   ],
+   "source": "Olympiad-style practice (original questions)"
+  }
+ ],
+ "questions": [
+  {
+   "id": "L-c1-maths-001",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which has MORE?  A: 🐦🐦🐦   B: 🐦🐦🐦🐦🐦",
+   "answer": "B",
+   "hint": "Count each group.",
+   "explanation": "A has 3 and B has 5.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Same",
+    "B",
+    "A",
+    "None"
+   ]
+  },
+  {
+   "id": "L-c1-maths-002",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which has MORE?  A: 🐦🐦🐦🐦🐦🐦   B: 🐦🐦",
+   "answer": "A",
+   "hint": "Count each group.",
+   "explanation": "A has 6 and B has 2.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Same",
+    "B",
+    "None",
+    "A"
+   ]
+  },
+  {
+   "id": "L-c1-maths-003",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which has MORE?  A: 🐦🐦🐦🐦   B: 🐦🐦🐦🐦🐦🐦🐦",
+   "answer": "B",
+   "hint": "Count each group.",
+   "explanation": "A has 4 and B has 7.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "A",
+    "Same",
+    "None",
+    "B"
+   ]
+  },
+  {
+   "id": "L-c1-maths-004",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which has MORE?  A: 🐟🐟🐟🐟🐟🐟🐟🐟   B: 🐟🐟🐟",
+   "answer": "A",
+   "hint": "Count each group.",
+   "explanation": "A has 8 and B has 3.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "B",
+    "Same",
+    "A",
+    "None"
+   ]
+  },
+  {
+   "id": "L-c1-maths-005",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which has MORE?  A: 🎈🎈🎈🎈🎈   B: 🎈🎈🎈🎈🎈🎈🎈🎈🎈",
+   "answer": "B",
+   "hint": "Count each group.",
+   "explanation": "A has 5 and B has 9.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "B",
+    "A",
+    "Same",
+    "None"
+   ]
+  },
+  {
+   "id": "L-c1-maths-006",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which has MORE?  A: 🐦🐦🐦🐦🐦🐦🐦   B: 🐦🐦🐦🐦",
+   "answer": "A",
+   "hint": "Count each group.",
+   "explanation": "A has 7 and B has 4.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "B",
+    "Same",
+    "A",
+    "None"
+   ]
+  },
+  {
+   "id": "L-c1-maths-007",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which has FEWER?  A: 🎈🎈   B: 🎈🎈🎈🎈🎈🎈",
+   "answer": "A",
+   "hint": "Count each group.",
+   "explanation": "A has 2 and B has 6.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "B",
+    "A",
+    "Same",
+    "None"
+   ]
+  },
+  {
+   "id": "L-c1-maths-008",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which has FEWER?  A: ⭐⭐⭐⭐⭐⭐⭐   B: ⭐⭐⭐",
+   "answer": "B",
+   "hint": "Count each group.",
+   "explanation": "A has 7 and B has 3.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Same",
+    "B",
+    "None",
+    "A"
+   ]
+  },
+  {
+   "id": "L-c1-maths-009",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which has FEWER?  A: 🐦🐦🐦🐦🐦🐦🐦🐦🐦   B: 🐦🐦🐦🐦",
+   "answer": "B",
+   "hint": "Count each group.",
+   "explanation": "A has 9 and B has 4.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "None",
+    "A",
+    "B",
+    "Same"
+   ]
+  },
+  {
+   "id": "L-c1-maths-010",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which has FEWER?  A: 🧸   B: 🧸🧸🧸🧸🧸",
+   "answer": "A",
+   "hint": "Count each group.",
+   "explanation": "A has 1 and B has 5.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "A",
+    "None",
+    "Same",
+    "B"
+   ]
+  },
+  {
+   "id": "L-c1-maths-011",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which is the tallest? 🌳 tree or 🌱 small plant",
+   "answer": "tree",
+   "hint": "Picture them side by side.",
+   "explanation": "The tree is the answer.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "tree",
+    "none",
+    "small plant",
+    "same"
+   ]
+  },
+  {
+   "id": "L-c1-maths-012",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which is heavier? 🐘 or 🐭",
+   "answer": "elephant",
+   "hint": "Picture them side by side.",
+   "explanation": "The elephant is the answer.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "mouse",
+    "none",
+    "elephant",
+    "same"
+   ]
+  },
+  {
+   "id": "L-c1-maths-013",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which is bigger? 🐘 or 🐜",
+   "answer": "elephant",
+   "hint": "Picture them side by side.",
+   "explanation": "The elephant is the answer.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "none",
+    "elephant",
+    "same",
+    "ant"
+   ]
+  },
+  {
+   "id": "L-c1-maths-014",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "multiple-choice",
+   "question": "Which is longer? 🐍 snake or 🐛 caterpillar",
+   "answer": "snake",
+   "hint": "Picture them side by side.",
+   "explanation": "The snake is the answer.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "caterpillar",
+    "same",
+    "none",
+    "snake"
+   ]
+  },
+  {
+   "id": "L-c1-maths-015",
+   "level": 2,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "Which one is a circle?",
+   "answer": "⚪",
+   "hint": "Think about what it looks like.",
+   "explanation": "A circle is round with no corners.",
+   "skills": [
+    "maths",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "⬜",
+    "⭐",
+    "🔺",
+    "⚪"
+   ]
+  },
+  {
+   "id": "L-c1-maths-016",
+   "level": 2,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "How many sides does a triangle have?",
+   "answer": "3",
+   "hint": "Think about what it looks like.",
+   "explanation": "A triangle has 3 sides.",
+   "skills": [
+    "maths",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "3",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c1-maths-017",
+   "level": 2,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "How many sides does a square have?",
+   "answer": "4",
+   "hint": "Think about what it looks like.",
+   "explanation": "A square has 4 equal sides.",
+   "skills": [
+    "maths",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "4",
+    "3",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-maths-018",
+   "level": 2,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "How many corners does a rectangle have?",
+   "answer": "4",
+   "hint": "Think about what it looks like.",
+   "explanation": "A rectangle has 4 corners.",
+   "skills": [
+    "maths",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "4",
+    "5",
+    "3"
+   ]
+  },
+  {
+   "id": "L-c1-maths-019",
+   "level": 2,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "Which solid shape rolls like a ball? ⚽",
+   "answer": "sphere",
+   "hint": "Think about what it looks like.",
+   "explanation": "A ball is a sphere.",
+   "skills": [
+    "maths",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "sphere",
+    "cube",
+    "box",
+    "cone"
+   ]
+  },
+  {
+   "id": "L-c1-maths-020",
+   "level": 2,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "A dice 🎲 is shaped like a…",
+   "answer": "cube",
+   "hint": "Think about what it looks like.",
+   "explanation": "A dice is a cube.",
+   "skills": [
+    "maths",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "sphere",
+    "circle",
+    "cube",
+    "cone"
+   ]
+  },
+  {
+   "id": "L-c1-maths-021",
+   "level": 2,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "A party hat 🎉 is shaped like a…",
+   "answer": "cone",
+   "hint": "Think about what it looks like.",
+   "explanation": "A party hat is a cone.",
+   "skills": [
+    "maths",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "cone",
+    "square",
+    "cube",
+    "sphere"
+   ]
+  },
+  {
+   "id": "L-c1-maths-022",
+   "level": 2,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "Which shape has NO corners?",
+   "answer": "circle",
+   "hint": "Think about what it looks like.",
+   "explanation": "A circle is round.",
+   "skills": [
+    "maths",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "triangle",
+    "circle",
+    "square",
+    "rectangle"
+   ]
+  },
+  {
+   "id": "L-c1-maths-023",
+   "level": 2,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "The 🐦 is ABOVE the tree. Where is the bird?",
+   "answer": "on top",
+   "hint": "Think about what it looks like.",
+   "explanation": "Above means higher up.",
+   "skills": [
+    "maths",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "below",
+    "on top",
+    "behind",
+    "inside"
+   ]
+  },
+  {
+   "id": "L-c1-maths-024",
+   "level": 2,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "The 🐟 is INSIDE the bowl. Where is the fish?",
+   "answer": "in the bowl",
+   "hint": "Think about what it looks like.",
+   "explanation": "Inside means in the middle of.",
+   "skills": [
+    "maths",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "on the roof",
+    "in the bowl",
+    "far away",
+    "above"
+   ]
+  },
+  {
+   "id": "L-c1-maths-025",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "🎈🎈🎈 How many?",
+   "answer": "3",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 3.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3",
+    "4",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-maths-026",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "⭐⭐⭐⭐⭐ How many?",
+   "answer": "5",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 5.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "7",
+    "6",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c1-maths-027",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "🍎🍎🍎🍎🍎🍎🍎 How many?",
+   "answer": "7",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 7.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "8",
+    "9",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-maths-028",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "🚗🚗🚗🚗 How many?",
+   "answer": "4",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 4.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "4",
+    "6",
+    "3"
+   ]
+  },
+  {
+   "id": "L-c1-maths-029",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "🐦🐦🐦🐦🐦🐦 How many?",
+   "answer": "6",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 6.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "5",
+    "8",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-maths-030",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "🎈🎈🎈🎈🎈🎈🎈🎈 How many?",
+   "answer": "8",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 8.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "10",
+    "7",
+    "9",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-maths-031",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "🍎🍎🍎🍎🍎🍎🍎🍎🍎 How many?",
+   "answer": "9",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 9.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "10",
+    "11",
+    "8",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-maths-032",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "⭐⭐ How many?",
+   "answer": "2",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 2.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c1-maths-033",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "Which number is \"two\"?",
+   "answer": "2",
+   "hint": "Say the word slowly.",
+   "explanation": "\"two\" is 2.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3",
+    "4",
+    "1",
+    "2"
+   ]
+  },
+  {
+   "id": "L-c1-maths-034",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "Which number is \"four\"?",
+   "answer": "4",
+   "hint": "Say the word slowly.",
+   "explanation": "\"four\" is 4.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "4",
+    "5",
+    "6",
+    "3"
+   ]
+  },
+  {
+   "id": "L-c1-maths-035",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "Which number is \"six\"?",
+   "answer": "6",
+   "hint": "Say the word slowly.",
+   "explanation": "\"six\" is 6.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "5",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-maths-036",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "Which number is \"eight\"?",
+   "answer": "8",
+   "hint": "Say the word slowly.",
+   "explanation": "\"eight\" is 8.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "9",
+    "8",
+    "10"
+   ]
+  },
+  {
+   "id": "L-c1-maths-037",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "Which number is \"nine\"?",
+   "answer": "9",
+   "hint": "Say the word slowly.",
+   "explanation": "\"nine\" is 9.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "8",
+    "10",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c1-maths-038",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "Which number is \"five\"?",
+   "answer": "5",
+   "hint": "Say the word slowly.",
+   "explanation": "\"five\" is 5.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "6",
+    "4",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c1-maths-039",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "Which number is \"seven\"?",
+   "answer": "7",
+   "hint": "Say the word slowly.",
+   "explanation": "\"seven\" is 7.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "8",
+    "9",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c1-maths-040",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "What comes after 3?",
+   "answer": "4",
+   "hint": "Count on one.",
+   "explanation": "After 3 comes 4.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "4",
+    "6",
+    "3"
+   ]
+  },
+  {
+   "id": "L-c1-maths-041",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "What comes after 5?",
+   "answer": "6",
+   "hint": "Count on one.",
+   "explanation": "After 5 comes 6.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "6",
+    "8",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-maths-042",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "multiple-choice",
+   "question": "What comes after 7?",
+   "answer": "8",
+   "hint": "Count on one.",
+   "explanation": "After 7 comes 8.",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "7",
+    "8",
+    "10"
+   ]
+  },
+  {
+   "id": "L-c1-maths-043",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "1 ten and 2 ones = ?",
+   "answer": "12",
+   "hint": "Ten plus the ones.",
+   "explanation": "10 + 2 = 12",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "13",
+    "22",
+    "12"
+   ]
+  },
+  {
+   "id": "L-c1-maths-044",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "1 ten and 4 ones = ?",
+   "answer": "14",
+   "hint": "Ten plus the ones.",
+   "explanation": "10 + 4 = 14",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "15",
+    "24",
+    "14",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c1-maths-045",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "1 ten and 6 ones = ?",
+   "answer": "16",
+   "hint": "Ten plus the ones.",
+   "explanation": "10 + 6 = 16",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "16",
+    "26",
+    "17"
+   ]
+  },
+  {
+   "id": "L-c1-maths-046",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "1 ten and 8 ones = ?",
+   "answer": "18",
+   "hint": "Ten plus the ones.",
+   "explanation": "10 + 8 = 18",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "18",
+    "28",
+    "19"
+   ]
+  },
+  {
+   "id": "L-c1-maths-047",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "1 ten and 3 ones = ?",
+   "answer": "13",
+   "hint": "Ten plus the ones.",
+   "explanation": "10 + 3 = 13",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3",
+    "13",
+    "14",
+    "23"
+   ]
+  },
+  {
+   "id": "L-c1-maths-048",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "1 ten and 5 ones = ?",
+   "answer": "15",
+   "hint": "Ten plus the ones.",
+   "explanation": "10 + 5 = 15",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "15",
+    "25",
+    "16"
+   ]
+  },
+  {
+   "id": "L-c1-maths-049",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "What comes after 12?",
+   "answer": "13",
+   "hint": "Count on one.",
+   "explanation": "After 12 comes 13.",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "14",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "id": "L-c1-maths-050",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "What comes after 15?",
+   "answer": "16",
+   "hint": "Count on one.",
+   "explanation": "After 15 comes 16.",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "15",
+    "16",
+    "17",
+    "18"
+   ]
+  },
+  {
+   "id": "L-c1-maths-051",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "What comes after 17?",
+   "answer": "18",
+   "hint": "Count on one.",
+   "explanation": "After 17 comes 18.",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "19",
+    "18",
+    "17",
+    "20"
+   ]
+  },
+  {
+   "id": "L-c1-maths-052",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "What comes after 19?",
+   "answer": "20",
+   "hint": "Count on one.",
+   "explanation": "After 19 comes 20.",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "19",
+    "21",
+    "20",
+    "22"
+   ]
+  },
+  {
+   "id": "L-c1-maths-053",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "What comes after 14?",
+   "answer": "15",
+   "hint": "Count on one.",
+   "explanation": "After 14 comes 15.",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "14",
+    "16",
+    "17",
+    "15"
+   ]
+  },
+  {
+   "id": "L-c1-maths-054",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "What comes after 16?",
+   "answer": "17",
+   "hint": "Count on one.",
+   "explanation": "After 16 comes 17.",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "18",
+    "17",
+    "16",
+    "19"
+   ]
+  },
+  {
+   "id": "L-c1-maths-055",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "Which number is \"eleven\"?",
+   "answer": "11",
+   "hint": "Say the word slowly.",
+   "explanation": "\"eleven\" is 11.",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "10",
+    "12",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-maths-056",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "Which number is \"thirteen\"?",
+   "answer": "13",
+   "hint": "Say the word slowly.",
+   "explanation": "\"thirteen\" is 13.",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "12",
+    "14",
+    "15"
+   ]
+  },
+  {
+   "id": "L-c1-maths-057",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "Which number is \"sixteen\"?",
+   "answer": "16",
+   "hint": "Say the word slowly.",
+   "explanation": "\"sixteen\" is 16.",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "17",
+    "18",
+    "16",
+    "15"
+   ]
+  },
+  {
+   "id": "L-c1-maths-058",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "Which number is \"eighteen\"?",
+   "answer": "18",
+   "hint": "Say the word slowly.",
+   "explanation": "\"eighteen\" is 18.",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "17",
+    "20",
+    "18",
+    "19"
+   ]
+  },
+  {
+   "id": "L-c1-maths-059",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "Making 10: 6 + ? = 10",
+   "answer": "4",
+   "hint": "Count up from 6 to 10.",
+   "explanation": "6 + 4 = 10",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-maths-060",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "Making 10: 7 + ? = 10",
+   "answer": "3",
+   "hint": "Count up from 7 to 10.",
+   "explanation": "7 + 3 = 10",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3",
+    "4",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-maths-061",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "Making 10: 8 + ? = 10",
+   "answer": "2",
+   "hint": "Count up from 8 to 10.",
+   "explanation": "8 + 2 = 10",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "3",
+    "1",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c1-maths-062",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "Making 10: 9 + ? = 10",
+   "answer": "1",
+   "hint": "Count up from 9 to 10.",
+   "explanation": "9 + 1 = 10",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "3",
+    "1",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c1-maths-063",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "multiple-choice",
+   "question": "Making 10: 4 + ? = 10",
+   "answer": "6",
+   "hint": "Count up from 4 to 10.",
+   "explanation": "4 + 6 = 10",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "6",
+    "5",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-maths-064",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "🐟 + 🐟 = ?",
+   "answer": "2",
+   "hint": "Count all of them.",
+   "explanation": "1 + 1 = 2",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1",
+    "4",
+    "3",
+    "2"
+   ]
+  },
+  {
+   "id": "L-c1-maths-065",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "🍎🍎🍎🍎 + 🍎🍎🍎🍎🍎 = ?",
+   "answer": "9",
+   "hint": "Count all of them.",
+   "explanation": "4 + 5 = 9",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "4",
+    "9",
+    "5",
+    "10"
+   ]
+  },
+  {
+   "id": "L-c1-maths-066",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "🐦🐦🐦🐦🐦🐦🐦🐦 + 🐦🐦 = ?",
+   "answer": "10",
+   "hint": "Count all of them.",
+   "explanation": "8 + 2 = 10",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "11",
+    "8",
+    "10"
+   ]
+  },
+  {
+   "id": "L-c1-maths-067",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "🐟🐟🐟🐟 + 🐟🐟🐟🐟🐟 = ?",
+   "answer": "9",
+   "hint": "Count all of them.",
+   "explanation": "4 + 5 = 9",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "10",
+    "4",
+    "9",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-maths-068",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "🍎🍎🍎🍎🍎 + 🍎🍎🍎🍎 = ?",
+   "answer": "9",
+   "hint": "Count all of them.",
+   "explanation": "5 + 4 = 9",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "4",
+    "10",
+    "9",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-maths-069",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "🧸🧸 + 🧸🧸🧸🧸🧸🧸🧸🧸 = ?",
+   "answer": "10",
+   "hint": "Count all of them.",
+   "explanation": "2 + 8 = 10",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "10",
+    "11",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-maths-070",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "⭐⭐⭐⭐⭐⭐⭐ + ⭐⭐⭐ = ?",
+   "answer": "10",
+   "hint": "Count all of them.",
+   "explanation": "7 + 3 = 10",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3",
+    "10",
+    "11",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c1-maths-071",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "🐟🐟🐟🐟🐟 + 🐟🐟🐟 = ?",
+   "answer": "8",
+   "hint": "Count all of them.",
+   "explanation": "5 + 3 = 8",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "3",
+    "5",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-maths-072",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "7 − 1 = ?",
+   "answer": "6",
+   "hint": "Count back 1.",
+   "explanation": "7 − 1 = 6",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "7",
+    "8",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-maths-073",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "4 − 3 = ?",
+   "answer": "1",
+   "hint": "Count back 3.",
+   "explanation": "4 − 3 = 1",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1",
+    "0",
+    "7",
+    "2"
+   ]
+  },
+  {
+   "id": "L-c1-maths-074",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "4 − 2 = ?",
+   "answer": "2",
+   "hint": "Count back 2.",
+   "explanation": "4 − 2 = 2",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "1",
+    "6",
+    "3"
+   ]
+  },
+  {
+   "id": "L-c1-maths-075",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "9 − 2 = ?",
+   "answer": "7",
+   "hint": "Count back 2.",
+   "explanation": "9 − 2 = 7",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "6",
+    "8",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c1-maths-076",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "3 − 1 = ?",
+   "answer": "2",
+   "hint": "Count back 1.",
+   "explanation": "3 − 1 = 2",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "4",
+    "1",
+    "3"
+   ]
+  },
+  {
+   "id": "L-c1-maths-077",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "6 − 2 = ?",
+   "answer": "4",
+   "hint": "Count back 2.",
+   "explanation": "6 − 2 = 4",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3",
+    "8",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-maths-078",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "3 − 2 = ?",
+   "answer": "1",
+   "hint": "Count back 2.",
+   "explanation": "3 − 2 = 1",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "5",
+    "1",
+    "0"
+   ]
+  },
+  {
+   "id": "L-c1-maths-079",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "🍬 Ria has 7 sweets. She eats 6. How many are left?",
+   "answer": "1",
+   "hint": "Take away.",
+   "explanation": "7 − 6 = 1",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "0",
+    "1",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-maths-080",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "🍬 Ria has 7 sweets. She eats 4. How many are left?",
+   "answer": "3",
+   "hint": "Take away.",
+   "explanation": "7 − 4 = 3",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c1-maths-081",
+   "level": 2,
+   "topic": "add-sub-10",
+   "type": "multiple-choice",
+   "question": "🍬 Ria has 4 sweets. She eats 3. How many are left?",
+   "answer": "1",
+   "hint": "Take away.",
+   "explanation": "4 − 3 = 1",
+   "skills": [
+    "maths",
+    "add-sub-10"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "0",
+    "1",
+    "2"
+   ]
+  },
+  {
+   "id": "L-c1-maths-082",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "11 + 4 = ?",
+   "answer": "15",
+   "hint": "Count on from 11.",
+   "explanation": "11 + 4 = 15",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "25",
+    "15",
+    "14",
+    "16"
+   ]
+  },
+  {
+   "id": "L-c1-maths-083",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "12 + 8 = ?",
+   "answer": "20",
+   "hint": "Count on from 12.",
+   "explanation": "12 + 8 = 20",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "30",
+    "21",
+    "19",
+    "20"
+   ]
+  },
+  {
+   "id": "L-c1-maths-084",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "8 + 8 = ?",
+   "answer": "16",
+   "hint": "Count on from 8.",
+   "explanation": "8 + 8 = 16",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "17",
+    "16",
+    "15",
+    "26"
+   ]
+  },
+  {
+   "id": "L-c1-maths-085",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "6 + 7 = ?",
+   "answer": "13",
+   "hint": "Count on from 6.",
+   "explanation": "6 + 7 = 13",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "14",
+    "12",
+    "23",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-maths-086",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "8 + 3 = ?",
+   "answer": "11",
+   "hint": "Count on from 8.",
+   "explanation": "8 + 3 = 11",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "21",
+    "10",
+    "12",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c1-maths-087",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "9 + 4 = ?",
+   "answer": "13",
+   "hint": "Count on from 9.",
+   "explanation": "9 + 4 = 13",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "14",
+    "23",
+    "12"
+   ]
+  },
+  {
+   "id": "L-c1-maths-088",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "7 + 6 = ?",
+   "answer": "13",
+   "hint": "Count on from 7.",
+   "explanation": "7 + 6 = 13",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "14",
+    "12",
+    "23"
+   ]
+  },
+  {
+   "id": "L-c1-maths-089",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "12 − 2 = ?",
+   "answer": "10",
+   "hint": "Count back 2.",
+   "explanation": "12 − 2 = 10",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "10",
+    "14",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-maths-090",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "11 − 9 = ?",
+   "answer": "2",
+   "hint": "Count back 9.",
+   "explanation": "11 − 9 = 2",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1",
+    "20",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "id": "L-c1-maths-091",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "18 − 4 = ?",
+   "answer": "14",
+   "hint": "Count back 4.",
+   "explanation": "18 − 4 = 14",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "15",
+    "14",
+    "22",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-maths-092",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "19 − 5 = ?",
+   "answer": "14",
+   "hint": "Count back 5.",
+   "explanation": "19 − 5 = 14",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "14",
+    "24",
+    "15",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-maths-093",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "18 − 5 = ?",
+   "answer": "13",
+   "hint": "Count back 5.",
+   "explanation": "18 − 5 = 13",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "12",
+    "23",
+    "14"
+   ]
+  },
+  {
+   "id": "L-c1-maths-094",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "13 − 8 = ?",
+   "answer": "5",
+   "hint": "Count back 8.",
+   "explanation": "13 − 8 = 5",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "4",
+    "5",
+    "21"
+   ]
+  },
+  {
+   "id": "L-c1-maths-095",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "17 − 3 = ?",
+   "answer": "14",
+   "hint": "Count back 3.",
+   "explanation": "17 − 3 = 14",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "14",
+    "20",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "id": "L-c1-maths-096",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "🥕 A farm has 11 carrots and 6 more come. How many carrots now?",
+   "answer": "17",
+   "hint": "Add them.",
+   "explanation": "11 + 6 = 17",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "18",
+    "11",
+    "17"
+   ]
+  },
+  {
+   "id": "L-c1-maths-097",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "🥕 A farm has 9 carrots and 3 more come. How many carrots now?",
+   "answer": "12",
+   "hint": "Add them.",
+   "explanation": "9 + 3 = 12",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3",
+    "12",
+    "9",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-maths-098",
+   "level": 2,
+   "topic": "add-sub-20",
+   "type": "multiple-choice",
+   "question": "🥕 A farm has 10 carrots and 7 more come. How many carrots now?",
+   "answer": "17",
+   "hint": "Add them.",
+   "explanation": "10 + 7 = 17",
+   "skills": [
+    "maths",
+    "add-sub-20"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "18",
+    "10",
+    "17"
+   ]
+  },
+  {
+   "id": "L-c1-maths-099",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "6 tens and 1 ones = ?",
+   "answer": "61",
+   "hint": "Tens first, then ones.",
+   "explanation": "6 tens is 60, plus 1 = 61",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "16",
+    "62",
+    "60",
+    "61"
+   ]
+  },
+  {
+   "id": "L-c1-maths-100",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "5 tens and 3 ones = ?",
+   "answer": "53",
+   "hint": "Tens first, then ones.",
+   "explanation": "5 tens is 50, plus 3 = 53",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "54",
+    "52",
+    "53",
+    "35"
+   ]
+  },
+  {
+   "id": "L-c1-maths-101",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "8 tens and 2 ones = ?",
+   "answer": "82",
+   "hint": "Tens first, then ones.",
+   "explanation": "8 tens is 80, plus 2 = 82",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "81",
+    "82",
+    "83",
+    "28"
+   ]
+  },
+  {
+   "id": "L-c1-maths-102",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "2 tens and 3 ones = ?",
+   "answer": "23",
+   "hint": "Tens first, then ones.",
+   "explanation": "2 tens is 20, plus 3 = 23",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "22",
+    "24",
+    "32",
+    "23"
+   ]
+  },
+  {
+   "id": "L-c1-maths-103",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "5 tens and 8 ones = ?",
+   "answer": "58",
+   "hint": "Tens first, then ones.",
+   "explanation": "5 tens is 50, plus 8 = 58",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "59",
+    "85",
+    "57",
+    "58"
+   ]
+  },
+  {
+   "id": "L-c1-maths-104",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "What comes after 29?",
+   "answer": "30",
+   "hint": "Count on one.",
+   "explanation": "After 29 comes 30.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "31",
+    "32",
+    "29",
+    "30"
+   ]
+  },
+  {
+   "id": "L-c1-maths-105",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "What comes after 39?",
+   "answer": "40",
+   "hint": "Count on one.",
+   "explanation": "After 39 comes 40.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "40",
+    "42",
+    "41",
+    "39"
+   ]
+  },
+  {
+   "id": "L-c1-maths-106",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "What comes after 49?",
+   "answer": "50",
+   "hint": "Count on one.",
+   "explanation": "After 49 comes 50.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "52",
+    "51",
+    "50",
+    "49"
+   ]
+  },
+  {
+   "id": "L-c1-maths-107",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "What comes after 54?",
+   "answer": "55",
+   "hint": "Count on one.",
+   "explanation": "After 54 comes 55.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "55",
+    "57",
+    "56",
+    "54"
+   ]
+  },
+  {
+   "id": "L-c1-maths-108",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "What comes after 67?",
+   "answer": "68",
+   "hint": "Count on one.",
+   "explanation": "After 67 comes 68.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "70",
+    "68",
+    "69",
+    "67"
+   ]
+  },
+  {
+   "id": "L-c1-maths-109",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "What comes after 78?",
+   "answer": "79",
+   "hint": "Count on one.",
+   "explanation": "After 78 comes 79.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "80",
+    "81",
+    "79",
+    "78"
+   ]
+  },
+  {
+   "id": "L-c1-maths-110",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "Which is MORE: 47 or 74?",
+   "answer": "74",
+   "hint": "Look at the tens first.",
+   "explanation": "74 is more than 47.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "73",
+    "74",
+    "75",
+    "47"
+   ]
+  },
+  {
+   "id": "L-c1-maths-111",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "Which is MORE: 36 or 63?",
+   "answer": "63",
+   "hint": "Look at the tens first.",
+   "explanation": "63 is more than 36.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "63",
+    "36",
+    "64",
+    "62"
+   ]
+  },
+  {
+   "id": "L-c1-maths-112",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "Which is MORE: 52 or 25?",
+   "answer": "52",
+   "hint": "Look at the tens first.",
+   "explanation": "52 is more than 25.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "52",
+    "51",
+    "53",
+    "25"
+   ]
+  },
+  {
+   "id": "L-c1-maths-113",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "Which is MORE: 81 or 18?",
+   "answer": "81",
+   "hint": "Look at the tens first.",
+   "explanation": "81 is more than 18.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "82",
+    "80",
+    "81",
+    "18"
+   ]
+  },
+  {
+   "id": "L-c1-maths-114",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "multiple-choice",
+   "question": "Which is MORE: 69 or 96?",
+   "answer": "96",
+   "hint": "Look at the tens first.",
+   "explanation": "96 is more than 69.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "97",
+    "96",
+    "95",
+    "69"
+   ]
+  },
+  {
+   "id": "L-c1-maths-115",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "50 + 30 = ?",
+   "answer": "80",
+   "hint": "Add the tens.",
+   "explanation": "50 + 30 = 80",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "82",
+    "80",
+    "79",
+    "81"
+   ]
+  },
+  {
+   "id": "L-c1-maths-116",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "30 + 40 = ?",
+   "answer": "70",
+   "hint": "Add the tens.",
+   "explanation": "30 + 40 = 70",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "70",
+    "69",
+    "72",
+    "71"
+   ]
+  },
+  {
+   "id": "L-c1-maths-117",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "10 + 10 = ?",
+   "answer": "20",
+   "hint": "Add the tens.",
+   "explanation": "10 + 10 = 20",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "22",
+    "19",
+    "20",
+    "21"
+   ]
+  },
+  {
+   "id": "L-c1-maths-118",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "10 + 20 = ?",
+   "answer": "30",
+   "hint": "Add the tens.",
+   "explanation": "10 + 20 = 30",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "32",
+    "31",
+    "30",
+    "29"
+   ]
+  },
+  {
+   "id": "L-c1-maths-119",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "50 + 20 = ?",
+   "answer": "70",
+   "hint": "Add the tens.",
+   "explanation": "50 + 20 = 70",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "70",
+    "71",
+    "69",
+    "72"
+   ]
+  },
+  {
+   "id": "L-c1-maths-120",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "21 + 30 = ?",
+   "answer": "51",
+   "hint": "Add ones, then tens.",
+   "explanation": "21 + 30 = 51",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "51",
+    "61",
+    "50",
+    "52"
+   ]
+  },
+  {
+   "id": "L-c1-maths-121",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "44 + 22 = ?",
+   "answer": "66",
+   "hint": "Add ones, then tens.",
+   "explanation": "44 + 22 = 66",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "66",
+    "76",
+    "67",
+    "65"
+   ]
+  },
+  {
+   "id": "L-c1-maths-122",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "50 + 15 = ?",
+   "answer": "65",
+   "hint": "Add ones, then tens.",
+   "explanation": "50 + 15 = 65",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "75",
+    "65",
+    "66",
+    "64"
+   ]
+  },
+  {
+   "id": "L-c1-maths-123",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "51 + 15 = ?",
+   "answer": "66",
+   "hint": "Add ones, then tens.",
+   "explanation": "51 + 15 = 66",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "66",
+    "76",
+    "67",
+    "65"
+   ]
+  },
+  {
+   "id": "L-c1-maths-124",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "45 + 31 = ?",
+   "answer": "76",
+   "hint": "Add ones, then tens.",
+   "explanation": "45 + 31 = 76",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "77",
+    "76",
+    "75",
+    "86"
+   ]
+  },
+  {
+   "id": "L-c1-maths-125",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "64 − 30 = ?",
+   "answer": "34",
+   "hint": "Take away ones, then tens.",
+   "explanation": "64 − 30 = 34",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "44",
+    "33",
+    "35",
+    "34"
+   ]
+  },
+  {
+   "id": "L-c1-maths-126",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "69 − 26 = ?",
+   "answer": "43",
+   "hint": "Take away ones, then tens.",
+   "explanation": "69 − 26 = 43",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "44",
+    "53",
+    "42",
+    "43"
+   ]
+  },
+  {
+   "id": "L-c1-maths-127",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "67 − 21 = ?",
+   "answer": "46",
+   "hint": "Take away ones, then tens.",
+   "explanation": "67 − 21 = 46",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "46",
+    "47",
+    "45",
+    "56"
+   ]
+  },
+  {
+   "id": "L-c1-maths-128",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "95 − 23 = ?",
+   "answer": "72",
+   "hint": "Take away ones, then tens.",
+   "explanation": "95 − 23 = 72",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "82",
+    "72",
+    "73",
+    "71"
+   ]
+  },
+  {
+   "id": "L-c1-maths-129",
+   "level": 2,
+   "topic": "add-sub-99",
+   "type": "multiple-choice",
+   "question": "98 − 35 = ?",
+   "answer": "63",
+   "hint": "Take away ones, then tens.",
+   "explanation": "98 − 35 = 63",
+   "skills": [
+    "maths",
+    "add-sub-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "64",
+    "63",
+    "62",
+    "73"
+   ]
+  },
+  {
+   "id": "L-c1-maths-130",
+   "level": 2,
+   "topic": "patterns",
+   "type": "multiple-choice",
+   "question": "2, 4, 6, 8, ?",
+   "answer": "10",
+   "hint": "See how much it grows each step.",
+   "explanation": "It grows by 2. Next is 10.",
+   "skills": [
+    "maths",
+    "patterns"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "11",
+    "10",
+    "12"
+   ]
+  },
+  {
+   "id": "L-c1-maths-131",
+   "level": 2,
+   "topic": "patterns",
+   "type": "multiple-choice",
+   "question": "1, 3, 5, 7, ?",
+   "answer": "9",
+   "hint": "See how much it grows each step.",
+   "explanation": "It grows by 2. Next is 9.",
+   "skills": [
+    "maths",
+    "patterns"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "10",
+    "8",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c1-maths-132",
+   "level": 2,
+   "topic": "patterns",
+   "type": "multiple-choice",
+   "question": "5, 10, 15, 20, ?",
+   "answer": "25",
+   "hint": "See how much it grows each step.",
+   "explanation": "It grows by 5. Next is 25.",
+   "skills": [
+    "maths",
+    "patterns"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "27",
+    "24",
+    "26",
+    "25"
+   ]
+  },
+  {
+   "id": "L-c1-maths-133",
+   "level": 2,
+   "topic": "patterns",
+   "type": "multiple-choice",
+   "question": "3, 6, 9, 12, ?",
+   "answer": "15",
+   "hint": "See how much it grows each step.",
+   "explanation": "It grows by 3. Next is 15.",
+   "skills": [
+    "maths",
+    "patterns"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "15",
+    "17",
+    "14",
+    "16"
+   ]
+  },
+  {
+   "id": "L-c1-maths-134",
+   "level": 2,
+   "topic": "patterns",
+   "type": "multiple-choice",
+   "question": "10, 20, 30, 40, ?",
+   "answer": "50",
+   "hint": "See how much it grows each step.",
+   "explanation": "It grows by 10. Next is 50.",
+   "skills": [
+    "maths",
+    "patterns"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "50",
+    "49",
+    "52",
+    "51"
+   ]
+  },
+  {
+   "id": "L-c1-maths-135",
+   "level": 2,
+   "topic": "patterns",
+   "type": "multiple-choice",
+   "question": "1, 2, 3, 4, ?",
+   "answer": "5",
+   "hint": "See how much it grows each step.",
+   "explanation": "It grows by 1. Next is 5.",
+   "skills": [
+    "maths",
+    "patterns"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "6",
+    "5",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c1-maths-136",
+   "level": 2,
+   "topic": "patterns",
+   "type": "multiple-choice",
+   "question": "🔴🔵🔴🔵🔴 ?",
+   "answer": "🔵",
+   "hint": "The same things take turns.",
+   "explanation": "The pattern repeats.",
+   "skills": [
+    "maths",
+    "patterns"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🟡",
+    "🔵",
+    "🔴",
+    "🟢"
+   ]
+  },
+  {
+   "id": "L-c1-maths-137",
+   "level": 2,
+   "topic": "patterns",
+   "type": "multiple-choice",
+   "question": "⭐🌙⭐🌙⭐ ?",
+   "answer": "🌙",
+   "hint": "The same things take turns.",
+   "explanation": "The pattern repeats.",
+   "skills": [
+    "maths",
+    "patterns"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "☀️",
+    "⭐",
+    "🌟",
+    "🌙"
+   ]
+  },
+  {
+   "id": "L-c1-maths-138",
+   "level": 2,
+   "topic": "patterns",
+   "type": "multiple-choice",
+   "question": "🍎🍎🍌🍎🍎 ?",
+   "answer": "🍌",
+   "hint": "The same things take turns.",
+   "explanation": "The pattern repeats.",
+   "skills": [
+    "maths",
+    "patterns"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🍊",
+    "🍎",
+    "🍌",
+    "🍇"
+   ]
+  },
+  {
+   "id": "L-c1-maths-139",
+   "level": 2,
+   "topic": "patterns",
+   "type": "multiple-choice",
+   "question": "🔺🔺🟦🔺🔺 ?",
+   "answer": "🟦",
+   "hint": "The same things take turns.",
+   "explanation": "The pattern repeats.",
+   "skills": [
+    "maths",
+    "patterns"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🔺",
+    "🟢",
+    "🟦",
+    "⭐"
+   ]
+  },
+  {
+   "id": "L-c1-maths-140",
+   "level": 2,
+   "topic": "patterns",
+   "type": "multiple-choice",
+   "question": "🐱🐶🐱🐶🐱 ?",
+   "answer": "🐶",
+   "hint": "The same things take turns.",
+   "explanation": "The pattern repeats.",
+   "skills": [
+    "maths",
+    "patterns"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🐶",
+    "🐭",
+    "🐰",
+    "🐱"
+   ]
+  },
+  {
+   "id": "L-c1-maths-141",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "The day after Monday is…",
+   "answer": "Tuesday",
+   "hint": "Say the days in order.",
+   "explanation": "After Monday comes Tuesday.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Wednesday",
+    "Tuesday",
+    "Friday",
+    "Thursday"
+   ]
+  },
+  {
+   "id": "L-c1-maths-142",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "The day after Tuesday is…",
+   "answer": "Wednesday",
+   "hint": "Say the days in order.",
+   "explanation": "After Tuesday comes Wednesday.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Friday",
+    "Monday",
+    "Thursday",
+    "Wednesday"
+   ]
+  },
+  {
+   "id": "L-c1-maths-143",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "The day after Wednesday is…",
+   "answer": "Thursday",
+   "hint": "Say the days in order.",
+   "explanation": "After Wednesday comes Thursday.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Tuesday",
+    "Friday",
+    "Monday",
+    "Thursday"
+   ]
+  },
+  {
+   "id": "L-c1-maths-144",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "The day after Thursday is…",
+   "answer": "Friday",
+   "hint": "Say the days in order.",
+   "explanation": "After Thursday comes Friday.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Friday",
+    "Wednesday",
+    "Tuesday",
+    "Monday"
+   ]
+  },
+  {
+   "id": "L-c1-maths-145",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "The day after Friday is…",
+   "answer": "Saturday",
+   "hint": "Say the days in order.",
+   "explanation": "After Friday comes Saturday.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Wednesday",
+    "Saturday",
+    "Tuesday",
+    "Monday"
+   ]
+  },
+  {
+   "id": "L-c1-maths-146",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "The day after Saturday is…",
+   "answer": "Sunday",
+   "hint": "Say the days in order.",
+   "explanation": "After Saturday comes Sunday.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Monday",
+    "Wednesday",
+    "Tuesday",
+    "Sunday"
+   ]
+  },
+  {
+   "id": "L-c1-maths-147",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "The day after Sunday is…",
+   "answer": "Monday",
+   "hint": "Say the days in order.",
+   "explanation": "After Sunday comes Monday.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Wednesday",
+    "Thursday",
+    "Monday",
+    "Tuesday"
+   ]
+  },
+  {
+   "id": "L-c1-maths-148",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "We eat breakfast in the…",
+   "answer": "morning",
+   "hint": "Think about your day.",
+   "explanation": "The answer is morning.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "evening",
+    "midnight",
+    "night",
+    "morning"
+   ]
+  },
+  {
+   "id": "L-c1-maths-149",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "We sleep at…",
+   "answer": "night",
+   "hint": "Think about your day.",
+   "explanation": "The answer is night.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "night",
+    "afternoon",
+    "morning",
+    "noon"
+   ]
+  },
+  {
+   "id": "L-c1-maths-150",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "The Sun is highest at…",
+   "answer": "noon",
+   "hint": "Think about your day.",
+   "explanation": "The answer is noon.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "noon",
+    "night",
+    "midnight",
+    "dawn"
+   ]
+  },
+  {
+   "id": "L-c1-maths-151",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "How many days in a week?",
+   "answer": "7",
+   "hint": "Think about your day.",
+   "explanation": "The answer is 7.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "5",
+    "10",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-maths-152",
+   "level": 2,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "How many hours in a day?",
+   "answer": "24",
+   "hint": "Think about your day.",
+   "explanation": "The answer is 24.",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "24",
+    "60",
+    "20"
+   ]
+  },
+  {
+   "id": "L-c1-maths-153",
+   "level": 2,
+   "topic": "measure",
+   "type": "multiple-choice",
+   "question": "A pencil is 5 clips long. A book is 8 clips long. Which is longer?",
+   "answer": "book",
+   "hint": "Compare the two.",
+   "explanation": "The answer is book.",
+   "skills": [
+    "maths",
+    "measure"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "book",
+    "same",
+    "none",
+    "pencil"
+   ]
+  },
+  {
+   "id": "L-c1-maths-154",
+   "level": 2,
+   "topic": "measure",
+   "type": "multiple-choice",
+   "question": "Which holds more water? 🪣 bucket or 🥛 glass",
+   "answer": "bucket",
+   "hint": "Compare the two.",
+   "explanation": "The answer is bucket.",
+   "skills": [
+    "maths",
+    "measure"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "bucket",
+    "same",
+    "none",
+    "glass"
+   ]
+  },
+  {
+   "id": "L-c1-maths-155",
+   "level": 2,
+   "topic": "measure",
+   "type": "multiple-choice",
+   "question": "Which is lighter? 🪶 feather or 🪨 stone",
+   "answer": "feather",
+   "hint": "Compare the two.",
+   "explanation": "The answer is feather.",
+   "skills": [
+    "maths",
+    "measure"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "stone",
+    "same",
+    "none",
+    "feather"
+   ]
+  },
+  {
+   "id": "L-c1-maths-156",
+   "level": 2,
+   "topic": "measure",
+   "type": "multiple-choice",
+   "question": "We can measure a desk with our…",
+   "answer": "hand spans",
+   "hint": "Compare the two.",
+   "explanation": "The answer is hand spans.",
+   "skills": [
+    "maths",
+    "measure"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "eyes",
+    "hand spans",
+    "ears",
+    "nose"
+   ]
+  },
+  {
+   "id": "L-c1-maths-157",
+   "level": 2,
+   "topic": "measure",
+   "type": "multiple-choice",
+   "question": "A rope is 6 steps long. A ribbon is 3 steps long. Which is shorter?",
+   "answer": "ribbon",
+   "hint": "Compare the two.",
+   "explanation": "The answer is ribbon.",
+   "skills": [
+    "maths",
+    "measure"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "none",
+    "rope",
+    "same",
+    "ribbon"
+   ]
+  },
+  {
+   "id": "L-c1-maths-158",
+   "level": 2,
+   "topic": "money",
+   "type": "multiple-choice",
+   "question": "₹4 + ₹5 = ?",
+   "answer": "₹9",
+   "hint": "Add the rupees.",
+   "explanation": "₹4 and ₹5 make ₹9.",
+   "skills": [
+    "maths",
+    "money"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "₹9",
+    "₹10",
+    "₹11",
+    "₹8"
+   ]
+  },
+  {
+   "id": "L-c1-maths-159",
+   "level": 2,
+   "topic": "money",
+   "type": "multiple-choice",
+   "question": "₹1 + ₹4 = ?",
+   "answer": "₹5",
+   "hint": "Add the rupees.",
+   "explanation": "₹1 and ₹4 make ₹5.",
+   "skills": [
+    "maths",
+    "money"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "₹5",
+    "₹7",
+    "₹6",
+    "₹4"
+   ]
+  },
+  {
+   "id": "L-c1-maths-160",
+   "level": 2,
+   "topic": "money",
+   "type": "multiple-choice",
+   "question": "₹1 + ₹1 = ?",
+   "answer": "₹2",
+   "hint": "Add the rupees.",
+   "explanation": "₹1 and ₹1 make ₹2.",
+   "skills": [
+    "maths",
+    "money"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "₹3",
+    "₹2",
+    "₹1",
+    "₹4"
+   ]
+  },
+  {
+   "id": "L-c1-maths-161",
+   "level": 2,
+   "topic": "money",
+   "type": "multiple-choice",
+   "question": "₹5 + ₹3 = ?",
+   "answer": "₹8",
+   "hint": "Add the rupees.",
+   "explanation": "₹5 and ₹3 make ₹8.",
+   "skills": [
+    "maths",
+    "money"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "₹9",
+    "₹10",
+    "₹7",
+    "₹8"
+   ]
+  },
+  {
+   "id": "L-c1-maths-162",
+   "level": 2,
+   "topic": "money",
+   "type": "multiple-choice",
+   "question": "Which is worth more: ₹10 note or ₹5 coin?",
+   "answer": "₹10",
+   "hint": "Think of a shop.",
+   "explanation": "The answer is ₹10.",
+   "skills": [
+    "maths",
+    "money"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "same",
+    "none",
+    "₹10",
+    "₹5"
+   ]
+  },
+  {
+   "id": "L-c1-maths-163",
+   "level": 2,
+   "topic": "money",
+   "type": "multiple-choice",
+   "question": "A toy costs ₹8. You have ₹10. Change left?",
+   "answer": "₹2",
+   "hint": "Think of a shop.",
+   "explanation": "The answer is ₹2.",
+   "skills": [
+    "maths",
+    "money"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "₹18",
+    "₹2",
+    "₹1",
+    "₹8"
+   ]
+  },
+  {
+   "id": "L-c1-maths-164",
+   "level": 2,
+   "topic": "money",
+   "type": "multiple-choice",
+   "question": "Where do we spend money?",
+   "answer": "at a shop",
+   "hint": "Think of a shop.",
+   "explanation": "The answer is at a shop.",
+   "skills": [
+    "maths",
+    "money"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "at a shop",
+    "under the bed",
+    "in the sky",
+    "in the sea"
+   ]
+  },
+  {
+   "id": "L-c1-maths-165",
+   "level": 2,
+   "topic": "data",
+   "type": "multiple-choice",
+   "question": "🧸 toys: 🧸🧸🧸     🚗 toys: 🚗🚗     How many MORE 🧸 than 🚗?",
+   "answer": "1",
+   "hint": "Count each, then compare.",
+   "explanation": "3 − 2 = 1",
+   "skills": [
+    "maths",
+    "data"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "0",
+    "1",
+    "3"
+   ]
+  },
+  {
+   "id": "L-c1-maths-166",
+   "level": 2,
+   "topic": "data",
+   "type": "multiple-choice",
+   "question": "🧸 toys: 🧸🧸🧸🧸     🚗 toys: 🚗🚗     How many MORE 🧸 than 🚗?",
+   "answer": "2",
+   "hint": "Count each, then compare.",
+   "explanation": "4 − 2 = 2",
+   "skills": [
+    "maths",
+    "data"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "4",
+    "1",
+    "3",
+    "2"
+   ]
+  },
+  {
+   "id": "L-c1-maths-167",
+   "level": 2,
+   "topic": "data",
+   "type": "multiple-choice",
+   "question": "🧸 toys: 🧸🧸🧸🧸🧸🧸🧸🧸     🚗 toys: 🚗🚗🚗🚗🚗     How many MORE 🧸 than 🚗?",
+   "answer": "3",
+   "hint": "Count each, then compare.",
+   "explanation": "8 − 5 = 3",
+   "skills": [
+    "maths",
+    "data"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "4",
+    "5",
+    "3"
+   ]
+  },
+  {
+   "id": "L-c1-maths-168",
+   "level": 2,
+   "topic": "data",
+   "type": "multiple-choice",
+   "question": "🧸 toys: 🧸🧸🧸🧸🧸     🚗 toys: 🚗🚗🚗     How many MORE 🧸 than 🚗?",
+   "answer": "2",
+   "hint": "Count each, then compare.",
+   "explanation": "5 − 3 = 2",
+   "skills": [
+    "maths",
+    "data"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "3",
+    "1",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-maths-169",
+   "level": 2,
+   "topic": "data",
+   "type": "multiple-choice",
+   "question": "🧸 toys: 🧸🧸🧸🧸🧸🧸     🚗 toys: 🚗🚗     How many MORE 🧸 than 🚗?",
+   "answer": "4",
+   "hint": "Count each, then compare.",
+   "explanation": "6 − 2 = 4",
+   "skills": [
+    "maths",
+    "data"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "2",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-maths-170",
+   "level": 2,
+   "topic": "data",
+   "type": "multiple-choice",
+   "question": "🍎 🍎🍎   🍌 🍌🍌🍌   How many fruits in all?",
+   "answer": "5",
+   "hint": "Count both rows.",
+   "explanation": "2 + 3 = 5",
+   "skills": [
+    "maths",
+    "data"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "5",
+    "3",
+    "2"
+   ]
+  },
+  {
+   "id": "L-c1-maths-171",
+   "level": 2,
+   "topic": "data",
+   "type": "multiple-choice",
+   "question": "🍎 🍎🍎🍎   🍌 🍌🍌🍌🍌🍌   How many fruits in all?",
+   "answer": "8",
+   "hint": "Count both rows.",
+   "explanation": "3 + 5 = 8",
+   "skills": [
+    "maths",
+    "data"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "3",
+    "8",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-maths-172",
+   "level": 2,
+   "topic": "data",
+   "type": "multiple-choice",
+   "question": "🍎 🍎🍎🍎🍎🍎🍎   🍌 🍌🍌🍌🍌🍌🍌   How many fruits in all?",
+   "answer": "12",
+   "hint": "Count both rows.",
+   "explanation": "6 + 6 = 12",
+   "skills": [
+    "maths",
+    "data"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "11",
+    "12",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-maths-173",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "2 × 2 = ?",
+   "answer": "4",
+   "hint": "Skip count by 2, 2 times.",
+   "explanation": "2 × 2 = 4",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "4",
+    "3",
+    "6",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-maths-174",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "2 × 3 = ?",
+   "answer": "6",
+   "hint": "Skip count by 2, 3 times.",
+   "explanation": "2 × 3 = 6",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "6",
+    "5",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c1-maths-175",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "2 × 4 = ?",
+   "answer": "8",
+   "hint": "Skip count by 2, 4 times.",
+   "explanation": "2 × 4 = 8",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "6",
+    "10",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-maths-176",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "2 × 5 = ?",
+   "answer": "10",
+   "hint": "Skip count by 2, 5 times.",
+   "explanation": "2 × 5 = 10",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "10",
+    "7",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c1-maths-177",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "3 × 2 = ?",
+   "answer": "6",
+   "hint": "Skip count by 3, 2 times.",
+   "explanation": "3 × 2 = 6",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "9",
+    "5",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c1-maths-178",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "3 × 3 = ?",
+   "answer": "9",
+   "hint": "Skip count by 3, 3 times.",
+   "explanation": "3 × 3 = 9",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "10",
+    "12",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-maths-179",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "3 × 4 = ?",
+   "answer": "12",
+   "hint": "Skip count by 3, 4 times.",
+   "explanation": "3 × 4 = 12",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "7",
+    "15",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-maths-180",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "3 × 5 = ?",
+   "answer": "15",
+   "hint": "Skip count by 3, 5 times.",
+   "explanation": "3 × 5 = 15",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "16",
+    "8",
+    "15",
+    "18"
+   ]
+  },
+  {
+   "id": "L-c1-maths-181",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "4 × 2 = ?",
+   "answer": "8",
+   "hint": "Skip count by 4, 2 times.",
+   "explanation": "4 × 2 = 8",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "12",
+    "6",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-maths-182",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "4 × 3 = ?",
+   "answer": "12",
+   "hint": "Skip count by 4, 3 times.",
+   "explanation": "4 × 3 = 12",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "16",
+    "7",
+    "13",
+    "12"
+   ]
+  },
+  {
+   "id": "L-c1-maths-183",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "4 × 4 = ?",
+   "answer": "16",
+   "hint": "Skip count by 4, 4 times.",
+   "explanation": "4 × 4 = 16",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "16",
+    "17",
+    "8",
+    "20"
+   ]
+  },
+  {
+   "id": "L-c1-maths-184",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "4 × 5 = ?",
+   "answer": "20",
+   "hint": "Skip count by 4, 5 times.",
+   "explanation": "4 × 5 = 20",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "21",
+    "9",
+    "20",
+    "24"
+   ]
+  },
+  {
+   "id": "L-c1-maths-185",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "5 × 2 = ?",
+   "answer": "10",
+   "hint": "Skip count by 5, 2 times.",
+   "explanation": "5 × 2 = 10",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "15",
+    "7",
+    "11",
+    "10"
+   ]
+  },
+  {
+   "id": "L-c1-maths-186",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "5 × 3 = ?",
+   "answer": "15",
+   "hint": "Skip count by 5, 3 times.",
+   "explanation": "5 × 3 = 15",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "20",
+    "16",
+    "15"
+   ]
+  },
+  {
+   "id": "L-c1-maths-187",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "5 × 4 = ?",
+   "answer": "20",
+   "hint": "Skip count by 5, 4 times.",
+   "explanation": "5 × 4 = 20",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "25",
+    "20",
+    "21"
+   ]
+  },
+  {
+   "id": "L-c1-maths-188",
+   "level": 2,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "5 × 5 = ?",
+   "answer": "25",
+   "hint": "Skip count by 5, 5 times.",
+   "explanation": "5 × 5 = 25",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "10",
+    "30",
+    "25",
+    "26"
+   ]
+  },
+  {
+   "id": "L-c1-maths-189",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "tap-count",
+   "question": "Tap 3 ⭐",
+   "answer": "3",
+   "hint": "Tap one at a time. Count out loud.",
+   "explanation": "You tapped 3. Great counting!",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "icon": "⭐",
+   "target": 3,
+   "total": 6
+  },
+  {
+   "id": "L-c1-maths-190",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "tap-count",
+   "question": "Tap 5 🧸",
+   "answer": "5",
+   "hint": "Tap one at a time. Count out loud.",
+   "explanation": "You tapped 5. Great counting!",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "icon": "🧸",
+   "target": 5,
+   "total": 8
+  },
+  {
+   "id": "L-c1-maths-191",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "tap-count",
+   "question": "Tap 6 🐟",
+   "answer": "6",
+   "hint": "Tap one at a time. Count out loud.",
+   "explanation": "You tapped 6. Great counting!",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "icon": "🐟",
+   "target": 6,
+   "total": 9
+  },
+  {
+   "id": "L-c1-maths-192",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "tap-count",
+   "question": "Tap 4 🐟",
+   "answer": "4",
+   "hint": "Tap one at a time. Count out loud.",
+   "explanation": "You tapped 4. Great counting!",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "icon": "🐟",
+   "target": 4,
+   "total": 7
+  },
+  {
+   "id": "L-c1-maths-193",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "tap-count",
+   "question": "Tap 7 🍎",
+   "answer": "7",
+   "hint": "Tap one at a time. Count out loud.",
+   "explanation": "You tapped 7. Great counting!",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "icon": "🍎",
+   "target": 7,
+   "total": 10
+  },
+  {
+   "id": "L-c1-maths-194",
+   "level": 2,
+   "topic": "numbers-1-9",
+   "type": "tap-count",
+   "question": "Tap 8 ⭐",
+   "answer": "8",
+   "hint": "Tap one at a time. Count out loud.",
+   "explanation": "You tapped 8. Great counting!",
+   "skills": [
+    "maths",
+    "numbers-1-9"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "icon": "⭐",
+   "target": 8,
+   "total": 11
+  },
+  {
+   "id": "L-c1-maths-195",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "order",
+   "question": "Tap from SMALLEST to BIGGEST",
+   "answer": "3,5,7",
+   "hint": "Start with the smallest number.",
+   "explanation": "Smallest to biggest: 3, 5, 7.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "items": [
+    "3",
+    "7",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-maths-196",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "order",
+   "question": "Tap from SMALLEST to BIGGEST",
+   "answer": "2,6,9",
+   "hint": "Start with the smallest number.",
+   "explanation": "Smallest to biggest: 2, 6, 9.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "items": [
+    "9",
+    "2",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-maths-197",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "order",
+   "question": "Tap from SMALLEST to BIGGEST",
+   "answer": "1,4,8",
+   "hint": "Start with the smallest number.",
+   "explanation": "Smallest to biggest: 1, 4, 8.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "items": [
+    "4",
+    "1",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-maths-198",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "order",
+   "question": "Tap from SMALLEST to BIGGEST",
+   "answer": "3,6,9",
+   "hint": "Start with the smallest number.",
+   "explanation": "Smallest to biggest: 3, 6, 9.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "items": [
+    "6",
+    "3",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-maths-199",
+   "level": 2,
+   "topic": "sort-compare",
+   "type": "order",
+   "question": "Tap from SMALLEST to BIGGEST",
+   "answer": "2,5,7",
+   "hint": "Start with the smallest number.",
+   "explanation": "Smallest to biggest: 2, 5, 7.",
+   "skills": [
+    "maths",
+    "sort-compare"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "items": [
+    "7",
+    "5",
+    "2"
+   ]
+  },
+  {
+   "id": "L-c1-maths-200",
+   "level": 2,
+   "topic": "numbers-10-20",
+   "type": "order",
+   "question": "Tap from SMALLEST to BIGGEST",
+   "answer": "12,15,18",
+   "hint": "Look at the tens first.",
+   "explanation": "Smallest to biggest: 12, 15, 18.",
+   "skills": [
+    "maths",
+    "numbers-10-20"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "items": [
+    "12",
+    "18",
+    "15"
+   ]
+  },
+  {
+   "id": "L-c1-maths-201",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "order",
+   "question": "Tap from SMALLEST to BIGGEST",
+   "answer": "13,22,31",
+   "hint": "Look at the tens first.",
+   "explanation": "Smallest to biggest: 13, 22, 31.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "items": [
+    "31",
+    "13",
+    "22"
+   ]
+  },
+  {
+   "id": "L-c1-maths-202",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "order",
+   "question": "Tap from SMALLEST to BIGGEST",
+   "answer": "14,27,40",
+   "hint": "Look at the tens first.",
+   "explanation": "Smallest to biggest: 14, 27, 40.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "items": [
+    "40",
+    "14",
+    "27"
+   ]
+  },
+  {
+   "id": "L-c1-maths-203",
+   "level": 2,
+   "topic": "numbers-21-99",
+   "type": "order",
+   "question": "Tap from SMALLEST to BIGGEST",
+   "answer": "35,45,55",
+   "hint": "Look at the tens first.",
+   "explanation": "Smallest to biggest: 35, 45, 55.",
+   "skills": [
+    "maths",
+    "numbers-21-99"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "items": [
+    "55",
+    "35",
+    "45"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-001",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "20, 18, 16, 14, ?",
+   "answer": "12",
+   "hint": "Look at how much it changes each time.",
+   "explanation": "It changes by -2 each time. Next is 12.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "14",
+    "12",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-002",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "30, 25, 20, 15, ?",
+   "answer": "10",
+   "hint": "Look at how much it changes each time.",
+   "explanation": "It changes by -5 each time. Next is 10.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "11",
+    "10",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-003",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "4, 8, 12, 16, ?",
+   "answer": "20",
+   "hint": "Look at how much it changes each time.",
+   "explanation": "It changes by 4 each time. Next is 20.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "19",
+    "20",
+    "21",
+    "22"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-004",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "50, 40, 30, 20, ?",
+   "answer": "10",
+   "hint": "Look at how much it changes each time.",
+   "explanation": "It changes by -10 each time. Next is 10.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "10",
+    "9",
+    "11",
+    "12"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-005",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "6, 8, 10, 12, ?",
+   "answer": "14",
+   "hint": "Look at how much it changes each time.",
+   "explanation": "It changes by 2 each time. Next is 14.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "16",
+    "14",
+    "15",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-006",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "1, 2, 4, 7, ?",
+   "answer": "11",
+   "hint": "The jump gets bigger by 1 each time.",
+   "explanation": "Jumps: 1, 2, 3. Next jump is 4, so 11.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "10",
+    "11",
+    "12"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-007",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "2, 3, 5, 8, ?",
+   "answer": "12",
+   "hint": "The jump gets bigger by 1 each time.",
+   "explanation": "Jumps: 1, 2, 3. Next jump is 4, so 12.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "12",
+    "13",
+    "14"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-008",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "1, 3, 6, 10, ?",
+   "answer": "15",
+   "hint": "The jump gets bigger by 1 each time.",
+   "explanation": "Jumps: 2, 3, 4. Next jump is 5, so 15.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "16",
+    "14",
+    "17",
+    "15"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-009",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "3, 4, 6, 9, ?",
+   "answer": "13",
+   "hint": "The jump gets bigger by 1 each time.",
+   "explanation": "Jumps: 1, 2, 3. Next jump is 4, so 13.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "14",
+    "15",
+    "12"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-010",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "1, 5, 2, 6, 3, ?",
+   "answer": "7",
+   "hint": "Two number lines share the turns.",
+   "explanation": "Even places go up by 1: 5, 6, 7. Next is 7.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "4",
+    "6",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-011",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "2, 7, 3, 8, 4, ?",
+   "answer": "9",
+   "hint": "Two number lines share the turns.",
+   "explanation": "Even places go up by 1: 7, 8, 9. Next is 9.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "8",
+    "5",
+    "10"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-012",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "3, 8, 4, 9, 5, ?",
+   "answer": "10",
+   "hint": "Two number lines share the turns.",
+   "explanation": "Even places go up by 1: 8, 9, 10. Next is 10.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "6",
+    "11",
+    "10"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-013",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "1, 6, 2, 7, 3, ?",
+   "answer": "8",
+   "hint": "Two number lines share the turns.",
+   "explanation": "Even places go up by 1: 6, 7, 8. Next is 8.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "4",
+    "8",
+    "9",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-014",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "🔴🔵🔵🔴🔵🔵🔴 ?",
+   "answer": "🔵",
+   "hint": "Find the part that repeats.",
+   "explanation": "The pattern repeats, so the next one is 🔵.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 2,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🟡",
+    "🔵",
+    "🔴",
+    "🟢"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-015",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "⭐⭐🌙⭐⭐🌙⭐ ?",
+   "answer": "⭐",
+   "hint": "Find the part that repeats.",
+   "explanation": "The pattern repeats, so the next one is ⭐.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 2,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "⭐",
+    "☀️",
+    "🌟",
+    "🌙"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-016",
+   "level": 2,
+   "topic": "oly-patterns",
+   "type": "multiple-choice",
+   "question": "🍎🍌🍌🍎🍌🍌🍎🍌 ?",
+   "answer": "🍌",
+   "hint": "Find the part that repeats.",
+   "explanation": "The pattern repeats, so the next one is 🍌.",
+   "skills": [
+    "olympiad",
+    "oly-patterns"
+   ],
+   "difficulty": 2,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🍊",
+    "🍌",
+    "🍎",
+    "🍇"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-017",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "? + 9 = 16",
+   "answer": "7",
+   "hint": "Count up from 9 to 16.",
+   "explanation": "7 + 9 = 16",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "25",
+    "7",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-018",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "? + 9 = 13",
+   "answer": "4",
+   "hint": "Count up from 9 to 13.",
+   "explanation": "4 + 9 = 13",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "4",
+    "3",
+    "22"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-019",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "? + 3 = 15",
+   "answer": "12",
+   "hint": "Count up from 3 to 15.",
+   "explanation": "12 + 3 = 15",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "11",
+    "12",
+    "18"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-020",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "? + 5 = 14",
+   "answer": "9",
+   "hint": "Count up from 5 to 14.",
+   "explanation": "9 + 5 = 14",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "19",
+    "10",
+    "8",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-021",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "14 − ? = 6",
+   "answer": "8",
+   "hint": "How many do we take away to reach 6?",
+   "explanation": "14 − 8 = 6",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "20",
+    "9",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-022",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "13 − ? = 3",
+   "answer": "10",
+   "hint": "How many do we take away to reach 3?",
+   "explanation": "13 − 10 = 3",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "16",
+    "11",
+    "10",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-023",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "11 − ? = 4",
+   "answer": "7",
+   "hint": "How many do we take away to reach 4?",
+   "explanation": "11 − 7 = 4",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "15",
+    "8",
+    "7",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-024",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "15 − ? = 2",
+   "answer": "13",
+   "hint": "How many do we take away to reach 2?",
+   "explanation": "15 − 13 = 2",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "14",
+    "17",
+    "12",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-025",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "? − 9 = 4",
+   "answer": "13",
+   "hint": "Think of the number before you took 9 away.",
+   "explanation": "13 − 9 = 4",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "14",
+    "15",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-026",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "? − 3 = 3",
+   "answer": "6",
+   "hint": "Think of the number before you took 3 away.",
+   "explanation": "6 − 3 = 3",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "7",
+    "6",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-027",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "? − 9 = 3",
+   "answer": "12",
+   "hint": "Think of the number before you took 9 away.",
+   "explanation": "12 − 9 = 3",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "12",
+    "14",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-028",
+   "level": 2,
+   "topic": "oly-missing",
+   "type": "multiple-choice",
+   "question": "? − 2 = 6",
+   "answer": "8",
+   "hint": "Think of the number before you took 2 away.",
+   "explanation": "8 − 2 = 6",
+   "skills": [
+    "olympiad",
+    "oly-missing"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "9",
+    "7",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-029",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "I am more than 12 and less than 14. Who am I?",
+   "answer": "13",
+   "hint": "It sits between the two.",
+   "explanation": "13 is between 12 and 14.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "14",
+    "12",
+    "15"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-030",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "I am more than 15 and less than 17. Who am I?",
+   "answer": "16",
+   "hint": "It sits between the two.",
+   "explanation": "16 is between 15 and 17.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "18",
+    "17",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-031",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "I am more than 24 and less than 26. Who am I?",
+   "answer": "25",
+   "hint": "It sits between the two.",
+   "explanation": "25 is between 24 and 26.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "25",
+    "24",
+    "27",
+    "26"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-032",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "I am more than 38 and less than 40. Who am I?",
+   "answer": "39",
+   "hint": "It sits between the two.",
+   "explanation": "39 is between 38 and 40.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "40",
+    "39",
+    "38",
+    "41"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-033",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "How many numbers are between 10 and 15?",
+   "answer": "4",
+   "hint": "Do not count 10 and 15.",
+   "explanation": "The numbers after 10 up to before 15: 4 of them.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3",
+    "5",
+    "6",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-034",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "How many numbers are between 20 and 26?",
+   "answer": "5",
+   "hint": "Do not count 20 and 26.",
+   "explanation": "The numbers after 20 up to before 26: 5 of them.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-035",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "How many numbers are between 31 and 36?",
+   "answer": "4",
+   "hint": "Do not count 31 and 36.",
+   "explanation": "The numbers after 31 up to before 36: 4 of them.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "3",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-036",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "How many numbers are between 45 and 50?",
+   "answer": "4",
+   "hint": "Do not count 45 and 50.",
+   "explanation": "The numbers after 45 up to before 50: 4 of them.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "4",
+    "3",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-037",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "Biggest 2-digit number using the digits 4 and 7?",
+   "answer": "74",
+   "hint": "Put the bigger digit in the tens place.",
+   "explanation": "Tens 7, ones 4: 74.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "47",
+    "99",
+    "74",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-038",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "Smallest 2-digit number using the digits 4 and 7?",
+   "answer": "47",
+   "hint": "Put the smaller digit in the tens place.",
+   "explanation": "Tens 4, ones 7: 47.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "47",
+    "11",
+    "74",
+    "10"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-039",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "Biggest 2-digit number using the digits 2 and 9?",
+   "answer": "92",
+   "hint": "Put the bigger digit in the tens place.",
+   "explanation": "Tens 9, ones 2: 92.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "29",
+    "92",
+    "99"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-040",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "Smallest 2-digit number using the digits 2 and 9?",
+   "answer": "29",
+   "hint": "Put the smaller digit in the tens place.",
+   "explanation": "Tens 2, ones 9: 29.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "29",
+    "10",
+    "92"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-041",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "Biggest 2-digit number using the digits 3 and 8?",
+   "answer": "83",
+   "hint": "Put the bigger digit in the tens place.",
+   "explanation": "Tens 8, ones 3: 83.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "38",
+    "99",
+    "83"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-042",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "Smallest 2-digit number using the digits 3 and 8?",
+   "answer": "38",
+   "hint": "Put the smaller digit in the tens place.",
+   "explanation": "Tens 3, ones 8: 38.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "10",
+    "83",
+    "38"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-043",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "Biggest 2-digit number using the digits 5 and 6?",
+   "answer": "65",
+   "hint": "Put the bigger digit in the tens place.",
+   "explanation": "Tens 6, ones 5: 65.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "65",
+    "11",
+    "56",
+    "99"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-044",
+   "level": 2,
+   "topic": "oly-number-sense",
+   "type": "multiple-choice",
+   "question": "Smallest 2-digit number using the digits 5 and 6?",
+   "answer": "56",
+   "hint": "Put the smaller digit in the tens place.",
+   "explanation": "Tens 5, ones 6: 56.",
+   "skills": [
+    "olympiad",
+    "oly-number-sense"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "56",
+    "11",
+    "10",
+    "65"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-045",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "Ria has 8 sweets. Sam has 5 more than Ria. How many does Sam have?",
+   "answer": "13",
+   "hint": "\"More than\" means add.",
+   "explanation": "8 + 5 = 13",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "5",
+    "14",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-046",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "Ria has 6 sweets. Sam has 2 more than Ria. How many does Sam have?",
+   "answer": "8",
+   "hint": "\"More than\" means add.",
+   "explanation": "6 + 2 = 8",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "2",
+    "9",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-047",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "Ria has 5 sweets. Sam has 2 more than Ria. How many does Sam have?",
+   "answer": "7",
+   "hint": "\"More than\" means add.",
+   "explanation": "5 + 2 = 7",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "7",
+    "2",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-048",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "Ria has 8 sweets. Sam has 4 more than Ria. How many does Sam have?",
+   "answer": "12",
+   "hint": "\"More than\" means add.",
+   "explanation": "8 + 4 = 12",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "13",
+    "4",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-049",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "12 birds sit on a tree. 7 fly away and 1 come back. How many birds now?",
+   "answer": "6",
+   "hint": "Take away first, then add.",
+   "explanation": "12 − 7 = 5, then + 1 = 6",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "7",
+    "13",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-050",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "15 birds sit on a tree. 7 fly away and 2 come back. How many birds now?",
+   "answer": "10",
+   "hint": "Take away first, then add.",
+   "explanation": "15 − 7 = 8, then + 2 = 10",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "8",
+    "10",
+    "17"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-051",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "14 birds sit on a tree. 5 fly away and 3 come back. How many birds now?",
+   "answer": "12",
+   "hint": "Take away first, then add.",
+   "explanation": "14 − 5 = 9, then + 3 = 12",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "17",
+    "12",
+    "13",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-052",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "11 birds sit on a tree. 6 fly away and 1 come back. How many birds now?",
+   "answer": "6",
+   "hint": "Take away first, then add.",
+   "explanation": "11 − 6 = 5, then + 1 = 6",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "6",
+    "12",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-053",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "2 🐱 cats. Each cat has 4 legs. How many legs in all?",
+   "answer": "8",
+   "hint": "Skip count by 4.",
+   "explanation": "2 × 4 = 8",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "4",
+    "8",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-054",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "3 🐱 cats. Each cat has 4 legs. How many legs in all?",
+   "answer": "12",
+   "hint": "Skip count by 4.",
+   "explanation": "3 × 4 = 12",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "7",
+    "6",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-055",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "4 🐱 cats. Each cat has 4 legs. How many legs in all?",
+   "answer": "16",
+   "hint": "Skip count by 4.",
+   "explanation": "4 × 4 = 16",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "15",
+    "16",
+    "17",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-056",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "5 🐱 cats. Each cat has 4 legs. How many legs in all?",
+   "answer": "20",
+   "hint": "Skip count by 4.",
+   "explanation": "5 × 4 = 20",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "20",
+    "9",
+    "21",
+    "10"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-057",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "Ria has 5 pencils. Sam has 2 fewer. How many do they have together?",
+   "answer": "8",
+   "hint": "First find how many Sam has.",
+   "explanation": "Sam has 3. Together: 5 + 3 = 8",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "5",
+    "3",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-058",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "Ria has 7 pencils. Sam has 3 fewer. How many do they have together?",
+   "answer": "11",
+   "hint": "First find how many Sam has.",
+   "explanation": "Sam has 4. Together: 7 + 4 = 11",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "12",
+    "7",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-059",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "Ria has 7 pencils. Sam has 2 fewer. How many do they have together?",
+   "answer": "12",
+   "hint": "First find how many Sam has.",
+   "explanation": "Sam has 5. Together: 7 + 5 = 12",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "12",
+    "7",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-060",
+   "level": 2,
+   "topic": "oly-word",
+   "type": "multiple-choice",
+   "question": "Ria has 9 pencils. Sam has 3 fewer. How many do they have together?",
+   "answer": "15",
+   "hint": "First find how many Sam has.",
+   "explanation": "Sam has 6. Together: 9 + 6 = 15",
+   "skills": [
+    "olympiad",
+    "oly-word"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "15",
+    "9",
+    "16",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-061",
+   "level": 2,
+   "topic": "oly-shape-count",
+   "type": "multiple-choice",
+   "question": "How many sides do 2 triangles have in all?",
+   "answer": "6",
+   "hint": "One triangle has 3 sides.",
+   "explanation": "2 × 3 = 6",
+   "skills": [
+    "olympiad",
+    "oly-shape-count"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "7",
+    "6",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-062",
+   "level": 2,
+   "topic": "oly-shape-count",
+   "type": "multiple-choice",
+   "question": "How many corners do 2 squares have in all?",
+   "answer": "8",
+   "hint": "One square has 4 corners.",
+   "explanation": "2 × 4 = 8",
+   "skills": [
+    "olympiad",
+    "oly-shape-count"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "7",
+    "9",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-063",
+   "level": 2,
+   "topic": "oly-shape-count",
+   "type": "multiple-choice",
+   "question": "How many sides do 3 triangles have in all?",
+   "answer": "9",
+   "hint": "One triangle has 3 sides.",
+   "explanation": "3 × 3 = 9",
+   "skills": [
+    "olympiad",
+    "oly-shape-count"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "6",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-064",
+   "level": 2,
+   "topic": "oly-shape-count",
+   "type": "multiple-choice",
+   "question": "How many corners do 3 squares have in all?",
+   "answer": "12",
+   "hint": "One square has 4 corners.",
+   "explanation": "3 × 4 = 12",
+   "skills": [
+    "olympiad",
+    "oly-shape-count"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "7",
+    "12",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-065",
+   "level": 2,
+   "topic": "oly-shape-count",
+   "type": "multiple-choice",
+   "question": "How many sides do 4 triangles have in all?",
+   "answer": "12",
+   "hint": "One triangle has 3 sides.",
+   "explanation": "4 × 3 = 12",
+   "skills": [
+    "olympiad",
+    "oly-shape-count"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "16",
+    "13",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-066",
+   "level": 2,
+   "topic": "oly-shape-count",
+   "type": "multiple-choice",
+   "question": "How many corners do 4 squares have in all?",
+   "answer": "16",
+   "hint": "One square has 4 corners.",
+   "explanation": "4 × 4 = 16",
+   "skills": [
+    "olympiad",
+    "oly-shape-count"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "17",
+    "12",
+    "16"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-067",
+   "level": 2,
+   "topic": "oly-logic",
+   "type": "multiple-choice",
+   "question": "Ria is taller than Sam. Sam is taller than Tia. Who is the SHORTEST?",
+   "answer": "Tia",
+   "hint": "Line them up, tallest first.",
+   "explanation": "Ria, Sam, Tia: Tia is shortest.",
+   "skills": [
+    "olympiad",
+    "oly-logic"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Sam",
+    "All same",
+    "Tia",
+    "Ria"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-068",
+   "level": 2,
+   "topic": "oly-logic",
+   "type": "multiple-choice",
+   "question": "Ria is taller than Sam. Sam is taller than Tia. Who is the TALLEST?",
+   "answer": "Ria",
+   "hint": "Line them up, tallest first.",
+   "explanation": "Ria is taller than both.",
+   "skills": [
+    "olympiad",
+    "oly-logic"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Tia",
+    "Ria",
+    "All same",
+    "Sam"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-069",
+   "level": 2,
+   "topic": "oly-logic",
+   "type": "multiple-choice",
+   "question": "Which is the odd one out?  🍎 🍌 🚗 🍇",
+   "answer": "🚗",
+   "hint": "Three are fruits.",
+   "explanation": "A car is not a fruit.",
+   "skills": [
+    "olympiad",
+    "oly-logic"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🍇",
+    "🚗",
+    "🍌",
+    "🍎"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-070",
+   "level": 2,
+   "topic": "oly-logic",
+   "type": "multiple-choice",
+   "question": "Which is the odd one out?  🐶 🐱 🐮 🌳",
+   "answer": "🌳",
+   "hint": "Three are animals.",
+   "explanation": "A tree is not an animal.",
+   "skills": [
+    "olympiad",
+    "oly-logic"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🐶",
+    "🐱",
+    "🐮",
+    "🌳"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-071",
+   "level": 2,
+   "topic": "oly-logic",
+   "type": "multiple-choice",
+   "question": "Which is the odd one out?  ✏️ 🖍️ 📕 🖊️",
+   "answer": "📕",
+   "hint": "Three are for writing or drawing.",
+   "explanation": "A book is not a writing tool.",
+   "skills": [
+    "olympiad",
+    "oly-logic"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "✏️",
+    "🖊️",
+    "📕",
+    "🖍️"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-072",
+   "level": 2,
+   "topic": "oly-logic",
+   "type": "multiple-choice",
+   "question": "Tom stands 3rd from the front. There are 2 children behind him. How many children in the line?",
+   "answer": "5",
+   "hint": "Count the ones in front, Tom, and behind.",
+   "explanation": "2 in front + Tom + 2 behind = 5.",
+   "skills": [
+    "olympiad",
+    "oly-logic"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3",
+    "5",
+    "6",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-073",
+   "level": 2,
+   "topic": "oly-logic",
+   "type": "multiple-choice",
+   "question": "If today is Monday, what day will it be after 2 days?",
+   "answer": "Wednesday",
+   "hint": "Count on: Tuesday, then…",
+   "explanation": "Monday, Tuesday, Wednesday.",
+   "skills": [
+    "olympiad",
+    "oly-logic"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Friday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-074",
+   "level": 2,
+   "topic": "oly-logic",
+   "type": "multiple-choice",
+   "question": "If today is Friday, what day was it 2 days ago?",
+   "answer": "Wednesday",
+   "hint": "Count back: Thursday, then…",
+   "explanation": "Friday, Thursday, Wednesday.",
+   "skills": [
+    "olympiad",
+    "oly-logic"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Thursday",
+    "Wednesday",
+    "Tuesday",
+    "Saturday"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-075",
+   "level": 2,
+   "topic": "oly-logic",
+   "type": "multiple-choice",
+   "question": "I have 2 eyes, 1 nose and 1 mouth. What am I?",
+   "answer": "a face",
+   "hint": "Look in a mirror.",
+   "explanation": "A face has these parts.",
+   "skills": [
+    "olympiad",
+    "oly-logic"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "a house",
+    "a car",
+    "a face",
+    "a tree"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-076",
+   "level": 2,
+   "topic": "oly-logic",
+   "type": "multiple-choice",
+   "question": "Which is heavier?  1 kg of cotton or 1 kg of stones?",
+   "answer": "same",
+   "hint": "Both are 1 kg.",
+   "explanation": "1 kg is 1 kg.",
+   "skills": [
+    "olympiad",
+    "oly-logic"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "cotton",
+    "none",
+    "stones",
+    "same"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-077",
+   "level": 2,
+   "topic": "oly-analogy",
+   "type": "multiple-choice",
+   "question": "Bird is to fly as fish is to…",
+   "answer": "swim",
+   "hint": "Find how the first pair is linked.",
+   "explanation": "The same link: swim",
+   "skills": [
+    "olympiad",
+    "oly-analogy"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "run",
+    "sing",
+    "swim",
+    "jump"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-078",
+   "level": 2,
+   "topic": "oly-analogy",
+   "type": "multiple-choice",
+   "question": "Day is to Sun as night is to…",
+   "answer": "Moon",
+   "hint": "Find how the first pair is linked.",
+   "explanation": "The same link: Moon",
+   "skills": [
+    "olympiad",
+    "oly-analogy"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "wind",
+    "rain",
+    "star only",
+    "Moon"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-079",
+   "level": 2,
+   "topic": "oly-analogy",
+   "type": "multiple-choice",
+   "question": "Hand is to glove as foot is to…",
+   "answer": "sock",
+   "hint": "Find how the first pair is linked.",
+   "explanation": "The same link: sock",
+   "skills": [
+    "olympiad",
+    "oly-analogy"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "belt",
+    "hat",
+    "sock",
+    "ring"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-080",
+   "level": 2,
+   "topic": "oly-analogy",
+   "type": "multiple-choice",
+   "question": "Hot is to cold as up is to…",
+   "answer": "down",
+   "hint": "Find how the first pair is linked.",
+   "explanation": "The same link: down",
+   "skills": [
+    "olympiad",
+    "oly-analogy"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "down",
+    "over",
+    "top",
+    "high"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-081",
+   "level": 2,
+   "topic": "oly-analogy",
+   "type": "multiple-choice",
+   "question": "Cow is to milk as hen is to…",
+   "answer": "eggs",
+   "hint": "Find how the first pair is linked.",
+   "explanation": "The same link: eggs",
+   "skills": [
+    "olympiad",
+    "oly-analogy"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "honey",
+    "eggs",
+    "wool",
+    "rice"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-082",
+   "level": 2,
+   "topic": "oly-analogy",
+   "type": "multiple-choice",
+   "question": "Eye is to see as ear is to…",
+   "answer": "hear",
+   "hint": "Find how the first pair is linked.",
+   "explanation": "The same link: hear",
+   "skills": [
+    "olympiad",
+    "oly-analogy"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "smell",
+    "run",
+    "hear",
+    "taste"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-083",
+   "level": 2,
+   "topic": "oly-analogy",
+   "type": "multiple-choice",
+   "question": "Big is to small as tall is to…",
+   "answer": "short",
+   "hint": "Find how the first pair is linked.",
+   "explanation": "The same link: short",
+   "skills": [
+    "olympiad",
+    "oly-analogy"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "short",
+    "long",
+    "thin",
+    "fat"
+   ]
+  },
+  {
+   "id": "L-c1-olympiad-084",
+   "level": 2,
+   "topic": "oly-analogy",
+   "type": "multiple-choice",
+   "question": "Morning is to breakfast as night is to…",
+   "answer": "dinner",
+   "hint": "Find how the first pair is linked.",
+   "explanation": "The same link: dinner",
+   "skills": [
+    "olympiad",
+    "oly-analogy"
+   ],
+   "difficulty": 3,
+   "subject": "olympiad",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "dinner",
+    "snack only",
+    "lunch",
+    "tiffin"
+   ]
+  },
+  {
+   "id": "L-c1-english-001",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "🍎 starts with…",
+   "answer": "A",
+   "hint": "Say a-a-apple.",
+   "explanation": "Apple starts with A.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "S",
+    "B",
+    "M",
+    "A"
+   ]
+  },
+  {
+   "id": "L-c1-english-002",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "🐻 starts with…",
+   "answer": "B",
+   "hint": "Say b-b-bear.",
+   "explanation": "Bear starts with B.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "D",
+    "B",
+    "T",
+    "P"
+   ]
+  },
+  {
+   "id": "L-c1-english-003",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "🐱 starts with…",
+   "answer": "C",
+   "hint": "Say c-c-cat.",
+   "explanation": "Cat starts with C.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "T",
+    "K",
+    "G",
+    "C"
+   ]
+  },
+  {
+   "id": "L-c1-english-004",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "🐶 starts with…",
+   "answer": "D",
+   "hint": "Say d-d-dog.",
+   "explanation": "Dog starts with D.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "B",
+    "G",
+    "D",
+    "P"
+   ]
+  },
+  {
+   "id": "L-c1-english-005",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "🐘 starts with…",
+   "answer": "E",
+   "hint": "Say e-e-elephant.",
+   "explanation": "Elephant starts with E.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "A",
+    "O",
+    "I",
+    "E"
+   ]
+  },
+  {
+   "id": "L-c1-english-006",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "🐟 starts with…",
+   "answer": "F",
+   "hint": "Say f-f-fish.",
+   "explanation": "Fish starts with F.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "P",
+    "S",
+    "F",
+    "H"
+   ]
+  },
+  {
+   "id": "L-c1-english-007",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "🌞 starts with…",
+   "answer": "S",
+   "hint": "Say s-s-sun.",
+   "explanation": "Sun starts with S.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "M",
+    "Z",
+    "S",
+    "N"
+   ]
+  },
+  {
+   "id": "L-c1-english-008",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "🐱 c_t",
+   "answer": "a",
+   "hint": "c-a-t.",
+   "explanation": "The word is cat.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "a",
+    "o",
+    "e",
+    "u"
+   ]
+  },
+  {
+   "id": "L-c1-english-009",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "🌞 s_n",
+   "answer": "u",
+   "hint": "s-u-n.",
+   "explanation": "The word is sun.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "u",
+    "o",
+    "i",
+    "a"
+   ]
+  },
+  {
+   "id": "L-c1-english-010",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "🐟 f_sh",
+   "answer": "i",
+   "hint": "f-i-sh.",
+   "explanation": "The word is fish.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "a",
+    "i",
+    "u",
+    "o"
+   ]
+  },
+  {
+   "id": "L-c1-english-011",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "Which word rhymes with CAT?",
+   "answer": "hat",
+   "hint": "Same ending sound.",
+   "explanation": "Cat and hat rhyme.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "hat",
+    "sun",
+    "pen",
+    "dog"
+   ]
+  },
+  {
+   "id": "L-c1-english-012",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "Which word rhymes with SUN?",
+   "answer": "fun",
+   "hint": "Same ending sound.",
+   "explanation": "Sun and fun rhyme.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "sky",
+    "moon",
+    "star",
+    "fun"
+   ]
+  },
+  {
+   "id": "L-c1-english-013",
+   "level": 2,
+   "topic": "phonics",
+   "type": "multiple-choice",
+   "question": "Which one is a vowel?",
+   "answer": "E",
+   "hint": "Vowels: A E I O U.",
+   "explanation": "E is a vowel.",
+   "skills": [
+    "english",
+    "phonics"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "K",
+    "B",
+    "E",
+    "T"
+   ]
+  },
+  {
+   "id": "L-c1-english-014",
+   "level": 2,
+   "topic": "greetings",
+   "type": "multiple-choice",
+   "question": "In the morning we say…",
+   "answer": "Good morning",
+   "hint": "The Sun is just up.",
+   "explanation": "We say Good morning in the morning.",
+   "skills": [
+    "english",
+    "greetings"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Goodbye",
+    "Good morning",
+    "Good night",
+    "Sorry"
+   ]
+  },
+  {
+   "id": "L-c1-english-015",
+   "level": 2,
+   "topic": "greetings",
+   "type": "multiple-choice",
+   "question": "Before bed we say…",
+   "answer": "Good night",
+   "hint": "The Moon is out.",
+   "explanation": "We say Good night before bed.",
+   "skills": [
+    "english",
+    "greetings"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Hello",
+    "Good night",
+    "Welcome",
+    "Good morning"
+   ]
+  },
+  {
+   "id": "L-c1-english-016",
+   "level": 2,
+   "topic": "greetings",
+   "type": "multiple-choice",
+   "question": "Someone helps you. You say…",
+   "answer": "Thank you",
+   "hint": "Be polite.",
+   "explanation": "Say thank you to say you are grateful.",
+   "skills": [
+    "english",
+    "greetings"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Goodbye",
+    "Sorry",
+    "Stop",
+    "Thank you"
+   ]
+  },
+  {
+   "id": "L-c1-english-017",
+   "level": 2,
+   "topic": "greetings",
+   "type": "multiple-choice",
+   "question": "You bump into a friend. You say…",
+   "answer": "Sorry",
+   "hint": "Be kind.",
+   "explanation": "Say sorry when you hurt someone.",
+   "skills": [
+    "english",
+    "greetings"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Sorry",
+    "Hello",
+    "Good night",
+    "Thank you"
+   ]
+  },
+  {
+   "id": "L-c1-english-018",
+   "level": 2,
+   "topic": "greetings",
+   "type": "multiple-choice",
+   "question": "When you meet a teacher you say…",
+   "answer": "Good morning, teacher",
+   "hint": "Be polite.",
+   "explanation": "We greet teachers kindly.",
+   "skills": [
+    "english",
+    "greetings"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Give me",
+    "Hurry up",
+    "Good morning, teacher",
+    "Go away"
+   ]
+  },
+  {
+   "id": "L-c1-english-019",
+   "level": 2,
+   "topic": "greetings",
+   "type": "multiple-choice",
+   "question": "You want something. You say…",
+   "answer": "Please",
+   "hint": "The magic word.",
+   "explanation": "Please is the magic word.",
+   "skills": [
+    "english",
+    "greetings"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Give",
+    "Now",
+    "Please",
+    "Mine"
+   ]
+  },
+  {
+   "id": "L-c1-english-020",
+   "level": 2,
+   "topic": "opposites",
+   "type": "multiple-choice",
+   "question": "Opposite of HOT",
+   "answer": "cold",
+   "hint": "Think of ice.",
+   "explanation": "Hot and cold.",
+   "skills": [
+    "english",
+    "opposites"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "cold",
+    "warm",
+    "big",
+    "red"
+   ]
+  },
+  {
+   "id": "L-c1-english-021",
+   "level": 2,
+   "topic": "opposites",
+   "type": "multiple-choice",
+   "question": "Opposite of BIG",
+   "answer": "small",
+   "hint": "Think of an ant.",
+   "explanation": "Big and small.",
+   "skills": [
+    "english",
+    "opposites"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "fast",
+    "long",
+    "small",
+    "tall"
+   ]
+  },
+  {
+   "id": "L-c1-english-022",
+   "level": 2,
+   "topic": "opposites",
+   "type": "multiple-choice",
+   "question": "Opposite of UP",
+   "answer": "down",
+   "hint": "Slide down!",
+   "explanation": "Up and down.",
+   "skills": [
+    "english",
+    "opposites"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "out",
+    "over",
+    "top",
+    "down"
+   ]
+  },
+  {
+   "id": "L-c1-english-023",
+   "level": 2,
+   "topic": "opposites",
+   "type": "multiple-choice",
+   "question": "Opposite of HAPPY",
+   "answer": "sad",
+   "hint": "😀 and 😢",
+   "explanation": "Happy and sad.",
+   "skills": [
+    "english",
+    "opposites"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "funny",
+    "sad",
+    "glad",
+    "kind"
+   ]
+  },
+  {
+   "id": "L-c1-english-024",
+   "level": 2,
+   "topic": "opposites",
+   "type": "multiple-choice",
+   "question": "Opposite of FAST",
+   "answer": "slow",
+   "hint": "Think of a snail.",
+   "explanation": "Fast and slow.",
+   "skills": [
+    "english",
+    "opposites"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "quick",
+    "loud",
+    "slow",
+    "late"
+   ]
+  },
+  {
+   "id": "L-c1-english-025",
+   "level": 2,
+   "topic": "opposites",
+   "type": "multiple-choice",
+   "question": "Opposite of DAY",
+   "answer": "night",
+   "hint": "Moon time.",
+   "explanation": "Day and night.",
+   "skills": [
+    "english",
+    "opposites"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "sun",
+    "noon",
+    "night",
+    "light"
+   ]
+  },
+  {
+   "id": "L-c1-english-026",
+   "level": 2,
+   "topic": "plurals",
+   "type": "multiple-choice",
+   "question": "One cat, many…",
+   "answer": "cats",
+   "hint": "Add s.",
+   "explanation": "One cat, many cats.",
+   "skills": [
+    "english",
+    "plurals"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "catz",
+    "cat",
+    "cates",
+    "cats"
+   ]
+  },
+  {
+   "id": "L-c1-english-027",
+   "level": 2,
+   "topic": "plurals",
+   "type": "multiple-choice",
+   "question": "One dog, many…",
+   "answer": "dogs",
+   "hint": "Add s.",
+   "explanation": "One dog, many dogs.",
+   "skills": [
+    "english",
+    "plurals"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "dog",
+    "doges",
+    "dogs",
+    "dogz"
+   ]
+  },
+  {
+   "id": "L-c1-english-028",
+   "level": 2,
+   "topic": "plurals",
+   "type": "multiple-choice",
+   "question": "One box, many…",
+   "answer": "boxes",
+   "hint": "Add es after x.",
+   "explanation": "One box, many boxes.",
+   "skills": [
+    "english",
+    "plurals"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "boxz",
+    "boxies",
+    "boxs",
+    "boxes"
+   ]
+  },
+  {
+   "id": "L-c1-english-029",
+   "level": 2,
+   "topic": "plurals",
+   "type": "multiple-choice",
+   "question": "One child, two…",
+   "answer": "children",
+   "hint": "This word changes a lot.",
+   "explanation": "One child, two children.",
+   "skills": [
+    "english",
+    "plurals"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "childes",
+    "childs",
+    "childrens",
+    "children"
+   ]
+  },
+  {
+   "id": "L-c1-english-030",
+   "level": 2,
+   "topic": "plurals",
+   "type": "multiple-choice",
+   "question": "One mouse, two…",
+   "answer": "mice",
+   "hint": "This word changes a lot.",
+   "explanation": "One mouse, two mice.",
+   "skills": [
+    "english",
+    "plurals"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "mice",
+    "mices",
+    "mouse",
+    "mouses"
+   ]
+  },
+  {
+   "id": "L-c1-english-031",
+   "level": 2,
+   "topic": "articles",
+   "type": "multiple-choice",
+   "question": "___ apple 🍎",
+   "answer": "an",
+   "hint": "Apple starts with a vowel sound.",
+   "explanation": "Use an before a, e, i, o, u sounds.",
+   "skills": [
+    "english",
+    "articles"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "an",
+    "on",
+    "a",
+    "the"
+   ]
+  },
+  {
+   "id": "L-c1-english-032",
+   "level": 2,
+   "topic": "articles",
+   "type": "multiple-choice",
+   "question": "___ dog 🐶",
+   "answer": "a",
+   "hint": "Dog starts with D.",
+   "explanation": "Use a before other sounds.",
+   "skills": [
+    "english",
+    "articles"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "a",
+    "the",
+    "in",
+    "an"
+   ]
+  },
+  {
+   "id": "L-c1-english-033",
+   "level": 2,
+   "topic": "articles",
+   "type": "multiple-choice",
+   "question": "___ elephant 🐘",
+   "answer": "an",
+   "hint": "E is a vowel.",
+   "explanation": "Use an before a vowel sound.",
+   "skills": [
+    "english",
+    "articles"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "a",
+    "an",
+    "the",
+    "at"
+   ]
+  },
+  {
+   "id": "L-c1-english-034",
+   "level": 2,
+   "topic": "articles",
+   "type": "multiple-choice",
+   "question": "___ umbrella ☂️",
+   "answer": "an",
+   "hint": "U is a vowel sound here.",
+   "explanation": "Use an before vowel sounds.",
+   "skills": [
+    "english",
+    "articles"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "it",
+    "the",
+    "a",
+    "an"
+   ]
+  },
+  {
+   "id": "L-c1-english-035",
+   "level": 2,
+   "topic": "punctuation",
+   "type": "multiple-choice",
+   "question": "A sentence starts with a…",
+   "answer": "capital letter",
+   "hint": "Look at the first letter.",
+   "explanation": "Every sentence starts with a capital letter.",
+   "skills": [
+    "english",
+    "punctuation"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "comma",
+    "capital letter",
+    "full stop",
+    "number"
+   ]
+  },
+  {
+   "id": "L-c1-english-036",
+   "level": 2,
+   "topic": "punctuation",
+   "type": "multiple-choice",
+   "question": "A telling sentence ends with a…",
+   "answer": "full stop (.)",
+   "hint": "Stop at the end.",
+   "explanation": "A telling sentence ends with a full stop.",
+   "skills": [
+    "english",
+    "punctuation"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "comma (,)",
+    "question mark (?)",
+    "full stop (.)",
+    "nothing"
+   ]
+  },
+  {
+   "id": "L-c1-english-037",
+   "level": 2,
+   "topic": "punctuation",
+   "type": "multiple-choice",
+   "question": "An asking sentence ends with…",
+   "answer": "question mark (?)",
+   "hint": "Are you asking?",
+   "explanation": "An asking sentence ends with a question mark.",
+   "skills": [
+    "english",
+    "punctuation"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "question mark (?)",
+    "comma (,)",
+    "nothing",
+    "full stop (.)"
+   ]
+  },
+  {
+   "id": "L-c1-english-038",
+   "level": 2,
+   "topic": "punctuation",
+   "type": "multiple-choice",
+   "question": "Which name starts right?",
+   "answer": "Ria",
+   "hint": "Names begin with a capital.",
+   "explanation": "Names start with a capital letter.",
+   "skills": [
+    "english",
+    "punctuation"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "ria",
+    "RIa",
+    "Ria",
+    "rIa"
+   ]
+  },
+  {
+   "id": "L-c1-english-039",
+   "level": 2,
+   "topic": "tense",
+   "type": "multiple-choice",
+   "question": "She ___ a book now.",
+   "answer": "reads",
+   "hint": "One girl: add s.",
+   "explanation": "We say: she reads.",
+   "skills": [
+    "english",
+    "tense"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "read",
+    "reads",
+    "readed",
+    "reading"
+   ]
+  },
+  {
+   "id": "L-c1-english-040",
+   "level": 2,
+   "topic": "tense",
+   "type": "multiple-choice",
+   "question": "They ___ in the park.",
+   "answer": "play",
+   "hint": "Many people: no s.",
+   "explanation": "We say: they play.",
+   "skills": [
+    "english",
+    "tense"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "plays",
+    "playing",
+    "play",
+    "played"
+   ]
+  },
+  {
+   "id": "L-c1-english-041",
+   "level": 2,
+   "topic": "tense",
+   "type": "multiple-choice",
+   "question": "Yesterday I ___ to school.",
+   "answer": "went",
+   "hint": "Yesterday is past.",
+   "explanation": "The past of go is went.",
+   "skills": [
+    "english",
+    "tense"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "goes",
+    "go",
+    "went",
+    "going"
+   ]
+  },
+  {
+   "id": "L-c1-evs-001",
+   "level": 2,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "We see with our…",
+   "answer": "eyes 👀",
+   "hint": "Open them and look!",
+   "explanation": "We see with our eyes.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "eyes 👀",
+    "hands",
+    "nose",
+    "ears"
+   ]
+  },
+  {
+   "id": "L-c1-evs-002",
+   "level": 2,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "We hear with our…",
+   "answer": "ears 👂",
+   "hint": "Listen to music.",
+   "explanation": "We hear with our ears.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "nose",
+    "ears 👂",
+    "feet",
+    "eyes"
+   ]
+  },
+  {
+   "id": "L-c1-evs-003",
+   "level": 2,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "We smell with our…",
+   "answer": "nose 👃",
+   "hint": "Sniff a flower.",
+   "explanation": "We smell with our nose.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "eyes",
+    "ears",
+    "hands",
+    "nose 👃"
+   ]
+  },
+  {
+   "id": "L-c1-evs-004",
+   "level": 2,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "We taste with our…",
+   "answer": "tongue 👅",
+   "hint": "Ice cream!",
+   "explanation": "We taste with the tongue.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "ears",
+    "eyes",
+    "tongue 👅",
+    "hands"
+   ]
+  },
+  {
+   "id": "L-c1-evs-005",
+   "level": 2,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "How many senses do we have?",
+   "answer": "5",
+   "hint": "See, hear, smell, taste, touch.",
+   "explanation": "We have five senses.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "10",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-evs-006",
+   "level": 2,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "Which part pumps blood?",
+   "answer": "heart ❤️",
+   "hint": "Thump-thump.",
+   "explanation": "The heart pumps blood.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "tummy",
+    "brain",
+    "lungs",
+    "heart ❤️"
+   ]
+  },
+  {
+   "id": "L-c1-evs-007",
+   "level": 2,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "We clap with our…",
+   "answer": "hands 👏",
+   "hint": "Clap clap!",
+   "explanation": "We clap with our hands.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "eyes",
+    "ears",
+    "feet",
+    "hands 👏"
+   ]
+  },
+  {
+   "id": "L-c1-evs-008",
+   "level": 2,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "We brush our teeth…",
+   "answer": "twice a day",
+   "hint": "Morning and night.",
+   "explanation": "Brush in the morning and at night.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "only on Sunday",
+    "once a week",
+    "never",
+    "twice a day"
+   ]
+  },
+  {
+   "id": "L-c1-evs-009",
+   "level": 2,
+   "topic": "family",
+   "type": "multiple-choice",
+   "question": "Your mother’s mother is your…",
+   "answer": "grandmother",
+   "hint": "Two steps up the family.",
+   "explanation": "Your mother’s mother is your grandmother.",
+   "skills": [
+    "evs",
+    "family"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "aunt",
+    "sister",
+    "grandmother",
+    "cousin"
+   ]
+  },
+  {
+   "id": "L-c1-evs-010",
+   "level": 2,
+   "topic": "family",
+   "type": "multiple-choice",
+   "question": "Your parents’ other son is your…",
+   "answer": "brother",
+   "hint": "Same parents.",
+   "explanation": "Your father’s son is your brother.",
+   "skills": [
+    "evs",
+    "family"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "uncle",
+    "cousin",
+    "brother",
+    "teacher"
+   ]
+  },
+  {
+   "id": "L-c1-evs-011",
+   "level": 2,
+   "topic": "family",
+   "type": "multiple-choice",
+   "question": "Who looks after us at home?",
+   "answer": "family 👪",
+   "hint": "The people who love you.",
+   "explanation": "Our family looks after us.",
+   "skills": [
+    "evs",
+    "family"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "strangers",
+    "no one",
+    "robots",
+    "family 👪"
+   ]
+  },
+  {
+   "id": "L-c1-evs-012",
+   "level": 2,
+   "topic": "family",
+   "type": "multiple-choice",
+   "question": "Your uncle’s child is your…",
+   "answer": "cousin",
+   "hint": "A family friend your age.",
+   "explanation": "Your uncle’s child is your cousin.",
+   "skills": [
+    "evs",
+    "family"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "neighbour",
+    "brother",
+    "cousin",
+    "grandfather"
+   ]
+  },
+  {
+   "id": "L-c1-evs-013",
+   "level": 2,
+   "topic": "family",
+   "type": "multiple-choice",
+   "question": "We help our family by…",
+   "answer": "sharing the work",
+   "hint": "Be kind.",
+   "explanation": "Helping makes a happy home.",
+   "skills": [
+    "evs",
+    "family"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "shouting",
+    "breaking things",
+    "hiding",
+    "sharing the work"
+   ]
+  },
+  {
+   "id": "L-c1-evs-014",
+   "level": 2,
+   "topic": "food",
+   "type": "multiple-choice",
+   "question": "Which gives us energy?",
+   "answer": "rice 🍚",
+   "hint": "We eat it every day.",
+   "explanation": "Rice and chapati give energy.",
+   "skills": [
+    "evs",
+    "food"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "plastic",
+    "paper",
+    "stone",
+    "rice 🍚"
+   ]
+  },
+  {
+   "id": "L-c1-evs-015",
+   "level": 2,
+   "topic": "food",
+   "type": "multiple-choice",
+   "question": "Which is a fruit?",
+   "answer": "🍌 banana",
+   "hint": "Sweet and yellow.",
+   "explanation": "A banana is a fruit.",
+   "skills": [
+    "evs",
+    "food"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🥕 carrot",
+    "🥔 potato",
+    "🧅 onion",
+    "🍌 banana"
+   ]
+  },
+  {
+   "id": "L-c1-evs-016",
+   "level": 2,
+   "topic": "food",
+   "type": "multiple-choice",
+   "question": "Which is a vegetable?",
+   "answer": "🥕 carrot",
+   "hint": "It grows in the soil.",
+   "explanation": "A carrot is a vegetable.",
+   "skills": [
+    "evs",
+    "food"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🍌 banana",
+    "🍇 grapes",
+    "🥕 carrot",
+    "🍎 apple"
+   ]
+  },
+  {
+   "id": "L-c1-evs-017",
+   "level": 2,
+   "topic": "food",
+   "type": "multiple-choice",
+   "question": "Which is good for strong bones?",
+   "answer": "milk 🥛",
+   "hint": "Calcium is in it.",
+   "explanation": "Milk helps bones grow strong.",
+   "skills": [
+    "evs",
+    "food"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "chips",
+    "milk 🥛",
+    "sweets",
+    "cold drink"
+   ]
+  },
+  {
+   "id": "L-c1-evs-018",
+   "level": 2,
+   "topic": "food",
+   "type": "multiple-choice",
+   "question": "Before eating we should…",
+   "answer": "wash our hands",
+   "hint": "Germs hide on hands.",
+   "explanation": "Washing hands keeps us healthy.",
+   "skills": [
+    "evs",
+    "food"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "run",
+    "sleep",
+    "jump",
+    "wash our hands"
+   ]
+  },
+  {
+   "id": "L-c1-evs-019",
+   "level": 2,
+   "topic": "food",
+   "type": "multiple-choice",
+   "question": "Honey is made by…",
+   "answer": "bees 🐝",
+   "hint": "They live in a hive.",
+   "explanation": "Bees make honey.",
+   "skills": [
+    "evs",
+    "food"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "butterflies",
+    "bees 🐝",
+    "flies",
+    "ants"
+   ]
+  },
+  {
+   "id": "L-c1-evs-020",
+   "level": 2,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "🐄 gives us…",
+   "answer": "milk",
+   "hint": "Think of a white drink.",
+   "explanation": "Cows give us milk.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "wool",
+    "milk",
+    "honey",
+    "eggs"
+   ]
+  },
+  {
+   "id": "L-c1-evs-021",
+   "level": 2,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "🐔 gives us…",
+   "answer": "eggs",
+   "hint": "Breakfast!",
+   "explanation": "Hens give us eggs.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "eggs",
+    "milk",
+    "honey",
+    "wool"
+   ]
+  },
+  {
+   "id": "L-c1-evs-022",
+   "level": 2,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "Which can fly?",
+   "answer": "🐦 bird",
+   "hint": "It has wings.",
+   "explanation": "Birds can fly.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🐘 elephant",
+    "🐢 tortoise",
+    "🐦 bird",
+    "🐟 fish"
+   ]
+  },
+  {
+   "id": "L-c1-evs-023",
+   "level": 2,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "Which lives in water?",
+   "answer": "🐟 fish",
+   "hint": "It swims.",
+   "explanation": "Fish live in water.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🐓 hen",
+    "🐟 fish",
+    "🐕 dog",
+    "🐄 cow"
+   ]
+  },
+  {
+   "id": "L-c1-evs-024",
+   "level": 2,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "A baby frog is called a…",
+   "answer": "tadpole",
+   "hint": "Lives in water, has a tail.",
+   "explanation": "A baby frog is a tadpole.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "tadpole",
+    "calf",
+    "puppy",
+    "chick"
+   ]
+  },
+  {
+   "id": "L-c1-evs-025",
+   "level": 2,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "Which animal eats only plants?",
+   "answer": "cow 🐄",
+   "hint": "Cows eat grass.",
+   "explanation": "Cows eat only plants.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "lion 🦁",
+    "cow 🐄",
+    "crocodile 🐊",
+    "tiger 🐅"
+   ]
+  },
+  {
+   "id": "L-c1-evs-026",
+   "level": 2,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "A farm 🚜 is a place where we grow…",
+   "answer": "food",
+   "hint": "Fields and animals.",
+   "explanation": "Farms give us food.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "phones",
+    "shoes",
+    "toys",
+    "food"
+   ]
+  },
+  {
+   "id": "L-c1-evs-027",
+   "level": 2,
+   "topic": "plants",
+   "type": "multiple-choice",
+   "question": "Plants need water and…",
+   "answer": "sunlight ☀️",
+   "hint": "Plants like the Sun.",
+   "explanation": "Plants need water and sunlight.",
+   "skills": [
+    "evs",
+    "plants"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "paper",
+    "candy",
+    "toys",
+    "sunlight ☀️"
+   ]
+  },
+  {
+   "id": "L-c1-evs-028",
+   "level": 2,
+   "topic": "plants",
+   "type": "multiple-choice",
+   "question": "Which part is under the soil?",
+   "answer": "root",
+   "hint": "It holds the plant.",
+   "explanation": "Roots grow under the soil.",
+   "skills": [
+    "evs",
+    "plants"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "fruit",
+    "leaf",
+    "flower",
+    "root"
+   ]
+  },
+  {
+   "id": "L-c1-evs-029",
+   "level": 2,
+   "topic": "plants",
+   "type": "multiple-choice",
+   "question": "A seed grows into a…",
+   "answer": "plant",
+   "hint": "Plant it and wait.",
+   "explanation": "A seed grows into a plant.",
+   "skills": [
+    "evs",
+    "plants"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "toy",
+    "egg",
+    "plant",
+    "stone"
+   ]
+  },
+  {
+   "id": "L-c1-evs-030",
+   "level": 2,
+   "topic": "plants",
+   "type": "multiple-choice",
+   "question": "Which part makes food using sunlight?",
+   "answer": "leaf",
+   "hint": "Green and flat.",
+   "explanation": "Leaves make food with sunlight.",
+   "skills": [
+    "evs",
+    "plants"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "leaf",
+    "stem",
+    "seed",
+    "root"
+   ]
+  },
+  {
+   "id": "L-c1-evs-031",
+   "level": 2,
+   "topic": "plants",
+   "type": "multiple-choice",
+   "question": "We get flowers 🌸 from…",
+   "answer": "plants",
+   "hint": "They grow.",
+   "explanation": "Plants make flowers.",
+   "skills": [
+    "evs",
+    "plants"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "stones",
+    "cars",
+    "clouds",
+    "plants"
+   ]
+  },
+  {
+   "id": "L-c1-evs-032",
+   "level": 2,
+   "topic": "air-water",
+   "type": "multiple-choice",
+   "question": "We cannot see air but we can…",
+   "answer": "feel it",
+   "hint": "Wind on your face.",
+   "explanation": "We can feel moving air.",
+   "skills": [
+    "evs",
+    "air-water"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "drink it",
+    "eat it",
+    "hold it",
+    "feel it"
+   ]
+  },
+  {
+   "id": "L-c1-evs-033",
+   "level": 2,
+   "topic": "air-water",
+   "type": "multiple-choice",
+   "question": "Water in a glass is a…",
+   "answer": "liquid",
+   "hint": "It pours.",
+   "explanation": "Water is a liquid.",
+   "skills": [
+    "evs",
+    "air-water"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "liquid",
+    "solid",
+    "gas",
+    "rock"
+   ]
+  },
+  {
+   "id": "L-c1-evs-034",
+   "level": 2,
+   "topic": "air-water",
+   "type": "multiple-choice",
+   "question": "Rain comes from…",
+   "answer": "clouds ☁️",
+   "hint": "Look up when it rains.",
+   "explanation": "Rain falls from clouds.",
+   "skills": [
+    "evs",
+    "air-water"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "the Moon",
+    "trees",
+    "the ground",
+    "clouds ☁️"
+   ]
+  },
+  {
+   "id": "L-c1-evs-035",
+   "level": 2,
+   "topic": "air-water",
+   "type": "multiple-choice",
+   "question": "We should not waste…",
+   "answer": "water",
+   "hint": "Close the tap.",
+   "explanation": "Save water. Close the tap.",
+   "skills": [
+    "evs",
+    "air-water"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "toys",
+    "pencils",
+    "books",
+    "water"
+   ]
+  },
+  {
+   "id": "L-c1-evs-036",
+   "level": 2,
+   "topic": "air-water",
+   "type": "multiple-choice",
+   "question": "We need air to…",
+   "answer": "breathe",
+   "hint": "In and out.",
+   "explanation": "All living things need air.",
+   "skills": [
+    "evs",
+    "air-water"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "sing only",
+    "jump over",
+    "paint",
+    "breathe"
+   ]
+  },
+  {
+   "id": "L-c1-evs-037",
+   "level": 2,
+   "topic": "seasons",
+   "type": "multiple-choice",
+   "question": "Which season is hottest?",
+   "answer": "summer ☀️",
+   "hint": "Ice cream time.",
+   "explanation": "Summer is the hottest season.",
+   "skills": [
+    "evs",
+    "seasons"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "spring 🌸",
+    "autumn 🍂",
+    "summer ☀️",
+    "winter ❄️"
+   ]
+  },
+  {
+   "id": "L-c1-evs-038",
+   "level": 2,
+   "topic": "seasons",
+   "type": "multiple-choice",
+   "question": "In the rainy season we carry an…",
+   "answer": "umbrella ☂️",
+   "hint": "Water falls from the sky.",
+   "explanation": "An umbrella keeps us dry.",
+   "skills": [
+    "evs",
+    "seasons"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "umbrella ☂️",
+    "kite",
+    "ice cream",
+    "fan"
+   ]
+  },
+  {
+   "id": "L-c1-evs-039",
+   "level": 2,
+   "topic": "seasons",
+   "type": "multiple-choice",
+   "question": "In winter we wear…",
+   "answer": "sweaters 🧥",
+   "hint": "It is cold.",
+   "explanation": "Sweaters keep us warm.",
+   "skills": [
+    "evs",
+    "seasons"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "swimsuits",
+    "sunglasses",
+    "sandals",
+    "sweaters 🧥"
+   ]
+  },
+  {
+   "id": "L-c1-evs-040",
+   "level": 2,
+   "topic": "seasons",
+   "type": "multiple-choice",
+   "question": "A rainbow 🌈 appears when sun shines and it is…",
+   "answer": "raining",
+   "hint": "Sun and rain together.",
+   "explanation": "A rainbow shows when sun and rain meet.",
+   "skills": [
+    "evs",
+    "seasons"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "windy only",
+    "snowing",
+    "raining",
+    "night"
+   ]
+  },
+  {
+   "id": "L-c1-evs-041",
+   "level": 2,
+   "topic": "safety",
+   "type": "multiple-choice",
+   "question": "At a red 🔴 light we…",
+   "answer": "stop",
+   "hint": "Red means stop.",
+   "explanation": "Red light means stop.",
+   "skills": [
+    "evs",
+    "safety"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "run",
+    "stop",
+    "jump",
+    "go"
+   ]
+  },
+  {
+   "id": "L-c1-evs-042",
+   "level": 2,
+   "topic": "safety",
+   "type": "multiple-choice",
+   "question": "At a green 🟢 light we…",
+   "answer": "go (when safe)",
+   "hint": "Green means go.",
+   "explanation": "Green light means go, if it is safe.",
+   "skills": [
+    "evs",
+    "safety"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "go (when safe)",
+    "sleep",
+    "stop",
+    "sit"
+   ]
+  },
+  {
+   "id": "L-c1-evs-043",
+   "level": 2,
+   "topic": "safety",
+   "type": "multiple-choice",
+   "question": "Should you touch a hot pan?",
+   "answer": "No",
+   "hint": "Hot things burn.",
+   "explanation": "Never touch hot things.",
+   "skills": [
+    "evs",
+    "safety"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "No",
+    "Yes",
+    "Yes, quickly",
+    "Only with wet hands"
+   ]
+  },
+  {
+   "id": "L-c1-evs-044",
+   "level": 2,
+   "topic": "safety",
+   "type": "multiple-choice",
+   "question": "Emergency number in India?",
+   "answer": "112",
+   "hint": "Three digits, starts with 1.",
+   "explanation": "112 is the emergency number.",
+   "skills": [
+    "evs",
+    "safety"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "112",
+    "123",
+    "000",
+    "999"
+   ]
+  },
+  {
+   "id": "L-c1-evs-045",
+   "level": 2,
+   "topic": "safety",
+   "type": "multiple-choice",
+   "question": "We cross the road with…",
+   "answer": "a grown-up",
+   "hint": "Hold a hand.",
+   "explanation": "Cross with a grown-up.",
+   "skills": [
+    "evs",
+    "safety"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "our eyes closed",
+    "no one",
+    "a grown-up",
+    "running fast"
+   ]
+  },
+  {
+   "id": "L-c1-gk-001",
+   "level": 2,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "India’s national animal is the…",
+   "answer": "Tiger 🐅",
+   "hint": "It has stripes.",
+   "explanation": "The tiger is India’s national animal.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Tiger 🐅",
+    "Cow",
+    "Elephant",
+    "Lion"
+   ]
+  },
+  {
+   "id": "L-c1-gk-002",
+   "level": 2,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "India’s national bird is the…",
+   "answer": "Peacock 🦚",
+   "hint": "Beautiful tail.",
+   "explanation": "The peacock is India’s national bird.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Sparrow",
+    "Crow",
+    "Parrot",
+    "Peacock 🦚"
+   ]
+  },
+  {
+   "id": "L-c1-gk-003",
+   "level": 2,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "Independence Day is on…",
+   "answer": "15 August",
+   "hint": "Mid-August.",
+   "explanation": "India became free on 15 August 1947.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1 May",
+    "26 January",
+    "2 October",
+    "15 August"
+   ]
+  },
+  {
+   "id": "L-c1-gk-004",
+   "level": 2,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "Republic Day is on…",
+   "answer": "26 January",
+   "hint": "Start of the year.",
+   "explanation": "Republic Day is 26 January.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2 October",
+    "14 November",
+    "26 January",
+    "15 August"
+   ]
+  },
+  {
+   "id": "L-c1-gk-005",
+   "level": 2,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "The capital of India is…",
+   "answer": "New Delhi",
+   "hint": "Parliament is there.",
+   "explanation": "New Delhi is India’s capital.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Mumbai",
+    "Chennai",
+    "New Delhi",
+    "Kolkata"
+   ]
+  },
+  {
+   "id": "L-c1-gk-006",
+   "level": 2,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "Our national flag has how many colours?",
+   "answer": "3 (and a wheel)",
+   "hint": "Saffron, white, green.",
+   "explanation": "Saffron, white and green, with a blue wheel.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3 (and a wheel)",
+    "7",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c1-gk-007",
+   "level": 2,
+   "topic": "colours",
+   "type": "multiple-choice",
+   "question": "🍎 is usually…",
+   "answer": "red",
+   "hint": "Look at the apple.",
+   "explanation": "Apples are often red.",
+   "skills": [
+    "gk",
+    "colours"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "red",
+    "black",
+    "white",
+    "blue"
+   ]
+  },
+  {
+   "id": "L-c1-gk-008",
+   "level": 2,
+   "topic": "colours",
+   "type": "multiple-choice",
+   "question": "The sky 🌤️ looks…",
+   "answer": "blue",
+   "hint": "Look up.",
+   "explanation": "The sky looks blue.",
+   "skills": [
+    "gk",
+    "colours"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "blue",
+    "red",
+    "green",
+    "pink"
+   ]
+  },
+  {
+   "id": "L-c1-gk-009",
+   "level": 2,
+   "topic": "colours",
+   "type": "multiple-choice",
+   "question": "Grass 🌱 is…",
+   "answer": "green",
+   "hint": "Look at the garden.",
+   "explanation": "Grass is green.",
+   "skills": [
+    "gk",
+    "colours"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "yellow",
+    "blue",
+    "red",
+    "green"
+   ]
+  },
+  {
+   "id": "L-c1-gk-010",
+   "level": 2,
+   "topic": "colours",
+   "type": "multiple-choice",
+   "question": "Colours in a rainbow?",
+   "answer": "7",
+   "hint": "VIBGYOR.",
+   "explanation": "A rainbow has 7 colours.",
+   "skills": [
+    "gk",
+    "colours"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "7",
+    "5",
+    "3"
+   ]
+  },
+  {
+   "id": "L-c1-gk-011",
+   "level": 2,
+   "topic": "colours",
+   "type": "multiple-choice",
+   "question": "Red + yellow make…",
+   "answer": "orange",
+   "hint": "Mix paints.",
+   "explanation": "Red and yellow make orange.",
+   "skills": [
+    "gk",
+    "colours"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "purple",
+    "orange",
+    "black",
+    "green"
+   ]
+  },
+  {
+   "id": "L-c1-gk-012",
+   "level": 2,
+   "topic": "colours",
+   "type": "multiple-choice",
+   "question": "Blue + yellow make…",
+   "answer": "green",
+   "hint": "Mix paints.",
+   "explanation": "Blue and yellow make green.",
+   "skills": [
+    "gk",
+    "colours"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "pink",
+    "green",
+    "orange",
+    "purple"
+   ]
+  },
+  {
+   "id": "L-c1-gk-013",
+   "level": 2,
+   "topic": "calendar",
+   "type": "multiple-choice",
+   "question": "Months in a year?",
+   "answer": "12",
+   "hint": "January to December.",
+   "explanation": "A year has 12 months.",
+   "skills": [
+    "gk",
+    "calendar"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "10",
+    "13",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c1-gk-014",
+   "level": 2,
+   "topic": "calendar",
+   "type": "multiple-choice",
+   "question": "Days in a week?",
+   "answer": "7",
+   "hint": "Monday to Sunday.",
+   "explanation": "A week has 7 days.",
+   "skills": [
+    "gk",
+    "calendar"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "6",
+    "10",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c1-gk-015",
+   "level": 2,
+   "topic": "calendar",
+   "type": "multiple-choice",
+   "question": "The first month of the year is…",
+   "answer": "January",
+   "hint": "New Year!",
+   "explanation": "January is the first month.",
+   "skills": [
+    "gk",
+    "calendar"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "April",
+    "March",
+    "December",
+    "January"
+   ]
+  },
+  {
+   "id": "L-c1-gk-016",
+   "level": 2,
+   "topic": "calendar",
+   "type": "multiple-choice",
+   "question": "Which month comes after June?",
+   "answer": "July",
+   "hint": "June, then…",
+   "explanation": "After June comes July.",
+   "skills": [
+    "gk",
+    "calendar"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "August",
+    "July",
+    "April",
+    "May"
+   ]
+  },
+  {
+   "id": "L-c1-computer-001",
+   "level": 2,
+   "topic": "devices",
+   "type": "multiple-choice",
+   "question": "Which do we type with?",
+   "answer": "⌨️ keyboard",
+   "hint": "It has many keys.",
+   "explanation": "We type with a keyboard.",
+   "skills": [
+    "computer",
+    "devices"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🖥️ screen",
+    "🖱️ mouse",
+    "⌨️ keyboard",
+    "🔊 speaker"
+   ]
+  },
+  {
+   "id": "L-c1-computer-002",
+   "level": 2,
+   "topic": "devices",
+   "type": "multiple-choice",
+   "question": "Which do we click?",
+   "answer": "🖱️ mouse",
+   "hint": "Move it and click.",
+   "explanation": "We click with a mouse.",
+   "skills": [
+    "computer",
+    "devices"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🖱️ mouse",
+    "🖥️ screen",
+    "🖨️ printer",
+    "🔊 speaker"
+   ]
+  },
+  {
+   "id": "L-c1-computer-003",
+   "level": 2,
+   "topic": "devices",
+   "type": "multiple-choice",
+   "question": "Which shows pictures?",
+   "answer": "🖥️ screen",
+   "hint": "We look at it.",
+   "explanation": "A screen shows pictures.",
+   "skills": [
+    "computer",
+    "devices"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🎧 headphones",
+    "⌨️ keyboard",
+    "🖥️ screen",
+    "🖱️ mouse"
+   ]
+  },
+  {
+   "id": "L-c1-computer-004",
+   "level": 2,
+   "topic": "devices",
+   "type": "multiple-choice",
+   "question": "Which one gives us sound?",
+   "answer": "🔊 speaker",
+   "hint": "We listen to it.",
+   "explanation": "A speaker gives sound.",
+   "skills": [
+    "computer",
+    "devices"
+   ],
+   "difficulty": 2,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🖨️ printer",
+    "⌨️ keyboard",
+    "🖱️ mouse",
+    "🔊 speaker"
+   ]
+  },
+  {
+   "id": "L-c1-computer-005",
+   "level": 2,
+   "topic": "paint",
+   "type": "multiple-choice",
+   "question": "In Paint we can…",
+   "answer": "draw and colour",
+   "hint": "Think of colours.",
+   "explanation": "Paint is for drawing and colouring.",
+   "skills": [
+    "computer",
+    "paint"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "draw and colour",
+    "cook food",
+    "plant trees",
+    "run fast"
+   ]
+  },
+  {
+   "id": "L-c1-computer-006",
+   "level": 2,
+   "topic": "paint",
+   "type": "multiple-choice",
+   "question": "Paint is a program on a…",
+   "answer": "computer",
+   "hint": "It runs on a screen.",
+   "explanation": "Paint is a computer program for drawing.",
+   "skills": [
+    "computer",
+    "paint"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "bag",
+    "bed",
+    "spoon",
+    "computer"
+   ]
+  },
+  {
+   "id": "L-c1-computer-007",
+   "level": 2,
+   "topic": "paint",
+   "type": "multiple-choice",
+   "question": "Which tool is used to fill a shape with colour?",
+   "answer": "bucket 🪣",
+   "hint": "Pour the colour in.",
+   "explanation": "The fill bucket fills a shape with colour.",
+   "skills": [
+    "computer",
+    "paint"
+   ],
+   "difficulty": 2,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "bucket 🪣",
+    "eraser",
+    "ruler",
+    "pencil"
+   ]
+  },
+  {
+   "id": "L-c1-computer-008",
+   "level": 2,
+   "topic": "cyber-safety",
+   "type": "multiple-choice",
+   "question": "Should you share your password?",
+   "answer": "No, only with parents",
+   "hint": "Keep it secret.",
+   "explanation": "Passwords are secret. Tell only a parent.",
+   "skills": [
+    "computer",
+    "cyber-safety"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "No, only with parents",
+    "Yes, with everyone",
+    "Yes, online",
+    "Yes, with friends"
+   ]
+  },
+  {
+   "id": "L-c1-computer-009",
+   "level": 2,
+   "topic": "cyber-safety",
+   "type": "multiple-choice",
+   "question": "A stranger online asks where you live. You…",
+   "answer": "tell a parent",
+   "hint": "Tell a grown-up you trust.",
+   "explanation": "Never share where you live.",
+   "skills": [
+    "computer",
+    "cyber-safety"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "tell a parent",
+    "send a photo",
+    "say yes",
+    "tell them"
+   ]
+  },
+  {
+   "id": "L-c1-computer-010",
+   "level": 2,
+   "topic": "cyber-safety",
+   "type": "multiple-choice",
+   "question": "Before using a tablet we ask a…",
+   "answer": "parent",
+   "hint": "A grown-up at home.",
+   "explanation": "Ask a parent first.",
+   "skills": [
+    "computer",
+    "cyber-safety"
+   ],
+   "difficulty": 2,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "parent",
+    "stranger",
+    "dog",
+    "robot"
+   ]
+  }
+ ]
+}

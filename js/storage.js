@@ -21,8 +21,13 @@
     'phase-sub': ['➖', 'Subtraction done'],
     'phase-tables': ['✖️', 'Tables done'],
     'phase-div': ['➗', 'Division done'],
-    'course': ['🎓', 'Course done']
+    'course': ['🎓', 'Course done'],
+    'mock-1': ['📝', 'First mock test'],
+    'mock-80': ['🥇', 'Mock test 80% or more'],
+    'explorer': ['🧭', 'Tried every subject']
   };
+  var SUBJECT_IDS = ['maths', 'english', 'evs', 'science', 'computer', 'gk', 'social', 'olympiad'];
+  var LEVEL_IDS = ['pre', 'c1', 'c2', 'c3', 'c4'];
   for (var w = 1; w <= WEEKS; w++) BADGES['week-' + w] = ['🏅', 'Week ' + w + ' done'];
 
   function pad(n) { return n < 10 ? '0' + n : '' + n; }
@@ -50,6 +55,10 @@
       badges: [],
       lessons: {},
       session: null,
+      level: LEVEL_IDS.indexOf(p.level) >= 0 ? p.level : null,
+      unlockAll: p.unlockAll === true,
+      subjects: {},
+      mocks: [],
       updatedAt: typeof p.updatedAt === 'string' ? p.updatedAt : new Date().toISOString()
     };
     var s = p.streak || {};
@@ -82,8 +91,35 @@
         correct: Math.min(5, Math.max(0, parseInt(se.correct, 10) || 0))
       };
     }
+    cleanSubjects(p, out);
     recount(out);
     return out;
+  }
+
+  // Subject practice stats: small, bounded numbers only.
+  function num(v, max) { return Math.min(max, Math.max(0, parseInt(v, 10) || 0)); }
+  function cleanSubjects(p, out) {
+    var S = p.subjects && typeof p.subjects === 'object' ? p.subjects : {};
+    SUBJECT_IDS.forEach(function (sid) {
+      var x = S[sid];
+      if (!x || typeof x !== 'object') return;
+      var o = { seen: num(x.seen, 100000), right: num(x.right, 100000), topics: {} };
+      if (o.right > o.seen) o.right = o.seen;
+      var T = x.topics && typeof x.topics === 'object' ? x.topics : {};
+      Object.keys(T).slice(0, 40).forEach(function (t) {
+        if (!/^[a-z0-9-]{1,24}$/.test(t)) return;
+        var r = num(T[t] && T[t].r, 100000), w = num(T[t] && T[t].w, 100000);
+        var hh = T[t] && typeof T[t].h === 'string' && /^[01]{0,10}$/.test(T[t].h) ? T[t].h : '';
+        o.topics[t] = { r: r, w: w, h: hh };
+      });
+      out.subjects[sid] = o;
+    });
+    (Array.isArray(p.mocks) ? p.mocks : []).slice(-20).forEach(function (m) {
+      if (!m) return;
+      var total = num(m.total, 100), score = Math.min(total, num(m.score, 100));
+      if (total < 1) return;
+      out.mocks.push({ score: score, total: total, date: /^\d{4}-\d{2}-\d{2}$/.test(m.date || '') ? m.date : null });
+    });
   }
 
   function sanitize(s) {
@@ -227,6 +263,54 @@
       p.session = null;
       touch();
       return { stars: stars, newBadges: fresh, streak: s.current, firstEver: firstEver };
+    },
+
+    SUBJECT_IDS: SUBJECT_IDS,
+    LEVEL_IDS: LEVEL_IDS,
+    level: function () { var p = profile(); return p ? p.level : null; },
+    unlockAll: function () { var p = profile(); return !!(p && p.unlockAll); },
+    setUnlockAll: function (on) { var p = profile(); if (p) { p.unlockAll = !!on; touch(); } },
+    // Mastery of one topic: last 10 first-try results. Mastered = at least 6 tries and 80% or better.
+    mastery: function (sid, topic) {
+      var st = Store.subjectStats(sid), t = st.topics[topic];
+      var h = t && t.h ? t.h : '';
+      var n = h.length, r = 0;
+      for (var i = 0; i < n; i++) if (h.charAt(i) === '1') r++;
+      var pct = n ? r / n : 0;
+      var state = n === 0 ? 'new' : (n >= 6 && pct >= 0.8) ? 'mastered' : 'learning';
+      return { n: n, pct: pct, state: state };
+    },
+    setLevel: function (l) { var p = profile(); if (!p || LEVEL_IDS.indexOf(l) < 0) return; p.level = l; touch(); },
+    subjectStats: function (sid) { var p = profile(); return p && p.subjects[sid] ? p.subjects[sid] : { seen: 0, right: 0, topics: {} }; },
+    mocks: function () { var p = profile(); return p ? p.mocks : []; },
+    recordAnswer: function (sid, topic, firstTry) {
+      var p = profile();
+      if (!p || SUBJECT_IDS.indexOf(sid) < 0) return;
+      var x = p.subjects[sid] || (p.subjects[sid] = { seen: 0, right: 0, topics: {} });
+      x.seen = Math.min(100000, x.seen + 1);
+      if (firstTry) x.right = Math.min(100000, x.right + 1);
+      var t = /^[a-z0-9-]{1,24}$/.test(topic || '') ? topic : 'other';
+      var tt = x.topics[t] || (x.topics[t] = { r: 0, w: 0, h: '' });
+      if (firstTry) tt.r++; else tt.w++;
+      tt.h = ((tt.h || '') + (firstTry ? '1' : '0')).slice(-10);
+      save();
+    },
+    addMock: function (score, total) {
+      var p = profile();
+      if (!p) return [];
+      p.mocks.push({ score: score, total: total, date: today() });
+      p.mocks = p.mocks.slice(-20);
+      var fresh = [];
+      function give(id) { if (p.badges.indexOf(id) < 0) { p.badges.push(id); fresh.push(id); } }
+      give('mock-1');
+      if (total > 0 && score / total >= 0.8) give('mock-80');
+      touch();
+      return fresh;
+    },
+    giveBadge: function (id) {
+      var p = profile();
+      if (!p || !BADGES[id] || p.badges.indexOf(id) >= 0) return false;
+      p.badges.push(id); touch(); return true;
     },
 
     contentInfo: function () { return state.content; },

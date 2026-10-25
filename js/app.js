@@ -385,7 +385,12 @@
     }
 
     var wrap = h('div', { class: 'stack' }, hero);
-    wrap.appendChild(h('div', { class: 'actions' }, installButton(), shareButton()));
+    wrap.appendChild(h('div', { class: 'actions' },
+      h('button', {
+        class: 'btn wide subj-btn', type: 'button', 'aria-label': 'More subjects and practice tests',
+        onclick: function () { Sfx.tap(); if (window.MQSubjects) window.MQSubjects.show(); }
+      }, '📚 🧪 🎯'),
+      installButton(), shareButton()));
     if (p.badges.length) {
       wrap.appendChild(h('div', { class: 'trophies', role: 'list', 'aria-label': 'Trophies' },
         p.badges.map(function (b) {
@@ -661,10 +666,10 @@
   }
 
   // ---------------------------------------------------------------- one question
-  function questionView(q, onDone) {
+  function questionView(q, onDone, opts) {
     var tries = 0;
     var finished = false;
-    var maxTries = q.type === 'match' ? 3 : 2;
+    var maxTries = opts && opts.exam ? 1 : q.type === 'match' ? 3 : 2;
     var el = h('div', { class: 'q' });
     var stem = h('div', { class: 'stem' });
     if (q.pic) stem.appendChild(picEl(q.pic, true));
@@ -757,6 +762,60 @@
       lockInput = function () { pc.el.hidden = true; };
       interactive = pc.el;
       el.onKey = pc.onKey;
+    } else if (q.type === 'tap-count') {
+      // Fun: tap the right number of pictures, then press the tick
+      var counted = 0;
+      var tiles = [];
+      var tgrid = h('div', { class: 'tapgrid', role: 'group', 'aria-label': 'Pictures to tap' });
+      var cnt = h('div', { class: 'tapcount', 'aria-live': 'polite' }, '0');
+      for (var ti = 0; ti < q.total; ti++) {
+        (function () {
+          var on = false, num = 0;
+          var tb = h('button', { class: 'tile', type: 'button', 'aria-pressed': 'false', 'aria-label': 'Picture' }, q.icon);
+          tb.addEventListener('click', function () {
+            if (finished) return;
+            on = !on;
+            if (on) { counted++; num = counted; Sfx.tap(); Voice.say(String(num)); } else { counted--; }
+            tb.classList.toggle('on', on);
+            tb.setAttribute('aria-pressed', on ? 'true' : 'false');
+            tb.replaceChildren(on ? h('span', { class: 'tn' }, String(num)) : q.icon);
+            cnt.textContent = String(counted);
+          });
+          tiles.push(tb);
+          tgrid.appendChild(tb);
+        })();
+      }
+      var check = h('button', { class: 'btn go', type: 'button', 'aria-label': 'Check', onclick: function () {
+        if (finished) return;
+        if (counted === q.target) ok(); else bad();
+      } }, '✔️');
+      lockInput = function () { tiles.forEach(function (x) { x.disabled = true; }); check.hidden = true; };
+      interactive = h('div', { class: 'tapwrap' }, cnt, tgrid, h('div', { class: 'controls' }, check));
+    } else if (q.type === 'order') {
+      // Fun: tap the numbers in order, smallest first
+      var want = q.answer.split(',');
+      var placed = 0;
+      var line = h('div', { class: 'orderline', 'aria-live': 'polite' });
+      var obtns = [];
+      var ogrid = h('div', { class: 'ordergrid', role: 'group', 'aria-label': 'Numbers' });
+      shuffle(q.items.slice()).forEach(function (it) {
+        var ob = h('button', { class: 'ordbtn', type: 'button', 'data-v': it, 'aria-label': it }, it);
+        ob.addEventListener('click', function () {
+          if (finished) return;
+          if (it === want[placed]) {
+            placed++; ob.disabled = true; ob.classList.add('right'); Sfx.tap();
+            line.appendChild(h('span', { class: 'ordchip' }, it));
+            if (placed === want.length) ok();
+          } else {
+            ob.classList.add('wrong');
+            setTimeout(function () { ob.classList.remove('wrong'); }, 500);
+            bad();
+          }
+        });
+        obtns.push(ob); ogrid.appendChild(ob);
+      });
+      lockInput = function () { obtns.forEach(function (x) { x.disabled = true; }); };
+      interactive = h('div', { class: 'orderwrap' }, line, ogrid);
     } else if (q.type === 'match') {
       var map = {};
       q.pairs.forEach(function (p) { map[p[0]] = p[1]; });
@@ -907,6 +966,9 @@
       h('h2', null, 'Backup'),
       h('div', { class: 'panel' },
         h('p', null, 'Progress lives on this device. Clearing browser data erases it. Use Backup to save a copy.'),
+        h('p', null, h('button', { class: 'btn small soft', type: 'button', 'aria-label': 'Skill report', onclick: function () { if (window.MQSubjects) window.MQSubjects.report(); } }, '📊 Skill report'),
+          h('button', { class: 'btn small soft', type: 'button', 'aria-pressed': Store.unlockAll() ? 'true' : 'false', 'aria-label': 'Open all topics', onclick: function () { Store.setUnlockAll(!Store.unlockAll()); showParent(Store.unlockAll() ? 'All topics are open.' : 'Topics open one by one.'); } }, Store.unlockAll() ? '🔓 All open' : '🔒 One by one')),
+        h('p', null, h('a', { href: 'privacy.html', class: 'btn small soft', 'aria-label': 'Read the privacy notice' }, '🔒 Privacy')),
         h('div', { class: 'row' },
           h('button', {
             class: 'btn small', type: 'button',
@@ -1020,6 +1082,14 @@
       h('p', { style: 'font-weight:600;max-width:28ch' }, 'Connect to the internet once to get started.'),
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Try again', onclick: function () { location.reload(); } }, '🔁')));
   }
+
+  // A small, fixed set of helpers for js/subjects.js. Nothing else is shared.
+  window.MQApp = {
+    h: h, render: render, shuffle: shuffle, questionView: questionView, updateTop: updateTop,
+    pushScreen: pushScreen, goHome: goHome, showHome: showHome, fileMode: FILE_MODE,
+    setKeys: function (f) { S.keys = f || null; },
+    refreshTop: function () { updateTop('sub'); }
+  };
 
   function boot() {
     bindTop();

@@ -1,0 +1,78 @@
+{
+ "version": 3,
+ "levels": [
+  {
+   "id": "pre",
+   "title": "Pre-School",
+   "icon": "🧸",
+   "file": "levels/pre.json",
+   "count": 68,
+   "subjects": [
+    "maths",
+    "english",
+    "evs",
+    "gk",
+    "computer"
+   ]
+  },
+  {
+   "id": "c1",
+   "title": "Class 1",
+   "icon": "1️⃣",
+   "file": "levels/c1.json",
+   "count": 399,
+   "subjects": [
+    "maths",
+    "english",
+    "evs",
+    "gk",
+    "computer",
+    "olympiad"
+   ]
+  },
+  {
+   "id": "c2",
+   "title": "Class 2",
+   "icon": "2️⃣",
+   "file": "levels/c2.json",
+   "count": 73,
+   "subjects": [
+    "maths",
+    "english",
+    "evs",
+    "gk",
+    "computer"
+   ]
+  },
+  {
+   "id": "c3",
+   "title": "Class 3",
+   "icon": "3️⃣",
+   "file": "levels/c3.json",
+   "count": 78,
+   "subjects": [
+    "maths",
+    "english",
+    "evs",
+    "gk",
+    "computer",
+    "social"
+   ]
+  },
+  {
+   "id": "c4",
+   "title": "Class 4",
+   "icon": "4️⃣",
+   "file": "levels/c4.json",
+   "count": 78,
+   "subjects": [
+    "maths",
+    "english",
+    "science",
+    "gk",
+    "computer",
+    "social"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1729 @@
+{
+ "id": "pre",
+ "title": "Pre-School",
+ "icon": "🧸",
+ "version": 3,
+ "subjects": [
+  {
+   "id": "maths",
+   "title": "Maths",
+   "icon": "🧮",
+   "count": 38
+  },
+  {
+   "id": "english",
+   "title": "English",
+   "icon": "🔤",
+   "count": 11
+  },
+  {
+   "id": "evs",
+   "title": "Our World",
+   "icon": "🌳",
+   "count": 7
+  },
+  {
+   "id": "gk",
+   "title": "General Knowledge",
+   "icon": "🌍",
+   "count": 6
+  },
+  {
+   "id": "computer",
+   "title": "Computer",
+   "icon": "💻",
+   "count": 6
+  }
+ ],
+ "skills": [],
+ "questions": [
+  {
+   "id": "L-pre-maths-001",
+   "level": 1,
+   "topic": "counting",
+   "type": "multiple-choice",
+   "question": "🎈🎈🎈 How many?",
+   "answer": "3",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 3.",
+   "skills": [
+    "maths",
+    "counting"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "5",
+    "4",
+    "3"
+   ]
+  },
+  {
+   "id": "L-pre-maths-002",
+   "level": 1,
+   "topic": "counting",
+   "type": "multiple-choice",
+   "question": "⭐⭐⭐⭐⭐ How many?",
+   "answer": "5",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 5.",
+   "skills": [
+    "maths",
+    "counting"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "6",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "L-pre-maths-003",
+   "level": 1,
+   "topic": "counting",
+   "type": "multiple-choice",
+   "question": "⭐⭐⭐⭐⭐⭐⭐ How many?",
+   "answer": "7",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 7.",
+   "skills": [
+    "maths",
+    "counting"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "7",
+    "6",
+    "9"
+   ]
+  },
+  {
+   "id": "L-pre-maths-004",
+   "level": 1,
+   "topic": "counting",
+   "type": "multiple-choice",
+   "question": "🎈🎈🎈🎈🎈🎈🎈🎈🎈 How many?",
+   "answer": "9",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 9.",
+   "skills": [
+    "maths",
+    "counting"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "10",
+    "9",
+    "11"
+   ]
+  },
+  {
+   "id": "L-pre-maths-005",
+   "level": 1,
+   "topic": "counting",
+   "type": "multiple-choice",
+   "question": "⭐⭐⭐⭐ How many?",
+   "answer": "4",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 4.",
+   "skills": [
+    "maths",
+    "counting"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "4",
+    "3",
+    "6",
+    "5"
+   ]
+  },
+  {
+   "id": "L-pre-maths-006",
+   "level": 1,
+   "topic": "counting",
+   "type": "multiple-choice",
+   "question": "🍎🍎🍎🍎🍎🍎 How many?",
+   "answer": "6",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 6.",
+   "skills": [
+    "maths",
+    "counting"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "8",
+    "7",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "L-pre-maths-007",
+   "level": 1,
+   "topic": "counting",
+   "type": "multiple-choice",
+   "question": "🎈🎈🎈🎈🎈🎈🎈🎈 How many?",
+   "answer": "8",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 8.",
+   "skills": [
+    "maths",
+    "counting"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "10",
+    "9",
+    "8",
+    "7"
+   ]
+  },
+  {
+   "id": "L-pre-maths-008",
+   "level": 1,
+   "topic": "counting",
+   "type": "multiple-choice",
+   "question": "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ How many?",
+   "answer": "10",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 10.",
+   "skills": [
+    "maths",
+    "counting"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "10",
+    "11",
+    "9"
+   ]
+  },
+  {
+   "id": "L-pre-maths-009",
+   "level": 1,
+   "topic": "counting",
+   "type": "multiple-choice",
+   "question": "🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈 How many?",
+   "answer": "12",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 12.",
+   "skills": [
+    "maths",
+    "counting"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "14",
+    "11",
+    "13"
+   ]
+  },
+  {
+   "id": "L-pre-maths-010",
+   "level": 1,
+   "topic": "counting",
+   "type": "multiple-choice",
+   "question": "🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈 How many?",
+   "answer": "15",
+   "hint": "Touch each one and count.",
+   "explanation": "There are 15.",
+   "skills": [
+    "maths",
+    "counting"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "17",
+    "16",
+    "15",
+    "14"
+   ]
+  },
+  {
+   "id": "L-pre-maths-011",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes after 2?",
+   "answer": "3",
+   "hint": "Count: 2, then…",
+   "explanation": "2, 3. After 2 comes 3.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "4",
+    "3",
+    "1",
+    "2"
+   ]
+  },
+  {
+   "id": "L-pre-maths-012",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes after 4?",
+   "answer": "5",
+   "hint": "Count: 4, then…",
+   "explanation": "4, 5. After 4 comes 5.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "5",
+    "6",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "L-pre-maths-013",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes after 6?",
+   "answer": "7",
+   "hint": "Count: 6, then…",
+   "explanation": "6, 7. After 6 comes 7.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "5",
+    "8",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "L-pre-maths-014",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes after 8?",
+   "answer": "9",
+   "hint": "Count: 8, then…",
+   "explanation": "8, 9. After 8 comes 9.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "9",
+    "8",
+    "7",
+    "10"
+   ]
+  },
+  {
+   "id": "L-pre-maths-015",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes after 11?",
+   "answer": "12",
+   "hint": "Count: 11, then…",
+   "explanation": "11, 12. After 11 comes 12.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "11",
+    "13",
+    "10",
+    "12"
+   ]
+  },
+  {
+   "id": "L-pre-maths-016",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes after 13?",
+   "answer": "14",
+   "hint": "Count: 13, then…",
+   "explanation": "13, 14. After 13 comes 14.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "12",
+    "14",
+    "15",
+    "13"
+   ]
+  },
+  {
+   "id": "L-pre-maths-017",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes after 17?",
+   "answer": "18",
+   "hint": "Count: 17, then…",
+   "explanation": "17, 18. After 17 comes 18.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "19",
+    "18",
+    "17",
+    "16"
+   ]
+  },
+  {
+   "id": "L-pre-maths-018",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes after 19?",
+   "answer": "20",
+   "hint": "Count: 19, then…",
+   "explanation": "19, 20. After 19 comes 20.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "19",
+    "18",
+    "21",
+    "20"
+   ]
+  },
+  {
+   "id": "L-pre-maths-019",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes before 3?",
+   "answer": "2",
+   "hint": "Count up to 3. Stop one step before.",
+   "explanation": "Before 3 comes 2.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "1",
+    "3",
+    "4",
+    "2"
+   ]
+  },
+  {
+   "id": "L-pre-maths-020",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes before 5?",
+   "answer": "4",
+   "hint": "Count up to 5. Stop one step before.",
+   "explanation": "Before 5 comes 4.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "5",
+    "3",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "L-pre-maths-021",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes before 7?",
+   "answer": "6",
+   "hint": "Count up to 7. Stop one step before.",
+   "explanation": "Before 7 comes 6.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "8",
+    "6",
+    "7",
+    "5"
+   ]
+  },
+  {
+   "id": "L-pre-maths-022",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes before 9?",
+   "answer": "8",
+   "hint": "Count up to 9. Stop one step before.",
+   "explanation": "Before 9 comes 8.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "10",
+    "9",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "L-pre-maths-023",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes before 12?",
+   "answer": "11",
+   "hint": "Count up to 12. Stop one step before.",
+   "explanation": "Before 12 comes 11.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "11",
+    "10",
+    "12",
+    "13"
+   ]
+  },
+  {
+   "id": "L-pre-maths-024",
+   "level": 1,
+   "topic": "after-before",
+   "type": "multiple-choice",
+   "question": "What comes before 15?",
+   "answer": "14",
+   "hint": "Count up to 15. Stop one step before.",
+   "explanation": "Before 15 comes 14.",
+   "skills": [
+    "maths",
+    "after-before"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "16",
+    "13",
+    "15",
+    "14"
+   ]
+  },
+  {
+   "id": "L-pre-maths-025",
+   "level": 1,
+   "topic": "more-less",
+   "type": "multiple-choice",
+   "question": "Which is MORE: 3 or 5?",
+   "answer": "5",
+   "hint": "Count up: the bigger number comes later.",
+   "explanation": "5 is more than 3.",
+   "skills": [
+    "maths",
+    "more-less"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "4",
+    "3",
+    "6",
+    "5"
+   ]
+  },
+  {
+   "id": "L-pre-maths-026",
+   "level": 1,
+   "topic": "more-less",
+   "type": "multiple-choice",
+   "question": "Which is MORE: 7 or 4?",
+   "answer": "7",
+   "hint": "Count up: the bigger number comes later.",
+   "explanation": "7 is more than 4.",
+   "skills": [
+    "maths",
+    "more-less"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "7",
+    "4",
+    "6",
+    "8"
+   ]
+  },
+  {
+   "id": "L-pre-maths-027",
+   "level": 1,
+   "topic": "more-less",
+   "type": "multiple-choice",
+   "question": "Which is MORE: 2 or 6?",
+   "answer": "6",
+   "hint": "Count up: the bigger number comes later.",
+   "explanation": "6 is more than 2.",
+   "skills": [
+    "maths",
+    "more-less"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "6",
+    "7",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "id": "L-pre-maths-028",
+   "level": 1,
+   "topic": "more-less",
+   "type": "multiple-choice",
+   "question": "Which is MORE: 8 or 5?",
+   "answer": "8",
+   "hint": "Count up: the bigger number comes later.",
+   "explanation": "8 is more than 5.",
+   "skills": [
+    "maths",
+    "more-less"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "8",
+    "9",
+    "7",
+    "5"
+   ]
+  },
+  {
+   "id": "L-pre-maths-029",
+   "level": 1,
+   "topic": "more-less",
+   "type": "multiple-choice",
+   "question": "Which is MORE: 9 or 6?",
+   "answer": "9",
+   "hint": "Count up: the bigger number comes later.",
+   "explanation": "9 is more than 6.",
+   "skills": [
+    "maths",
+    "more-less"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "9",
+    "10",
+    "8",
+    "6"
+   ]
+  },
+  {
+   "id": "L-pre-maths-030",
+   "level": 1,
+   "topic": "more-less",
+   "type": "multiple-choice",
+   "question": "Which is MORE: 4 or 10?",
+   "answer": "10",
+   "hint": "Count up: the bigger number comes later.",
+   "explanation": "10 is more than 4.",
+   "skills": [
+    "maths",
+    "more-less"
+   ],
+   "difficulty": 1,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "9",
+    "10",
+    "11",
+    "4"
+   ]
+  },
+  {
+   "id": "L-pre-maths-031",
+   "level": 1,
+   "topic": "join",
+   "type": "multiple-choice",
+   "question": "🍬 + 🍬🍬 : how many in all?",
+   "answer": "3",
+   "hint": "Count all the sweets together.",
+   "explanation": "1 and 2 make 3.",
+   "skills": [
+    "maths",
+    "join"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "L-pre-maths-032",
+   "level": 1,
+   "topic": "join",
+   "type": "multiple-choice",
+   "question": "🍬🍬 + 🍬 : how many in all?",
+   "answer": "3",
+   "hint": "Count all the sweets together.",
+   "explanation": "2 and 1 make 3.",
+   "skills": [
+    "maths",
+    "join"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "1",
+    "4",
+    "3",
+    "2"
+   ]
+  },
+  {
+   "id": "L-pre-maths-033",
+   "level": 1,
+   "topic": "join",
+   "type": "multiple-choice",
+   "question": "🍬🍬 + 🍬🍬🍬 : how many in all?",
+   "answer": "5",
+   "hint": "Count all the sweets together.",
+   "explanation": "2 and 3 make 5.",
+   "skills": [
+    "maths",
+    "join"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "6",
+    "3",
+    "5",
+    "2"
+   ]
+  },
+  {
+   "id": "L-pre-maths-034",
+   "level": 1,
+   "topic": "join",
+   "type": "multiple-choice",
+   "question": "🍬🍬🍬 + 🍬 : how many in all?",
+   "answer": "4",
+   "hint": "Count all the sweets together.",
+   "explanation": "3 and 1 make 4.",
+   "skills": [
+    "maths",
+    "join"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "4",
+    "5",
+    "3",
+    "1"
+   ]
+  },
+  {
+   "id": "L-pre-maths-035",
+   "level": 1,
+   "topic": "join",
+   "type": "multiple-choice",
+   "question": "🍬 + 🍬🍬🍬🍬 : how many in all?",
+   "answer": "5",
+   "hint": "Count all the sweets together.",
+   "explanation": "1 and 4 make 5.",
+   "skills": [
+    "maths",
+    "join"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "5",
+    "6",
+    "4",
+    "1"
+   ]
+  },
+  {
+   "id": "L-pre-maths-036",
+   "level": 1,
+   "topic": "join",
+   "type": "multiple-choice",
+   "question": "🍬🍬🍬 + 🍬🍬 : how many in all?",
+   "answer": "5",
+   "hint": "Count all the sweets together.",
+   "explanation": "3 and 2 make 5.",
+   "skills": [
+    "maths",
+    "join"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "3",
+    "5",
+    "2",
+    "6"
+   ]
+  },
+  {
+   "id": "L-pre-maths-037",
+   "level": 1,
+   "topic": "join",
+   "type": "multiple-choice",
+   "question": "🍬🍬🍬🍬 + 🍬 : how many in all?",
+   "answer": "5",
+   "hint": "Count all the sweets together.",
+   "explanation": "4 and 1 make 5.",
+   "skills": [
+    "maths",
+    "join"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "5",
+    "4",
+    "6",
+    "1"
+   ]
+  },
+  {
+   "id": "L-pre-maths-038",
+   "level": 1,
+   "topic": "join",
+   "type": "multiple-choice",
+   "question": "🍬🍬 + 🍬🍬 : how many in all?",
+   "answer": "4",
+   "hint": "Count all the sweets together.",
+   "explanation": "2 and 2 make 4.",
+   "skills": [
+    "maths",
+    "join"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "counting"
+   ],
+   "verified": false,
+   "choices": [
+    "3",
+    "4",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "id": "L-pre-english-001",
+   "level": 1,
+   "topic": "letters",
+   "type": "multiple-choice",
+   "question": "🍎 starts with…",
+   "answer": "A",
+   "hint": "Say a-a-apple.",
+   "explanation": "Apple starts with A.",
+   "skills": [
+    "english",
+    "letters"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "B",
+    "A",
+    "M",
+    "S"
+   ]
+  },
+  {
+   "id": "L-pre-english-002",
+   "level": 1,
+   "topic": "letters",
+   "type": "multiple-choice",
+   "question": "🐻 starts with…",
+   "answer": "B",
+   "hint": "Say b-b-bear.",
+   "explanation": "Bear starts with B.",
+   "skills": [
+    "english",
+    "letters"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "P",
+    "B",
+    "T",
+    "D"
+   ]
+  },
+  {
+   "id": "L-pre-english-003",
+   "level": 1,
+   "topic": "letters",
+   "type": "multiple-choice",
+   "question": "🐱 starts with…",
+   "answer": "C",
+   "hint": "Say c-c-cat.",
+   "explanation": "Cat starts with C.",
+   "skills": [
+    "english",
+    "letters"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "K",
+    "T",
+    "C",
+    "G"
+   ]
+  },
+  {
+   "id": "L-pre-english-004",
+   "level": 1,
+   "topic": "letters",
+   "type": "multiple-choice",
+   "question": "🐶 starts with…",
+   "answer": "D",
+   "hint": "Say d-d-dog.",
+   "explanation": "Dog starts with D.",
+   "skills": [
+    "english",
+    "letters"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "D",
+    "B",
+    "G",
+    "P"
+   ]
+  },
+  {
+   "id": "L-pre-english-005",
+   "level": 1,
+   "topic": "letters",
+   "type": "multiple-choice",
+   "question": "🐘 starts with…",
+   "answer": "E",
+   "hint": "Say e-e-elephant.",
+   "explanation": "Elephant starts with E.",
+   "skills": [
+    "english",
+    "letters"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "E",
+    "I",
+    "O",
+    "A"
+   ]
+  },
+  {
+   "id": "L-pre-english-006",
+   "level": 1,
+   "topic": "letters",
+   "type": "multiple-choice",
+   "question": "🐟 starts with…",
+   "answer": "F",
+   "hint": "Say f-f-fish.",
+   "explanation": "Fish starts with F.",
+   "skills": [
+    "english",
+    "letters"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "F",
+    "H",
+    "S",
+    "P"
+   ]
+  },
+  {
+   "id": "L-pre-english-007",
+   "level": 1,
+   "topic": "letters",
+   "type": "multiple-choice",
+   "question": "🍇 starts with…",
+   "answer": "G",
+   "hint": "Say g-g-grapes.",
+   "explanation": "Grapes starts with G.",
+   "skills": [
+    "english",
+    "letters"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "G",
+    "J",
+    "Q",
+    "C"
+   ]
+  },
+  {
+   "id": "L-pre-english-008",
+   "level": 1,
+   "topic": "letters",
+   "type": "multiple-choice",
+   "question": "🎩 starts with…",
+   "answer": "H",
+   "hint": "Say h-h-hat.",
+   "explanation": "Hat starts with H.",
+   "skills": [
+    "english",
+    "letters"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "A",
+    "M",
+    "H",
+    "N"
+   ]
+  },
+  {
+   "id": "L-pre-english-009",
+   "level": 1,
+   "topic": "letters",
+   "type": "multiple-choice",
+   "question": "Which letter comes after A?",
+   "answer": "B",
+   "hint": "A B …",
+   "explanation": "The order is A B C.",
+   "skills": [
+    "english",
+    "letters"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "D",
+    "C",
+    "Z",
+    "B"
+   ]
+  },
+  {
+   "id": "L-pre-english-010",
+   "level": 1,
+   "topic": "letters",
+   "type": "multiple-choice",
+   "question": "Which letter comes after D?",
+   "answer": "E",
+   "hint": "D E …",
+   "explanation": "The order is D E F.",
+   "skills": [
+    "english",
+    "letters"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "C",
+    "F",
+    "E",
+    "G"
+   ]
+  },
+  {
+   "id": "L-pre-english-011",
+   "level": 1,
+   "topic": "vowels",
+   "type": "multiple-choice",
+   "question": "Which one is a vowel?",
+   "answer": "E",
+   "hint": "Vowels: A E I O U.",
+   "explanation": "E is a vowel.",
+   "skills": [
+    "english",
+    "vowels"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "B",
+    "K",
+    "E",
+    "T"
+   ]
+  },
+  {
+   "id": "L-pre-evs-001",
+   "level": 1,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "We see with our…",
+   "answer": "eyes 👀",
+   "hint": "Open them and look!",
+   "explanation": "We see with our eyes.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "nose",
+    "hands",
+    "ears",
+    "eyes 👀"
+   ]
+  },
+  {
+   "id": "L-pre-evs-002",
+   "level": 1,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "We hear with our…",
+   "answer": "ears 👂",
+   "hint": "Listen to music 🎵.",
+   "explanation": "We hear with our ears.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "ears 👂",
+    "eyes",
+    "feet",
+    "nose"
+   ]
+  },
+  {
+   "id": "L-pre-evs-003",
+   "level": 1,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "We smell with our…",
+   "answer": "nose 👃",
+   "hint": "Sniff a flower 🌸.",
+   "explanation": "We smell with our nose.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "ears",
+    "eyes",
+    "nose 👃",
+    "hands"
+   ]
+  },
+  {
+   "id": "L-pre-evs-004",
+   "level": 1,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "🐄 gives us…",
+   "answer": "milk",
+   "hint": "Think of a white drink.",
+   "explanation": "Cows give us milk.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "honey",
+    "milk",
+    "eggs",
+    "wool"
+   ]
+  },
+  {
+   "id": "L-pre-evs-005",
+   "level": 1,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "Which one can fly?",
+   "answer": "🐦",
+   "hint": "It has wings.",
+   "explanation": "Birds can fly.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🐦",
+    "🐟",
+    "🐢",
+    "🐘"
+   ]
+  },
+  {
+   "id": "L-pre-evs-006",
+   "level": 1,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "Which lives in water?",
+   "answer": "🐟",
+   "hint": "It swims.",
+   "explanation": "Fish live in water.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🐓",
+    "🐕",
+    "🐟",
+    "🐄"
+   ]
+  },
+  {
+   "id": "L-pre-evs-007",
+   "level": 1,
+   "topic": "plants",
+   "type": "multiple-choice",
+   "question": "Which is a fruit?",
+   "answer": "🍌",
+   "hint": "Sweet and yellow.",
+   "explanation": "A banana is a fruit.",
+   "skills": [
+    "evs",
+    "plants"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🍌",
+    "🥔",
+    "🧅",
+    "🥕"
+   ]
+  },
+  {
+   "id": "L-pre-gk-001",
+   "level": 1,
+   "topic": "colours",
+   "type": "multiple-choice",
+   "question": "🍎 is usually…",
+   "answer": "red",
+   "hint": "Look at the apple.",
+   "explanation": "Apples are often red.",
+   "skills": [
+    "gk",
+    "colours"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "black",
+    "red",
+    "blue",
+    "white"
+   ]
+  },
+  {
+   "id": "L-pre-gk-002",
+   "level": 1,
+   "topic": "colours",
+   "type": "multiple-choice",
+   "question": "The sky 🌤️ looks…",
+   "answer": "blue",
+   "hint": "Look up on a sunny day.",
+   "explanation": "The sky looks blue.",
+   "skills": [
+    "gk",
+    "colours"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "red",
+    "green",
+    "pink",
+    "blue"
+   ]
+  },
+  {
+   "id": "L-pre-gk-003",
+   "level": 1,
+   "topic": "colours",
+   "type": "multiple-choice",
+   "question": "Grass 🌱 is…",
+   "answer": "green",
+   "hint": "Look at the garden.",
+   "explanation": "Grass is green.",
+   "skills": [
+    "gk",
+    "colours"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "green",
+    "red",
+    "blue",
+    "yellow"
+   ]
+  },
+  {
+   "id": "L-pre-gk-004",
+   "level": 1,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "⚽ is shaped like a…",
+   "answer": "circle",
+   "hint": "It is round.",
+   "explanation": "A ball is round like a circle.",
+   "skills": [
+    "gk",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "triangle",
+    "star",
+    "circle",
+    "square"
+   ]
+  },
+  {
+   "id": "L-pre-gk-005",
+   "level": 1,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "Which shape has 3 sides?",
+   "answer": "triangle △",
+   "hint": "Tri means three.",
+   "explanation": "A triangle has 3 sides.",
+   "skills": [
+    "gk",
+    "shapes"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "square",
+    "circle",
+    "heart",
+    "triangle △"
+   ]
+  },
+  {
+   "id": "L-pre-gk-006",
+   "level": 1,
+   "topic": "shapes",
+   "type": "multiple-choice",
+   "question": "Which shape has 4 equal sides?",
+   "answer": "square ⬜",
+   "hint": "All sides are the same.",
+   "explanation": "A square has 4 equal sides.",
+   "skills": [
+    "gk",
+    "shapes"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "oval",
+    "square ⬜",
+    "triangle",
+    "circle"
+   ]
+  },
+  {
+   "id": "L-pre-computer-001",
+   "level": 1,
+   "topic": "devices",
+   "type": "multiple-choice",
+   "question": "Which one do we type with?",
+   "answer": "⌨️ keyboard",
+   "hint": "It has many keys.",
+   "explanation": "We type with a keyboard.",
+   "skills": [
+    "computer",
+    "devices"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🖥️ screen",
+    "🔊 speaker",
+    "🖱️ mouse",
+    "⌨️ keyboard"
+   ]
+  },
+  {
+   "id": "L-pre-computer-002",
+   "level": 1,
+   "topic": "devices",
+   "type": "multiple-choice",
+   "question": "Which shows pictures?",
+   "answer": "🖥️ screen",
+   "hint": "We look at it.",
+   "explanation": "A screen shows pictures.",
+   "skills": [
+    "computer",
+    "devices"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🖱️ mouse",
+    "⌨️ keyboard",
+    "🎧 headphones",
+    "🖥️ screen"
+   ]
+  },
+  {
+   "id": "L-pre-computer-003",
+   "level": 1,
+   "topic": "devices",
+   "type": "multiple-choice",
+   "question": "Which one do we click?",
+   "answer": "🖱️ mouse",
+   "hint": "Move it and click.",
+   "explanation": "We click with a mouse.",
+   "skills": [
+    "computer",
+    "devices"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🖨️ printer",
+    "🖱️ mouse",
+    "🔊 speaker",
+    "🖥️ screen"
+   ]
+  },
+  {
+   "id": "L-pre-computer-004",
+   "level": 1,
+   "topic": "devices",
+   "type": "multiple-choice",
+   "question": "Which one plays sound?",
+   "answer": "🔊 speaker",
+   "hint": "We listen to it.",
+   "explanation": "A speaker plays sound.",
+   "skills": [
+    "computer",
+    "devices"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "⌨️ keyboard",
+    "🖱️ mouse",
+    "🔊 speaker",
+    "🖥️ screen"
+   ]
+  },
+  {
+   "id": "L-pre-computer-005",
+   "level": 1,
+   "topic": "devices",
+   "type": "multiple-choice",
+   "question": "Which one is a computer?",
+   "answer": "💻",
+   "hint": "It has a screen and keys.",
+   "explanation": "A laptop is a computer.",
+   "skills": [
+    "computer",
+    "devices"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "🧸",
+    "💻",
+    "🚗",
+    "🍎"
+   ]
+  },
+  {
+   "id": "L-pre-computer-006",
+   "level": 1,
+   "topic": "safety",
+   "type": "multiple-choice",
+   "question": "Before using a tablet we ask a…",
+   "answer": "parent",
+   "hint": "A grown-up at home.",
+   "explanation": "Ask a parent first.",
+   "skills": [
+    "computer",
+    "safety"
+   ],
+   "difficulty": 1,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "stranger",
+    "dog",
+    "parent",
+    "robot"
+   ]
+  }
+ ]
+}

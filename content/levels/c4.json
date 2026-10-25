@@ -1,0 +1,1919 @@
+{
+ "id": "c4",
+ "title": "Class 4",
+ "icon": "4️⃣",
+ "version": 3,
+ "subjects": [
+  {
+   "id": "maths",
+   "title": "Maths",
+   "icon": "🧮",
+   "count": 48
+  },
+  {
+   "id": "english",
+   "title": "English",
+   "icon": "🔤",
+   "count": 9
+  },
+  {
+   "id": "science",
+   "title": "Science",
+   "icon": "🔬",
+   "count": 8
+  },
+  {
+   "id": "gk",
+   "title": "General Knowledge",
+   "icon": "🌍",
+   "count": 4
+  },
+  {
+   "id": "computer",
+   "title": "Computer",
+   "icon": "💻",
+   "count": 5
+  },
+  {
+   "id": "social",
+   "title": "Social Studies",
+   "icon": "🏘️",
+   "count": 4
+  }
+ ],
+ "skills": [],
+ "questions": [
+  {
+   "id": "L-c4-maths-001",
+   "level": 5,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 357391, which digit is in the thousands place?",
+   "answer": "7",
+   "hint": "Count places from the right.",
+   "explanation": "The digit is 7.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1",
+    "3",
+    "7",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c4-maths-002",
+   "level": 5,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 198140, which digit is in the thousands place?",
+   "answer": "8",
+   "hint": "Count places from the right.",
+   "explanation": "The digit is 8.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "9",
+    "1",
+    "8",
+    "0"
+   ]
+  },
+  {
+   "id": "L-c4-maths-003",
+   "level": 5,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 394307, which digit is in the ten thousands place?",
+   "answer": "9",
+   "hint": "Count places from the right.",
+   "explanation": "The digit is 9.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "7",
+    "0",
+    "9",
+    "3"
+   ]
+  },
+  {
+   "id": "L-c4-maths-004",
+   "level": 5,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 961608, which digit is in the tens place?",
+   "answer": "0",
+   "hint": "Count places from the right.",
+   "explanation": "The digit is 0.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "1",
+    "0",
+    "2"
+   ]
+  },
+  {
+   "id": "L-c4-maths-005",
+   "level": 5,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 985836, which digit is in the hundreds place?",
+   "answer": "8",
+   "hint": "Count places from the right.",
+   "explanation": "The digit is 8.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "8",
+    "7",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c4-maths-006",
+   "level": 5,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 680632, which digit is in the thousands place?",
+   "answer": "0",
+   "hint": "Count places from the right.",
+   "explanation": "The digit is 0.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "8",
+    "0",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c4-maths-007",
+   "level": 5,
+   "topic": "roman",
+   "type": "multiple-choice",
+   "question": "Roman numeral for 1?",
+   "answer": "I",
+   "hint": "I=1, V=5, X=10. Smaller before bigger means subtract.",
+   "explanation": "1 is I.",
+   "skills": [
+    "maths",
+    "roman"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "IX",
+    "IV",
+    "V",
+    "I"
+   ]
+  },
+  {
+   "id": "L-c4-maths-008",
+   "level": 5,
+   "topic": "roman",
+   "type": "multiple-choice",
+   "question": "Roman numeral for 4?",
+   "answer": "IV",
+   "hint": "I=1, V=5, X=10. Smaller before bigger means subtract.",
+   "explanation": "4 is IV.",
+   "skills": [
+    "maths",
+    "roman"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "V",
+    "I",
+    "IV",
+    "IX"
+   ]
+  },
+  {
+   "id": "L-c4-maths-009",
+   "level": 5,
+   "topic": "roman",
+   "type": "multiple-choice",
+   "question": "Roman numeral for 5?",
+   "answer": "V",
+   "hint": "I=1, V=5, X=10. Smaller before bigger means subtract.",
+   "explanation": "5 is V.",
+   "skills": [
+    "maths",
+    "roman"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "V",
+    "IV",
+    "I",
+    "IX"
+   ]
+  },
+  {
+   "id": "L-c4-maths-010",
+   "level": 5,
+   "topic": "roman",
+   "type": "multiple-choice",
+   "question": "Roman numeral for 9?",
+   "answer": "IX",
+   "hint": "I=1, V=5, X=10. Smaller before bigger means subtract.",
+   "explanation": "9 is IX.",
+   "skills": [
+    "maths",
+    "roman"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "I",
+    "IV",
+    "IX",
+    "V"
+   ]
+  },
+  {
+   "id": "L-c4-maths-011",
+   "level": 5,
+   "topic": "roman",
+   "type": "multiple-choice",
+   "question": "Roman numeral for 10?",
+   "answer": "X",
+   "hint": "I=1, V=5, X=10. Smaller before bigger means subtract.",
+   "explanation": "10 is X.",
+   "skills": [
+    "maths",
+    "roman"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "V",
+    "X",
+    "IV",
+    "I"
+   ]
+  },
+  {
+   "id": "L-c4-maths-012",
+   "level": 5,
+   "topic": "roman",
+   "type": "multiple-choice",
+   "question": "Roman numeral for 12?",
+   "answer": "XII",
+   "hint": "I=1, V=5, X=10. Smaller before bigger means subtract.",
+   "explanation": "12 is XII.",
+   "skills": [
+    "maths",
+    "roman"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "I",
+    "V",
+    "XII",
+    "IV"
+   ]
+  },
+  {
+   "id": "L-c4-maths-013",
+   "level": 5,
+   "topic": "roman",
+   "type": "multiple-choice",
+   "question": "Roman numeral for 14?",
+   "answer": "XIV",
+   "hint": "I=1, V=5, X=10. Smaller before bigger means subtract.",
+   "explanation": "14 is XIV.",
+   "skills": [
+    "maths",
+    "roman"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "I",
+    "V",
+    "IV",
+    "XIV"
+   ]
+  },
+  {
+   "id": "L-c4-maths-014",
+   "level": 5,
+   "topic": "roman",
+   "type": "multiple-choice",
+   "question": "Roman numeral for 15?",
+   "answer": "XV",
+   "hint": "I=1, V=5, X=10. Smaller before bigger means subtract.",
+   "explanation": "15 is XV.",
+   "skills": [
+    "maths",
+    "roman"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "XV",
+    "I",
+    "IV",
+    "V"
+   ]
+  },
+  {
+   "id": "L-c4-maths-015",
+   "level": 5,
+   "topic": "roman",
+   "type": "multiple-choice",
+   "question": "Roman numeral for 19?",
+   "answer": "XIX",
+   "hint": "I=1, V=5, X=10. Smaller before bigger means subtract.",
+   "explanation": "19 is XIX.",
+   "skills": [
+    "maths",
+    "roman"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "XIX",
+    "I",
+    "IV",
+    "V"
+   ]
+  },
+  {
+   "id": "L-c4-maths-016",
+   "level": 5,
+   "topic": "roman",
+   "type": "multiple-choice",
+   "question": "Roman numeral for 20?",
+   "answer": "XX",
+   "hint": "I=1, V=5, X=10. Smaller before bigger means subtract.",
+   "explanation": "20 is XX.",
+   "skills": [
+    "maths",
+    "roman"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "V",
+    "IV",
+    "XX",
+    "I"
+   ]
+  },
+  {
+   "id": "L-c4-maths-017",
+   "level": 5,
+   "topic": "add-big",
+   "type": "multiple-choice",
+   "question": "53730 + 24239 = ?",
+   "answer": "77969",
+   "hint": "Line up the digits. Add from the right.",
+   "explanation": "53730 + 24239 = 77969",
+   "skills": [
+    "maths",
+    "add-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "78069",
+    "77869",
+    "77969",
+    "78969"
+   ]
+  },
+  {
+   "id": "L-c4-maths-018",
+   "level": 5,
+   "topic": "add-big",
+   "type": "multiple-choice",
+   "question": "51356 + 3331 = ?",
+   "answer": "54687",
+   "hint": "Line up the digits. Add from the right.",
+   "explanation": "51356 + 3331 = 54687",
+   "skills": [
+    "maths",
+    "add-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "54587",
+    "54687",
+    "55687",
+    "54787"
+   ]
+  },
+  {
+   "id": "L-c4-maths-019",
+   "level": 5,
+   "topic": "add-big",
+   "type": "multiple-choice",
+   "question": "14282 + 29331 = ?",
+   "answer": "43613",
+   "hint": "Line up the digits. Add from the right.",
+   "explanation": "14282 + 29331 = 43613",
+   "skills": [
+    "maths",
+    "add-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "43713",
+    "43513",
+    "43613",
+    "44613"
+   ]
+  },
+  {
+   "id": "L-c4-maths-020",
+   "level": 5,
+   "topic": "add-big",
+   "type": "multiple-choice",
+   "question": "29841 + 21769 = ?",
+   "answer": "51610",
+   "hint": "Line up the digits. Add from the right.",
+   "explanation": "29841 + 21769 = 51610",
+   "skills": [
+    "maths",
+    "add-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "52610",
+    "51710",
+    "51610",
+    "51510"
+   ]
+  },
+  {
+   "id": "L-c4-maths-021",
+   "level": 5,
+   "topic": "add-big",
+   "type": "multiple-choice",
+   "question": "17469 + 9631 = ?",
+   "answer": "27100",
+   "hint": "Line up the digits. Add from the right.",
+   "explanation": "17469 + 9631 = 27100",
+   "skills": [
+    "maths",
+    "add-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "27100",
+    "28100",
+    "27000",
+    "27200"
+   ]
+  },
+  {
+   "id": "L-c4-maths-022",
+   "level": 5,
+   "topic": "add-big",
+   "type": "multiple-choice",
+   "question": "52997 + 7086 = ?",
+   "answer": "60083",
+   "hint": "Line up the digits. Add from the right.",
+   "explanation": "52997 + 7086 = 60083",
+   "skills": [
+    "maths",
+    "add-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "60083",
+    "61083",
+    "60183",
+    "59983"
+   ]
+  },
+  {
+   "id": "L-c4-maths-023",
+   "level": 5,
+   "topic": "sub-big",
+   "type": "multiple-choice",
+   "question": "57375 − 17420 = ?",
+   "answer": "39955",
+   "hint": "Line up the digits. Borrow when needed.",
+   "explanation": "57375 − 17420 = 39955",
+   "skills": [
+    "maths",
+    "sub-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "39955",
+    "40955",
+    "39855",
+    "40055"
+   ]
+  },
+  {
+   "id": "L-c4-maths-024",
+   "level": 5,
+   "topic": "sub-big",
+   "type": "multiple-choice",
+   "question": "74160 − 27750 = ?",
+   "answer": "46410",
+   "hint": "Line up the digits. Borrow when needed.",
+   "explanation": "74160 − 27750 = 46410",
+   "skills": [
+    "maths",
+    "sub-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "46510",
+    "47410",
+    "46310",
+    "46410"
+   ]
+  },
+  {
+   "id": "L-c4-maths-025",
+   "level": 5,
+   "topic": "sub-big",
+   "type": "multiple-choice",
+   "question": "46263 − 4078 = ?",
+   "answer": "42185",
+   "hint": "Line up the digits. Borrow when needed.",
+   "explanation": "46263 − 4078 = 42185",
+   "skills": [
+    "maths",
+    "sub-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "42285",
+    "43185",
+    "42185",
+    "42085"
+   ]
+  },
+  {
+   "id": "L-c4-maths-026",
+   "level": 5,
+   "topic": "sub-big",
+   "type": "multiple-choice",
+   "question": "80311 − 12618 = ?",
+   "answer": "67693",
+   "hint": "Line up the digits. Borrow when needed.",
+   "explanation": "80311 − 12618 = 67693",
+   "skills": [
+    "maths",
+    "sub-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "67693",
+    "67793",
+    "67593",
+    "68693"
+   ]
+  },
+  {
+   "id": "L-c4-maths-027",
+   "level": 5,
+   "topic": "sub-big",
+   "type": "multiple-choice",
+   "question": "36861 − 10120 = ?",
+   "answer": "26741",
+   "hint": "Line up the digits. Borrow when needed.",
+   "explanation": "36861 − 10120 = 26741",
+   "skills": [
+    "maths",
+    "sub-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "26741",
+    "26641",
+    "27741",
+    "26841"
+   ]
+  },
+  {
+   "id": "L-c4-maths-028",
+   "level": 5,
+   "topic": "sub-big",
+   "type": "multiple-choice",
+   "question": "68310 − 25908 = ?",
+   "answer": "42402",
+   "hint": "Line up the digits. Borrow when needed.",
+   "explanation": "68310 − 25908 = 42402",
+   "skills": [
+    "maths",
+    "sub-big"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "42302",
+    "42502",
+    "43402",
+    "42402"
+   ]
+  },
+  {
+   "id": "L-c4-maths-029",
+   "level": 5,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "14 × 16 = ?",
+   "answer": "224",
+   "hint": "Do 14 × 6, then 14 × 1 tens.",
+   "explanation": "14 × 16 = 224",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "224",
+    "234",
+    "238",
+    "208"
+   ]
+  },
+  {
+   "id": "L-c4-maths-030",
+   "level": 5,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "45 × 24 = ?",
+   "answer": "1080",
+   "hint": "Do 45 × 4, then 45 × 2 tens.",
+   "explanation": "45 × 24 = 1080",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1125",
+    "1056",
+    "1090",
+    "1080"
+   ]
+  },
+  {
+   "id": "L-c4-maths-031",
+   "level": 5,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "18 × 24 = ?",
+   "answer": "432",
+   "hint": "Do 18 × 4, then 18 × 2 tens.",
+   "explanation": "18 × 24 = 432",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "442",
+    "432",
+    "450",
+    "408"
+   ]
+  },
+  {
+   "id": "L-c4-maths-032",
+   "level": 5,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "28 × 27 = ?",
+   "answer": "756",
+   "hint": "Do 28 × 7, then 28 × 2 tens.",
+   "explanation": "28 × 27 = 756",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "729",
+    "784",
+    "756",
+    "766"
+   ]
+  },
+  {
+   "id": "L-c4-maths-033",
+   "level": 5,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "37 × 13 = ?",
+   "answer": "481",
+   "hint": "Do 37 × 3, then 37 × 1 tens.",
+   "explanation": "37 × 13 = 481",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "518",
+    "491",
+    "468",
+    "481"
+   ]
+  },
+  {
+   "id": "L-c4-maths-034",
+   "level": 5,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "30 × 11 = ?",
+   "answer": "330",
+   "hint": "Do 30 × 1, then 30 × 1 tens.",
+   "explanation": "30 × 11 = 330",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "319",
+    "330",
+    "360",
+    "340"
+   ]
+  },
+  {
+   "id": "L-c4-maths-035",
+   "level": 5,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "29 × 15 = ?",
+   "answer": "435",
+   "hint": "Do 29 × 5, then 29 × 1 tens.",
+   "explanation": "29 × 15 = 435",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "464",
+    "420",
+    "435",
+    "445"
+   ]
+  },
+  {
+   "id": "L-c4-maths-036",
+   "level": 5,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "25 × 17 = ?",
+   "answer": "425",
+   "hint": "Do 25 × 7, then 25 × 1 tens.",
+   "explanation": "25 × 17 = 425",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "435",
+    "450",
+    "408",
+    "425"
+   ]
+  },
+  {
+   "id": "L-c4-maths-037",
+   "level": 5,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "81 ÷ 3 = ?",
+   "answer": "27",
+   "hint": "Think of the 3 table.",
+   "explanation": "3 × 27 = 81",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "27",
+    "37",
+    "28",
+    "26"
+   ]
+  },
+  {
+   "id": "L-c4-maths-038",
+   "level": 5,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "333 ÷ 9 = ?",
+   "answer": "37",
+   "hint": "Think of the 9 table.",
+   "explanation": "9 × 37 = 333",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "47",
+    "36",
+    "37",
+    "38"
+   ]
+  },
+  {
+   "id": "L-c4-maths-039",
+   "level": 5,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "98 ÷ 7 = ?",
+   "answer": "14",
+   "hint": "Think of the 7 table.",
+   "explanation": "7 × 14 = 98",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "15",
+    "24",
+    "14",
+    "13"
+   ]
+  },
+  {
+   "id": "L-c4-maths-040",
+   "level": 5,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "144 ÷ 6 = ?",
+   "answer": "24",
+   "hint": "Think of the 6 table.",
+   "explanation": "6 × 24 = 144",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "24",
+    "25",
+    "23",
+    "34"
+   ]
+  },
+  {
+   "id": "L-c4-maths-041",
+   "level": 5,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "112 ÷ 4 = ?",
+   "answer": "28",
+   "hint": "Think of the 4 table.",
+   "explanation": "4 × 28 = 112",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "27",
+    "38",
+    "29",
+    "28"
+   ]
+  },
+  {
+   "id": "L-c4-maths-042",
+   "level": 5,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "342 ÷ 9 = ?",
+   "answer": "38",
+   "hint": "Think of the 9 table.",
+   "explanation": "9 × 38 = 342",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "37",
+    "39",
+    "48",
+    "38"
+   ]
+  },
+  {
+   "id": "L-c4-maths-043",
+   "level": 5,
+   "topic": "perimeter",
+   "type": "multiple-choice",
+   "question": "A rectangle is 12 cm long and 8 cm wide. Perimeter = ? cm",
+   "answer": "40",
+   "hint": "Add all four sides.",
+   "explanation": "12 + 8 + 12 + 8 = 40",
+   "skills": [
+    "maths",
+    "perimeter"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "32",
+    "40",
+    "20",
+    "96"
+   ]
+  },
+  {
+   "id": "L-c4-maths-044",
+   "level": 5,
+   "topic": "perimeter",
+   "type": "multiple-choice",
+   "question": "A rectangle is 15 cm long and 10 cm wide. Perimeter = ? cm",
+   "answer": "50",
+   "hint": "Add all four sides.",
+   "explanation": "15 + 10 + 15 + 10 = 50",
+   "skills": [
+    "maths",
+    "perimeter"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "150",
+    "25",
+    "40",
+    "50"
+   ]
+  },
+  {
+   "id": "L-c4-maths-045",
+   "level": 5,
+   "topic": "perimeter",
+   "type": "multiple-choice",
+   "question": "A rectangle is 9 cm long and 6 cm wide. Perimeter = ? cm",
+   "answer": "30",
+   "hint": "Add all four sides.",
+   "explanation": "9 + 6 + 9 + 6 = 30",
+   "skills": [
+    "maths",
+    "perimeter"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "30",
+    "24",
+    "15",
+    "54"
+   ]
+  },
+  {
+   "id": "L-c4-maths-046",
+   "level": 5,
+   "topic": "perimeter",
+   "type": "multiple-choice",
+   "question": "A rectangle is 20 cm long and 5 cm wide. Perimeter = ? cm",
+   "answer": "50",
+   "hint": "Add all four sides.",
+   "explanation": "20 + 5 + 20 + 5 = 50",
+   "skills": [
+    "maths",
+    "perimeter"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "100",
+    "50",
+    "25",
+    "45"
+   ]
+  },
+  {
+   "id": "L-c4-maths-047",
+   "level": 5,
+   "topic": "perimeter",
+   "type": "multiple-choice",
+   "question": "A rectangle is 14 cm long and 9 cm wide. Perimeter = ? cm",
+   "answer": "46",
+   "hint": "Add all four sides.",
+   "explanation": "14 + 9 + 14 + 9 = 46",
+   "skills": [
+    "maths",
+    "perimeter"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "23",
+    "37",
+    "46",
+    "126"
+   ]
+  },
+  {
+   "id": "L-c4-maths-048",
+   "level": 5,
+   "topic": "perimeter",
+   "type": "multiple-choice",
+   "question": "A rectangle is 11 cm long and 7 cm wide. Perimeter = ? cm",
+   "answer": "36",
+   "hint": "Add all four sides.",
+   "explanation": "11 + 7 + 11 + 7 = 36",
+   "skills": [
+    "maths",
+    "perimeter"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "18",
+    "29",
+    "36",
+    "77"
+   ]
+  },
+  {
+   "id": "L-c4-english-001",
+   "level": 5,
+   "topic": "grammar",
+   "type": "multiple-choice",
+   "question": "Which sentence has the right verb?",
+   "answer": "The boys are playing.",
+   "hint": "Many boys use are.",
+   "explanation": "Plural subject, plural verb.",
+   "skills": [
+    "english",
+    "grammar"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "The boys be playing.",
+    "The boys are playing.",
+    "The boys am playing.",
+    "The boys is playing."
+   ]
+  },
+  {
+   "id": "L-c4-english-002",
+   "level": 5,
+   "topic": "tense",
+   "type": "multiple-choice",
+   "question": "Future: \"I ___ go tomorrow.\"",
+   "answer": "will",
+   "hint": "Tomorrow is future.",
+   "explanation": "Use will for the future.",
+   "skills": [
+    "english",
+    "tense"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "will",
+    "has",
+    "was",
+    "did"
+   ]
+  },
+  {
+   "id": "L-c4-english-003",
+   "level": 5,
+   "topic": "tense",
+   "type": "multiple-choice",
+   "question": "Pick the past: \"She ___ a letter.\"",
+   "answer": "wrote",
+   "hint": "Irregular verb.",
+   "explanation": "Write becomes wrote.",
+   "skills": [
+    "english",
+    "tense"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "writes",
+    "writing",
+    "write",
+    "wrote"
+   ]
+  },
+  {
+   "id": "L-c4-english-004",
+   "level": 5,
+   "topic": "prefix",
+   "type": "multiple-choice",
+   "question": "Add a prefix to HAPPY to mean “not happy”",
+   "answer": "unhappy",
+   "hint": "Un- means not.",
+   "explanation": "Un + happy = unhappy.",
+   "skills": [
+    "english",
+    "prefix"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "unhappy",
+    "dishappy",
+    "mishappy",
+    "rehappy"
+   ]
+  },
+  {
+   "id": "L-c4-english-005",
+   "level": 5,
+   "topic": "suffix",
+   "type": "multiple-choice",
+   "question": "Add -ful to HELP",
+   "answer": "helpful",
+   "hint": "-ful means full of.",
+   "explanation": "Help + ful = helpful.",
+   "skills": [
+    "english",
+    "suffix"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "helpful",
+    "helpless",
+    "helping",
+    "helped"
+   ]
+  },
+  {
+   "id": "L-c4-english-006",
+   "level": 5,
+   "topic": "synonyms",
+   "type": "multiple-choice",
+   "question": "Synonym of BEGIN",
+   "answer": "start",
+   "hint": "Same meaning.",
+   "explanation": "Begin and start mean the same.",
+   "skills": [
+    "english",
+    "synonyms"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "end",
+    "start",
+    "finish",
+    "stop"
+   ]
+  },
+  {
+   "id": "L-c4-english-007",
+   "level": 5,
+   "topic": "antonyms",
+   "type": "multiple-choice",
+   "question": "Antonym of BRAVE",
+   "answer": "cowardly",
+   "hint": "Opposite meaning.",
+   "explanation": "Brave and cowardly are opposites.",
+   "skills": [
+    "english",
+    "antonyms"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "kind",
+    "strong",
+    "cowardly",
+    "loud"
+   ]
+  },
+  {
+   "id": "L-c4-english-008",
+   "level": 5,
+   "topic": "conjunctions",
+   "type": "multiple-choice",
+   "question": "I was tired ___ I went to bed.",
+   "answer": "so",
+   "hint": "It gives the result.",
+   "explanation": "So shows the result.",
+   "skills": [
+    "english",
+    "conjunctions"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "because",
+    "so",
+    "or",
+    "but"
+   ]
+  },
+  {
+   "id": "L-c4-english-009",
+   "level": 5,
+   "topic": "comprehension",
+   "type": "multiple-choice",
+   "question": "“The sun was hot, so Ria drank water.” Why did she drink water?",
+   "answer": "It was hot.",
+   "hint": "Read the first part again.",
+   "explanation": "The text says the sun was hot.",
+   "skills": [
+    "english",
+    "comprehension"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "It was raining.",
+    "She was sleepy.",
+    "She was angry.",
+    "It was hot."
+   ]
+  },
+  {
+   "id": "L-c4-science-001",
+   "level": 5,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "Which organ pumps blood?",
+   "answer": "heart",
+   "hint": "Thump-thump.",
+   "explanation": "The heart pumps blood.",
+   "skills": [
+    "science",
+    "body"
+   ],
+   "difficulty": 3,
+   "subject": "science",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "heart",
+    "kidneys",
+    "lungs",
+    "stomach"
+   ]
+  },
+  {
+   "id": "L-c4-science-002",
+   "level": 5,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "Which system helps us digest food?",
+   "answer": "digestive system",
+   "hint": "Food goes down the food pipe.",
+   "explanation": "The digestive system breaks down food.",
+   "skills": [
+    "science",
+    "body"
+   ],
+   "difficulty": 3,
+   "subject": "science",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "breathing system",
+    "skeletal system",
+    "nervous system",
+    "digestive system"
+   ]
+  },
+  {
+   "id": "L-c4-science-003",
+   "level": 5,
+   "topic": "plants",
+   "type": "multiple-choice",
+   "question": "The process by which plants make food is…",
+   "answer": "photosynthesis",
+   "hint": "Photo = light.",
+   "explanation": "Plants make food using light.",
+   "skills": [
+    "science",
+    "plants"
+   ],
+   "difficulty": 3,
+   "subject": "science",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "digestion",
+    "photosynthesis",
+    "condensation",
+    "evaporation"
+   ]
+  },
+  {
+   "id": "L-c4-science-004",
+   "level": 5,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "Animals with a backbone are called…",
+   "answer": "vertebrates",
+   "hint": "Vertebra = bone of the back.",
+   "explanation": "Vertebrates have a backbone.",
+   "skills": [
+    "science",
+    "animals"
+   ],
+   "difficulty": 3,
+   "subject": "science",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "insects",
+    "invertebrates",
+    "vertebrates",
+    "plants"
+   ]
+  },
+  {
+   "id": "L-c4-science-005",
+   "level": 5,
+   "topic": "physics",
+   "type": "multiple-choice",
+   "question": "A magnet attracts…",
+   "answer": "iron",
+   "hint": "Think of a paper clip.",
+   "explanation": "Magnets pull iron things.",
+   "skills": [
+    "science",
+    "physics"
+   ],
+   "difficulty": 3,
+   "subject": "science",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "plastic",
+    "paper",
+    "iron",
+    "wood"
+   ]
+  },
+  {
+   "id": "L-c4-science-006",
+   "level": 5,
+   "topic": "physics",
+   "type": "multiple-choice",
+   "question": "Which is a good conductor of electricity?",
+   "answer": "copper",
+   "hint": "Wires are made of it.",
+   "explanation": "Copper carries electricity well.",
+   "skills": [
+    "science",
+    "physics"
+   ],
+   "difficulty": 3,
+   "subject": "science",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "rubber",
+    "copper",
+    "wood",
+    "plastic"
+   ]
+  },
+  {
+   "id": "L-c4-science-007",
+   "level": 5,
+   "topic": "physics",
+   "type": "multiple-choice",
+   "question": "Sound needs something to travel through, like…",
+   "answer": "air",
+   "hint": "You hear a bell across the room.",
+   "explanation": "Sound travels through air.",
+   "skills": [
+    "science",
+    "physics"
+   ],
+   "difficulty": 3,
+   "subject": "science",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "a vacuum",
+    "air",
+    "nothing",
+    "only light"
+   ]
+  },
+  {
+   "id": "L-c4-science-008",
+   "level": 5,
+   "topic": "water",
+   "type": "multiple-choice",
+   "question": "Water changing to gas is called…",
+   "answer": "evaporation",
+   "hint": "Puddles dry up.",
+   "explanation": "Evaporation turns water into vapour.",
+   "skills": [
+    "science",
+    "water"
+   ],
+   "difficulty": 3,
+   "subject": "science",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "evaporation",
+    "condensation",
+    "melting",
+    "freezing"
+   ]
+  },
+  {
+   "id": "L-c4-social-001",
+   "level": 5,
+   "topic": "civilisations",
+   "type": "multiple-choice",
+   "question": "Ancient Indus Valley cities included…",
+   "answer": "Harappa",
+   "hint": "In ancient India.",
+   "explanation": "Harappa was an Indus Valley city.",
+   "skills": [
+    "social",
+    "civilisations"
+   ],
+   "difficulty": 3,
+   "subject": "social",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Paris",
+    "London",
+    "Harappa",
+    "Rome"
+   ]
+  },
+  {
+   "id": "L-c4-social-002",
+   "level": 5,
+   "topic": "geography",
+   "type": "multiple-choice",
+   "question": "The largest ocean is the…",
+   "answer": "Pacific",
+   "hint": "Name sounds peaceful.",
+   "explanation": "The Pacific is the largest.",
+   "skills": [
+    "social",
+    "geography"
+   ],
+   "difficulty": 3,
+   "subject": "social",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Atlantic",
+    "Arctic",
+    "Indian",
+    "Pacific"
+   ]
+  },
+  {
+   "id": "L-c4-social-003",
+   "level": 5,
+   "topic": "maps",
+   "type": "multiple-choice",
+   "question": "Lines that run East-West on a globe are lines of…",
+   "answer": "latitude",
+   "hint": "Lat is flat, like a ladder.",
+   "explanation": "Latitude lines run East-West.",
+   "skills": [
+    "social",
+    "maps"
+   ],
+   "difficulty": 3,
+   "subject": "social",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "speed",
+    "height",
+    "longitude",
+    "latitude"
+   ]
+  },
+  {
+   "id": "L-c4-social-004",
+   "level": 5,
+   "topic": "democracy",
+   "type": "multiple-choice",
+   "question": "In a democracy, leaders are chosen by…",
+   "answer": "voting",
+   "hint": "People choose.",
+   "explanation": "Citizens vote to choose leaders.",
+   "skills": [
+    "social",
+    "democracy"
+   ],
+   "difficulty": 3,
+   "subject": "social",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "guessing",
+    "luck",
+    "voting",
+    "fighting"
+   ]
+  },
+  {
+   "id": "L-c4-gk-001",
+   "level": 5,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "Who wrote India’s national anthem?",
+   "answer": "Rabindranath Tagore",
+   "hint": "A famous poet.",
+   "explanation": "Tagore wrote Jana Gana Mana.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 3,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Mahatma Gandhi",
+    "Rabindranath Tagore",
+    "Nehru",
+    "Subhas Bose"
+   ]
+  },
+  {
+   "id": "L-c4-gk-002",
+   "level": 5,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "The Indian Parliament is in…",
+   "answer": "New Delhi",
+   "hint": "The capital.",
+   "explanation": "Parliament is in New Delhi.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 3,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Mumbai",
+    "Chennai",
+    "New Delhi",
+    "Kolkata"
+   ]
+  },
+  {
+   "id": "L-c4-gk-003",
+   "level": 5,
+   "topic": "world",
+   "type": "multiple-choice",
+   "question": "The tallest mountain above sea level is…",
+   "answer": "Mount Everest",
+   "hint": "In the Himalayas.",
+   "explanation": "Everest is the tallest.",
+   "skills": [
+    "gk",
+    "world"
+   ],
+   "difficulty": 3,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Mount Kenya",
+    "Mount Everest",
+    "Mount Fuji",
+    "Mont Blanc"
+   ]
+  },
+  {
+   "id": "L-c4-gk-004",
+   "level": 5,
+   "topic": "world",
+   "type": "multiple-choice",
+   "question": "Leap year has how many days?",
+   "answer": "366",
+   "hint": "Once every 4 years.",
+   "explanation": "A leap year has 366 days.",
+   "skills": [
+    "gk",
+    "world"
+   ],
+   "difficulty": 3,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "365",
+    "366",
+    "364",
+    "360"
+   ]
+  },
+  {
+   "id": "L-c4-computer-001",
+   "level": 5,
+   "topic": "software",
+   "type": "multiple-choice",
+   "question": "Which is a word-processing program?",
+   "answer": "MS Word",
+   "hint": "Used to write documents.",
+   "explanation": "MS Word is for documents.",
+   "skills": [
+    "computer",
+    "software"
+   ],
+   "difficulty": 3,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Clock",
+    "Calculator",
+    "MS Word",
+    "MS Paint"
+   ]
+  },
+  {
+   "id": "L-c4-computer-002",
+   "level": 5,
+   "topic": "binary",
+   "type": "multiple-choice",
+   "question": "Computers use only 0 and 1. In binary, 10 means…",
+   "answer": "2",
+   "hint": "Binary: 1, 10, 11…",
+   "explanation": "Binary 10 is two.",
+   "skills": [
+    "computer",
+    "binary"
+   ],
+   "difficulty": 3,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "10",
+    "1",
+    "0",
+    "2"
+   ]
+  },
+  {
+   "id": "L-c4-computer-003",
+   "level": 5,
+   "topic": "coding",
+   "type": "multiple-choice",
+   "question": "A mistake in a program is called a…",
+   "answer": "bug",
+   "hint": "Programmers hunt for it.",
+   "explanation": "Programmers fix bugs.",
+   "skills": [
+    "computer",
+    "coding"
+   ],
+   "difficulty": 3,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "bug",
+    "tree",
+    "star",
+    "flower"
+   ]
+  },
+  {
+   "id": "L-c4-computer-004",
+   "level": 5,
+   "topic": "coding",
+   "type": "multiple-choice",
+   "question": "Start 0. Steps: +3, +3, −2. Where is it?",
+   "answer": "4",
+   "hint": "3 + 3 = 6, then minus 2.",
+   "explanation": "3 + 3 − 2 = 4.",
+   "skills": [
+    "computer",
+    "coding"
+   ],
+   "difficulty": 3,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "3",
+    "8",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c4-computer-005",
+   "level": 5,
+   "topic": "safety",
+   "type": "multiple-choice",
+   "question": "A strong password has…",
+   "answer": "letters, numbers and symbols",
+   "hint": "Hard to guess.",
+   "explanation": "Mix letters, numbers and symbols.",
+   "skills": [
+    "computer",
+    "safety"
+   ],
+   "difficulty": 3,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1234",
+    "your birthday",
+    "only your name",
+    "letters, numbers and symbols"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1839 @@
+{
+ "id": "c2",
+ "title": "Class 2",
+ "icon": "2️⃣",
+ "version": 3,
+ "subjects": [
+  {
+   "id": "maths",
+   "title": "Maths",
+   "icon": "🧮",
+   "count": 40
+  },
+  {
+   "id": "english",
+   "title": "English",
+   "icon": "🔤",
+   "count": 12
+  },
+  {
+   "id": "evs",
+   "title": "Our World",
+   "icon": "🌳",
+   "count": 11
+  },
+  {
+   "id": "gk",
+   "title": "General Knowledge",
+   "icon": "🌍",
+   "count": 6
+  },
+  {
+   "id": "computer",
+   "title": "Computer",
+   "icon": "💻",
+   "count": 4
+  }
+ ],
+ "skills": [],
+ "questions": [
+  {
+   "id": "L-c2-maths-001",
+   "level": 3,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 680, the digit in the TENS place is?",
+   "answer": "8",
+   "hint": "Read from the right: ones, tens, hundreds.",
+   "explanation": "In 680 the tens digit is 8.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "9",
+    "0",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c2-maths-002",
+   "level": 3,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 614, the digit in the TENS place is?",
+   "answer": "1",
+   "hint": "Read from the right: ones, tens, hundreds.",
+   "explanation": "In 614 the tens digit is 1.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "4",
+    "2",
+    "1"
+   ]
+  },
+  {
+   "id": "L-c2-maths-003",
+   "level": 3,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 754, the digit in the TENS place is?",
+   "answer": "5",
+   "hint": "Read from the right: ones, tens, hundreds.",
+   "explanation": "In 754 the tens digit is 5.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "6",
+    "4",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c2-maths-004",
+   "level": 3,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 802, the digit in the TENS place is?",
+   "answer": "0",
+   "hint": "Read from the right: ones, tens, hundreds.",
+   "explanation": "In 802 the tens digit is 0.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1",
+    "0",
+    "2",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c2-maths-005",
+   "level": 3,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 175, the digit in the TENS place is?",
+   "answer": "7",
+   "hint": "Read from the right: ones, tens, hundreds.",
+   "explanation": "In 175 the tens digit is 7.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1",
+    "8",
+    "5",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c2-maths-006",
+   "level": 3,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 322, the digit in the TENS place is?",
+   "answer": "2",
+   "hint": "Read from the right: ones, tens, hundreds.",
+   "explanation": "In 322 the tens digit is 2.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "3",
+    "1",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c2-maths-007",
+   "level": 3,
+   "topic": "place-value",
+   "type": "multiple-choice",
+   "question": "In 145, the digit in the TENS place is?",
+   "answer": "4",
+   "hint": "Read from the right: ones, tens, hundreds.",
+   "explanation": "In 145 the tens digit is 4.",
+   "skills": [
+    "maths",
+    "place-value"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "1",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c2-maths-008",
+   "level": 3,
+   "topic": "add-999",
+   "type": "multiple-choice",
+   "question": "303 + 336 = ?",
+   "answer": "639",
+   "hint": "Add ones, then tens, then hundreds.",
+   "explanation": "303 + 336 = 639",
+   "skills": [
+    "maths",
+    "add-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "639",
+    "629",
+    "649",
+    "739"
+   ]
+  },
+  {
+   "id": "L-c2-maths-009",
+   "level": 3,
+   "topic": "add-999",
+   "type": "multiple-choice",
+   "question": "261 + 305 = ?",
+   "answer": "566",
+   "hint": "Add ones, then tens, then hundreds.",
+   "explanation": "261 + 305 = 566",
+   "skills": [
+    "maths",
+    "add-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "666",
+    "576",
+    "556",
+    "566"
+   ]
+  },
+  {
+   "id": "L-c2-maths-010",
+   "level": 3,
+   "topic": "add-999",
+   "type": "multiple-choice",
+   "question": "530 + 233 = ?",
+   "answer": "763",
+   "hint": "Add ones, then tens, then hundreds.",
+   "explanation": "530 + 233 = 763",
+   "skills": [
+    "maths",
+    "add-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "863",
+    "773",
+    "753",
+    "763"
+   ]
+  },
+  {
+   "id": "L-c2-maths-011",
+   "level": 3,
+   "topic": "add-999",
+   "type": "multiple-choice",
+   "question": "470 + 125 = ?",
+   "answer": "595",
+   "hint": "Add ones, then tens, then hundreds.",
+   "explanation": "470 + 125 = 595",
+   "skills": [
+    "maths",
+    "add-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "605",
+    "585",
+    "695",
+    "595"
+   ]
+  },
+  {
+   "id": "L-c2-maths-012",
+   "level": 3,
+   "topic": "add-999",
+   "type": "multiple-choice",
+   "question": "502 + 287 = ?",
+   "answer": "789",
+   "hint": "Add ones, then tens, then hundreds.",
+   "explanation": "502 + 287 = 789",
+   "skills": [
+    "maths",
+    "add-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "889",
+    "789",
+    "779",
+    "799"
+   ]
+  },
+  {
+   "id": "L-c2-maths-013",
+   "level": 3,
+   "topic": "add-999",
+   "type": "multiple-choice",
+   "question": "111 + 307 = ?",
+   "answer": "418",
+   "hint": "Add ones, then tens, then hundreds.",
+   "explanation": "111 + 307 = 418",
+   "skills": [
+    "maths",
+    "add-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "428",
+    "518",
+    "418",
+    "408"
+   ]
+  },
+  {
+   "id": "L-c2-maths-014",
+   "level": 3,
+   "topic": "add-999",
+   "type": "multiple-choice",
+   "question": "126 + 103 = ?",
+   "answer": "229",
+   "hint": "Add ones, then tens, then hundreds.",
+   "explanation": "126 + 103 = 229",
+   "skills": [
+    "maths",
+    "add-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "329",
+    "229",
+    "219",
+    "239"
+   ]
+  },
+  {
+   "id": "L-c2-maths-015",
+   "level": 3,
+   "topic": "sub-999",
+   "type": "multiple-choice",
+   "question": "416 − 111 = ?",
+   "answer": "305",
+   "hint": "Subtract ones, tens, then hundreds.",
+   "explanation": "416 − 111 = 305",
+   "skills": [
+    "maths",
+    "sub-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "295",
+    "305",
+    "405",
+    "315"
+   ]
+  },
+  {
+   "id": "L-c2-maths-016",
+   "level": 3,
+   "topic": "sub-999",
+   "type": "multiple-choice",
+   "question": "726 − 122 = ?",
+   "answer": "604",
+   "hint": "Subtract ones, tens, then hundreds.",
+   "explanation": "726 − 122 = 604",
+   "skills": [
+    "maths",
+    "sub-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "604",
+    "614",
+    "594",
+    "704"
+   ]
+  },
+  {
+   "id": "L-c2-maths-017",
+   "level": 3,
+   "topic": "sub-999",
+   "type": "multiple-choice",
+   "question": "341 − 120 = ?",
+   "answer": "221",
+   "hint": "Subtract ones, tens, then hundreds.",
+   "explanation": "341 − 120 = 221",
+   "skills": [
+    "maths",
+    "sub-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "211",
+    "221",
+    "231",
+    "321"
+   ]
+  },
+  {
+   "id": "L-c2-maths-018",
+   "level": 3,
+   "topic": "sub-999",
+   "type": "multiple-choice",
+   "question": "659 − 141 = ?",
+   "answer": "518",
+   "hint": "Subtract ones, tens, then hundreds.",
+   "explanation": "659 − 141 = 518",
+   "skills": [
+    "maths",
+    "sub-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "508",
+    "618",
+    "518",
+    "528"
+   ]
+  },
+  {
+   "id": "L-c2-maths-019",
+   "level": 3,
+   "topic": "sub-999",
+   "type": "multiple-choice",
+   "question": "647 − 131 = ?",
+   "answer": "516",
+   "hint": "Subtract ones, tens, then hundreds.",
+   "explanation": "647 − 131 = 516",
+   "skills": [
+    "maths",
+    "sub-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "526",
+    "506",
+    "616",
+    "516"
+   ]
+  },
+  {
+   "id": "L-c2-maths-020",
+   "level": 3,
+   "topic": "sub-999",
+   "type": "multiple-choice",
+   "question": "748 − 104 = ?",
+   "answer": "644",
+   "hint": "Subtract ones, tens, then hundreds.",
+   "explanation": "748 − 104 = 644",
+   "skills": [
+    "maths",
+    "sub-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "654",
+    "634",
+    "744",
+    "644"
+   ]
+  },
+  {
+   "id": "L-c2-maths-021",
+   "level": 3,
+   "topic": "sub-999",
+   "type": "multiple-choice",
+   "question": "848 − 126 = ?",
+   "answer": "722",
+   "hint": "Subtract ones, tens, then hundreds.",
+   "explanation": "848 − 126 = 722",
+   "skills": [
+    "maths",
+    "sub-999"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [
+    "place-value"
+   ],
+   "verified": false,
+   "choices": [
+    "732",
+    "722",
+    "712",
+    "822"
+   ]
+  },
+  {
+   "id": "L-c2-maths-022",
+   "level": 3,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "6 × 6 = ?",
+   "answer": "36",
+   "hint": "Skip count by 6.",
+   "explanation": "6 × 6 = 36",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "30",
+    "42",
+    "36",
+    "12"
+   ]
+  },
+  {
+   "id": "L-c2-maths-023",
+   "level": 3,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "6 × 2 = ?",
+   "answer": "12",
+   "hint": "Skip count by 6.",
+   "explanation": "6 × 2 = 12",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "8",
+    "6",
+    "18"
+   ]
+  },
+  {
+   "id": "L-c2-maths-024",
+   "level": 3,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "7 × 10 = ?",
+   "answer": "70",
+   "hint": "Skip count by 7.",
+   "explanation": "7 × 10 = 70",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "77",
+    "70",
+    "63",
+    "17"
+   ]
+  },
+  {
+   "id": "L-c2-maths-025",
+   "level": 3,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "7 × 9 = ?",
+   "answer": "63",
+   "hint": "Skip count by 7.",
+   "explanation": "7 × 9 = 63",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "63",
+    "16",
+    "70",
+    "56"
+   ]
+  },
+  {
+   "id": "L-c2-maths-026",
+   "level": 3,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "8 × 4 = ?",
+   "answer": "32",
+   "hint": "Skip count by 8.",
+   "explanation": "8 × 4 = 32",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "24",
+    "32",
+    "40",
+    "12"
+   ]
+  },
+  {
+   "id": "L-c2-maths-027",
+   "level": 3,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "9 × 4 = ?",
+   "answer": "36",
+   "hint": "Skip count by 9.",
+   "explanation": "9 × 4 = 36",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "27",
+    "45",
+    "36"
+   ]
+  },
+  {
+   "id": "L-c2-maths-028",
+   "level": 3,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "9 × 3 = ?",
+   "answer": "27",
+   "hint": "Skip count by 9.",
+   "explanation": "9 × 3 = 27",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "18",
+    "27",
+    "36"
+   ]
+  },
+  {
+   "id": "L-c2-maths-029",
+   "level": 3,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "11 × 6 = ?",
+   "answer": "66",
+   "hint": "Skip count by 11.",
+   "explanation": "11 × 6 = 66",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "77",
+    "55",
+    "17",
+    "66"
+   ]
+  },
+  {
+   "id": "L-c2-maths-030",
+   "level": 3,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "11 × 12 = ?",
+   "answer": "132",
+   "hint": "Skip count by 11.",
+   "explanation": "11 × 12 = 132",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "23",
+    "132",
+    "121",
+    "143"
+   ]
+  },
+  {
+   "id": "L-c2-maths-031",
+   "level": 3,
+   "topic": "tables",
+   "type": "multiple-choice",
+   "question": "12 × 11 = ?",
+   "answer": "132",
+   "hint": "Skip count by 12.",
+   "explanation": "12 × 11 = 132",
+   "skills": [
+    "maths",
+    "tables"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "23",
+    "144",
+    "132",
+    "120"
+   ]
+  },
+  {
+   "id": "L-c2-maths-032",
+   "level": 3,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "40 ÷ 5 = ?",
+   "answer": "8",
+   "hint": "Think: 5 × ? = 40.",
+   "explanation": "5 × 8 = 40, so 40 ÷ 5 = 8",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [
+    "tables"
+   ],
+   "verified": false,
+   "choices": [
+    "9",
+    "7",
+    "8",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c2-maths-033",
+   "level": 3,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "42 ÷ 6 = ?",
+   "answer": "7",
+   "hint": "Think: 6 × ? = 42.",
+   "explanation": "6 × 7 = 42, so 42 ÷ 6 = 7",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [
+    "tables"
+   ],
+   "verified": false,
+   "choices": [
+    "8",
+    "7",
+    "6",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c2-maths-034",
+   "level": 3,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "30 ÷ 6 = ?",
+   "answer": "5",
+   "hint": "Think: 6 × ? = 30.",
+   "explanation": "6 × 5 = 30, so 30 ÷ 6 = 5",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [
+    "tables"
+   ],
+   "verified": false,
+   "choices": [
+    "6",
+    "5",
+    "4",
+    "7"
+   ]
+  },
+  {
+   "id": "L-c2-maths-035",
+   "level": 3,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "25 ÷ 5 = ?",
+   "answer": "5",
+   "hint": "Think: 5 × ? = 25.",
+   "explanation": "5 × 5 = 25, so 25 ÷ 5 = 5",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [
+    "tables"
+   ],
+   "verified": false,
+   "choices": [
+    "7",
+    "4",
+    "6",
+    "5"
+   ]
+  },
+  {
+   "id": "L-c2-maths-036",
+   "level": 3,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "24 ÷ 3 = ?",
+   "answer": "8",
+   "hint": "Think: 3 × ? = 24.",
+   "explanation": "3 × 8 = 24, so 24 ÷ 3 = 8",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [
+    "tables"
+   ],
+   "verified": false,
+   "choices": [
+    "9",
+    "3",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c2-maths-037",
+   "level": 3,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "24 ÷ 6 = ?",
+   "answer": "4",
+   "hint": "Think: 6 × ? = 24.",
+   "explanation": "6 × 4 = 24, so 24 ÷ 6 = 4",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [
+    "tables"
+   ],
+   "verified": false,
+   "choices": [
+    "5",
+    "3",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "L-c2-maths-038",
+   "level": 3,
+   "topic": "money",
+   "type": "multiple-choice",
+   "question": "₹10 + ₹10 + ₹20 = ?",
+   "answer": "40",
+   "hint": "Add the rupees.",
+   "explanation": "Total ₹40.",
+   "skills": [
+    "maths",
+    "money"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [
+    "add-999"
+   ],
+   "verified": false,
+   "choices": [
+    "41",
+    "30",
+    "40",
+    "50"
+   ]
+  },
+  {
+   "id": "L-c2-maths-039",
+   "level": 3,
+   "topic": "money",
+   "type": "multiple-choice",
+   "question": "₹5 + ₹5 + ₹15 = ?",
+   "answer": "25",
+   "hint": "Add the rupees.",
+   "explanation": "Total ₹25.",
+   "skills": [
+    "maths",
+    "money"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [
+    "add-999"
+   ],
+   "verified": false,
+   "choices": [
+    "20",
+    "25",
+    "30",
+    "26"
+   ]
+  },
+  {
+   "id": "L-c2-maths-040",
+   "level": 3,
+   "topic": "money",
+   "type": "multiple-choice",
+   "question": "₹10 + ₹10 + ₹10 = ?",
+   "answer": "30",
+   "hint": "Add the rupees.",
+   "explanation": "Total ₹30.",
+   "skills": [
+    "maths",
+    "money"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [
+    "add-999"
+   ],
+   "verified": false,
+   "choices": [
+    "30",
+    "40",
+    "20",
+    "31"
+   ]
+  },
+  {
+   "id": "L-c2-english-001",
+   "level": 3,
+   "topic": "nouns",
+   "type": "multiple-choice",
+   "question": "Which word is a NOUN (a name)?",
+   "answer": "school",
+   "hint": "A noun names a person, place or thing.",
+   "explanation": "School is a place, so it is a noun.",
+   "skills": [
+    "english",
+    "nouns"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "school",
+    "quickly",
+    "blue",
+    "run"
+   ]
+  },
+  {
+   "id": "L-c2-english-002",
+   "level": 3,
+   "topic": "nouns",
+   "type": "multiple-choice",
+   "question": "Which is a PROPER noun?",
+   "answer": "Delhi",
+   "hint": "Proper nouns start with a capital letter.",
+   "explanation": "Delhi is the name of one special city.",
+   "skills": [
+    "english",
+    "nouns"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "river",
+    "city",
+    "Delhi",
+    "boy"
+   ]
+  },
+  {
+   "id": "L-c2-english-003",
+   "level": 3,
+   "topic": "pronouns",
+   "type": "multiple-choice",
+   "question": "Pick the pronoun: \"Ria is kind. ___ helps everyone.\"",
+   "answer": "She",
+   "hint": "A pronoun takes the place of a name.",
+   "explanation": "She takes the place of Ria.",
+   "skills": [
+    "english",
+    "pronouns"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Kind",
+    "Run",
+    "She",
+    "Table"
+   ]
+  },
+  {
+   "id": "L-c2-english-004",
+   "level": 3,
+   "topic": "verbs",
+   "type": "multiple-choice",
+   "question": "Which is an action word (verb)?",
+   "answer": "jump",
+   "hint": "Can you do it?",
+   "explanation": "Jump is something we do.",
+   "skills": [
+    "english",
+    "verbs"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "jump",
+    "red",
+    "happy",
+    "table"
+   ]
+  },
+  {
+   "id": "L-c2-english-005",
+   "level": 3,
+   "topic": "verbs",
+   "type": "multiple-choice",
+   "question": "He ___ a mango yesterday.",
+   "answer": "ate",
+   "hint": "Yesterday is past.",
+   "explanation": "The past of eat is ate.",
+   "skills": [
+    "english",
+    "verbs"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "eats",
+    "eating",
+    "ate",
+    "eat"
+   ]
+  },
+  {
+   "id": "L-c2-english-006",
+   "level": 3,
+   "topic": "adjectives",
+   "type": "multiple-choice",
+   "question": "Pick the adjective: \"a tall tree\"",
+   "answer": "tall",
+   "hint": "It tells us about the tree.",
+   "explanation": "Tall describes the tree.",
+   "skills": [
+    "english",
+    "adjectives"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "tree",
+    "a",
+    "tall",
+    "the"
+   ]
+  },
+  {
+   "id": "L-c2-english-007",
+   "level": 3,
+   "topic": "prepositions",
+   "type": "multiple-choice",
+   "question": "The cat is ___ the table. (under the table)",
+   "answer": "under",
+   "hint": "Where is the cat?",
+   "explanation": "Under tells where.",
+   "skills": [
+    "english",
+    "prepositions"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "eat",
+    "but",
+    "and",
+    "under"
+   ]
+  },
+  {
+   "id": "L-c2-english-008",
+   "level": 3,
+   "topic": "articles",
+   "type": "multiple-choice",
+   "question": "___ umbrella ☂️",
+   "answer": "an",
+   "hint": "U is a vowel sound here.",
+   "explanation": "Use an before vowel sounds.",
+   "skills": [
+    "english",
+    "articles"
+   ],
+   "difficulty": 1,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "an",
+    "a",
+    "on",
+    "the"
+   ]
+  },
+  {
+   "id": "L-c2-english-009",
+   "level": 3,
+   "topic": "sentences",
+   "type": "multiple-choice",
+   "question": "Which is a complete sentence?",
+   "answer": "The boy plays.",
+   "hint": "A sentence tells a full idea.",
+   "explanation": "It says who and what they do.",
+   "skills": [
+    "english",
+    "sentences"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "In the",
+    "plays the",
+    "The boy",
+    "The boy plays."
+   ]
+  },
+  {
+   "id": "L-c2-english-010",
+   "level": 3,
+   "topic": "sentences",
+   "type": "multiple-choice",
+   "question": "Which sentence is right?",
+   "answer": "I am seven years old.",
+   "hint": "Use am with I.",
+   "explanation": "We say: I am.",
+   "skills": [
+    "english",
+    "sentences"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "I am seven years old.",
+    "I is seven years old.",
+    "I be seven years old.",
+    "I are seven years old."
+   ]
+  },
+  {
+   "id": "L-c2-english-011",
+   "level": 3,
+   "topic": "question-words",
+   "type": "multiple-choice",
+   "question": "___ is your name?",
+   "answer": "What",
+   "hint": "We ask for a name.",
+   "explanation": "What is your name?",
+   "skills": [
+    "english",
+    "question-words"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Where",
+    "Who",
+    "What",
+    "Which"
+   ]
+  },
+  {
+   "id": "L-c2-english-012",
+   "level": 3,
+   "topic": "similar-words",
+   "type": "multiple-choice",
+   "question": "Similar word for BIG",
+   "answer": "large",
+   "hint": "Same meaning.",
+   "explanation": "Big and large mean the same.",
+   "skills": [
+    "english",
+    "similar-words"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "large",
+    "slow",
+    "tiny",
+    "thin"
+   ]
+  },
+  {
+   "id": "L-c2-evs-001",
+   "level": 3,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "Which sense organ helps us taste?",
+   "answer": "tongue 👅",
+   "hint": "Ice cream!",
+   "explanation": "We taste with the tongue.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "tongue 👅",
+    "hands",
+    "eyes",
+    "ears"
+   ]
+  },
+  {
+   "id": "L-c2-evs-002",
+   "level": 3,
+   "topic": "safety",
+   "type": "multiple-choice",
+   "question": "Number to call for help in India (police)?",
+   "answer": "112",
+   "hint": "Emergency number.",
+   "explanation": "112 is the emergency number in India.",
+   "skills": [
+    "evs",
+    "safety"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "999",
+    "000",
+    "123",
+    "112"
+   ]
+  },
+  {
+   "id": "L-c2-evs-003",
+   "level": 3,
+   "topic": "people",
+   "type": "multiple-choice",
+   "question": "Who delivers letters?",
+   "answer": "postman",
+   "hint": "Comes to your door.",
+   "explanation": "A postman delivers letters.",
+   "skills": [
+    "evs",
+    "people"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "painter",
+    "pilot",
+    "postman",
+    "plumber"
+   ]
+  },
+  {
+   "id": "L-c2-evs-004",
+   "level": 3,
+   "topic": "food",
+   "type": "multiple-choice",
+   "question": "Which gives us vitamins?",
+   "answer": "fruits and vegetables",
+   "hint": "Eat the rainbow.",
+   "explanation": "Fruits and vegetables give vitamins.",
+   "skills": [
+    "evs",
+    "food"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "chips",
+    "cold drinks",
+    "sweets",
+    "fruits and vegetables"
+   ]
+  },
+  {
+   "id": "L-c2-evs-005",
+   "level": 3,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "Which animal eats only plants?",
+   "answer": "cow 🐄",
+   "hint": "Cows eat grass.",
+   "explanation": "Cows eat only plants.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "crocodile 🐊",
+    "tiger 🐅",
+    "lion 🦁",
+    "cow 🐄"
+   ]
+  },
+  {
+   "id": "L-c2-evs-006",
+   "level": 3,
+   "topic": "plants",
+   "type": "multiple-choice",
+   "question": "Which part makes food using sunlight?",
+   "answer": "leaf",
+   "hint": "It is green and flat.",
+   "explanation": "Leaves make food with sunlight.",
+   "skills": [
+    "evs",
+    "plants"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "seed",
+    "stem",
+    "leaf",
+    "root"
+   ]
+  },
+  {
+   "id": "L-c2-evs-007",
+   "level": 3,
+   "topic": "water",
+   "type": "multiple-choice",
+   "question": "Water boils at…",
+   "answer": "100 °C",
+   "hint": "Very hot.",
+   "explanation": "Water boils at 100 degrees Celsius.",
+   "skills": [
+    "evs",
+    "water"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "50 °C",
+    "100 °C",
+    "0 °C",
+    "20 °C"
+   ]
+  },
+  {
+   "id": "L-c2-evs-008",
+   "level": 3,
+   "topic": "sky",
+   "type": "multiple-choice",
+   "question": "Which star gives us light in the day?",
+   "answer": "Sun ☀️",
+   "hint": "Hot and bright.",
+   "explanation": "The Sun gives light and heat.",
+   "skills": [
+    "evs",
+    "sky"
+   ],
+   "difficulty": 1,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Earth",
+    "Sun ☀️",
+    "Moon",
+    "Mars"
+   ]
+  },
+  {
+   "id": "L-c2-evs-009",
+   "level": 3,
+   "topic": "sky",
+   "type": "multiple-choice",
+   "question": "The Moon goes around the…",
+   "answer": "Earth",
+   "hint": "Our neighbour in the sky.",
+   "explanation": "The Moon goes around the Earth.",
+   "skills": [
+    "evs",
+    "sky"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Sun",
+    "Star",
+    "Earth",
+    "Mars"
+   ]
+  },
+  {
+   "id": "L-c2-evs-010",
+   "level": 3,
+   "topic": "directions",
+   "type": "multiple-choice",
+   "question": "The Sun rises in the…",
+   "answer": "East",
+   "hint": "Morning sun.",
+   "explanation": "The Sun rises in the East.",
+   "skills": [
+    "evs",
+    "directions"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "West",
+    "North",
+    "East",
+    "South"
+   ]
+  },
+  {
+   "id": "L-c2-evs-011",
+   "level": 3,
+   "topic": "directions",
+   "type": "multiple-choice",
+   "question": "Face North. Turn right. You face…",
+   "answer": "East",
+   "hint": "Compass: N top, E right.",
+   "explanation": "Right of North is East.",
+   "skills": [
+    "evs",
+    "directions"
+   ],
+   "difficulty": 3,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "South",
+    "East",
+    "North",
+    "West"
+   ]
+  },
+  {
+   "id": "L-c2-gk-001",
+   "level": 3,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "The capital of India is…",
+   "answer": "New Delhi",
+   "hint": "Parliament is there.",
+   "explanation": "New Delhi is India’s capital.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Kolkata",
+    "Mumbai",
+    "New Delhi",
+    "Chennai"
+   ]
+  },
+  {
+   "id": "L-c2-gk-002",
+   "level": 3,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "Which is a folk dance of Punjab?",
+   "answer": "Bhangra",
+   "hint": "Dhol and big energy.",
+   "explanation": "Bhangra is from Punjab.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Bihu",
+    "Garba",
+    "Kathakali",
+    "Bhangra"
+   ]
+  },
+  {
+   "id": "L-c2-gk-003",
+   "level": 3,
+   "topic": "days",
+   "type": "multiple-choice",
+   "question": "Gandhi Jayanti is on…",
+   "answer": "2 October",
+   "hint": "Start of October.",
+   "explanation": "2 October is Gandhi Jayanti.",
+   "skills": [
+    "gk",
+    "days"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "26 January",
+    "2 October",
+    "15 August",
+    "14 November"
+   ]
+  },
+  {
+   "id": "L-c2-gk-004",
+   "level": 3,
+   "topic": "days",
+   "type": "multiple-choice",
+   "question": "Children’s Day in India is on…",
+   "answer": "14 November",
+   "hint": "Mid-November.",
+   "explanation": "14 November is Children’s Day.",
+   "skills": [
+    "gk",
+    "days"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2 October",
+    "5 September",
+    "26 January",
+    "14 November"
+   ]
+  },
+  {
+   "id": "L-c2-gk-005",
+   "level": 3,
+   "topic": "music",
+   "type": "multiple-choice",
+   "question": "Which is a musical instrument?",
+   "answer": "tabla",
+   "hint": "You play it with hands.",
+   "explanation": "The tabla is a drum.",
+   "skills": [
+    "gk",
+    "music"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "brush",
+    "plate",
+    "pillow",
+    "tabla"
+   ]
+  },
+  {
+   "id": "L-c2-gk-006",
+   "level": 3,
+   "topic": "sports",
+   "type": "multiple-choice",
+   "question": "Players in a cricket team on the field?",
+   "answer": "11",
+   "hint": "Same as football.",
+   "explanation": "A cricket team has 11 players.",
+   "skills": [
+    "gk",
+    "sports"
+   ],
+   "difficulty": 1,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "12",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "id": "L-c2-computer-001",
+   "level": 3,
+   "topic": "input-output",
+   "type": "multiple-choice",
+   "question": "Which is an output device?",
+   "answer": "printer 🖨️",
+   "hint": "Output gives us something.",
+   "explanation": "A printer gives paper, so it is output.",
+   "skills": [
+    "computer",
+    "input-output"
+   ],
+   "difficulty": 2,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "mouse",
+    "microphone",
+    "keyboard",
+    "printer 🖨️"
+   ]
+  },
+  {
+   "id": "L-c2-computer-002",
+   "level": 3,
+   "topic": "paint",
+   "type": "multiple-choice",
+   "question": "In MS Paint we can…",
+   "answer": "draw and colour",
+   "hint": "Think of colours.",
+   "explanation": "Paint is for drawing and colouring.",
+   "skills": [
+    "computer",
+    "paint"
+   ],
+   "difficulty": 2,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "cook food",
+    "run fast",
+    "plant trees",
+    "draw and colour"
+   ]
+  },
+  {
+   "id": "L-c2-computer-003",
+   "level": 3,
+   "topic": "files",
+   "type": "multiple-choice",
+   "question": "Where do we keep our files?",
+   "answer": "folder 📁",
+   "hint": "Like a cupboard for files.",
+   "explanation": "Files are kept in folders.",
+   "skills": [
+    "computer",
+    "files"
+   ],
+   "difficulty": 3,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "folder 📁",
+    "bucket",
+    "plate",
+    "shoe"
+   ]
+  },
+  {
+   "id": "L-c2-computer-004",
+   "level": 3,
+   "topic": "coding",
+   "type": "multiple-choice",
+   "question": "A list of steps to solve a problem is an…",
+   "answer": "algorithm",
+   "hint": "Like a recipe.",
+   "explanation": "An algorithm is a list of steps.",
+   "skills": [
+    "computer",
+    "coding"
+   ],
+   "difficulty": 3,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "alphabet",
+    "algorithm",
+    "album",
+    "animal"
+   ]
+  }
+ ]
+}

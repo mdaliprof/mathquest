@@ -5,16 +5,18 @@
    - lesson files: stale-while-revalidate (show saved now, refresh in the background)
    - anything else / failed page load: offline.html
    Bump VERSION on every release. Old caches are deleted when the new one activates. */
-const VERSION = 'mathquest-v2';
+const VERSION = 'mathquest-v6';
 
 const SHELL = [
   'index.html',
   'offline.html',
+  'privacy.html',
   'manifest.webmanifest',
   'css/styles.css',
   'js/app.js',
   'js/storage.js',
   'js/audio.js',
+  'js/subjects.js',
   'icons/icon.svg',
   'icons/icon-192.png',
   'icons/icon-512.png',
@@ -34,6 +36,13 @@ self.addEventListener('install', (event) => {
       const files = ['content/facts.json'].concat(index.weeks.map((w) => 'content/' + w.file));
       await Promise.all(files.map((f) => cache.add(new Request(f, { cache: 'reload' })).catch(() => {})));
     } catch (e) { /* offline during install: the app will retry on the next visit */ }
+    // Class levels (Pre-School to Class 4) for offline practice and mock tests
+    try {
+      const lres = await fetch('content/levels/index.json', { cache: 'reload' });
+      await cache.put('content/levels/index.json', lres.clone());
+      const lidx = await lres.json();
+      await Promise.all(lidx.levels.map((l) => cache.add(new Request('content/' + l.file, { cache: 'reload' })).catch(() => {})));
+    } catch (e) { /* retried on a later visit */ }
     await self.skipWaiting();
   })());
 });

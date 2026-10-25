@@ -1,0 +1,1919 @@
+{
+ "id": "c3",
+ "title": "Class 3",
+ "icon": "3️⃣",
+ "version": 3,
+ "subjects": [
+  {
+   "id": "maths",
+   "title": "Maths",
+   "icon": "🧮",
+   "count": 44
+  },
+  {
+   "id": "english",
+   "title": "English",
+   "icon": "🔤",
+   "count": 11
+  },
+  {
+   "id": "evs",
+   "title": "Our World",
+   "icon": "🌳",
+   "count": 11
+  },
+  {
+   "id": "gk",
+   "title": "General Knowledge",
+   "icon": "🌍",
+   "count": 4
+  },
+  {
+   "id": "computer",
+   "title": "Computer",
+   "icon": "💻",
+   "count": 3
+  },
+  {
+   "id": "social",
+   "title": "Social Studies",
+   "icon": "🏘️",
+   "count": 5
+  }
+ ],
+ "skills": [],
+ "questions": [
+  {
+   "id": "L-c3-maths-001",
+   "level": 4,
+   "topic": "add-regroup",
+   "type": "multiple-choice",
+   "question": "488 + 405 = ?",
+   "answer": "893",
+   "hint": "Carry when ones add to 10 or more.",
+   "explanation": "488 + 405 = 893",
+   "skills": [
+    "maths",
+    "add-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "893",
+    "883",
+    "903",
+    "993"
+   ]
+  },
+  {
+   "id": "L-c3-maths-002",
+   "level": 4,
+   "topic": "add-regroup",
+   "type": "multiple-choice",
+   "question": "715 + 432 = ?",
+   "answer": "1147",
+   "hint": "Carry when ones add to 10 or more.",
+   "explanation": "715 + 432 = 1147",
+   "skills": [
+    "maths",
+    "add-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1137",
+    "1157",
+    "1147",
+    "1247"
+   ]
+  },
+  {
+   "id": "L-c3-maths-003",
+   "level": 4,
+   "topic": "add-regroup",
+   "type": "multiple-choice",
+   "question": "661 + 574 = ?",
+   "answer": "1235",
+   "hint": "Carry when ones add to 10 or more.",
+   "explanation": "661 + 574 = 1235",
+   "skills": [
+    "maths",
+    "add-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1245",
+    "1225",
+    "1235",
+    "1335"
+   ]
+  },
+  {
+   "id": "L-c3-maths-004",
+   "level": 4,
+   "topic": "add-regroup",
+   "type": "multiple-choice",
+   "question": "752 + 373 = ?",
+   "answer": "1125",
+   "hint": "Carry when ones add to 10 or more.",
+   "explanation": "752 + 373 = 1125",
+   "skills": [
+    "maths",
+    "add-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1115",
+    "1125",
+    "1135",
+    "1225"
+   ]
+  },
+  {
+   "id": "L-c3-maths-005",
+   "level": 4,
+   "topic": "add-regroup",
+   "type": "multiple-choice",
+   "question": "583 + 391 = ?",
+   "answer": "974",
+   "hint": "Carry when ones add to 10 or more.",
+   "explanation": "583 + 391 = 974",
+   "skills": [
+    "maths",
+    "add-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1074",
+    "984",
+    "974",
+    "964"
+   ]
+  },
+  {
+   "id": "L-c3-maths-006",
+   "level": 4,
+   "topic": "add-regroup",
+   "type": "multiple-choice",
+   "question": "744 + 317 = ?",
+   "answer": "1061",
+   "hint": "Carry when ones add to 10 or more.",
+   "explanation": "744 + 317 = 1061",
+   "skills": [
+    "maths",
+    "add-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1061",
+    "1051",
+    "1161",
+    "1071"
+   ]
+  },
+  {
+   "id": "L-c3-maths-007",
+   "level": 4,
+   "topic": "add-regroup",
+   "type": "multiple-choice",
+   "question": "652 + 522 = ?",
+   "answer": "1174",
+   "hint": "Carry when ones add to 10 or more.",
+   "explanation": "652 + 522 = 1174",
+   "skills": [
+    "maths",
+    "add-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1164",
+    "1184",
+    "1274",
+    "1174"
+   ]
+  },
+  {
+   "id": "L-c3-maths-008",
+   "level": 4,
+   "topic": "sub-regroup",
+   "type": "multiple-choice",
+   "question": "697 − 403 = ?",
+   "answer": "294",
+   "hint": "Borrow when the top digit is smaller.",
+   "explanation": "697 − 403 = 294",
+   "skills": [
+    "maths",
+    "sub-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "284",
+    "394",
+    "294",
+    "304"
+   ]
+  },
+  {
+   "id": "L-c3-maths-009",
+   "level": 4,
+   "topic": "sub-regroup",
+   "type": "multiple-choice",
+   "question": "599 − 113 = ?",
+   "answer": "486",
+   "hint": "Borrow when the top digit is smaller.",
+   "explanation": "599 − 113 = 486",
+   "skills": [
+    "maths",
+    "sub-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "496",
+    "476",
+    "486",
+    "586"
+   ]
+  },
+  {
+   "id": "L-c3-maths-010",
+   "level": 4,
+   "topic": "sub-regroup",
+   "type": "multiple-choice",
+   "question": "799 − 179 = ?",
+   "answer": "620",
+   "hint": "Borrow when the top digit is smaller.",
+   "explanation": "799 − 179 = 620",
+   "skills": [
+    "maths",
+    "sub-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "720",
+    "630",
+    "610",
+    "620"
+   ]
+  },
+  {
+   "id": "L-c3-maths-011",
+   "level": 4,
+   "topic": "sub-regroup",
+   "type": "multiple-choice",
+   "question": "605 − 131 = ?",
+   "answer": "474",
+   "hint": "Borrow when the top digit is smaller.",
+   "explanation": "605 − 131 = 474",
+   "skills": [
+    "maths",
+    "sub-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "474",
+    "484",
+    "574",
+    "464"
+   ]
+  },
+  {
+   "id": "L-c3-maths-012",
+   "level": 4,
+   "topic": "sub-regroup",
+   "type": "multiple-choice",
+   "question": "860 − 641 = ?",
+   "answer": "219",
+   "hint": "Borrow when the top digit is smaller.",
+   "explanation": "860 − 641 = 219",
+   "skills": [
+    "maths",
+    "sub-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "209",
+    "319",
+    "219",
+    "229"
+   ]
+  },
+  {
+   "id": "L-c3-maths-013",
+   "level": 4,
+   "topic": "sub-regroup",
+   "type": "multiple-choice",
+   "question": "657 − 255 = ?",
+   "answer": "402",
+   "hint": "Borrow when the top digit is smaller.",
+   "explanation": "657 − 255 = 402",
+   "skills": [
+    "maths",
+    "sub-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "412",
+    "402",
+    "392",
+    "502"
+   ]
+  },
+  {
+   "id": "L-c3-maths-014",
+   "level": 4,
+   "topic": "sub-regroup",
+   "type": "multiple-choice",
+   "question": "503 − 263 = ?",
+   "answer": "240",
+   "hint": "Borrow when the top digit is smaller.",
+   "explanation": "503 − 263 = 240",
+   "skills": [
+    "maths",
+    "sub-regroup"
+   ],
+   "difficulty": 2,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "250",
+    "230",
+    "340",
+    "240"
+   ]
+  },
+  {
+   "id": "L-c3-maths-015",
+   "level": 4,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "15 × 3 = ?",
+   "answer": "45",
+   "hint": "Split 15 into tens and ones.",
+   "explanation": "15 × 3 = 45",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "18",
+    "45",
+    "60",
+    "42"
+   ]
+  },
+  {
+   "id": "L-c3-maths-016",
+   "level": 4,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "60 × 4 = ?",
+   "answer": "240",
+   "hint": "Split 60 into tens and ones.",
+   "explanation": "60 × 4 = 240",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "64",
+    "236",
+    "240",
+    "300"
+   ]
+  },
+  {
+   "id": "L-c3-maths-017",
+   "level": 4,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "12 × 5 = ?",
+   "answer": "60",
+   "hint": "Split 12 into tens and ones.",
+   "explanation": "12 × 5 = 60",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "17",
+    "60",
+    "55",
+    "72"
+   ]
+  },
+  {
+   "id": "L-c3-maths-018",
+   "level": 4,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "60 × 7 = ?",
+   "answer": "420",
+   "hint": "Split 60 into tens and ones.",
+   "explanation": "60 × 7 = 420",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "480",
+    "413",
+    "67",
+    "420"
+   ]
+  },
+  {
+   "id": "L-c3-maths-019",
+   "level": 4,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "51 × 7 = ?",
+   "answer": "357",
+   "hint": "Split 51 into tens and ones.",
+   "explanation": "51 × 7 = 357",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "408",
+    "58",
+    "357",
+    "350"
+   ]
+  },
+  {
+   "id": "L-c3-maths-020",
+   "level": 4,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "16 × 4 = ?",
+   "answer": "64",
+   "hint": "Split 16 into tens and ones.",
+   "explanation": "16 × 4 = 64",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "20",
+    "64",
+    "80",
+    "60"
+   ]
+  },
+  {
+   "id": "L-c3-maths-021",
+   "level": 4,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "22 × 2 = ?",
+   "answer": "44",
+   "hint": "Split 22 into tens and ones.",
+   "explanation": "22 × 2 = 44",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "24",
+    "44",
+    "42",
+    "66"
+   ]
+  },
+  {
+   "id": "L-c3-maths-022",
+   "level": 4,
+   "topic": "multiply",
+   "type": "multiple-choice",
+   "question": "17 × 2 = ?",
+   "answer": "34",
+   "hint": "Split 17 into tens and ones.",
+   "explanation": "17 × 2 = 34",
+   "skills": [
+    "maths",
+    "multiply"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "19",
+    "51",
+    "34",
+    "32"
+   ]
+  },
+  {
+   "id": "L-c3-maths-023",
+   "level": 4,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "42 ÷ 3 = ?",
+   "answer": "14",
+   "hint": "Think of the 3 table.",
+   "explanation": "3 × 14 = 42",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "14",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "id": "L-c3-maths-024",
+   "level": 4,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "60 ÷ 6 = ?",
+   "answer": "10",
+   "hint": "Think of the 6 table.",
+   "explanation": "6 × 10 = 60",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "11",
+    "10",
+    "9",
+    "12"
+   ]
+  },
+  {
+   "id": "L-c3-maths-025",
+   "level": 4,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "84 ÷ 7 = ?",
+   "answer": "12",
+   "hint": "Think of the 7 table.",
+   "explanation": "7 × 12 = 84",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "13",
+    "12",
+    "11",
+    "14"
+   ]
+  },
+  {
+   "id": "L-c3-maths-026",
+   "level": 4,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "54 ÷ 6 = ?",
+   "answer": "9",
+   "hint": "Think of the 6 table.",
+   "explanation": "6 × 9 = 54",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "10",
+    "9",
+    "8",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c3-maths-027",
+   "level": 4,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "90 ÷ 6 = ?",
+   "answer": "15",
+   "hint": "Think of the 6 table.",
+   "explanation": "6 × 15 = 90",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "17",
+    "14",
+    "16",
+    "15"
+   ]
+  },
+  {
+   "id": "L-c3-maths-028",
+   "level": 4,
+   "topic": "division",
+   "type": "multiple-choice",
+   "question": "44 ÷ 4 = ?",
+   "answer": "11",
+   "hint": "Think of the 4 table.",
+   "explanation": "4 × 11 = 44",
+   "skills": [
+    "maths",
+    "division"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "12",
+    "10",
+    "13",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c3-maths-029",
+   "level": 4,
+   "topic": "fraction-of-set",
+   "type": "multiple-choice",
+   "question": "1/4 of 8 = ?",
+   "answer": "2",
+   "hint": "Share into equal groups.",
+   "explanation": "Split 8 equally.",
+   "skills": [
+    "maths",
+    "fraction-of-set"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3",
+    "7",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "L-c3-maths-030",
+   "level": 4,
+   "topic": "fraction-of-set",
+   "type": "multiple-choice",
+   "question": "1/4 of 12 = ?",
+   "answer": "3",
+   "hint": "Share into equal groups.",
+   "explanation": "Split 12 equally.",
+   "skills": [
+    "maths",
+    "fraction-of-set"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "3",
+    "6",
+    "11"
+   ]
+  },
+  {
+   "id": "L-c3-maths-031",
+   "level": 4,
+   "topic": "fraction-of-set",
+   "type": "multiple-choice",
+   "question": "1/3 of 9 = ?",
+   "answer": "3",
+   "hint": "Share into equal groups.",
+   "explanation": "Split 9 equally.",
+   "skills": [
+    "maths",
+    "fraction-of-set"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "2",
+    "3",
+    "4",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c3-maths-032",
+   "level": 4,
+   "topic": "fraction-of-set",
+   "type": "multiple-choice",
+   "question": "1/3 of 6 = ?",
+   "answer": "2",
+   "hint": "Share into equal groups.",
+   "explanation": "Split 6 equally.",
+   "skills": [
+    "maths",
+    "fraction-of-set"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1",
+    "5",
+    "3",
+    "2"
+   ]
+  },
+  {
+   "id": "L-c3-maths-033",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "1 hour and 15 minutes = ? minutes",
+   "answer": "75",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "1 × 60 + 15 = 75",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "115",
+    "85",
+    "60",
+    "75"
+   ]
+  },
+  {
+   "id": "L-c3-maths-034",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "1 hour and 30 minutes = ? minutes",
+   "answer": "90",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "1 × 60 + 30 = 90",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "60",
+    "100",
+    "90",
+    "130"
+   ]
+  },
+  {
+   "id": "L-c3-maths-035",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "1 hour and 45 minutes = ? minutes",
+   "answer": "105",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "1 × 60 + 45 = 105",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "115",
+    "145",
+    "105",
+    "60"
+   ]
+  },
+  {
+   "id": "L-c3-maths-036",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "2 hour and 15 minutes = ? minutes",
+   "answer": "135",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "2 × 60 + 15 = 135",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "215",
+    "120",
+    "135",
+    "145"
+   ]
+  },
+  {
+   "id": "L-c3-maths-037",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "2 hour and 30 minutes = ? minutes",
+   "answer": "150",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "2 × 60 + 30 = 150",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "120",
+    "160",
+    "150",
+    "230"
+   ]
+  },
+  {
+   "id": "L-c3-maths-038",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "2 hour and 45 minutes = ? minutes",
+   "answer": "165",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "2 × 60 + 45 = 165",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "245",
+    "175",
+    "120",
+    "165"
+   ]
+  },
+  {
+   "id": "L-c3-maths-039",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "3 hour and 15 minutes = ? minutes",
+   "answer": "195",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "3 × 60 + 15 = 195",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "205",
+    "315",
+    "195",
+    "180"
+   ]
+  },
+  {
+   "id": "L-c3-maths-040",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "3 hour and 30 minutes = ? minutes",
+   "answer": "210",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "3 × 60 + 30 = 210",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "180",
+    "220",
+    "330",
+    "210"
+   ]
+  },
+  {
+   "id": "L-c3-maths-041",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "3 hour and 45 minutes = ? minutes",
+   "answer": "225",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "3 × 60 + 45 = 225",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "235",
+    "225",
+    "180",
+    "345"
+   ]
+  },
+  {
+   "id": "L-c3-maths-042",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "4 hour and 15 minutes = ? minutes",
+   "answer": "255",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "4 × 60 + 15 = 255",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "240",
+    "265",
+    "415",
+    "255"
+   ]
+  },
+  {
+   "id": "L-c3-maths-043",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "4 hour and 30 minutes = ? minutes",
+   "answer": "270",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "4 × 60 + 30 = 270",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "240",
+    "430",
+    "270",
+    "280"
+   ]
+  },
+  {
+   "id": "L-c3-maths-044",
+   "level": 4,
+   "topic": "time",
+   "type": "multiple-choice",
+   "question": "4 hour and 45 minutes = ? minutes",
+   "answer": "285",
+   "hint": "1 hour = 60 minutes.",
+   "explanation": "4 × 60 + 45 = 285",
+   "skills": [
+    "maths",
+    "time"
+   ],
+   "difficulty": 3,
+   "subject": "maths",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "295",
+    "445",
+    "240",
+    "285"
+   ]
+  },
+  {
+   "id": "L-c3-english-001",
+   "level": 4,
+   "topic": "nouns",
+   "type": "multiple-choice",
+   "question": "Pick the COLLECTIVE noun: a ___ of birds",
+   "answer": "flock",
+   "hint": "Birds fly together.",
+   "explanation": "A flock of birds.",
+   "skills": [
+    "english",
+    "nouns"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "pack",
+    "flock",
+    "herd",
+    "bunch"
+   ]
+  },
+  {
+   "id": "L-c3-english-002",
+   "level": 4,
+   "topic": "nouns",
+   "type": "multiple-choice",
+   "question": "Plural of CHILD",
+   "answer": "children",
+   "hint": "Irregular plural.",
+   "explanation": "One child, many children.",
+   "skills": [
+    "english",
+    "nouns"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "childs",
+    "childrens",
+    "children",
+    "childes"
+   ]
+  },
+  {
+   "id": "L-c3-english-003",
+   "level": 4,
+   "topic": "nouns",
+   "type": "multiple-choice",
+   "question": "Plural of MOUSE",
+   "answer": "mice",
+   "hint": "Irregular plural.",
+   "explanation": "One mouse, many mice.",
+   "skills": [
+    "english",
+    "nouns"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "mouse",
+    "mices",
+    "mouses",
+    "mice"
+   ]
+  },
+  {
+   "id": "L-c3-english-004",
+   "level": 4,
+   "topic": "verbs",
+   "type": "multiple-choice",
+   "question": "They ___ playing in the park. (now)",
+   "answer": "are",
+   "hint": "Many people use are.",
+   "explanation": "They are playing.",
+   "skills": [
+    "english",
+    "verbs"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "is",
+    "are",
+    "was",
+    "am"
+   ]
+  },
+  {
+   "id": "L-c3-english-005",
+   "level": 4,
+   "topic": "tense",
+   "type": "multiple-choice",
+   "question": "Past of BUY",
+   "answer": "bought",
+   "hint": "Irregular verb.",
+   "explanation": "Buy becomes bought.",
+   "skills": [
+    "english",
+    "tense"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "buys",
+    "buyed",
+    "bought",
+    "buying"
+   ]
+  },
+  {
+   "id": "L-c3-english-006",
+   "level": 4,
+   "topic": "adverbs",
+   "type": "multiple-choice",
+   "question": "Pick the adverb: \"She ran quickly.\"",
+   "answer": "quickly",
+   "hint": "It tells how.",
+   "explanation": "Quickly tells how she ran.",
+   "skills": [
+    "english",
+    "adverbs"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "ran",
+    "quickly",
+    "She ran",
+    "She"
+   ]
+  },
+  {
+   "id": "L-c3-english-007",
+   "level": 4,
+   "topic": "adjectives",
+   "type": "multiple-choice",
+   "question": "Pick the comparative: \"Ria is ___ than Sam.\" (tall)",
+   "answer": "taller",
+   "hint": "Comparing two.",
+   "explanation": "Taller compares two people.",
+   "skills": [
+    "english",
+    "adjectives"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "taller",
+    "tallest",
+    "more tall",
+    "tall"
+   ]
+  },
+  {
+   "id": "L-c3-english-008",
+   "level": 4,
+   "topic": "adjectives",
+   "type": "multiple-choice",
+   "question": "Pick the superlative: \"He is the ___ boy.\" (fast)",
+   "answer": "fastest",
+   "hint": "Comparing many.",
+   "explanation": "Fastest compares three or more.",
+   "skills": [
+    "english",
+    "adjectives"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "more fast",
+    "fast",
+    "fastest",
+    "faster"
+   ]
+  },
+  {
+   "id": "L-c3-english-009",
+   "level": 4,
+   "topic": "opposites",
+   "type": "multiple-choice",
+   "question": "Opposite of ANCIENT",
+   "answer": "modern",
+   "hint": "Ancient means very old.",
+   "explanation": "Ancient and modern are opposites.",
+   "skills": [
+    "english",
+    "opposites"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "modern",
+    "old",
+    "dusty",
+    "broken"
+   ]
+  },
+  {
+   "id": "L-c3-english-010",
+   "level": 4,
+   "topic": "homophones",
+   "type": "multiple-choice",
+   "question": "Pick the right word: \"I can ___ the sea.\"",
+   "answer": "see",
+   "hint": "Eyes do this.",
+   "explanation": "See means to look; sea is the water.",
+   "skills": [
+    "english",
+    "homophones"
+   ],
+   "difficulty": 3,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "cee",
+    "seee",
+    "see",
+    "sea"
+   ]
+  },
+  {
+   "id": "L-c3-english-011",
+   "level": 4,
+   "topic": "punctuation",
+   "type": "multiple-choice",
+   "question": "Which sentence is punctuated right?",
+   "answer": "Where do you live?",
+   "hint": "Capital at the start, ? for asking.",
+   "explanation": "Start with a capital and end with ?.",
+   "skills": [
+    "english",
+    "punctuation"
+   ],
+   "difficulty": 2,
+   "subject": "english",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "where do you live.",
+    "Where do you live.",
+    "Where do you live?",
+    "where do you live?"
+   ]
+  },
+  {
+   "id": "L-c3-evs-001",
+   "level": 4,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "We breathe air using our…",
+   "answer": "lungs",
+   "hint": "Breathe in and out.",
+   "explanation": "Lungs help us breathe.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "bones",
+    "heart",
+    "kidneys",
+    "lungs"
+   ]
+  },
+  {
+   "id": "L-c3-evs-002",
+   "level": 4,
+   "topic": "body",
+   "type": "multiple-choice",
+   "question": "The hardest substance in our body is…",
+   "answer": "tooth enamel",
+   "hint": "It protects teeth.",
+   "explanation": "Tooth enamel is the hardest part.",
+   "skills": [
+    "evs",
+    "body"
+   ],
+   "difficulty": 3,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "bone",
+    "hair",
+    "tooth enamel",
+    "skin"
+   ]
+  },
+  {
+   "id": "L-c3-evs-003",
+   "level": 4,
+   "topic": "plants",
+   "type": "multiple-choice",
+   "question": "The green colour in leaves comes from…",
+   "answer": "chlorophyll",
+   "hint": "It helps catch sunlight.",
+   "explanation": "Chlorophyll makes leaves green.",
+   "skills": [
+    "evs",
+    "plants"
+   ],
+   "difficulty": 3,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "iron",
+    "sugar",
+    "salt",
+    "chlorophyll"
+   ]
+  },
+  {
+   "id": "L-c3-evs-004",
+   "level": 4,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "An animal that eats only plants is a…",
+   "answer": "herbivore",
+   "hint": "Herb = plant.",
+   "explanation": "Herbivores eat only plants.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 3,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "carnivore",
+    "herbivore",
+    "predator",
+    "omnivore"
+   ]
+  },
+  {
+   "id": "L-c3-evs-005",
+   "level": 4,
+   "topic": "animals",
+   "type": "multiple-choice",
+   "question": "An animal that eats plants and meat is an…",
+   "answer": "omnivore",
+   "hint": "Omni means all.",
+   "explanation": "Omnivores eat both.",
+   "skills": [
+    "evs",
+    "animals"
+   ],
+   "difficulty": 3,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "carnivore",
+    "insect",
+    "omnivore",
+    "herbivore"
+   ]
+  },
+  {
+   "id": "L-c3-evs-006",
+   "level": 4,
+   "topic": "matter",
+   "type": "multiple-choice",
+   "question": "Ice is a…",
+   "answer": "solid",
+   "hint": "You can hold it.",
+   "explanation": "Ice is a solid.",
+   "skills": [
+    "evs",
+    "matter"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "fire",
+    "liquid",
+    "gas",
+    "solid"
+   ]
+  },
+  {
+   "id": "L-c3-evs-007",
+   "level": 4,
+   "topic": "matter",
+   "type": "multiple-choice",
+   "question": "Water turns to ice at…",
+   "answer": "0 °C",
+   "hint": "Very cold.",
+   "explanation": "Water freezes at 0 °C.",
+   "skills": [
+    "evs",
+    "matter"
+   ],
+   "difficulty": 3,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "100 °C",
+    "50 °C",
+    "10 °C",
+    "0 °C"
+   ]
+  },
+  {
+   "id": "L-c3-evs-008",
+   "level": 4,
+   "topic": "matter",
+   "type": "multiple-choice",
+   "question": "Steam is water as a…",
+   "answer": "gas",
+   "hint": "Floats in the air.",
+   "explanation": "Steam is water as a gas.",
+   "skills": [
+    "evs",
+    "matter"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "rock",
+    "gas",
+    "solid",
+    "stone"
+   ]
+  },
+  {
+   "id": "L-c3-evs-009",
+   "level": 4,
+   "topic": "space",
+   "type": "multiple-choice",
+   "question": "Planets in our Solar System?",
+   "answer": "8",
+   "hint": "Mercury to Neptune.",
+   "explanation": "There are 8 planets.",
+   "skills": [
+    "evs",
+    "space"
+   ],
+   "difficulty": 2,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "5",
+    "7",
+    "9",
+    "8"
+   ]
+  },
+  {
+   "id": "L-c3-evs-010",
+   "level": 4,
+   "topic": "space",
+   "type": "multiple-choice",
+   "question": "The biggest planet is…",
+   "answer": "Jupiter",
+   "hint": "A giant gas planet.",
+   "explanation": "Jupiter is the biggest.",
+   "skills": [
+    "evs",
+    "space"
+   ],
+   "difficulty": 3,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Venus",
+    "Jupiter",
+    "Earth",
+    "Mars"
+   ]
+  },
+  {
+   "id": "L-c3-evs-011",
+   "level": 4,
+   "topic": "light",
+   "type": "multiple-choice",
+   "question": "Which is a source of light?",
+   "answer": "Sun ☀️",
+   "hint": "It makes its own light.",
+   "explanation": "The Sun makes its own light.",
+   "skills": [
+    "evs",
+    "light"
+   ],
+   "difficulty": 3,
+   "subject": "evs",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Sun ☀️",
+    "Book",
+    "Mirror",
+    "Moon"
+   ]
+  },
+  {
+   "id": "L-c3-social-001",
+   "level": 4,
+   "topic": "maps",
+   "type": "multiple-choice",
+   "question": "Blue colour on a map usually shows…",
+   "answer": "water",
+   "hint": "Seas and rivers.",
+   "explanation": "Blue shows water.",
+   "skills": [
+    "social",
+    "maps"
+   ],
+   "difficulty": 2,
+   "subject": "social",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "mountains",
+    "water",
+    "roads",
+    "forests"
+   ]
+  },
+  {
+   "id": "L-c3-social-002",
+   "level": 4,
+   "topic": "maps",
+   "type": "multiple-choice",
+   "question": "A globe is a model of the…",
+   "answer": "Earth 🌍",
+   "hint": "Round and spins.",
+   "explanation": "A globe is a small Earth.",
+   "skills": [
+    "social",
+    "maps"
+   ],
+   "difficulty": 2,
+   "subject": "social",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Moon",
+    "Cloud",
+    "Sun",
+    "Earth 🌍"
+   ]
+  },
+  {
+   "id": "L-c3-social-003",
+   "level": 4,
+   "topic": "directions",
+   "type": "multiple-choice",
+   "question": "Face East. Turn left. You face…",
+   "answer": "North",
+   "hint": "Compass: E right, N top.",
+   "explanation": "Left of East is North.",
+   "skills": [
+    "social",
+    "directions"
+   ],
+   "difficulty": 3,
+   "subject": "social",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "West",
+    "East",
+    "North",
+    "South"
+   ]
+  },
+  {
+   "id": "L-c3-social-004",
+   "level": 4,
+   "topic": "community",
+   "type": "multiple-choice",
+   "question": "A place where people vote is a…",
+   "answer": "polling booth",
+   "hint": "Used in elections.",
+   "explanation": "People vote at a polling booth.",
+   "skills": [
+    "social",
+    "community"
+   ],
+   "difficulty": 2,
+   "subject": "social",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "polling booth",
+    "kitchen",
+    "bakery",
+    "playground"
+   ]
+  },
+  {
+   "id": "L-c3-social-005",
+   "level": 4,
+   "topic": "community",
+   "type": "multiple-choice",
+   "question": "Who keeps our town clean?",
+   "answer": "sweepers and everyone",
+   "hint": "We all help.",
+   "explanation": "Everyone helps keep the town clean.",
+   "skills": [
+    "social",
+    "community"
+   ],
+   "difficulty": 2,
+   "subject": "social",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "only animals",
+    "only the Moon",
+    "sweepers and everyone",
+    "no one"
+   ]
+  },
+  {
+   "id": "L-c3-gk-001",
+   "level": 4,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "The national flower of India is the…",
+   "answer": "lotus 🪷",
+   "hint": "It grows in ponds.",
+   "explanation": "The lotus is India’s national flower.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "sunflower",
+    "jasmine",
+    "lotus 🪷",
+    "rose"
+   ]
+  },
+  {
+   "id": "L-c3-gk-002",
+   "level": 4,
+   "topic": "india",
+   "type": "multiple-choice",
+   "question": "The Taj Mahal is in…",
+   "answer": "Agra",
+   "hint": "On the Yamuna river.",
+   "explanation": "The Taj Mahal is in Agra.",
+   "skills": [
+    "gk",
+    "india"
+   ],
+   "difficulty": 3,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Jaipur",
+    "Delhi",
+    "Agra",
+    "Mumbai"
+   ]
+  },
+  {
+   "id": "L-c3-gk-003",
+   "level": 4,
+   "topic": "world",
+   "type": "multiple-choice",
+   "question": "Continents in the world?",
+   "answer": "7",
+   "hint": "Asia to Antarctica.",
+   "explanation": "There are 7 continents.",
+   "skills": [
+    "gk",
+    "world"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "6",
+    "7",
+    "5",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c3-gk-004",
+   "level": 4,
+   "topic": "sports",
+   "type": "multiple-choice",
+   "question": "Olympic Games happen every…",
+   "answer": "4 years",
+   "hint": "Leap-year gap.",
+   "explanation": "Every 4 years.",
+   "skills": [
+    "gk",
+    "sports"
+   ],
+   "difficulty": 2,
+   "subject": "gk",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "1 year",
+    "10 years",
+    "4 years",
+    "2 years"
+   ]
+  },
+  {
+   "id": "L-c3-computer-001",
+   "level": 4,
+   "topic": "software",
+   "type": "multiple-choice",
+   "question": "Which one is a web browser?",
+   "answer": "Chrome",
+   "hint": "Used to open websites.",
+   "explanation": "Chrome opens websites.",
+   "skills": [
+    "computer",
+    "software"
+   ],
+   "difficulty": 2,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "Mouse",
+    "Keyboard",
+    "Paint",
+    "Chrome"
+   ]
+  },
+  {
+   "id": "L-c3-computer-002",
+   "level": 4,
+   "topic": "coding",
+   "type": "multiple-choice",
+   "question": "Repeat 3 times: jump 2 times. Total jumps?",
+   "answer": "6",
+   "hint": "3 × 2.",
+   "explanation": "3 × 2 = 6 jumps.",
+   "skills": [
+    "computer",
+    "coding"
+   ],
+   "difficulty": 3,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "3",
+    "5",
+    "6",
+    "9"
+   ]
+  },
+  {
+   "id": "L-c3-computer-003",
+   "level": 4,
+   "topic": "safety",
+   "type": "multiple-choice",
+   "question": "A stranger online asks where you live. You…",
+   "answer": "tell a parent",
+   "hint": "Tell a grown-up you trust.",
+   "explanation": "Never share where you live.",
+   "skills": [
+    "computer",
+    "safety"
+   ],
+   "difficulty": 2,
+   "subject": "computer",
+   "requires": [],
+   "verified": false,
+   "choices": [
+    "say yes",
+    "send a photo",
+    "tell them",
+    "tell a parent"
+   ]
+  }
+ ]
+}
