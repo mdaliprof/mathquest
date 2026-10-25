@@ -61,7 +61,7 @@ python3 tools/check_content.py      # re-checks all arithmetic and number words
 - More "Did you know?" facts: add lines to `content/facts.json` (icon + a few words).
 
 ## After any app change
-Raise `VERSION` in `sw.js` (now `mathquest-v11`) so phones replace the old saved files.
+Raise `VERSION` in `sw.js` (now `mathquest-v12`) so phones replace the old saved files.
 
 ## Test before each release
 - Open once online. The badge at the bottom turns green: "Ready offline".

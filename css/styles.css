@@ -331,9 +331,9 @@ a.chip { text-decoration: none; color: inherit; display: inline-flex; align-item
 .tile.on { background: var(--green); color: var(--green-ink); transform: translateY(3px); box-shadow: 0 2px 0 #1b8f57; }
 .tile .tn { font-weight: 900; font-size: 1.8rem; }
 .orderline { display: flex; flex-wrap: wrap; gap: 8px; min-height: 56px; justify-content: center; align-items: center; }
-.ordchip { min-width: 48px; padding: 8px 14px; border-radius: 14px; background: var(--green); color: var(--green-ink); font-weight: 900; font-size: 1.5rem; text-align: center; }
-.ordergrid { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
-.ordbtn { min-width: 72px; min-height: 64px; font-size: 1.8rem; font-weight: 900; border: 0; border-radius: 18px; background: var(--card2); color: var(--ink); cursor: pointer; box-shadow: 0 5px 0 #1d1a55; }
+.ordchip { min-width: 56px; padding: 10px 16px; border-radius: 14px; background: var(--green); color: var(--green-ink); font-weight: 900; font-size: 2rem; text-align: center; }
+.ordergrid { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+.ordbtn { min-width: 96px; min-height: 96px; font-size: 2.6rem; font-weight: 900; border: 0; border-radius: 18px; background: var(--card2); color: var(--ink); cursor: pointer; box-shadow: 0 5px 0 #1d1a55; }
 .ordbtn:disabled { opacity: .35; }
 .ordbtn.wrong { animation: shake .4s; background: #6b2a3a; }
 
