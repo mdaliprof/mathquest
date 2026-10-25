@@ -354,35 +354,38 @@
   }
   var STICKER_SIZES = [0.22, 0.3, 0.4, 0.52, 0.66];   // sticker size as a share of the picture width
 
-  // Drag the sticker with a finger or mouse. The buttons below the picture do the same for taps and keyboards.
-  function bindDrag(av, st) {
+  // Drag anywhere on the picture area: the sticker jumps to the finger and follows it, even outside the circle.
+  // The buttons below do the same for taps and keyboards.
+  function bindDrag(box) {
     var drag = false;
+    function stick() { return box.querySelector('.me-sticker'); }
     function at(e) {
-      var r = av.getBoundingClientRect();
-      if (!r.width) return null;
-      return {
-        x: Math.round(Math.min(100, Math.max(0, (e.clientX - r.left) / r.width * 100))),
-        y: Math.round(Math.min(100, Math.max(0, (e.clientY - r.top) / r.height * 100)))
-      };
+      var av = box.querySelector('.me-av');
+      var r = av && av.getBoundingClientRect();
+      if (!r || !r.width) return null;
+      function c(v) { return Math.round(Math.min(150, Math.max(-50, v))); }
+      return { x: c((e.clientX - r.left) / r.width * 100), y: c((e.clientY - r.top) / r.height * 100) };
     }
-    st.addEventListener('pointerdown', function (e) {
+    function move(e) {
+      var st = stick(), q = at(e);
+      if (st && q) { st.style.left = q.x + '%'; st.style.top = q.y + '%'; }
+    }
+    box.addEventListener('pointerdown', function (e) {
+      if (!stick()) return;
       drag = true;
-      try { st.setPointerCapture(e.pointerId); } catch (x) {}
+      try { box.setPointerCapture(e.pointerId); } catch (x) {}
       e.preventDefault();
+      move(e);
     });
-    st.addEventListener('pointermove', function (e) {
-      if (!drag) return;
-      var q = at(e);
-      if (q) { st.style.left = q.x + '%'; st.style.top = q.y + '%'; }
-    });
+    box.addEventListener('pointermove', function (e) { if (drag) move(e); });
     function end(e) {
       if (!drag) return;
       drag = false;
       var q = at(e);
       if (q) Store.setStickerPlace(q.x, q.y, null);
     }
-    st.addEventListener('pointerup', end);
-    st.addEventListener('pointercancel', end);
+    box.addEventListener('pointerup', end);
+    box.addEventListener('pointercancel', end);
   }
 
   // Crop to a square, shrink to 160px and re-save as a small JPEG. Re-drawing on a canvas
@@ -432,10 +435,7 @@
       pad('Put the sticker back', '🔄', function () { Store.resetStickerPlace(); draw(); }));
     function draw() {
       var p = Store.profile();
-      var av = avatarEl(p, 'big');
-      box.replaceChildren(av);
-      var stEl = av.querySelector('.me-sticker');
-      if (stEl) bindDrag(av, stEl);
+      box.replaceChildren(avatarEl(p, 'big'));
       place.hidden = !p.sticker;
       Array.prototype.forEach.call(frames.children, function (b) {
         var on = b.getAttribute('data-v') === p.frame;
@@ -458,6 +458,7 @@
         onclick: function () { Sfx.tap(); Store.setLook(null, s); draw(); }
       }, s || '🚫'));
     });
+    bindDrag(box);
     draw();
     return { frames: frames, stickers: stickers, place: place };
   }
@@ -467,14 +468,14 @@
     pushScreen();
     updateTop('home');
     var p = Store.profile();
-    var box = h('div', { class: 'me-big' });
+    var box = h('div', { class: 'me-big drag', 'aria-label': 'Picture. Drag to move the sticker.' });
     var pick = lookPicker(box);
     render(h('section', { class: 'parent' },
       h('button', { class: 'btn soft wide', type: 'button', 'aria-label': 'Back to home', onclick: goHome }, '🏠'),
       h('div', { class: 'panel center' }, box, h('p', null, p.nickname)),
       h('h2', null, '🖼️ Frame'), pick.frames,
       h('h2', null, '✨ Sticker'), pick.stickers,
-      h('p', { class: 'hint' }, '👆 Drag the sticker, or use the buttons.'), pick.place));
+      h('p', { class: 'hint' }, '👆 Drag on the picture to move the sticker, or use the buttons.'), pick.place));
   }
 
   // ---------------------------------------------------------------- first screen: pick a friend

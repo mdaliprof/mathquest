@@ -46,7 +46,7 @@
     return { v: 1, active: null, profiles: {}, settings: { sound: true, photo: false }, content: { version: 0, files: {} } };
   }
 
-  // Sticker place (percent across and down the picture) and size step (1 small to 5 big).
+  // Sticker place (percent across and down the picture; below 0 or above 100 sits outside the circle) and size step (1 small to 5 big).
   var ST_DEFAULT = { x: 86, y: 10, s: 3 };
   function bound(v, lo, hi, d) { var n = parseInt(v, 10); return isNaN(n) ? d : Math.min(hi, Math.max(lo, n)); }
 
@@ -66,8 +66,8 @@
       avatar: String(p.avatar || '🦁').slice(0, 8),
       frame: frameOk(p.frame) ? p.frame : 'gold',
       sticker: STICKERS.indexOf(p.sticker) >= 0 ? p.sticker : '',
-      sx: bound(p.sx, 0, 100, ST_DEFAULT.x),
-      sy: bound(p.sy, 0, 100, ST_DEFAULT.y),
+      sx: bound(p.sx, -50, 150, ST_DEFAULT.x),
+      sy: bound(p.sy, -50, 150, ST_DEFAULT.y),
       ss: bound(p.ss, 1, 5, ST_DEFAULT.s),
       stars: 0,
       streak: { current: 0, best: 0, lastPlayed: null },
@@ -262,8 +262,8 @@
     setStickerPlace: function (x, y, size) {
       var p = profile();
       if (!p) return;
-      if (x != null) p.sx = bound(x, 0, 100, p.sx);
-      if (y != null) p.sy = bound(y, 0, 100, p.sy);
+      if (x != null) p.sx = bound(x, -50, 150, p.sx);
+      if (y != null) p.sy = bound(y, -50, 150, p.sy);
       if (size != null) p.ss = bound(size, 1, 5, p.ss);
       touch();
     },
