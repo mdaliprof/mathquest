@@ -8,10 +8,10 @@ Status: reviewed 25 Oct 2026. Published after the owner's go-ahead. No security 
 | innerHTML / eval / document.write in app code | None. All text is set with textContent. |
 | Outside web addresses in app files | None. No ads, trackers, fonts or scripts from other sites. |
 | Network calls | Only to the app's own /content files. |
-| Camera, microphone, location | Not used. Blocked by Permissions-Policy on Netlify. |
+| Camera, microphone, location | Microphone and location not used. Camera: the app never opens a live camera stream (no getUserMedia). The optional photo avatar uses a normal file picker; on phones "Take a selfie" hands over to the phone's own camera app. Permissions-Policy on Netlify is unchanged and still blocks all three. |
 | Content Security Policy | Same site only. `style-src 'unsafe-inline'` kept because pictures use inline style (low risk: no user text is ever put into HTML). |
 | Backup file import | Sanitized. Tested with a hostile file: bad topics, huge numbers, fake subjects and script text were all dropped. |
-| What is stored | Nickname (12 letters max), animal avatar, scores. Only on the device. Nothing is sent anywhere. |
+| What is stored | Nickname (12 letters max), animal avatar, scores. Only on the device. Nothing is sent anywhere. Optional (v6): a 160px photo, only if a parent turns it on. |
 | Sharing | Shares only the app link. |
 
 ## Legal and content
@@ -33,3 +33,15 @@ Status: reviewed 25 Oct 2026. Published after the owner's go-ahead. No security 
 - The Class 1 topics follow NCERT chapter titles (official) and ICSE school lists (secondary). 'NCERT' and 'ICSE' are used only to say which topics were followed. No NCERT text or pictures are copied. App is not affiliated with NCERT, CISCE or any school.
 - Olympiad Challenge questions are original, computed or hand-written; no real exam papers, names or logos. They are described as 'olympiad-style' practice only.
 - Old unused subject files were removed from the repo (never published).
+
+## v6 additions: optional photo avatar
+- **Why it needs care:** a photo of a child is personal data under COPPA, GDPR-K and India's DPDP Act, and it changes the earlier rule "no photos". Design to stay low-risk: nothing is ever uploaded, so the app still collects nothing.
+- **Off by default.** A parent turns it on behind the grown-up sum, with a plain-words confirmation. Kids can only change the frame and sticker (Dress up on the home screen); they cannot add or remove a photo.
+- **Stored small and local:** cropped square, 160px JPEG (about 15 KB) in the browser's own storage, in a separate slot from progress. Re-drawing on a canvas drops hidden details such as location in the original file.
+- **Deleted easily:** "Remove my photo", turning the switch off, "Erase progress", and loading a backup that has photos off each delete it.
+- **Backups:** the photo is left out unless the parent ticks "Include the photo". A backup that includes it is a file of a child's picture, so the Parent corner says to keep it private.
+- **Import safety:** a photo in a backup is accepted only if it is a small base64 JPEG (checked by a strict pattern); frame and sticker must be on the fixed lists. Tested with hostile files (script text, SVG, oversize, quote injection): all dropped.
+- **Security:** photo shown only through an <img> with a data: source (already allowed by the Content Security Policy). No innerHTML added. No new network calls, no new files in the cache list.
+- **Privacy page updated** (privacy.html) with a "Photo avatars (optional)" section. Re-check it if this feature changes.
+- **NOT done:** a real-phone check of the camera and gallery buttons (iPhone Safari, Android Chrome), and of photo size on a low-end phone. On a computer, "Take a selfie" simply opens the file picker.
+- **Project note:** the Claude Project instructions still say "never collect a child's photo". Update that line to match this feature (photo optional, on the device only, turned on by a parent).

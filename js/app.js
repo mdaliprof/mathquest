@@ -334,6 +334,94 @@
     });
   }
 
+  // ---------------------------------------------------------------- avatar: animal or (optional) photo
+  // The photo is only shown when a parent has turned photo avatars on. It never leaves the device.
+  function avatarEl(p, cls, decorative) {
+    var attrs = { class: 'me-av frame-' + p.frame + (cls ? ' ' + cls : '') };
+    if (decorative) attrs['aria-hidden'] = 'true'; else { attrs.role = 'img'; attrs['aria-label'] = p.nickname; }
+    var box = h('span', attrs);
+    var photo = Store.photo();
+    if (photo) box.appendChild(h('img', { src: photo, alt: '', width: '96', height: '96' }));
+    else box.appendChild(h('span', { class: 'me-emoji' }, p.avatar));
+    if (p.sticker) box.appendChild(h('span', { class: 'me-sticker' }, p.sticker));
+    return box;
+  }
+
+  // Crop to a square, shrink to 160px and re-save as a small JPEG. Re-drawing on a canvas
+  // also drops everything hidden in the original file (location, camera details).
+  function processPhoto(file) {
+    return new Promise(function (resolve, reject) {
+      if (!file || !/^image\//.test(file.type || '') || file.size > 25 * 1024 * 1024) { reject(new Error('type')); return; }
+      var rd = new FileReader();
+      rd.onerror = function () { reject(new Error('read')); };
+      rd.onload = function () {
+        var img = new Image();
+        img.onerror = function () { reject(new Error('decode')); };
+        img.onload = function () {
+          try {
+            var w = img.naturalWidth, hh = img.naturalHeight, side = Math.min(w, hh);
+            if (!side) throw new Error('size');
+            var c = document.createElement('canvas');
+            c.width = 160; c.height = 160;
+            var ctx = c.getContext('2d');
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, 160, 160);
+            ctx.drawImage(img, (w - side) / 2, (hh - side) / 2, side, side, 0, 0, 160, 160);
+            resolve(c.toDataURL('image/jpeg', 0.8));
+          } catch (e) { reject(e); }
+        };
+        img.src = String(rd.result);
+      };
+      rd.readAsDataURL(file);
+    });
+  }
+
+  // Frame and sticker buttons. Updates the preview in place so keyboard focus stays put.
+  function lookPicker(box) {
+    var frames = h('div', { class: 'looks', role: 'group', 'aria-label': 'Frame' });
+    var stickers = h('div', { class: 'looks', role: 'group', 'aria-label': 'Sticker' });
+    function draw() {
+      var p = Store.profile();
+      box.replaceChildren(avatarEl(p, 'big'));
+      Array.prototype.forEach.call(frames.children, function (b) {
+        var on = b.getAttribute('data-v') === p.frame;
+        b.classList.toggle('on', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); b.textContent = on ? '✓' : '';
+      });
+      Array.prototype.forEach.call(stickers.children, function (b) {
+        var on = b.getAttribute('data-v') === p.sticker;
+        b.classList.toggle('on', on); b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+    }
+    Store.FRAMES.forEach(function (f) {
+      frames.appendChild(h('button', {
+        class: 'look-btn swatch frame-' + f[0], type: 'button', 'data-v': f[0], 'aria-label': f[1] + ' frame',
+        onclick: function () { Sfx.tap(); Store.setLook(f[0], null); draw(); }
+      }));
+    });
+    Store.STICKERS.forEach(function (s) {
+      stickers.appendChild(h('button', {
+        class: 'look-btn', type: 'button', 'data-v': s, 'aria-label': s ? 'Sticker ' + s : 'No sticker',
+        onclick: function () { Sfx.tap(); Store.setLook(null, s); draw(); }
+      }, s || '🚫'));
+    });
+    draw();
+    return { frames: frames, stickers: stickers };
+  }
+
+  // Kids can dress up their picture. No photo can be added or removed here (that is in the Parent corner).
+  function showDressUp() {
+    pushScreen();
+    updateTop('home');
+    var p = Store.profile();
+    var box = h('div', { class: 'me-big' });
+    var pick = lookPicker(box);
+    render(h('section', { class: 'parent' },
+      h('button', { class: 'btn soft wide', type: 'button', 'aria-label': 'Back to home', onclick: goHome }, '🏠'),
+      h('div', { class: 'panel center' }, box, h('p', null, p.nickname)),
+      h('h2', null, '🖼️ Frame'), pick.frames,
+      h('h2', null, '✨ Sticker'), pick.stickers));
+  }
+
   // ---------------------------------------------------------------- first screen: pick a friend
   function showProfile() {
     updateTop('none');
@@ -369,7 +457,11 @@
     var nx = Store.next();
     var ses = Store.session();
 
-    var hero = h('section', { class: 'hero' }, h('div', { class: 'pip' }, '🦊'));
+    var hero = h('section', { class: 'hero' }, h('div', { class: 'pip' }, '🦊'),
+      h('button', {
+        class: 'me-btn', type: 'button', 'aria-label': 'Dress up ' + p.nickname,
+        onclick: function () { Sfx.tap(); showDressUp(); }
+      }, avatarEl(p, '', true), h('span', { class: 'me-name' }, p.nickname)));
     if (nx) {
       var resume = ses && ses.key === Store.key(nx.w, nx.d) && (ses.stage > 0 || ses.qi > 0);
       hero.appendChild(h('div', { class: 'bubble' }, nx.d === 5 ? '👑❓' : '🌟❓'));
@@ -1038,6 +1130,64 @@
       rd.readAsText(f);
     });
 
+    // ---- photo avatar (off by default; stays on this device)
+    function photoInput(capture) {
+      var attrs = { type: 'file', accept: 'image/*', hidden: true, 'aria-label': capture ? 'Take a selfie' : 'Choose a photo' };
+      if (capture) attrs.capture = 'user';
+      var inp = h('input', attrs);
+      inp.addEventListener('change', function () {
+        var f = inp.files && inp.files[0];
+        inp.value = '';
+        if (!f) return;
+        processPhoto(f).then(function (url) {
+          if (Store.setPhoto(url)) { showParent('Photo saved ✅'); }
+          else { msg.textContent = 'The photo could not be saved. The phone may be out of space.'; }
+        }, function () { msg.textContent = "That picture didn't work. Please try another one."; });
+      });
+      return inp;
+    }
+    var photoOn = Store.photoOn();
+    var photoPanel = [
+      h('p', null, 'Use a photo as the picture. It is off unless you turn it on. The photo stays on this device only and is never sent anywhere.'),
+      h('button', {
+        class: 'btn small' + (photoOn ? '' : ' soft'), type: 'button', 'aria-pressed': photoOn ? 'true' : 'false',
+        onclick: function () {
+          if (photoOn) {
+            if (!window.confirm('Turn off photo avatars and delete the photo?')) return;
+            Store.setPhotoOn(false);
+            showParent('Photo avatars are off. The photo was deleted.');
+          } else {
+            if (!window.confirm('A photo of your child will be saved on this device only. It is never sent anywhere. Turn on photo avatars?')) return;
+            Store.setPhotoOn(true);
+            showParent('Photo avatars are on. Take a selfie or choose a photo.');
+          }
+        }
+      }, photoOn ? '📷 Photo avatars: On' : '📷 Photo avatars: Off')
+    ];
+    var shot = null, pic = null;
+    if (photoOn) {
+      shot = photoInput(true); pic = photoInput(false);
+      photoPanel.push(
+        h('div', { class: 'me-big' }, avatarEl(p, 'big')),
+        h('div', { class: 'row' },
+          h('button', { class: 'btn small', type: 'button', onclick: function () { shot.click(); } }, '🤳 Take a selfie'),
+          h('button', { class: 'btn small soft', type: 'button', onclick: function () { pic.click(); } }, '🖼️ Choose a photo'),
+          shot, pic),
+        h('p', null, 'The photo is cropped to a small square. Details hidden in the original picture, like where it was taken, are not kept. On a computer, "Take a selfie" opens the file picker.'));
+      if (Store.photo()) {
+        photoPanel.push(h('button', {
+          class: 'btn small soft', type: 'button',
+          onclick: function () {
+            if (!window.confirm('Delete the photo? The animal picture will be used again.')) return;
+            Store.removePhoto();
+            showParent('Photo deleted ✅');
+          }
+        }, '🗑️ Remove my photo'));
+      }
+    }
+    var hasPhoto = !!Store.photo();
+    var incl = h('input', { type: 'checkbox', id: 'incl-photo' });
+
     var ci = Store.contentInfo();
     render(h('section', { class: 'parent' },
       h('button', { class: 'btn soft wide', type: 'button', 'aria-label': 'Back to home', onclick: goHome }, '🏠'),
@@ -1054,16 +1204,19 @@
           class: 'btn small', type: 'button',
           onclick: function () { Store.updateProfile(nick.value, chosen); updateTop('home'); showParent('Saved ✅'); }
         }, 'Save')),
+      h('h2', null, 'Photo picture (optional)'),
+      h('div', { class: 'panel' }, photoPanel),
       h('h2', null, 'Backup'),
       h('div', { class: 'panel' },
         h('p', null, 'Progress lives on this device. Clearing browser data erases it. Use Backup to save a copy.'),
+        hasPhoto ? h('label', { class: 'chk', for: 'incl-photo' }, incl, h('span', null, 'Include the photo in the backup (off = photo is left out)')) : null,
         h('p', null, h('button', { class: 'btn small soft', type: 'button', 'aria-label': 'Skill report', onclick: function () { if (window.MQSubjects) window.MQSubjects.report(); } }, '📊 Skill report'),
           h('button', { class: 'btn small soft', type: 'button', 'aria-pressed': Store.unlockAll() ? 'true' : 'false', 'aria-label': 'Open all topics', onclick: function () { Store.setUnlockAll(!Store.unlockAll()); showParent(Store.unlockAll() ? 'All topics are open.' : 'Topics open one by one.'); } }, Store.unlockAll() ? '🔓 All open' : '🔒 One by one')),
         h('p', null, h('a', { href: 'privacy.html', class: 'btn small soft', 'aria-label': 'Read the privacy notice' }, '🔒 Privacy')),
         h('div', { class: 'row' },
           h('button', {
             class: 'btn small', type: 'button',
-            onclick: function () { download('mathquest-backup-' + Store.today() + '.json', Store.exportText()); msg.textContent = 'Backup saved to your downloads ✅'; }
+            onclick: function () { download('mathquest-backup-' + Store.today() + '.json', Store.exportText(hasPhoto && incl.checked)); msg.textContent = 'Backup saved to your downloads ✅'; }
           }, '💾 Save backup'),
           h('button', { class: 'btn small soft', type: 'button', onclick: function () { fileIn.click(); } }, '📂 Load backup'),
           fileIn),

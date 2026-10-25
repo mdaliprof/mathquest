@@ -34,6 +34,9 @@ warm-up (3) > learn (steps) > practice (5) > review (2) > reward.
 | 8-16 | Tables 2 to 20 (x1 to x10), week 16 is mixed |
 | 17-18 | Division: sharing, then with tables |
 
+## Photo avatar (optional, new)
+Off by default. In the Parent corner (👪, solve the sum) a parent can turn on **Photo avatars**, then 🤳 Take a selfie (opens the phone's camera app) or 🖼️ Choose a photo. The picture is cropped to a small square (160px), saved only on the device, never uploaded, and left out of backups unless the box is ticked. Kids can tap their picture on the home screen to pick a frame and a sticker. Turning the switch off, 🗑️ Remove my photo and Erase progress all delete the photo. See RISK_REVIEW.md (v6) and privacy.html.
+
 ## Subjects and mock tests (new)
 📚 button on the home screen: Maths Puzzles, English, Science, Computer Thinking, General Knowledge, Social Science. 8-question rounds that adjust to how the child is doing, a 🎯 Weak spots round, and a 📝 20-question Mock test (timed 20 minutes or relaxed, one try per question).
 ```
@@ -61,12 +64,13 @@ python3 tools/check_content.py      # re-checks all arithmetic and number words
 - More "Did you know?" facts: add lines to `content/facts.json` (icon + a few words).
 
 ## After any app change
-Raise `VERSION` in `sw.js` (now `mathquest-v12`) so phones replace the old saved files.
+Raise `VERSION` in `sw.js` (now `mathquest-v13`) so phones replace the old saved files.
 
 ## Test before each release
 - Open once online. The badge at the bottom turns green: "Ready offline".
 - Turn the network off (Chrome DevTools > Application > Service Workers > Offline), hard reload. The app must still open and play.
 - Parent corner (the 👪 button, then solve the sum): Save backup, clear site data, Load backup.
+- Photo avatar on a real phone (iPhone Safari and Android Chrome): turn on, 🤳 selfie, 🖼️ gallery, frame and sticker, Remove my photo; go offline and check the photo still shows; make a backup with and without the photo box ticked.
 - Lighthouse > PWA audit.
 
 ## Files

@@ -26,6 +26,13 @@
     'mock-80': ['🥇', 'Mock test 80% or more'],
     'explorer': ['🧭', 'Tried every subject']
   };
+  // Optional photo avatar. The picture lives in its own storage slot (not in the progress data),
+  // so a normal backup never contains it. Frames and stickers are just short names/emoji.
+  var PHOTO_KEY = 'mathquest.photo.';
+  var PHOTO_RE = /^data:image\/jpeg;base64,[A-Za-z0-9+\/]+={0,2}$/;
+  var PHOTO_MAX = 40000;   // characters; a 160px picture is about 15000
+  var FRAMES = [['gold', 'Gold'], ['green', 'Green'], ['blue', 'Blue'], ['pink', 'Pink'], ['rainbow', 'Rainbow']];
+  var STICKERS = ['', '👑', '😎', '⭐', '🎀', '🎩', '🌈'];
   var SUBJECT_IDS = ['maths', 'english', 'evs', 'science', 'computer', 'gk', 'social', 'olympiad'];
   var LEVEL_IDS = ['pre', 'c1', 'c2', 'c3', 'c4'];
   for (var w = 1; w <= WEEKS; w++) BADGES['week-' + w] = ['🏅', 'Week ' + w + ' done'];
@@ -36,8 +43,11 @@
   function yesterday() { var d = new Date(); d.setDate(d.getDate() - 1); return dateStr(d); }
 
   function blank() {
-    return { v: 1, active: null, profiles: {}, settings: { sound: true }, content: { version: 0, files: {} } };
+    return { v: 1, active: null, profiles: {}, settings: { sound: true, photo: false }, content: { version: 0, files: {} } };
   }
+
+  function frameOk(f) { return FRAMES.some(function (x) { return x[0] === f; }); }
+  function validPhoto(s) { return typeof s === 'string' && s.length <= PHOTO_MAX && PHOTO_RE.test(s); }
 
   function key(w, d) { return 'W' + pad(w) + 'D' + d; }
   function order(i) { return { w: Math.floor(i / DAYS) + 1, d: (i % DAYS) + 1 }; }
@@ -50,6 +60,8 @@
       profileId: id,
       nickname: String(p.nickname || 'Star').slice(0, 12),
       avatar: String(p.avatar || '🦁').slice(0, 8),
+      frame: frameOk(p.frame) ? p.frame : 'gold',
+      sticker: STICKERS.indexOf(p.sticker) >= 0 ? p.sticker : '',
       stars: 0,
       streak: { current: 0, best: 0, lastPlayed: null },
       badges: [],
@@ -131,6 +143,7 @@
     });
     out.active = out.profiles[s.active] ? s.active : (Object.keys(out.profiles)[0] || null);
     out.settings.sound = !(s.settings && s.settings.sound === false);
+    out.settings.photo = !!(s.settings && s.settings.photo === true);
     var c = s.content || {};
     out.content.version = parseInt(c.version, 10) || 0;
     if (c.files && typeof c.files === 'object') {
@@ -168,6 +181,8 @@
 
   var Store = {
     AVATARS: AVATARS,
+    FRAMES: FRAMES,
+    STICKERS: STICKERS,
     BADGES: BADGES,
     WEEKS: WEEKS,
     DAYS: DAYS,
@@ -193,6 +208,46 @@
       if (!p) return;
       if (typeof nickname === 'string' && nickname.trim()) p.nickname = nickname.trim().slice(0, 12);
       if (avatar) p.avatar = avatar;
+      touch();
+    },
+
+    // ---- optional photo avatar (off until a parent turns it on; stays on this device)
+    photoOn: function () { return state.settings.photo === true; },
+    // Turning it off also deletes the picture.
+    setPhotoOn: function (on) {
+      state.settings.photo = !!on;
+      if (!on) Store.removePhoto();
+      save();
+    },
+    photo: function () {
+      var p = profile();
+      if (!p || !state.settings.photo) return null;
+      try {
+        var s = root.localStorage.getItem(PHOTO_KEY + p.profileId);
+        return validPhoto(s) ? s : null;
+      } catch (e) { return null; }
+    },
+    setPhoto: function (dataUrl) {
+      var p = profile();
+      if (!p || !state.settings.photo || !validPhoto(dataUrl)) return false;
+      try { root.localStorage.setItem(PHOTO_KEY + p.profileId, dataUrl); return true; }
+      catch (e) { return false; }
+    },
+    removePhoto: function () {
+      try {
+        var gone = [];
+        for (var i = 0; i < root.localStorage.length; i++) {
+          var k = root.localStorage.key(i);
+          if (k && k.indexOf(PHOTO_KEY) === 0) gone.push(k);
+        }
+        gone.forEach(function (k) { root.localStorage.removeItem(k); });
+      } catch (e) {}
+    },
+    setLook: function (frame, sticker) {
+      var p = profile();
+      if (!p) return;
+      if (frameOk(frame)) p.frame = frame;
+      if (STICKERS.indexOf(sticker) >= 0) p.sticker = sticker;
       touch();
     },
 
@@ -320,8 +375,11 @@
       save();
     },
 
-    exportText: function () {
-      return JSON.stringify({ app: 'mathquest', exportedAt: new Date().toISOString(), data: state }, null, 1);
+    // The photo is left out of a backup unless the parent asks for it.
+    exportText: function (includePhoto) {
+      var out = { app: 'mathquest', exportedAt: new Date().toISOString(), data: state };
+      if (includePhoto) { var ph = Store.photo(); if (ph) out.photo = ph; }
+      return JSON.stringify(out, null, 1);
     },
     importText: function (text) {
       var obj;
@@ -334,9 +392,12 @@
       state = clean;
       state.content = keepContent;
       save();
+      // A backup with photo avatars switched off must not leave an old photo behind.
+      if (!state.settings.photo) Store.removePhoto();
+      else if (validPhoto(obj.photo)) Store.setPhoto(obj.photo);
       return { ok: true };
     },
-    reset: function () { state = blank(); try { root.localStorage.removeItem(KEY); } catch (e) {} },
+    reset: function () { Store.removePhoto(); state = blank(); try { root.localStorage.removeItem(KEY); } catch (e) {} },
 
     // Ask the browser not to clear our data when space is low.
     persist: function () {
