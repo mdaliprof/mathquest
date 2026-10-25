@@ -347,18 +347,28 @@
       var st = h('span', { class: 'me-sticker' }, p.sticker);
       st.style.left = p.sx + '%';
       st.style.top = p.sy + '%';
-      st.style.setProperty('--ss', STICKER_SIZES[p.ss - 1] || 0.4);
+      st.style.setProperty('--ss', p.ss / 100);
       box.appendChild(st);
     }
     return box;
   }
-  var STICKER_SIZES = [0.22, 0.3, 0.4, 0.52, 0.66];   // sticker size as a share of the picture width
 
   // Drag anywhere on the picture area: the sticker jumps to the finger and follows it, even outside the circle.
+  // Two fingers: spread to make the sticker bigger, squeeze to make it smaller (mouse wheel on a computer).
   // The buttons below do the same for taps and keyboards.
   function bindDrag(box) {
-    var drag = false;
+    var drag = false, pinch = null, ptrs = {};
     function stick() { return box.querySelector('.me-sticker'); }
+    function count() { return Object.keys(ptrs).length; }
+    function clampSize(v) { return Math.round(Math.min(100, Math.max(8, v))); }
+    function curSize() {
+      var st = stick(), v = st ? parseFloat(st.style.getPropertyValue('--ss')) : 0;
+      return v ? Math.round(v * 100) : Store.profile().ss;
+    }
+    function gap() {
+      var k = Object.keys(ptrs), a = ptrs[k[0]], b = ptrs[k[1]];
+      return Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.y - b.y, 2));
+    }
     function at(e) {
       var av = box.querySelector('.me-av');
       var r = av && av.getBoundingClientRect();
@@ -372,20 +382,48 @@
     }
     box.addEventListener('pointerdown', function (e) {
       if (!stick()) return;
-      drag = true;
+      ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
       try { box.setPointerCapture(e.pointerId); } catch (x) {}
       e.preventDefault();
-      move(e);
+      if (count() === 2) {
+        drag = false;
+        pinch = { d0: gap() || 1, s0: curSize(), size: curSize() };
+      } else if (count() === 1) {
+        drag = true;
+        move(e);
+      }
     });
-    box.addEventListener('pointermove', function (e) { if (drag) move(e); });
+    box.addEventListener('pointermove', function (e) {
+      if (ptrs[e.pointerId]) ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+      if (pinch && count() >= 2) {
+        pinch.size = clampSize(pinch.s0 * gap() / pinch.d0);
+        var st = stick();
+        if (st) st.style.setProperty('--ss', pinch.size / 100);
+      } else if (drag) { move(e); }
+    });
     function end(e) {
-      if (!drag) return;
-      drag = false;
-      var q = at(e);
-      if (q) Store.setStickerPlace(q.x, q.y, null);
+      if (!ptrs[e.pointerId]) return;
+      delete ptrs[e.pointerId];
+      if (pinch) {
+        // Save the new size when the first finger lifts. The other finger does nothing until it lifts too.
+        if (count() < 2) { Store.setStickerPlace(null, null, pinch.size); pinch = null; }
+        return;
+      }
+      if (drag) {
+        drag = false;
+        var q = at(e);
+        if (q) Store.setStickerPlace(q.x, q.y, null);
+      }
     }
     box.addEventListener('pointerup', end);
     box.addEventListener('pointercancel', end);
+    box.addEventListener('wheel', function (e) {
+      var st = stick();
+      if (!st) return;
+      e.preventDefault();
+      Store.setStickerPlace(null, null, clampSize(Store.profile().ss + (e.deltaY < 0 ? 4 : -4)));
+      st.style.setProperty('--ss', Store.profile().ss / 100);
+    }, { passive: false });
   }
 
   // Crop to a square, shrink to 160px and re-save as a small JPEG. Re-drawing on a canvas
@@ -423,7 +461,7 @@
     var stickers = h('div', { class: 'looks', role: 'group', 'aria-label': 'Sticker' });
     // Move and size buttons (shown only when a sticker is chosen)
     function nudge(dx, dy) { var p = Store.profile(); Store.setStickerPlace(p.sx + dx, p.sy + dy, null); draw(); }
-    function grow(d) { var p = Store.profile(); Store.setStickerPlace(null, null, p.ss + d); draw(); }
+    function grow(d) { var p = Store.profile(); Store.setStickerPlace(null, null, p.ss + d * 6); draw(); }
     function pad(label, text, fn) { return h('button', { class: 'look-btn', type: 'button', 'aria-label': label, onclick: function () { Sfx.tap(); fn(); } }, text); }
     var place = h('div', { class: 'looks', role: 'group', 'aria-label': 'Move and resize the sticker' },
       pad('Move sticker left', '⬅️', function () { nudge(-6, 0); }),
@@ -468,14 +506,14 @@
     pushScreen();
     updateTop('home');
     var p = Store.profile();
-    var box = h('div', { class: 'me-big drag', 'aria-label': 'Picture. Drag to move the sticker.' });
+    var box = h('div', { class: 'me-big drag', 'aria-label': 'Picture. Drag to move the sticker. Pinch with two fingers to resize it.' });
     var pick = lookPicker(box);
     render(h('section', { class: 'parent' },
       h('button', { class: 'btn soft wide', type: 'button', 'aria-label': 'Back to home', onclick: goHome }, '🏠'),
       h('div', { class: 'panel center' }, box, h('p', null, p.nickname)),
       h('h2', null, '🖼️ Frame'), pick.frames,
       h('h2', null, '✨ Sticker'), pick.stickers,
-      h('p', { class: 'hint' }, '👆 Drag on the picture to move the sticker, or use the buttons.'), pick.place));
+      h('p', { class: 'hint' }, '👆 Drag to move the sticker. Use two fingers to make it bigger or smaller. Or use the buttons.'), pick.place));
   }
 
   // ---------------------------------------------------------------- first screen: pick a friend

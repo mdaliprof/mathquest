@@ -46,9 +46,18 @@
     return { v: 1, active: null, profiles: {}, settings: { sound: true, photo: false }, content: { version: 0, files: {} } };
   }
 
-  // Sticker place (percent across and down the picture; below 0 or above 100 sits outside the circle) and size step (1 small to 5 big).
-  var ST_DEFAULT = { x: 86, y: 10, s: 3 };
+  // Sticker place (percent across and down the picture; below 0 or above 100 sits outside the circle)
+  // and size (percent of the picture width, 8 to 100).
+  var ST_DEFAULT = { x: 86, y: 10, s: 40 };
+  var OLD_STEPS = [22, 30, 40, 52, 66];   // sizes used before pinch-to-resize: steps 1..5
   function bound(v, lo, hi, d) { var n = parseInt(v, 10); return isNaN(n) ? d : Math.min(hi, Math.max(lo, n)); }
+
+  function sizeOf(v) {
+    var n = parseInt(v, 10);
+    if (isNaN(n)) return ST_DEFAULT.s;
+    if (n >= 1 && n <= 5) return OLD_STEPS[n - 1];
+    return Math.min(100, Math.max(8, n));
+  }
 
   function frameOk(f) { return FRAMES.some(function (x) { return x[0] === f; }); }
   function validPhoto(s) { return typeof s === 'string' && s.length <= PHOTO_MAX && PHOTO_RE.test(s); }
@@ -68,7 +77,7 @@
       sticker: STICKERS.indexOf(p.sticker) >= 0 ? p.sticker : '',
       sx: bound(p.sx, -50, 150, ST_DEFAULT.x),
       sy: bound(p.sy, -50, 150, ST_DEFAULT.y),
-      ss: bound(p.ss, 1, 5, ST_DEFAULT.s),
+      ss: sizeOf(p.ss),
       stars: 0,
       streak: { current: 0, best: 0, lastPlayed: null },
       badges: [],
@@ -264,7 +273,7 @@
       if (!p) return;
       if (x != null) p.sx = bound(x, -50, 150, p.sx);
       if (y != null) p.sy = bound(y, -50, 150, p.sy);
-      if (size != null) p.ss = bound(size, 1, 5, p.ss);
+      if (size != null) p.ss = bound(size, 8, 100, p.ss);
       touch();
     },
     resetStickerPlace: function () {
