@@ -67,7 +67,8 @@
         root.speechSynthesis.speak(u);
       } catch (e) {}
     },
-    stop: function () { try { if (Voice.supported()) root.speechSynthesis.cancel(); } catch (e) {} }
+    stop: function () { try { if (Voice.supported()) root.speechSynthesis.cancel(); } catch (e) {} },
+    speaking: function () { try { return !!(Voice.supported() && root.speechSynthesis.speaking); } catch (e) { return false; } }
   };
 
   root.Sfx = Sfx;

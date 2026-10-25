@@ -61,7 +61,7 @@ python3 tools/check_content.py      # re-checks all arithmetic and number words
 - More "Did you know?" facts: add lines to `content/facts.json` (icon + a few words).
 
 ## After any app change
-Raise `VERSION` in `sw.js` (now `mathquest-v7`) so phones replace the old saved files.
+Raise `VERSION` in `sw.js` (now `mathquest-v8`) so phones replace the old saved files.
 
 ## Test before each release
 - Open once online. The badge at the bottom turns green: "Ready offline".
@@ -77,3 +77,6 @@ js/app.js (screens and lesson flow)  js/storage.js (progress)  js/audio.js (soun
 content/index.json  week-01..18.json  facts.json
 icons/  tools/
 ```
+
+## Read aloud
+Every question has a big 🔊 button. Tap it to hear the question and the choices; tap again to stop. It uses the phone's own voice (works offline on most phones, nothing is sent anywhere). It never reads out the answer.

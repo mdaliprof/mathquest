@@ -665,6 +665,58 @@
     };
   }
 
+  // ---------------------------------------------------------------- reading a question aloud
+  // Turns a question and its choices into plain spoken words. Pictures (emoji) cannot be spoken,
+  // and counting them aloud would give the answer away, so they are left out.
+  function speakable(t) {
+    t = String(t == null ? '' : t);
+    var hadPic = false;
+    try {
+      var re = /[\p{Extended_Pictographic}\uFE0F\u200D\u20E3]/gu;
+      if (re.test(t)) hadPic = true;
+      t = t.replace(/[\p{Extended_Pictographic}\uFE0F\u200D\u20E3]/gu, ' ');
+    } catch (e) {}
+    t = t.replace(/\((?:[.?,!])\)/g, ' ')
+      .replace(/₹\s*(\d+)/g, '$1 rupees')
+      .replace(/(\d+)\s*°\s*C/g, '$1 degrees Celsius')
+      .replace(/(\d+)\s*kg/gi, '$1 kilograms')
+      .replace(/(\d+)\s*cm/gi, '$1 centimetres')
+      .replace(/\b1\/2\b/g, 'one half').replace(/\b1\/3\b/g, 'one third').replace(/\b1\/4\b/g, 'one quarter')
+      .replace(/(\d+)\s*\/\s*(\d+)/g, '$1 over $2')
+      .replace(/,\s*\?\s*$/, ', what comes next? ')
+      .replace(/\s*=\s*\?\s*$/, ' equals what? ')
+      .replace(/([A-Za-z])_([A-Za-z])/g, '$1, blank, $2')
+      .replace(/_{2,}|…/g, ' blank ')
+      .replace(/×/g, ' times ').replace(/÷/g, ' divided by ').replace(/[−–]/g, ' minus ')
+      .replace(/\+/g, ' plus ').replace(/=/g, ' equals ')
+      .replace(/\?(?!\s*$)/g, ' what ')
+      .replace(/\bA:/g, 'A,').replace(/\bB:/g, 'B,')
+      .replace(/\s+/g, ' ').trim();
+    return { text: t, hadPic: hadPic };
+  }
+  function speakText(q) {
+    var parts = [];
+    var main = q.type === 'match' ? { text: 'Match each one with its partner.', hadPic: false } : speakable(q.say || q.question);
+    if (q.type === 'tap-count') main = { text: 'Tap ' + q.target + ' pictures.', hadPic: false };
+    if (q.type === 'order') main = { text: 'Tap the numbers from smallest to biggest.', hadPic: false };
+    if (main.text) { if (main.hadPic && !q.say) parts.push('Look at the pictures.'); parts.push(main.text); }
+    else if (main.hadPic) parts.push('Look at the pictures.');
+    else if (q.pic) parts.push('Look at the picture.');
+    if (q.type === 'multiple-choice' && q.choices) {
+      var cs = q.choices.map(function (c) { return speakable(c); });
+      var words = cs.filter(function (c) { return c.text; }).map(function (c) { return c.text; });
+      if (words.length) parts.push('The choices are. ' + words.join('. ') + '.');
+      else parts.push('Look at the pictures and pick one.');
+    } else if (q.type === 'true-false') {
+      parts.push('Is it true or false?');
+    } else if (q.type === 'order' && q.items) {
+      parts.push('The numbers are. ' + q.items.join('. ') + '.');
+    } else if (q.type === 'match' && q.pairs) {
+      parts.push('Left side. ' + q.pairs.map(function (p) { return speakable(p[0]).text; }).join('. ') + '. Right side. ' + q.pairs.map(function (p) { return speakable(p[1]).text; }).join('. ') + '.');
+    }
+    return parts.map(function (p) { return /[.?!]$/.test(p.trim()) ? p.trim() : p.trim() + '.'; }).join(' ');
+  }
+
   // ---------------------------------------------------------------- one question
   function questionView(q, onDone, opts) {
     var tries = 0;
@@ -675,10 +727,13 @@
     if (q.pic) stem.appendChild(picEl(q.pic, true));
     if (q.type === 'match') stem.appendChild(h('div', { class: 'qtext', 'aria-label': 'Match the pairs' }, '🔗'));
     else if (q.question) stem.appendChild(h('div', { class: 'qtext' + (q.question.length > 40 ? ' xlong' : q.question.length > 16 ? ' long' : '') }, q.question));
-    if (q.say) {
+    if (Voice.supported()) {
       stem.appendChild(h('button', {
-        class: 'speak', type: 'button', 'aria-label': 'Listen',
-        onclick: function () { Voice.say(q.say, true); }
+        class: 'speak', type: 'button', 'aria-label': 'Read the question and the answers aloud',
+        onclick: function () {
+          if (Voice.speaking()) { Voice.stop(); return; }   // tap again to stop
+          Voice.say(speakText(q), true);
+        }
       }, '🔊'));
     }
     var fb = h('div', { class: 'fb', 'aria-live': 'polite' });
@@ -1086,7 +1141,7 @@
   // A small, fixed set of helpers for js/subjects.js. Nothing else is shared.
   window.MQApp = {
     h: h, render: render, shuffle: shuffle, questionView: questionView, updateTop: updateTop,
-    pushScreen: pushScreen, goHome: goHome, showHome: showHome, fileMode: FILE_MODE,
+    speakText: speakText, pushScreen: pushScreen, goHome: goHome, showHome: showHome, fileMode: FILE_MODE,
     setKeys: function (f) { S.keys = f || null; },
     refreshTop: function () { updateTop('sub'); }
   };
